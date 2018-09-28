@@ -1,0 +1,4 @@
+musica=off
+tamaño_letra1=130
+tamaño_letra2=80
+tamaño_letra3=65
