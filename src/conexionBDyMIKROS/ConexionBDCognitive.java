@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ConexionBDCognitive {
+public class ConexionBDCognitive { 
     String db = "cognitive";
     String usuario;  
     String contraseña;
@@ -45,6 +45,10 @@ public class ConexionBDCognitive {
             e.printStackTrace();
         }	
     }
+
+  /* It makes a conection to the database with different type of user depending on the user type
+  /@params i the user type
+  /*
   
     public String filtrarStr(String str) {
     	char[] arrayStr;
@@ -59,6 +63,11 @@ public class ConexionBDCognitive {
     	}
     	return String.valueOf(tempArray);
    	}
+
+  /* It ensuses that the user not introduces any ;
+  /@params str the input text
+  /@return the send string until the ;
+  /*
     
    	public ResultSet select(String query){
         try{
@@ -72,6 +81,11 @@ public class ConexionBDCognitive {
         }
       }
     
+  /* It does a query to the database
+  /@params query the query tothe database
+  /@return the answer of the query
+  /*
+
     public int update(String query){
         try{
           statement = conexion.createStatement();
@@ -82,7 +96,12 @@ public class ConexionBDCognitive {
           return -1;
         }
       }
-    
+
+  /* It updates the database
+  /@params query the query tht makes the update in the database
+  /@return the state of the update, if it is done well or not
+  /*    
+
     public Interface_Paciente getPaciente() {
 		return new PacienteDAO(this);	
     }
@@ -117,7 +136,12 @@ public class ConexionBDCognitive {
           System.out.println(e.toString());
           return -1;
         }
-      } 
+      }
+
+  /* It deletes some data from the database
+  /@params query the query that makes the delete
+  /@return the state of the delete, if it is done well or not
+  /* 
   
     public void close(){
         try{
@@ -133,4 +157,7 @@ public class ConexionBDCognitive {
           System.out.println(e.toString());
         }
       }
+  /* It closes the conection to the database
+  /*
+
 }

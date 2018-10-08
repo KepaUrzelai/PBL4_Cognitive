@@ -18,7 +18,12 @@ public class EjercitarDAO implements Interface_Ejercitar{
 		this.statement=bd.getStatement();
 		this.bd = bd;
 	}
-
+/*This function saves the information of the table "ejercitar" of the database
+/@params ResultSet result stores the content of the query
+/@params Id the id of the pacient is store here
+/@params String valores[] is the array that stores each name username and lastname
+/@params String query the query to execute on the database
+*/
 	@Override
 	public void guardarEjercitar(String fecha, int actividadID, String horas, Usuario usuario) {
 		ResultSet result;

@@ -18,14 +18,19 @@ public class PacienteDAO implements Interface_Paciente{
     Statement statement = null;
     ResultSet result;
     private static int ID=2;
-    
+  /*This function is the constructor of the class PacienteDAO*/
   public PacienteDAO(ConexionBDCognitive bd) {
     this.conexion=bd.getConexion();
     this.statement=bd.getStatement();
     this.bd = bd;
   }
 	
-	
+	/*This function creates a new user in the database
+	/@params String valores[] is the array that stores each name username and lastname
+	/params Usuario usuario is the structure with the whole information about the patient
+	/@return statement.execute(query)); is a boolean type return that reaffirm the fact that the query has been executed
+	/@return false the query has not been correctly executed
+	*/
 	@Override
 	 public boolean createUser(Usuario usuario){
 	    	String valores[];
@@ -44,7 +49,17 @@ public class PacienteDAO implements Interface_Paciente{
 	        }
 	      }
 
-
+/*This function sums all the punctuation  
+/@params ResultSet result stores the content of the query
+/@params String campo i the cognitive field of the game 
+/@params String anterior 
+/@params String valores[] is the array that stores each name username and lastname
+/@params String valores2[] is the array with the time of a game(the punctuation)
+/@params String query the query to execute on the database
+/@params Int segundos seconds 
+/@params Int minutos minutes 
+/@params Int horas hours 
+*/
 	@Override
 	public void sumarTiempo(Usuario usuario, int tipoJuego, String tiempo) {
 		ResultSet result;
@@ -95,7 +110,11 @@ public class PacienteDAO implements Interface_Paciente{
 		
 	}
 
+/*This function changes the number of the field of game(number) with the name of the field(string)
+/@params String campo the different name of the fields(string)
+/@return String campo the different name of the fields(string)
 
+*/
 	private String seleccionarCampo(int tipo) {
 		String campo;
 		if(tipo==0) campo="tmpAtencion";
@@ -106,7 +125,11 @@ public class PacienteDAO implements Interface_Paciente{
 		
 		return campo;
 	}
-	
+/*This function search on the database a user by the doctor
+/@params List<String> pacientes a list with the different pacients of a doctor
+/@params ResultSet result stores the content of the query
+/@return List<String> pacientes a list with the different pacients of a doctor
+*/
 	@Override
 	  public List<String> cargarUsers(int doctorID) {
 	    List<String> pacientes = new ArrayList<>();

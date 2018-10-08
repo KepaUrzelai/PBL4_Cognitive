@@ -31,6 +31,13 @@ public class DiagnosticoDAO implements Interface_Diagnostico{
 		this.bd = bd;
 	}
 
+	/*
+	 * @params valores[] is separating de full name into name and adresses
+	 * @params Puntuaciones is for getting the points
+	 * @params usuario is the user 
+	 * @params query is for making a search on the database.
+	 * @return true or false if the statement is well executed.
+	 */
 	@Override
     public boolean guardarPuntuaciones(Usuario usuario){//AQUÍ SE GUARDAN LAS PUNTUACIONES DE UN USUARIO EN LA TABLA DIAGNOSTICO
         
@@ -54,6 +61,14 @@ public class DiagnosticoDAO implements Interface_Diagnostico{
           return false;
         }
       }
+	
+	/*
+	 /@params valores[] is separating de full name into name and adresses
+	 /@params usuario is the user we want
+	 /@params query is for making a search on the database.
+	 /@params ID is the id of the user
+	 /@return the function return a user.
+	 */
 	@Override
 	public Usuario cargarPuntuaciones(String nombre) {//ESTA FUNCIÓN RETURNEA UN USUARIO CON SUS NIVELES EN LOS CAMPOS COGNITIVO
 		Usuario usuario = null;
@@ -115,6 +130,13 @@ public class DiagnosticoDAO implements Interface_Diagnostico{
 		return usuario;
 	}
 	
+	/*
+	 /@params valores[] is separating de full name into name and adresses
+	 /@params usuario is the user we want
+	 /@params query is for making a search on the database.
+	 /@params ID is the id of the user
+	 /@return the function return a user.
+	 */
 	@Override
 	public Usuario cargarPuntuacionesDoctor(String nombre) {//ESTA FUNCIÓN RETURNEA UN USUARIO CON LAS PUNTUACIONES.
 		Usuario usuario = null;
@@ -177,6 +199,14 @@ public class DiagnosticoDAO implements Interface_Diagnostico{
 	}
 	
 
+	/*
+	 /@params valores[] is separating de full name into name and adresses
+	 /@params puntuacionesLista for saving the scores of the user
+	 /@params usuario is the user we want
+	 /@params query is for making a search on the database.
+	 /@params ID is the id of the user
+	 /@return return a list with all the historical scores of the user
+	 */
 	@Override
 	public List<Puntuaciones> cargarPuntuacionesHistorial(String nombre) {
 		List<Puntuaciones> puntuacionesLista;
@@ -241,6 +271,14 @@ public class DiagnosticoDAO implements Interface_Diagnostico{
 		return puntuacionesLista;
 	}
 	
+	
+	/*
+	 /@params valores[] is separating de full name into name and adresses
+	 /@params nombre the name of the user
+	 /@params query is for making a search on the database.
+	 /@params contraseña we will store the password here
+	 /@return if the user exits the function will return the password to compare it later.
+	 */
 	@Override
 	public String comprobarPaciente(String nombre, JDialog dialog) {//AQUÍ SE COMPRUEBA SI EL PACIENTE EXISTE
 		String valores[];
