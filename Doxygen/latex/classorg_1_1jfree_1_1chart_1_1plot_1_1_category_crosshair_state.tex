@@ -1,0 +1,144 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state}{}\section{org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state}\index{org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State@{org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a0452545ee51022ebc29c91d719c88020}{Category\+Crosshair\+State}} ()
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a5b9546b0550ca8ad4d9e46c1841483ad}{get\+Row\+Key}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a390eeddcfad8a2fe5c7501a97810637a}{set\+Row\+Key}} (Comparable key)
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_ab7c311c195aa9cd49609a59c8fc69f7c}{get\+Column\+Key}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a3dbb1cfc95fc814b4a5388f7ff8baa31}{set\+Column\+Key}} (Comparable key)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_add35c7dfaa902b05d10556c3b2c16e90}{update\+Crosshair\+Point}} (Comparable row\+Key, Comparable column\+Key, double value, int dataset\+Index, double transX, double transY, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_orientation}{Plot\+Orientation}} orientation)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a333fd2bd776cdfe1df3434524fb4aefa}{update\+CrosshairX}} (Comparable row\+Key, Comparable column\+Key, int dataset\+Index, double transX, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_orientation}{Plot\+Orientation}} orientation)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents state information for the crosshairs in a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot}{Category\+Plot}}. An instance of this class is created at the start of the rendering process, and updated as each data item is rendered. At the end of the rendering process, this class holds the row key, column key and value for the crosshair location.
+
+\begin{DoxySince}{Since}
+1.\+0.\+11 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a0452545ee51022ebc29c91d719c88020}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a0452545ee51022ebc29c91d719c88020}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}!Category\+Crosshair\+State@{Category\+Crosshair\+State}}
+\index{Category\+Crosshair\+State@{Category\+Crosshair\+State}!org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}}
+\subsubsection{\texorpdfstring{Category\+Crosshair\+State()}{CategoryCrosshairState()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State.\+Category\+Crosshair\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_ab7c311c195aa9cd49609a59c8fc69f7c}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_ab7c311c195aa9cd49609a59c8fc69f7c}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}!get\+Column\+Key@{get\+Column\+Key}}
+\index{get\+Column\+Key@{get\+Column\+Key}!org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}}
+\subsubsection{\texorpdfstring{get\+Column\+Key()}{getColumnKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State.\+get\+Column\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the column key.
+
+\begin{DoxyReturn}{Returns}
+The column key. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a5b9546b0550ca8ad4d9e46c1841483ad}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a5b9546b0550ca8ad4d9e46c1841483ad}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}!get\+Row\+Key@{get\+Row\+Key}}
+\index{get\+Row\+Key@{get\+Row\+Key}!org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}}
+\subsubsection{\texorpdfstring{get\+Row\+Key()}{getRowKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State.\+get\+Row\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the row key.
+
+\begin{DoxyReturn}{Returns}
+The row key. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a3dbb1cfc95fc814b4a5388f7ff8baa31}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a3dbb1cfc95fc814b4a5388f7ff8baa31}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}!set\+Column\+Key@{set\+Column\+Key}}
+\index{set\+Column\+Key@{set\+Column\+Key}!org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}}
+\subsubsection{\texorpdfstring{set\+Column\+Key()}{setColumnKey()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State.\+set\+Column\+Key (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Sets the column key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a390eeddcfad8a2fe5c7501a97810637a}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a390eeddcfad8a2fe5c7501a97810637a}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}!set\+Row\+Key@{set\+Row\+Key}}
+\index{set\+Row\+Key@{set\+Row\+Key}!org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}}
+\subsubsection{\texorpdfstring{set\+Row\+Key()}{setRowKey()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State.\+set\+Row\+Key (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Sets the row key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the row key. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_add35c7dfaa902b05d10556c3b2c16e90}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_add35c7dfaa902b05d10556c3b2c16e90}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}!update\+Crosshair\+Point@{update\+Crosshair\+Point}}
+\index{update\+Crosshair\+Point@{update\+Crosshair\+Point}!org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}}
+\subsubsection{\texorpdfstring{update\+Crosshair\+Point()}{updateCrosshairPoint()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State.\+update\+Crosshair\+Point (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key,  }\item[{double}]{value,  }\item[{int}]{dataset\+Index,  }\item[{double}]{transX,  }\item[{double}]{transY,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_orientation}{Plot\+Orientation}}}]{orientation }\end{DoxyParamCaption})}
+
+Evaluates a data point from a \mbox{\hyperlink{}{Category\+Item\+Renderer}} and if it is the closest to the anchor point it becomes the new crosshair point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key. \\
+\hline
+{\em column\+Key} & the column key. \\
+\hline
+{\em value} & y coordinate (measured against the range axis). \\
+\hline
+{\em dataset\+Index} & the dataset index for this point. \\
+\hline
+{\em transX} & x translated into Java2D space. \\
+\hline
+{\em transY} & y translated into Java2D space. \\
+\hline
+{\em orientation} & the plot orientation. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a333fd2bd776cdfe1df3434524fb4aefa}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_crosshair_state_a333fd2bd776cdfe1df3434524fb4aefa}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}!update\+CrosshairX@{update\+CrosshairX}}
+\index{update\+CrosshairX@{update\+CrosshairX}!org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State@{org\+::jfree\+::chart\+::plot\+::\+Category\+Crosshair\+State}}
+\subsubsection{\texorpdfstring{update\+Crosshair\+X()}{updateCrosshairX()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Category\+Crosshair\+State.\+update\+CrosshairX (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key,  }\item[{int}]{dataset\+Index,  }\item[{double}]{transX,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_orientation}{Plot\+Orientation}}}]{orientation }\end{DoxyParamCaption})}
+
+Updates only the crosshair row and column keys (this is for the case where the range crosshair does N\+OT lock onto the nearest data value).
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key. \\
+\hline
+{\em column\+Key} & the column key. \\
+\hline
+{\em dataset\+Index} & the dataset axis index. \\
+\hline
+{\em transX} & the translated x-\/value. \\
+\hline
+{\em orientation} & the plot orientation. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/\mbox{\hyperlink{_category_crosshair_state_8java}{Category\+Crosshair\+State.\+java}}\end{DoxyCompactItemize}

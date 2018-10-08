@@ -1,0 +1,176 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator}\index{org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator@{org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.056604cm]{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a07ee8a666b99e941d8478bdffa77a10d}{Standard\+Pie\+Tool\+Tip\+Generator}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a1abd74022df17ca884780d153754c846}{Standard\+Pie\+Tool\+Tip\+Generator}} (Locale locale)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_af4f24c8ea4b559145059ab6f77030f00}{Standard\+Pie\+Tool\+Tip\+Generator}} (String label\+Format)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_ab3ece860bf5795d061c48d45be218fea}{Standard\+Pie\+Tool\+Tip\+Generator}} (String label\+Format, Locale locale)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a2e2e5cdc69cb757afdbdda364b07831a}{Standard\+Pie\+Tool\+Tip\+Generator}} (String label\+Format, Number\+Format number\+Format, Number\+Format percent\+Format)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a59dfcce924c57515c68bf382da8306c9}{generate\+Tool\+Tip}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}} dataset, Comparable key)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_ad0756204ce3f8885ea6b636919b082ea}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a815aa512e809e115970498d4a1d6ea76}{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}} = \char`\"{}\{0\}\+: (\{1\}, \{2\})\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a5dc585e904200ee2586253a2bb6bb390}{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}} = \char`\"{}\{0\} = \{1\}\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A standard item label generator for plots that use data from a \mbox{\hyperlink{}{Pie\+Dataset}}. 
+
+For the label format, use \{0\} where the pie section key should be inserted, \{1\} for the absolute section value and \{2\} for the percent amount of the pie section, e.\+g. {\ttfamily \char`\"{}\{0\} = \{1\} (\{2\})\char`\"{}} will display as {\ttfamily apple = 120 (5\%)}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a07ee8a666b99e941d8478bdffa77a10d}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a07ee8a666b99e941d8478bdffa77a10d}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}}
+\index{Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Tool\+Tip\+Generator()}{StandardPieToolTipGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+Standard\+Pie\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates an item label generator using default number formatters. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a1abd74022df17ca884780d153754c846}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a1abd74022df17ca884780d153754c846}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}}
+\index{Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Tool\+Tip\+Generator()}{StandardPieToolTipGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+Standard\+Pie\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{Locale}]{locale }\end{DoxyParamCaption})}
+
+Creates a pie tool tip generator for the specified locale, using the default format string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em locale} & the locale ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_af4f24c8ea4b559145059ab6f77030f00}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_af4f24c8ea4b559145059ab6f77030f00}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}}
+\index{Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Tool\+Tip\+Generator()}{StandardPieToolTipGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+Standard\+Pie\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format }\end{DoxyParamCaption})}
+
+Creates a pie tool tip generator for the default locale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_ab3ece860bf5795d061c48d45be218fea}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_ab3ece860bf5795d061c48d45be218fea}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}}
+\index{Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Tool\+Tip\+Generator()}{StandardPieToolTipGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+Standard\+Pie\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format,  }\item[{Locale}]{locale }\end{DoxyParamCaption})}
+
+Creates a pie tool tip generator for the specified locale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format ({\ttfamily null} not permitted). \\
+\hline
+{\em locale} & the locale ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a2e2e5cdc69cb757afdbdda364b07831a}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a2e2e5cdc69cb757afdbdda364b07831a}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}}
+\index{Standard\+Pie\+Tool\+Tip\+Generator@{Standard\+Pie\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Tool\+Tip\+Generator()}{StandardPieToolTipGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+Standard\+Pie\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format,  }\item[{Number\+Format}]{number\+Format,  }\item[{Number\+Format}]{percent\+Format }\end{DoxyParamCaption})}
+
+Creates an item label generator using the specified number formatters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format string ({\ttfamily null} not permitted). \\
+\hline
+{\em number\+Format} & the format object for the values ({\ttfamily null} not permitted). \\
+\hline
+{\em percent\+Format} & the format object for the percentages ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_ad0756204ce3f8885ea6b636919b082ea}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_ad0756204ce3f8885ea6b636919b082ea}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of the generator.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & should not happen. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a59dfcce924c57515c68bf382da8306c9}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a59dfcce924c57515c68bf382da8306c9}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!generate\+Tool\+Tip@{generate\+Tool\+Tip}}
+\index{generate\+Tool\+Tip@{generate\+Tool\+Tip}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Tool\+Tip()}{generateToolTip()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+generate\+Tool\+Tip (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}}}]{dataset,  }\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Generates a tool tip text item for one section in a pie chart.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em key} & the section key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The tool tip text (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_tool_tip_generator_ae31d3fc9243c9c0d94f8094aaa765493}{org.\+jfree.\+chart.\+labels.\+Pie\+Tool\+Tip\+Generator}}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a5dc585e904200ee2586253a2bb6bb390}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a5dc585e904200ee2586253a2bb6bb390}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}}
+\index{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}{DEFAULT\_SECTION\_LABEL\_FORMAT}}
+{\footnotesize\ttfamily final String org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT = \char`\"{}\{0\} = \{1\}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+The default section label format.
+
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000052}{Deprecated}}]As of 1.\+0.\+7, use \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a815aa512e809e115970498d4a1d6ea76}{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}} instead. \end{DoxyRefDesc}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a815aa512e809e115970498d4a1d6ea76}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_tool_tip_generator_a815aa512e809e115970498d4a1d6ea76}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}!D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}}
+\index{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}{DEFAULT\_TOOLTIP\_FORMAT}}
+{\footnotesize\ttfamily final String org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Tool\+Tip\+Generator.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT = \char`\"{}\{0\}\+: (\{1\}, \{2\})\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+The default tooltip format. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_standard_pie_tool_tip_generator_8java}{Standard\+Pie\+Tool\+Tip\+Generator.\+java}}\end{DoxyCompactItemize}

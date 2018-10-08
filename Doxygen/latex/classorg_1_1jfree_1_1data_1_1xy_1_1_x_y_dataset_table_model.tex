@@ -1,0 +1,194 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model}{}\section{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model}\index{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model@{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.007169cm]{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_ad4cf8e46809aa1ea976e948c69232505}{X\+Y\+Dataset\+Table\+Model}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a87989efebad6c02284ed190e6cdc47a6}{X\+Y\+Dataset\+Table\+Model}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_table_x_y_dataset}{Table\+X\+Y\+Dataset}} dataset)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a1c2b919f81f70fabe2985a61c82e8645}{set\+Model}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_table_x_y_dataset}{Table\+X\+Y\+Dataset}} dataset)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a38cad7bbc3bf7b4d9de60089927a023f}{get\+Row\+Count}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a8cc3c4f508270120633efa49469abfaa}{get\+Column\+Count}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a7ef10accb4b33dcfc00b3284cdcf4a5a}{get\+Column\+Name}} (int column)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a55b6487bf21ce2fe201df4da3fd79329}{get\+Value\+At}} (int row, int column)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a27492e15f01464d63a9a5983e1460ebb}{dataset\+Changed}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{Dataset\+Change\+Event}} event)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_ae13759ba0b9ded0dbea366acad4b6d10}{is\+Cell\+Editable}} (int row, int column)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a5d772683f7eb46fca5d42e92429fe4e4}{set\+Value\+At}} (Object value, int row, int column)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A R\+E\+A\+D-\/\+O\+N\+LY wrapper around a \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_table_x_y_dataset}{Table\+X\+Y\+Dataset}} to convert it to a table model for use in a J\+Table. The first column of the table shows the x-\/values, the remaining columns show the y-\/values for each series (series 0 appears in column 1, series 1 appears in column 2, etc). 
+
+TO DO\+: 
+\begin{DoxyItemize}
+\item implement proper naming for x axis (get\+Column\+Name) 
+\item implement set\+Value\+At to remove R\+E\+A\+D-\/\+O\+N\+LY constraint (not sure how) 
+\end{DoxyItemize}
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_ad4cf8e46809aa1ea976e948c69232505}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_ad4cf8e46809aa1ea976e948c69232505}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!X\+Y\+Dataset\+Table\+Model@{X\+Y\+Dataset\+Table\+Model}}
+\index{X\+Y\+Dataset\+Table\+Model@{X\+Y\+Dataset\+Table\+Model}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{X\+Y\+Dataset\+Table\+Model()}{XYDatasetTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+X\+Y\+Dataset\+Table\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a87989efebad6c02284ed190e6cdc47a6}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a87989efebad6c02284ed190e6cdc47a6}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!X\+Y\+Dataset\+Table\+Model@{X\+Y\+Dataset\+Table\+Model}}
+\index{X\+Y\+Dataset\+Table\+Model@{X\+Y\+Dataset\+Table\+Model}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{X\+Y\+Dataset\+Table\+Model()}{XYDatasetTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+X\+Y\+Dataset\+Table\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_table_x_y_dataset}{Table\+X\+Y\+Dataset}}}]{dataset }\end{DoxyParamCaption})}
+
+Creates a new table model based on the specified dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a27492e15f01464d63a9a5983e1460ebb}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a27492e15f01464d63a9a5983e1460ebb}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!dataset\+Changed@{dataset\+Changed}}
+\index{dataset\+Changed@{dataset\+Changed}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{dataset\+Changed()}{datasetChanged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+dataset\+Changed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{Dataset\+Change\+Event}}}]{event }\end{DoxyParamCaption})}
+
+Receives notification that the underlying dataset has changed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & the event\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Dataset\+Change\+Listener 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener_a26ca53969f0dfa539f52e846a3cd72fe}{org.\+jfree.\+data.\+general.\+Dataset\+Change\+Listener}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a8cc3c4f508270120633efa49469abfaa}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a8cc3c4f508270120633efa49469abfaa}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!get\+Column\+Count@{get\+Column\+Count}}
+\index{get\+Column\+Count@{get\+Column\+Count}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Column\+Count()}{getColumnCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+get\+Column\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the number of columns in the model.
+
+\begin{DoxyReturn}{Returns}
+The number of columns in the model. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a7ef10accb4b33dcfc00b3284cdcf4a5a}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a7ef10accb4b33dcfc00b3284cdcf4a5a}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!get\+Column\+Name@{get\+Column\+Name}}
+\index{get\+Column\+Name@{get\+Column\+Name}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Column\+Name()}{getColumnName()}}
+{\footnotesize\ttfamily String org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+get\+Column\+Name (\begin{DoxyParamCaption}\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the column name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em column} & the column index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The column name. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a38cad7bbc3bf7b4d9de60089927a023f}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a38cad7bbc3bf7b4d9de60089927a023f}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!get\+Row\+Count@{get\+Row\+Count}}
+\index{get\+Row\+Count@{get\+Row\+Count}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Row\+Count()}{getRowCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+get\+Row\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of rows.
+
+\begin{DoxyReturn}{Returns}
+The row count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a55b6487bf21ce2fe201df4da3fd79329}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a55b6487bf21ce2fe201df4da3fd79329}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!get\+Value\+At@{get\+Value\+At}}
+\index{get\+Value\+At@{get\+Value\+At}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Value\+At()}{getValueAt()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+get\+Value\+At (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns a value of the specified cell. Column 0 is the X axis, Columns 1 and over are the Y axis
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row number. \\
+\hline
+{\em column} & the column number.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value of the specified cell. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_ae13759ba0b9ded0dbea366acad4b6d10}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_ae13759ba0b9ded0dbea366acad4b6d10}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!is\+Cell\+Editable@{is\+Cell\+Editable}}
+\index{is\+Cell\+Editable@{is\+Cell\+Editable}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{is\+Cell\+Editable()}{isCellEditable()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+is\+Cell\+Editable (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns a flag indicating whether or not the specified cell is editable.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row number. \\
+\hline
+{\em column} & the column number.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified cell is editable. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a1c2b919f81f70fabe2985a61c82e8645}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a1c2b919f81f70fabe2985a61c82e8645}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!set\+Model@{set\+Model}}
+\index{set\+Model@{set\+Model}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{set\+Model()}{setModel()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+set\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_table_x_y_dataset}{Table\+X\+Y\+Dataset}}}]{dataset }\end{DoxyParamCaption})}
+
+Sets the model (dataset).
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a5d772683f7eb46fca5d42e92429fe4e4}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_table_model_a5d772683f7eb46fca5d42e92429fe4e4}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}!set\+Value\+At@{set\+Value\+At}}
+\index{set\+Value\+At@{set\+Value\+At}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset\+Table\+Model}}
+\subsubsection{\texorpdfstring{set\+Value\+At()}{setValueAt()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+Table\+Model.\+set\+Value\+At (\begin{DoxyParamCaption}\item[{Object}]{value,  }\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Updates the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} if allowed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the new value. \\
+\hline
+{\em row} & the row. \\
+\hline
+{\em column} & the column. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_x_y_dataset_table_model_8java}{X\+Y\+Dataset\+Table\+Model.\+java}}\end{DoxyCompactItemize}

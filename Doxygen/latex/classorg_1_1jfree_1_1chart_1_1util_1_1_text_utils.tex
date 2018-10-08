@@ -1,0 +1,120 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils}{}\section{org.\+jfree.\+chart.\+util.\+Text\+Utils Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils}\index{org.\+jfree.\+chart.\+util.\+Text\+Utils@{org.\+jfree.\+chart.\+util.\+Text\+Utils}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Rectangle2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_aa103f87e87e43cc08d5200ce76f38332}{draw\+Aligned\+String}} (String text, Graphics2D g2, float x, float y, Text\+Anchor anchor)
+\item 
+static Rectangle2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_adda277af6278e2bb24f020af4acebd2b}{calc\+Aligned\+String\+Bounds}} (String text, Graphics2D g2, float x, float y, Text\+Anchor anchor)
+\item 
+static Rectangle2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_a3c23c63c9de1360e67fd5a9aed6a4b1c}{get\+Text\+Bounds}} (String text, Font\+Metrics fm)
+\item 
+static Rectangle2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_a29ee9c4134704345f7d697847f11e1a6}{get\+Text\+Bounds}} (String text, double x, double y, Font\+Metrics fm)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Text utility functions.
+
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_adda277af6278e2bb24f020af4acebd2b}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_adda277af6278e2bb24f020af4acebd2b}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Text\+Utils@{org\+::jfree\+::chart\+::util\+::\+Text\+Utils}!calc\+Aligned\+String\+Bounds@{calc\+Aligned\+String\+Bounds}}
+\index{calc\+Aligned\+String\+Bounds@{calc\+Aligned\+String\+Bounds}!org\+::jfree\+::chart\+::util\+::\+Text\+Utils@{org\+::jfree\+::chart\+::util\+::\+Text\+Utils}}
+\subsubsection{\texorpdfstring{calc\+Aligned\+String\+Bounds()}{calcAlignedStringBounds()}}
+{\footnotesize\ttfamily static Rectangle2D org.\+jfree.\+chart.\+util.\+Text\+Utils.\+calc\+Aligned\+String\+Bounds (\begin{DoxyParamCaption}\item[{String}]{text,  }\item[{Graphics2D}]{g2,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{Text\+Anchor}]{anchor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the bounds of an aligned string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the string ({\ttfamily null} not permitted). \\
+\hline
+{\em g2} & the graphics target ({\ttfamily null} not permitted). \\
+\hline
+{\em x} & the x-\/coordinate. \\
+\hline
+{\em y} & the y-\/coordinate. \\
+\hline
+{\em anchor} & the anchor point that will be aligned to {\ttfamily (x, y)} ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The text bounds (never {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+3 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_aa103f87e87e43cc08d5200ce76f38332}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_aa103f87e87e43cc08d5200ce76f38332}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Text\+Utils@{org\+::jfree\+::chart\+::util\+::\+Text\+Utils}!draw\+Aligned\+String@{draw\+Aligned\+String}}
+\index{draw\+Aligned\+String@{draw\+Aligned\+String}!org\+::jfree\+::chart\+::util\+::\+Text\+Utils@{org\+::jfree\+::chart\+::util\+::\+Text\+Utils}}
+\subsubsection{\texorpdfstring{draw\+Aligned\+String()}{drawAlignedString()}}
+{\footnotesize\ttfamily static Rectangle2D org.\+jfree.\+chart.\+util.\+Text\+Utils.\+draw\+Aligned\+String (\begin{DoxyParamCaption}\item[{String}]{text,  }\item[{Graphics2D}]{g2,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{Text\+Anchor}]{anchor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Draws a string such that the specified anchor point is aligned to the given {\ttfamily (x, y)} location, and returns a bounding rectangle for the text.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the text. \\
+\hline
+{\em g2} & the graphics device. \\
+\hline
+{\em x} & the x coordinate (Java 2D). \\
+\hline
+{\em y} & the y coordinate (Java 2D). \\
+\hline
+{\em anchor} & the anchor location.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The text bounds (adjusted for the text position). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_a3c23c63c9de1360e67fd5a9aed6a4b1c}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_a3c23c63c9de1360e67fd5a9aed6a4b1c}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Text\+Utils@{org\+::jfree\+::chart\+::util\+::\+Text\+Utils}!get\+Text\+Bounds@{get\+Text\+Bounds}}
+\index{get\+Text\+Bounds@{get\+Text\+Bounds}!org\+::jfree\+::chart\+::util\+::\+Text\+Utils@{org\+::jfree\+::chart\+::util\+::\+Text\+Utils}}
+\subsubsection{\texorpdfstring{get\+Text\+Bounds()}{getTextBounds()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static Rectangle2D org.\+jfree.\+chart.\+util.\+Text\+Utils.\+get\+Text\+Bounds (\begin{DoxyParamCaption}\item[{String}]{text,  }\item[{Font\+Metrics}]{fm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the bounds for the specified text. The supplied text is assumed to be on a single line (no carriage return or newline characters).
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the text ({\ttfamily null} not permitted). \\
+\hline
+{\em fm} & the font metrics ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The text bounds. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_a29ee9c4134704345f7d697847f11e1a6}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_text_utils_a29ee9c4134704345f7d697847f11e1a6}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Text\+Utils@{org\+::jfree\+::chart\+::util\+::\+Text\+Utils}!get\+Text\+Bounds@{get\+Text\+Bounds}}
+\index{get\+Text\+Bounds@{get\+Text\+Bounds}!org\+::jfree\+::chart\+::util\+::\+Text\+Utils@{org\+::jfree\+::chart\+::util\+::\+Text\+Utils}}
+\subsubsection{\texorpdfstring{get\+Text\+Bounds()}{getTextBounds()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static Rectangle2D org.\+jfree.\+chart.\+util.\+Text\+Utils.\+get\+Text\+Bounds (\begin{DoxyParamCaption}\item[{String}]{text,  }\item[{double}]{x,  }\item[{double}]{y,  }\item[{Font\+Metrics}]{fm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the bounds for the specified text when it is drawn with the left-\/baseline aligned to the point {\ttfamily (x, y)}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the text ({\ttfamily null} not permitted). \\
+\hline
+{\em x} & the x-\/coordinate. \\
+\hline
+{\em y} & the y-\/coordinate. \\
+\hline
+{\em fm} & the font metrics ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The bounding rectangle (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_text_utils_8java}{Text\+Utils.\+java}}\end{DoxyCompactItemize}

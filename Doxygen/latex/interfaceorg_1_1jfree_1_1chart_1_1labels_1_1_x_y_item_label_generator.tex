@@ -1,0 +1,48 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_item_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+X\+Y\+Item\+Label\+Generator Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_item_label_generator}\index{org.\+jfree.\+chart.\+labels.\+X\+Y\+Item\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+X\+Y\+Item\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+X\+Y\+Item\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.695652cm]{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_item_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_item_label_generator_aced931506ef5a2a355b8846534ad457e}{generate\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, int item)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface for a label generator for plots that use data from an \mbox{\hyperlink{}{X\+Y\+Dataset}}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_item_label_generator_aced931506ef5a2a355b8846534ad457e}\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_item_label_generator_aced931506ef5a2a355b8846534ad457e}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+X\+Y\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+X\+Y\+Item\+Label\+Generator}!generate\+Label@{generate\+Label}}
+\index{generate\+Label@{generate\+Label}!org\+::jfree\+::chart\+::labels\+::\+X\+Y\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+X\+Y\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Label()}{generateLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+X\+Y\+Item\+Label\+Generator.\+generate\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Generates a label for the specified item. The label is typically a formatted version of the data value, but any text can be used.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_interval_x_y_item_label_generator_afad6566698a58ee2bcba885ae65e4421}{org.\+jfree.\+chart.\+labels.\+Interval\+X\+Y\+Item\+Label\+Generator}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_item_label_generator_a488c11e6e0c44ca7083f56f54f132636}{org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Item\+Label\+Generator}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a09770737c897174ae8ac3923086c19eb}{org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_bubble_x_y_item_label_generator_a37b8ec8abc5092193b60e79a8985b257}{org.\+jfree.\+chart.\+labels.\+Bubble\+X\+Y\+Item\+Label\+Generator}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_symbolic_x_y_item_label_generator_a9877321480c5c8de6b5bbbf923801e09}{org.\+jfree.\+chart.\+labels.\+Symbolic\+X\+Y\+Item\+Label\+Generator}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_x_y_item_label_generator_8java}{X\+Y\+Item\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

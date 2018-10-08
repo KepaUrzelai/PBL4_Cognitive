@@ -1,0 +1,83 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator}{}\section{org.\+jfree.\+chart.\+util.\+Shadow\+Generator Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator}\index{org.\+jfree.\+chart.\+util.\+Shadow\+Generator@{org.\+jfree.\+chart.\+util.\+Shadow\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+util.\+Shadow\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a8771623b832045a88620c5c5965d82eb}{create\+Drop\+Shadow}} (Buffered\+Image source)
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a8a4a3d5012c0aa1d45ddb68e390f7968}{calculate\+OffsetX}} ()
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a86796160b6e9262408d7848d8ddaff0f}{calculate\+OffsetY}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface that defines the A\+PI for a shadow generator. Some plot classes use this to create drop shadows.
+
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a8a4a3d5012c0aa1d45ddb68e390f7968}\label{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a8a4a3d5012c0aa1d45ddb68e390f7968}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator}!calculate\+OffsetX@{calculate\+OffsetX}}
+\index{calculate\+OffsetX@{calculate\+OffsetX}!org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{calculate\+Offset\+X()}{calculateOffsetX()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+util.\+Shadow\+Generator.\+calculate\+OffsetX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Calculates the x-\/offset for drawing the shadow image relative to the source.
+
+\begin{DoxyReturn}{Returns}
+The x-\/offset. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a30826c0062e4caa01d58438d4fd05733}{org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a86796160b6e9262408d7848d8ddaff0f}\label{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a86796160b6e9262408d7848d8ddaff0f}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator}!calculate\+OffsetY@{calculate\+OffsetY}}
+\index{calculate\+OffsetY@{calculate\+OffsetY}!org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{calculate\+Offset\+Y()}{calculateOffsetY()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+util.\+Shadow\+Generator.\+calculate\+OffsetY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Calculates the y-\/offset for drawing the shadow image relative to the source.
+
+\begin{DoxyReturn}{Returns}
+The y-\/offset. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ae526cdf627474b32814f887b140609cf}{org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a8771623b832045a88620c5c5965d82eb}\label{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a8771623b832045a88620c5c5965d82eb}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator}!create\+Drop\+Shadow@{create\+Drop\+Shadow}}
+\index{create\+Drop\+Shadow@{create\+Drop\+Shadow}!org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{create\+Drop\+Shadow()}{createDropShadow()}}
+{\footnotesize\ttfamily Buffered\+Image org.\+jfree.\+chart.\+util.\+Shadow\+Generator.\+create\+Drop\+Shadow (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{source }\end{DoxyParamCaption})}
+
+Creates and returns an image containing the drop shadow for the specified source image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source image.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new image containing the shadow. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a5ecdea4578e1625dc9b059108c6c82b6}{org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_shadow_generator_8java}{Shadow\+Generator.\+java}}\end{DoxyCompactItemize}

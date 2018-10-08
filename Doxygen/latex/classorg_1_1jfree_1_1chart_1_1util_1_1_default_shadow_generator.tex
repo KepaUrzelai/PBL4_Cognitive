@@ -1,0 +1,231 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator}{}\section{org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator}\index{org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator@{org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ae056aa58d30bed7754d9d83adca1d339}{Default\+Shadow\+Generator}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_afc9c55b470e09befc07a014b09b03985}{Default\+Shadow\+Generator}} (int size, Color color, float opacity, int distance, double angle)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ab093070f3892fe9d9eee9adc57dcbf63}{get\+Shadow\+Size}} ()
+\item 
+Color \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a0f8d61be38f76035ee649f8c5fd3b15b}{get\+Shadow\+Color}} ()
+\item 
+float \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a531af67f6299b20168607704d232a7c6}{get\+Shadow\+Opacity}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a64119a8f4b708396b09a4522e875ad0e}{get\+Distance}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac75c433ac75290b40b9882f888e64934}{get\+Angle}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a30826c0062e4caa01d58438d4fd05733}{calculate\+OffsetX}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ae526cdf627474b32814f887b140609cf}{calculate\+OffsetY}} ()
+\item 
+Buffered\+Image \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a5ecdea4578e1625dc9b059108c6c82b6}{create\+Drop\+Shadow}} (Buffered\+Image source)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a6ee7c3198a4ddaa9d6b3533353555222}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac7f5cef9916ef70f18dfcd8ca1eeef27}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac52cd2b7ce93efdaff6f5d99f2461b77}{apply\+Shadow}} (Buffered\+Image image)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A default implementation of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator}{Shadow\+Generator}} interface, based on code in a \href{http://www.jroller.com/gfx/entry/fast_or_good_drop_shadows}{\tt blog post by Romain Guy}.
+
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ae056aa58d30bed7754d9d83adca1d339}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ae056aa58d30bed7754d9d83adca1d339}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!Default\+Shadow\+Generator@{Default\+Shadow\+Generator}}
+\index{Default\+Shadow\+Generator@{Default\+Shadow\+Generator}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{Default\+Shadow\+Generator()}{DefaultShadowGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+Default\+Shadow\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance with default attributes. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_afc9c55b470e09befc07a014b09b03985}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_afc9c55b470e09befc07a014b09b03985}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!Default\+Shadow\+Generator@{Default\+Shadow\+Generator}}
+\index{Default\+Shadow\+Generator@{Default\+Shadow\+Generator}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{Default\+Shadow\+Generator()}{DefaultShadowGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+Default\+Shadow\+Generator (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{Color}]{color,  }\item[{float}]{opacity,  }\item[{int}]{distance,  }\item[{double}]{angle }\end{DoxyParamCaption})}
+
+Creates a new instance with the specified attributes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & the shadow size. \\
+\hline
+{\em color} & the shadow color. \\
+\hline
+{\em opacity} & the shadow opacity. \\
+\hline
+{\em distance} & the shadow offset distance. \\
+\hline
+{\em angle} & the shadow offset angle (in radians). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac52cd2b7ce93efdaff6f5d99f2461b77}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac52cd2b7ce93efdaff6f5d99f2461b77}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!apply\+Shadow@{apply\+Shadow}}
+\index{apply\+Shadow@{apply\+Shadow}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{apply\+Shadow()}{applyShadow()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+apply\+Shadow (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Applies a shadow to the image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & the image. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a30826c0062e4caa01d58438d4fd05733}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a30826c0062e4caa01d58438d4fd05733}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!calculate\+OffsetX@{calculate\+OffsetX}}
+\index{calculate\+OffsetX@{calculate\+OffsetX}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{calculate\+Offset\+X()}{calculateOffsetX()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+calculate\+OffsetX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Calculates the x-\/offset for drawing the shadow image relative to the source.
+
+\begin{DoxyReturn}{Returns}
+The x-\/offset. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a8a4a3d5012c0aa1d45ddb68e390f7968}{org.\+jfree.\+chart.\+util.\+Shadow\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ae526cdf627474b32814f887b140609cf}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ae526cdf627474b32814f887b140609cf}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!calculate\+OffsetY@{calculate\+OffsetY}}
+\index{calculate\+OffsetY@{calculate\+OffsetY}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{calculate\+Offset\+Y()}{calculateOffsetY()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+calculate\+OffsetY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Calculates the y-\/offset for drawing the shadow image relative to the source.
+
+\begin{DoxyReturn}{Returns}
+The y-\/offset. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a86796160b6e9262408d7848d8ddaff0f}{org.\+jfree.\+chart.\+util.\+Shadow\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a5ecdea4578e1625dc9b059108c6c82b6}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a5ecdea4578e1625dc9b059108c6c82b6}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!create\+Drop\+Shadow@{create\+Drop\+Shadow}}
+\index{create\+Drop\+Shadow@{create\+Drop\+Shadow}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{create\+Drop\+Shadow()}{createDropShadow()}}
+{\footnotesize\ttfamily Buffered\+Image org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+create\+Drop\+Shadow (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{source }\end{DoxyParamCaption})}
+
+Creates and returns an image containing the drop shadow for the specified source image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source image.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new image containing the shadow. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1util_1_1_shadow_generator_a8771623b832045a88620c5c5965d82eb}{org.\+jfree.\+chart.\+util.\+Shadow\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a6ee7c3198a4ddaa9d6b3533353555222}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a6ee7c3198a4ddaa9d6b3533353555222}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac75c433ac75290b40b9882f888e64934}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac75c433ac75290b40b9882f888e64934}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!get\+Angle@{get\+Angle}}
+\index{get\+Angle@{get\+Angle}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{get\+Angle()}{getAngle()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+get\+Angle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the shadow offset angle (in radians).
+
+\begin{DoxyReturn}{Returns}
+The angle (in radians). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a64119a8f4b708396b09a4522e875ad0e}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a64119a8f4b708396b09a4522e875ad0e}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!get\+Distance@{get\+Distance}}
+\index{get\+Distance@{get\+Distance}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{get\+Distance()}{getDistance()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+get\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the shadow offset distance.
+
+\begin{DoxyReturn}{Returns}
+The shadow offset distance (in Java2D units). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a0f8d61be38f76035ee649f8c5fd3b15b}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a0f8d61be38f76035ee649f8c5fd3b15b}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!get\+Shadow\+Color@{get\+Shadow\+Color}}
+\index{get\+Shadow\+Color@{get\+Shadow\+Color}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{get\+Shadow\+Color()}{getShadowColor()}}
+{\footnotesize\ttfamily Color org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+get\+Shadow\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the shadow color.
+
+\begin{DoxyReturn}{Returns}
+The shadow color (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a531af67f6299b20168607704d232a7c6}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_a531af67f6299b20168607704d232a7c6}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!get\+Shadow\+Opacity@{get\+Shadow\+Opacity}}
+\index{get\+Shadow\+Opacity@{get\+Shadow\+Opacity}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{get\+Shadow\+Opacity()}{getShadowOpacity()}}
+{\footnotesize\ttfamily float org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+get\+Shadow\+Opacity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the shadow opacity.
+
+\begin{DoxyReturn}{Returns}
+The shadow opacity. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ab093070f3892fe9d9eee9adc57dcbf63}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ab093070f3892fe9d9eee9adc57dcbf63}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!get\+Shadow\+Size@{get\+Shadow\+Size}}
+\index{get\+Shadow\+Size@{get\+Shadow\+Size}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{get\+Shadow\+Size()}{getShadowSize()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+get\+Shadow\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the shadow size.
+
+\begin{DoxyReturn}{Returns}
+The shadow size. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac7f5cef9916ef70f18dfcd8ca1eeef27}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_default_shadow_generator_ac7f5cef9916ef70f18dfcd8ca1eeef27}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator@{org\+::jfree\+::chart\+::util\+::\+Default\+Shadow\+Generator}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+util.\+Default\+Shadow\+Generator.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this instance.
+
+\begin{DoxyReturn}{Returns}
+The hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_default_shadow_generator_8java}{Default\+Shadow\+Generator.\+java}}\end{DoxyCompactItemize}

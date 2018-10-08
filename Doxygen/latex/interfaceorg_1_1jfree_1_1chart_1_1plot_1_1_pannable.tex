@@ -1,0 +1,124 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable}{}\section{org.\+jfree.\+chart.\+plot.\+Pannable Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable}\index{org.\+jfree.\+chart.\+plot.\+Pannable@{org.\+jfree.\+chart.\+plot.\+Pannable}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+Pannable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.676647cm]{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_orientation}{Plot\+Orientation}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a09abf56f19f9173a9c1898ba03efdf8b}{get\+Orientation}} ()
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a732908d75e7c0b1fab688d9a29ff3e44}{is\+Domain\+Pannable}} ()
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_ad1e4f1dde36baf9964ac14654aab4f8e}{is\+Range\+Pannable}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a263663aa22deafd5fc018dd3fe5d0c21}{pan\+Domain\+Axes}} (double percent, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info, Point2D source)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a76f01ef023f70b79c59f8c196ae19f73}{pan\+Range\+Axes}} (double percent, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info, Point2D source)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface that the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}} class uses to communicate with plots that support panning.
+
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a09abf56f19f9173a9c1898ba03efdf8b}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a09abf56f19f9173a9c1898ba03efdf8b}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}!get\+Orientation@{get\+Orientation}}
+\index{get\+Orientation@{get\+Orientation}!org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}}
+\subsubsection{\texorpdfstring{get\+Orientation()}{getOrientation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_orientation}{Plot\+Orientation}} org.\+jfree.\+chart.\+plot.\+Pannable.\+get\+Orientation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the orientation of the plot.
+
+\begin{DoxyReturn}{Returns}
+The orientation (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a5b0c5d43d190ffdfc7cdee341c0e6990}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_ab765cf8f5fe1dcf554b1a223bbe2d158}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_af6a4373b3880bdd8c8e20d009c21c0fc}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a732908d75e7c0b1fab688d9a29ff3e44}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a732908d75e7c0b1fab688d9a29ff3e44}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}!is\+Domain\+Pannable@{is\+Domain\+Pannable}}
+\index{is\+Domain\+Pannable@{is\+Domain\+Pannable}!org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}}
+\subsubsection{\texorpdfstring{is\+Domain\+Pannable()}{isDomainPannable()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+Pannable.\+is\+Domain\+Pannable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Evaluates if the domain axis can be panned.
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the domain axis is pannable. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a47e998c45ef12fd238c3477c38655c2b}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_ac365d760808474f7b01fb0642a956f93}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_af6289348bf124d368a03a593443a53e4}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_range_x_y_plot_acc7049319fcef4aa176c61535cdef530}{org.\+jfree.\+chart.\+plot.\+Combined\+Range\+X\+Y\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_ad1e4f1dde36baf9964ac14654aab4f8e}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_ad1e4f1dde36baf9964ac14654aab4f8e}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}!is\+Range\+Pannable@{is\+Range\+Pannable}}
+\index{is\+Range\+Pannable@{is\+Range\+Pannable}!org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}}
+\subsubsection{\texorpdfstring{is\+Range\+Pannable()}{isRangePannable()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+Pannable.\+is\+Range\+Pannable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Evaluates if the range axis can be panned.
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the range axis is pannable. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a8f1c9a3d422e99f3dd189ba632ba3843}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_ae919889b6b612a6f5df7f204a3356d19}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a3a191cded96725f3dfe473c288d96e91}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_domain_x_y_plot_aa2ad5b86eadbd785a28ca13f7fb86d00}{org.\+jfree.\+chart.\+plot.\+Combined\+Domain\+X\+Y\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a263663aa22deafd5fc018dd3fe5d0c21}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a263663aa22deafd5fc018dd3fe5d0c21}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}!pan\+Domain\+Axes@{pan\+Domain\+Axes}}
+\index{pan\+Domain\+Axes@{pan\+Domain\+Axes}!org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}}
+\subsubsection{\texorpdfstring{pan\+Domain\+Axes()}{panDomainAxes()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pannable.\+pan\+Domain\+Axes (\begin{DoxyParamCaption}\item[{double}]{percent,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info,  }\item[{Point2D}]{source }\end{DoxyParamCaption})}
+
+Pans the domain axes by the specified percentage.
+
+
+\begin{DoxyParams}{Parameters}
+{\em percent} & the distance to pan (as a percentage of the axis length). \\
+\hline
+{\em info} & the plot info \\
+\hline
+{\em source} & the source point where the pan action started. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_afdda504a90bd8bd826a707f54fc7cb2e}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_a62e996586fd48d02b2344940eae20f40}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a7b79099368e18d05d90d7d876094690e}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_range_x_y_plot_a3124b90fe437b15a01a34a638042f9fb}{org.\+jfree.\+chart.\+plot.\+Combined\+Range\+X\+Y\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a76f01ef023f70b79c59f8c196ae19f73}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_pannable_a76f01ef023f70b79c59f8c196ae19f73}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}!pan\+Range\+Axes@{pan\+Range\+Axes}}
+\index{pan\+Range\+Axes@{pan\+Range\+Axes}!org\+::jfree\+::chart\+::plot\+::\+Pannable@{org\+::jfree\+::chart\+::plot\+::\+Pannable}}
+\subsubsection{\texorpdfstring{pan\+Range\+Axes()}{panRangeAxes()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pannable.\+pan\+Range\+Axes (\begin{DoxyParamCaption}\item[{double}]{percent,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info,  }\item[{Point2D}]{source }\end{DoxyParamCaption})}
+
+Pans the range axes by the specified percentage.
+
+
+\begin{DoxyParams}{Parameters}
+{\em percent} & the distance to pan (as a percentage of the axis length). \\
+\hline
+{\em info} & the plot info \\
+\hline
+{\em source} & the source point where the pan action started. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_ae7089e5245a5934e31877dc866f80d5f}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_aed70dddde4f4e4796b966e114e958eb9}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a0dc3b2637c3e4ebed3e4fe5902b90407}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_domain_x_y_plot_aa2f62463d5afbab1a8de6cc6e832b2b0}{org.\+jfree.\+chart.\+plot.\+Combined\+Domain\+X\+Y\+Plot}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/\mbox{\hyperlink{_pannable_8java}{Pannable.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,196 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline}{}\section{org.\+jfree.\+chart.\+axis.\+Timeline Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline}\index{org.\+jfree.\+chart.\+axis.\+Timeline@{org.\+jfree.\+chart.\+axis.\+Timeline}}
+Inheritance diagram for org.\+jfree.\+chart.\+axis.\+Timeline\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+long \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a8723dcd01acdfba8854165da93d1d72a}{to\+Timeline\+Value}} (long millisecond)
+\item 
+long \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_aadc67523764fdacdc35bd6aa816c87a7}{to\+Timeline\+Value}} (Date date)
+\item 
+long \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_aa4bc34f354e4819d481369a12415a8c3}{to\+Millisecond}} (long timeline\+Value)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a2c56414de5571774ff54ad8c10702a87}{contains\+Domain\+Value}} (long millisecond)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a256e6d8899290d1f8a31f9d0c5ec69e7}{contains\+Domain\+Value}} (Date date)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a36e80eb3f224df36ab4c3597ef17928f}{contains\+Domain\+Range}} (long from\+Millisecond, long \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_aa4bc34f354e4819d481369a12415a8c3}{to\+Millisecond}})
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a9338cd3f5d7956c15d9716d4b1e4e5e8}{contains\+Domain\+Range}} (Date from\+Date, Date to\+Date)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface that defines the contract for a \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline}{Timeline}}. 
+
+A \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline}{Timeline}} will present a series of values to be used for an axis. Each \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline}{Timeline}} must provide transformation methods between domain values and timeline values. In theory many transformations are possible. This interface has been implemented completely in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}. 
+
+A timeline can be used as parameter to a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_date_axis}{org.\+jfree.\+chart.\+axis.\+Date\+Axis}} to define the values that this axis supports. As an example, the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}} implements a timeline formed by segments of equal length (ex. days, hours, minutes) where some segments can be included in the timeline and others excluded. Therefore timelines like \char`\"{}working days\char`\"{} or \char`\"{}working hours\char`\"{} can be created where non-\/working days or non-\/working hours respectively can be removed from the timeline, and therefore from the axis. This creates a smooth plot with equal separation between all included segments. 
+
+Because Timelines were created mainly for Date related axis, values are represented as longs instead of doubles. In this case, the domain value is just the number of milliseconds since January 1, 1970, 00\+:00\+:00 G\+MT as defined by the get\+Time() method of \mbox{\hyperlink{}{java.\+util.\+Date}}.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}} 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_date_axis}{org.\+jfree.\+chart.\+axis.\+Date\+Axis}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a36e80eb3f224df36ab4c3597ef17928f}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a36e80eb3f224df36ab4c3597ef17928f}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}!contains\+Domain\+Range@{contains\+Domain\+Range}}
+\index{contains\+Domain\+Range@{contains\+Domain\+Range}!org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}}
+\subsubsection{\texorpdfstring{contains\+Domain\+Range()}{containsDomainRange()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+axis.\+Timeline.\+contains\+Domain\+Range (\begin{DoxyParamCaption}\item[{long}]{from\+Millisecond,  }\item[{long}]{to\+Millisecond }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if a range of values are contained in the timeline.
+
+
+\begin{DoxyParams}{Parameters}
+{\em from\+Millisecond} & the start of the range to verify. \\
+\hline
+{\em to\+Millisecond} & the end of the range to verify.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the range is contained in the timeline or {\ttfamily false} otherwise 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline_afd857a016b41d3169350c0e506382f6e}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a9338cd3f5d7956c15d9716d4b1e4e5e8}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a9338cd3f5d7956c15d9716d4b1e4e5e8}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}!contains\+Domain\+Range@{contains\+Domain\+Range}}
+\index{contains\+Domain\+Range@{contains\+Domain\+Range}!org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}}
+\subsubsection{\texorpdfstring{contains\+Domain\+Range()}{containsDomainRange()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+axis.\+Timeline.\+contains\+Domain\+Range (\begin{DoxyParamCaption}\item[{Date}]{from\+Date,  }\item[{Date}]{to\+Date }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if a range of dates are contained in the timeline.
+
+
+\begin{DoxyParams}{Parameters}
+{\em from\+Date} & the start of the range to verify. \\
+\hline
+{\em to\+Date} & the end of the range to verify.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the range is contained in the timeline or {\ttfamily false} otherwise 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline_a71800b05e06d6011fcff21df388e1b63}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a2c56414de5571774ff54ad8c10702a87}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a2c56414de5571774ff54ad8c10702a87}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}!contains\+Domain\+Value@{contains\+Domain\+Value}}
+\index{contains\+Domain\+Value@{contains\+Domain\+Value}!org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}}
+\subsubsection{\texorpdfstring{contains\+Domain\+Value()}{containsDomainValue()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+axis.\+Timeline.\+contains\+Domain\+Value (\begin{DoxyParamCaption}\item[{long}]{millisecond }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if a value is contained in the timeline values.
+
+
+\begin{DoxyParams}{Parameters}
+{\em millisecond} & the millisecond.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if value is contained in the timeline and {\ttfamily false} otherwise. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline_aac440eed1b4484e0092a4bb041ef460c}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a256e6d8899290d1f8a31f9d0c5ec69e7}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a256e6d8899290d1f8a31f9d0c5ec69e7}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}!contains\+Domain\+Value@{contains\+Domain\+Value}}
+\index{contains\+Domain\+Value@{contains\+Domain\+Value}!org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}}
+\subsubsection{\texorpdfstring{contains\+Domain\+Value()}{containsDomainValue()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+axis.\+Timeline.\+contains\+Domain\+Value (\begin{DoxyParamCaption}\item[{Date}]{date }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if a date is contained in the timeline values.
+
+
+\begin{DoxyParams}{Parameters}
+{\em date} & the date to verify.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if value is contained in the timeline and {\ttfamily false} otherwise. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline_a36df47cbf970d1268f96686da04bc199}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_aa4bc34f354e4819d481369a12415a8c3}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_aa4bc34f354e4819d481369a12415a8c3}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}!to\+Millisecond@{to\+Millisecond}}
+\index{to\+Millisecond@{to\+Millisecond}!org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}}
+\subsubsection{\texorpdfstring{to\+Millisecond()}{toMillisecond()}}
+{\footnotesize\ttfamily long org.\+jfree.\+chart.\+axis.\+Timeline.\+to\+Millisecond (\begin{DoxyParamCaption}\item[{long}]{timeline\+Value }\end{DoxyParamCaption})}
+
+Translates a value relative to this timeline into a domain value. The domain value obtained by this method is not always the same domain value that could have been supplied to translate\+Domain\+Value\+To\+Timeline\+Value(domain\+Value). This is because the original transformation may not be complete reversable.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em timeline\+Value} & a timeline value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A domain value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline_a734fc49f503e38b51902dbee8f27c060}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a8723dcd01acdfba8854165da93d1d72a}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_a8723dcd01acdfba8854165da93d1d72a}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}!to\+Timeline\+Value@{to\+Timeline\+Value}}
+\index{to\+Timeline\+Value@{to\+Timeline\+Value}!org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}}
+\subsubsection{\texorpdfstring{to\+Timeline\+Value()}{toTimelineValue()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily long org.\+jfree.\+chart.\+axis.\+Timeline.\+to\+Timeline\+Value (\begin{DoxyParamCaption}\item[{long}]{millisecond }\end{DoxyParamCaption})}
+
+Translates a millisecond (as defined by java.\+util.\+Date) into an index along this timeline.
+
+
+\begin{DoxyParams}{Parameters}
+{\em millisecond} & the millisecond.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A timeline value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline_adade2f77808e594498067a2b70a6099e}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_aadc67523764fdacdc35bd6aa816c87a7}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_timeline_aadc67523764fdacdc35bd6aa816c87a7}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}!to\+Timeline\+Value@{to\+Timeline\+Value}}
+\index{to\+Timeline\+Value@{to\+Timeline\+Value}!org\+::jfree\+::chart\+::axis\+::\+Timeline@{org\+::jfree\+::chart\+::axis\+::\+Timeline}}
+\subsubsection{\texorpdfstring{to\+Timeline\+Value()}{toTimelineValue()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily long org.\+jfree.\+chart.\+axis.\+Timeline.\+to\+Timeline\+Value (\begin{DoxyParamCaption}\item[{Date}]{date }\end{DoxyParamCaption})}
+
+Translates a date into a value on this timeline.
+
+
+\begin{DoxyParams}{Parameters}
+{\em date} & the date.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A timeline value 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_segmented_timeline_a9ceca997773324de3d7164b023c1c0e0}{org.\+jfree.\+chart.\+axis.\+Segmented\+Timeline}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/axis/\mbox{\hyperlink{_timeline_8java}{Timeline.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,171 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format}{}\section{org.\+jfree.\+chart.\+axis.\+Compass\+Format Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format}\index{org.\+jfree.\+chart.\+axis.\+Compass\+Format@{org.\+jfree.\+chart.\+axis.\+Compass\+Format}}
+Inheritance diagram for org.\+jfree.\+chart.\+axis.\+Compass\+Format\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ab2c9e184c22a05d816d7994d1e9e4ef7}{Compass\+Format}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a960a9095abe5c352875423c4baf1113d}{Compass\+Format}} (String n, String e, String s, String w)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_afe79973e291ebd98e8a0132b30247519}{Compass\+Format}} (String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ae47ec4d6a4e761fc13ad334781d36f73}{directions}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a6826f21a78e26e7dd2fb406428d7b849}{get\+Direction\+Code}} (double direction)
+\item 
+String\+Buffer \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a66dcc24dd85f6a5354460112fc9288f7}{format}} (double number, String\+Buffer to\+Append\+To, Field\+Position pos)
+\item 
+String\+Buffer \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a496e84660fd565f7ae4b98e7eac56ec2}{format}} (long number, String\+Buffer to\+Append\+To, Field\+Position pos)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ac3361fceb883c49f756f97dc576f5ba6}{parse}} (String source, Parse\+Position parse\+Position)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ae47ec4d6a4e761fc13ad334781d36f73}{directions}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A formatter that displays numbers as directions. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ab2c9e184c22a05d816d7994d1e9e4ef7}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ab2c9e184c22a05d816d7994d1e9e4ef7}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}!Compass\+Format@{Compass\+Format}}
+\index{Compass\+Format@{Compass\+Format}!org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}}
+\subsubsection{\texorpdfstring{Compass\+Format()}{CompassFormat()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Compass\+Format.\+Compass\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new formatter using English identifiers. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a960a9095abe5c352875423c4baf1113d}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a960a9095abe5c352875423c4baf1113d}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}!Compass\+Format@{Compass\+Format}}
+\index{Compass\+Format@{Compass\+Format}!org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}}
+\subsubsection{\texorpdfstring{Compass\+Format()}{CompassFormat()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Compass\+Format.\+Compass\+Format (\begin{DoxyParamCaption}\item[{String}]{n,  }\item[{String}]{e,  }\item[{String}]{s,  }\item[{String}]{w }\end{DoxyParamCaption})}
+
+Creates a new formatter using the specified identifiers for the base wind directions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & the code for N\+O\+R\+TH. \\
+\hline
+{\em e} & the code for E\+A\+ST. \\
+\hline
+{\em s} & the code for S\+O\+U\+TH. \\
+\hline
+{\em w} & the code for W\+E\+ST.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_afe79973e291ebd98e8a0132b30247519}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_afe79973e291ebd98e8a0132b30247519}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}!Compass\+Format@{Compass\+Format}}
+\index{Compass\+Format@{Compass\+Format}!org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}}
+\subsubsection{\texorpdfstring{Compass\+Format()}{CompassFormat()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Compass\+Format.\+Compass\+Format (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{directions }\end{DoxyParamCaption})}
+
+Creates a new formatter using the specified identifiers.
+
+
+\begin{DoxyParams}{Parameters}
+{\em directions} & an array containing 16 strings representing the directions of a compass.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a66dcc24dd85f6a5354460112fc9288f7}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a66dcc24dd85f6a5354460112fc9288f7}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}!format@{format}}
+\index{format@{format}!org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}}
+\subsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily String\+Buffer org.\+jfree.\+chart.\+axis.\+Compass\+Format.\+format (\begin{DoxyParamCaption}\item[{double}]{number,  }\item[{String\+Buffer}]{to\+Append\+To,  }\item[{Field\+Position}]{pos }\end{DoxyParamCaption})}
+
+Formats a number into the specified string buffer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & the number to format. \\
+\hline
+{\em to\+Append\+To} & the string buffer. \\
+\hline
+{\em pos} & the field position (ignored here).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The string buffer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a496e84660fd565f7ae4b98e7eac56ec2}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a496e84660fd565f7ae4b98e7eac56ec2}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}!format@{format}}
+\index{format@{format}!org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}}
+\subsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily String\+Buffer org.\+jfree.\+chart.\+axis.\+Compass\+Format.\+format (\begin{DoxyParamCaption}\item[{long}]{number,  }\item[{String\+Buffer}]{to\+Append\+To,  }\item[{Field\+Position}]{pos }\end{DoxyParamCaption})}
+
+Formats a number into the specified string buffer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & the number to format. \\
+\hline
+{\em to\+Append\+To} & the string buffer. \\
+\hline
+{\em pos} & the field position (ignored here).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The string buffer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a6826f21a78e26e7dd2fb406428d7b849}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_a6826f21a78e26e7dd2fb406428d7b849}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}!get\+Direction\+Code@{get\+Direction\+Code}}
+\index{get\+Direction\+Code@{get\+Direction\+Code}!org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}}
+\subsubsection{\texorpdfstring{get\+Direction\+Code()}{getDirectionCode()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+axis.\+Compass\+Format.\+get\+Direction\+Code (\begin{DoxyParamCaption}\item[{double}]{direction }\end{DoxyParamCaption})}
+
+Returns a string representing the direction.
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & the direction.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ac3361fceb883c49f756f97dc576f5ba6}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ac3361fceb883c49f756f97dc576f5ba6}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}!parse@{parse}}
+\index{parse@{parse}!org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}}
+\subsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+chart.\+axis.\+Compass\+Format.\+parse (\begin{DoxyParamCaption}\item[{String}]{source,  }\item[{Parse\+Position}]{parse\+Position }\end{DoxyParamCaption})}
+
+This method returns {\ttfamily null} for all inputs. This class cannot be used for parsing.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source string. \\
+\hline
+{\em parse\+Position} & the parse position.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily null}. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ae47ec4d6a4e761fc13ad334781d36f73}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_compass_format_ae47ec4d6a4e761fc13ad334781d36f73}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}!directions@{directions}}
+\index{directions@{directions}!org\+::jfree\+::chart\+::axis\+::\+Compass\+Format@{org\+::jfree\+::chart\+::axis\+::\+Compass\+Format}}
+\subsubsection{\texorpdfstring{directions}{directions}}
+{\footnotesize\ttfamily final String \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+axis.\+Compass\+Format.\+directions}
+
+The directions. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/axis/\mbox{\hyperlink{_compass_format_8java}{Compass\+Format.\+java}}\end{DoxyCompactItemize}

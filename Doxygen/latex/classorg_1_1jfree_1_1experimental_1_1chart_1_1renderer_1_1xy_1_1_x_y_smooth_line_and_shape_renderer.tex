@@ -1,0 +1,151 @@
+\hypertarget{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer}{}\section{org.\+jfree.\+experimental.\+chart.\+renderer.\+xy.\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer Class Reference}
+\label{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer}\index{org.\+jfree.\+experimental.\+chart.\+renderer.\+xy.\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org.\+jfree.\+experimental.\+chart.\+renderer.\+xy.\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}}
+Inheritance diagram for org.\+jfree.\+experimental.\+chart.\+renderer.\+xy.\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.626398cm]{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_a6bd28c2a7130303c8ede75b17826441a}{get\+Control\+Points}} (Point2\+D.\+Double point0, Point2\+D.\+Double point1, Point2\+D.\+Double point2, Point2\+D.\+Double point3, Point2\+D.\+Double control1, Point2\+D.\+Double control2, double smooth)
+\item 
+static Point2\+D.\+Double \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_a90218f664fa6196a182d044577c882ce}{get\+Bezier\+Curve}} (Point2\+D.\+Double point0, Point2\+D.\+Double point1, Point2\+D.\+Double point2, Point2\+D.\+Double point3, double smooth, int steps)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_af87cbfac275f93906617bcb4e56adad6}{draw\+Primary\+Line}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_state}{X\+Y\+Item\+Renderer\+State}} state, Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}} plot, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int pass, int series, int item, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} domain\+Axis, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} range\+Axis, Rectangle2D data\+Area)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_aa41e38a75a134a6ae148fb15278aac0f}{draw\+Secondary\+Pass}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}} plot, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int pass, int series, int item, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} domain\+Axis, Rectangle2D data\+Area, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} range\+Axis, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair_state}{Crosshair\+State}} crosshair\+State, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1entity_1_1_entity_collection}{Entity\+Collection}} entities)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A line and shape renderer that performs line smoothing. See \href{http://www.jfree.org/phpBB2/viewtopic.php?t=20671}{\tt http\+://www.\+jfree.\+org/php\+B\+B2/viewtopic.\+php?t=20671}
+
+W\+A\+R\+N\+I\+NG\+: T\+H\+IS C\+L\+A\+SS IS N\+OT P\+A\+RT OF T\+HE S\+T\+A\+N\+D\+A\+RD J\+F\+R\+E\+E\+C\+H\+A\+RT A\+PI A\+ND IS S\+U\+B\+J\+E\+CT TO A\+L\+T\+E\+R\+A\+T\+I\+ON OR R\+E\+M\+O\+V\+AL. DO N\+OT R\+E\+LY ON T\+H\+IS C\+L\+A\+SS F\+OR P\+R\+O\+D\+U\+C\+T\+I\+ON U\+SE. Please experiment with this code and provide feedback. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_af87cbfac275f93906617bcb4e56adad6}\label{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_af87cbfac275f93906617bcb4e56adad6}} 
+\index{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}!draw\+Primary\+Line@{draw\+Primary\+Line}}
+\index{draw\+Primary\+Line@{draw\+Primary\+Line}!org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}}
+\subsubsection{\texorpdfstring{draw\+Primary\+Line()}{drawPrimaryLine()}}
+{\footnotesize\ttfamily void org.\+jfree.\+experimental.\+chart.\+renderer.\+xy.\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer.\+draw\+Primary\+Line (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_state}{X\+Y\+Item\+Renderer\+State}}}]{state,  }\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}}}]{plot,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{pass,  }\item[{int}]{series,  }\item[{int}]{item,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{domain\+Axis,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{range\+Axis,  }\item[{Rectangle2D}]{data\+Area }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Draws the item (first pass). This method draws the lines connecting the items.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em state} & the renderer state. \\
+\hline
+{\em data\+Area} & the area within which the data is being drawn. \\
+\hline
+{\em plot} & the plot (can be used to obtain standard color information etc). \\
+\hline
+{\em domain\+Axis} & the domain axis. \\
+\hline
+{\em range\+Axis} & the range axis. \\
+\hline
+{\em dataset} & the dataset. \\
+\hline
+{\em pass} & the pass. \\
+\hline
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_aa41e38a75a134a6ae148fb15278aac0f}\label{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_aa41e38a75a134a6ae148fb15278aac0f}} 
+\index{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}!draw\+Secondary\+Pass@{draw\+Secondary\+Pass}}
+\index{draw\+Secondary\+Pass@{draw\+Secondary\+Pass}!org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}}
+\subsubsection{\texorpdfstring{draw\+Secondary\+Pass()}{drawSecondaryPass()}}
+{\footnotesize\ttfamily void org.\+jfree.\+experimental.\+chart.\+renderer.\+xy.\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer.\+draw\+Secondary\+Pass (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}}}]{plot,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{pass,  }\item[{int}]{series,  }\item[{int}]{item,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{domain\+Axis,  }\item[{Rectangle2D}]{data\+Area,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{range\+Axis,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair_state}{Crosshair\+State}}}]{crosshair\+State,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1entity_1_1_entity_collection}{Entity\+Collection}}}]{entities }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Draws the item shapes and adds chart entities (second pass). This method draws the shapes which mark the item positions. If {\ttfamily entities} is not {\ttfamily null} it will be populated with entity information for points that fall within the data area.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em plot} & the plot (can be used to obtain standard color information etc). \\
+\hline
+{\em domain\+Axis} & the domain axis. \\
+\hline
+{\em data\+Area} & the area within which the data is being drawn. \\
+\hline
+{\em range\+Axis} & the range axis. \\
+\hline
+{\em dataset} & the dataset. \\
+\hline
+{\em pass} & the pass. \\
+\hline
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based). \\
+\hline
+{\em crosshair\+State} & the crosshair state. \\
+\hline
+{\em entities} & the entity collection. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_a90218f664fa6196a182d044577c882ce}\label{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_a90218f664fa6196a182d044577c882ce}} 
+\index{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}!get\+Bezier\+Curve@{get\+Bezier\+Curve}}
+\index{get\+Bezier\+Curve@{get\+Bezier\+Curve}!org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Bezier\+Curve()}{getBezierCurve()}}
+{\footnotesize\ttfamily static Point2\+D.\+Double \mbox{[}$\,$\mbox{]} org.\+jfree.\+experimental.\+chart.\+renderer.\+xy.\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer.\+get\+Bezier\+Curve (\begin{DoxyParamCaption}\item[{Point2\+D.\+Double}]{point0,  }\item[{Point2\+D.\+Double}]{point1,  }\item[{Point2\+D.\+Double}]{point2,  }\item[{Point2\+D.\+Double}]{point3,  }\item[{double}]{smooth,  }\item[{int}]{steps }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the points for a bezier curve.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point0} & \\
+\hline
+{\em point1} & \\
+\hline
+{\em point2} & \\
+\hline
+{\em point3} & \\
+\hline
+{\em smooth} & \\
+\hline
+{\em steps} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The curve points. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_a6bd28c2a7130303c8ede75b17826441a}\label{classorg_1_1jfree_1_1experimental_1_1chart_1_1renderer_1_1xy_1_1_x_y_smooth_line_and_shape_renderer_a6bd28c2a7130303c8ede75b17826441a}} 
+\index{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}!get\+Control\+Points@{get\+Control\+Points}}
+\index{get\+Control\+Points@{get\+Control\+Points}!org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer@{org\+::jfree\+::experimental\+::chart\+::renderer\+::xy\+::\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Control\+Points()}{getControlPoints()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+experimental.\+chart.\+renderer.\+xy.\+X\+Y\+Smooth\+Line\+And\+Shape\+Renderer.\+get\+Control\+Points (\begin{DoxyParamCaption}\item[{Point2\+D.\+Double}]{point0,  }\item[{Point2\+D.\+Double}]{point1,  }\item[{Point2\+D.\+Double}]{point2,  }\item[{Point2\+D.\+Double}]{point3,  }\item[{Point2\+D.\+Double}]{control1,  }\item[{Point2\+D.\+Double}]{control2,  }\item[{double}]{smooth }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Updates the control points.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point0} & \\
+\hline
+{\em point1} & \\
+\hline
+{\em point2} & \\
+\hline
+{\em point3} & \\
+\hline
+{\em control1} & \\
+\hline
+{\em control2} & \\
+\hline
+{\em smooth} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/experimental/org/jfree/experimental/chart/renderer/xy/\mbox{\hyperlink{_x_y_smooth_line_and_shape_renderer_8java}{X\+Y\+Smooth\+Line\+And\+Shape\+Renderer.\+java}}\end{DoxyCompactItemize}

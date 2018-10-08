@@ -1,0 +1,88 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1_range_info}{}\section{org.\+jfree.\+data.\+Range\+Info Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1_range_info}\index{org.\+jfree.\+data.\+Range\+Info@{org.\+jfree.\+data.\+Range\+Info}}
+Inheritance diagram for org.\+jfree.\+data.\+Range\+Info\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.426667cm]{interfaceorg_1_1jfree_1_1data_1_1_range_info}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_ab0187015bbe75ca00a62a71de72c1a1d}{get\+Range\+Lower\+Bound}} (boolean include\+Interval)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_a85987bb398c50351d190b2b888ff3348}{get\+Range\+Upper\+Bound}} (boolean include\+Interval)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_a2752094d868839b5565131a5bdd8e75e}{get\+Range\+Bounds}} (boolean include\+Interval)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface (optional) that can be implemented by a dataset to assist in determining the minimum and maximum values. See also \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_domain_info}{Domain\+Info}}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_range_info_a2752094d868839b5565131a5bdd8e75e}\label{interfaceorg_1_1jfree_1_1data_1_1_range_info_a2752094d868839b5565131a5bdd8e75e}} 
+\index{org\+::jfree\+::data\+::\+Range\+Info@{org\+::jfree\+::data\+::\+Range\+Info}!get\+Range\+Bounds@{get\+Range\+Bounds}}
+\index{get\+Range\+Bounds@{get\+Range\+Bounds}!org\+::jfree\+::data\+::\+Range\+Info@{org\+::jfree\+::data\+::\+Range\+Info}}
+\subsubsection{\texorpdfstring{get\+Range\+Bounds()}{getRangeBounds()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+Range\+Info.\+get\+Range\+Bounds (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the range of the values in this dataset\textquotesingle{}s range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The range (or {\ttfamily null} if the dataset contains no values). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3b7aac25736fd7122623ee6ae64104f7}{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_ac3440b80805636d47b07b69ee1407b35}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a52f3bf900ae6f640a115f6872e702f01}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series_collection_af2e690925c633815d6e33f1b83b5040e}{org.\+jfree.\+data.\+xy.\+X\+Y\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ae0f62e6428726eda9b6d9736c11ac5c6}{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_ade8ae37e23cdb7c0b3cee5576785db74}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_a30d182a50c2a77a29a772029d2ca3354}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_range_info_ab0187015bbe75ca00a62a71de72c1a1d}\label{interfaceorg_1_1jfree_1_1data_1_1_range_info_ab0187015bbe75ca00a62a71de72c1a1d}} 
+\index{org\+::jfree\+::data\+::\+Range\+Info@{org\+::jfree\+::data\+::\+Range\+Info}!get\+Range\+Lower\+Bound@{get\+Range\+Lower\+Bound}}
+\index{get\+Range\+Lower\+Bound@{get\+Range\+Lower\+Bound}!org\+::jfree\+::data\+::\+Range\+Info@{org\+::jfree\+::data\+::\+Range\+Info}}
+\subsubsection{\texorpdfstring{get\+Range\+Lower\+Bound()}{getRangeLowerBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+Range\+Info.\+get\+Range\+Lower\+Bound (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the minimum y-\/value in the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The minimum value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a750bce6796644544dc4a084164e8596d}{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series_collection_a7ea06c4bfb1643bfabceb59a89d3360f}{org.\+jfree.\+data.\+xy.\+X\+Y\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_ae20e8ce5b0dfff4b36629d20584e0f20}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a29a3b0a95d9a09ab05cf0063254a5025}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a8e50c93deb6df3331819894de3128a64}{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a08d0eef5b50b12bd52c1c9298a815a3b}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_aa6e9185318787a0f602019c40b5ea9e7}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_range_info_a85987bb398c50351d190b2b888ff3348}\label{interfaceorg_1_1jfree_1_1data_1_1_range_info_a85987bb398c50351d190b2b888ff3348}} 
+\index{org\+::jfree\+::data\+::\+Range\+Info@{org\+::jfree\+::data\+::\+Range\+Info}!get\+Range\+Upper\+Bound@{get\+Range\+Upper\+Bound}}
+\index{get\+Range\+Upper\+Bound@{get\+Range\+Upper\+Bound}!org\+::jfree\+::data\+::\+Range\+Info@{org\+::jfree\+::data\+::\+Range\+Info}}
+\subsubsection{\texorpdfstring{get\+Range\+Upper\+Bound()}{getRangeUpperBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+Range\+Info.\+get\+Range\+Upper\+Bound (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the maximum y-\/value in the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The maximum value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad50df36bbe93b4ac342e1dffe79f7316}{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series_collection_a2d165d7e676b4d1350aeabb8b503270f}{org.\+jfree.\+data.\+xy.\+X\+Y\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_a11d0eee861d88a758d3a400d428aebc8}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a32f1be24a5e0f73dd538f73ee8c4bd40}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a65026164f00394b483b43d73c8313ade}{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_af4b8db18842a1e178cf7b11575cda566}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_a508f2311f69392da32bad6065be873c4}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/\mbox{\hyperlink{_range_info_8java}{Range\+Info.\+java}}\end{DoxyCompactItemize}

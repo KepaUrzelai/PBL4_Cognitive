@@ -1,0 +1,249 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable}{}\section{org.\+jfree.\+chart.\+plot.\+Zoomable Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable}\index{org.\+jfree.\+chart.\+plot.\+Zoomable@{org.\+jfree.\+chart.\+plot.\+Zoomable}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+Zoomable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.117764cm]{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a7c10a2f8573d8238ce31a4ee8d7dd2db}{is\+Domain\+Zoomable}} ()
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_aee592b4d6f620a0571974e29247a66b1}{is\+Range\+Zoomable}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_orientation}{Plot\+Orientation}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a293ef8fc796608bde4d44dfbac8dfdda}{get\+Orientation}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_abad274f3727b5d7498e9109ed0e9fdb2}{zoom\+Domain\+Axes}} (double factor, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} state, Point2D source)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a5afd53b5a39fea5a55293caf493ca011}{zoom\+Domain\+Axes}} (double factor, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} state, Point2D source, boolean use\+Anchor)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a01e9066d1cc850c7748ed7cb7c8e7f59}{zoom\+Domain\+Axes}} (double lower\+Percent, double upper\+Percent, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} state, Point2D source)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a906118396b0cc076e43cc7c072a3842c}{zoom\+Range\+Axes}} (double factor, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} state, Point2D source)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a0880fd64ad82feb1ba1a3a2b1b6e5541}{zoom\+Range\+Axes}} (double factor, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} state, Point2D source, boolean use\+Anchor)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a727d674650212288e299f6e32f498e07}{zoom\+Range\+Axes}} (double lower\+Percent, double upper\+Percent, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} state, Point2D source)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A plot that is zoomable must implement this interface to provide a mechanism for the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}} to control the zooming. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a293ef8fc796608bde4d44dfbac8dfdda}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a293ef8fc796608bde4d44dfbac8dfdda}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!get\+Orientation@{get\+Orientation}}
+\index{get\+Orientation@{get\+Orientation}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{get\+Orientation()}{getOrientation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_orientation}{Plot\+Orientation}} org.\+jfree.\+chart.\+plot.\+Zoomable.\+get\+Orientation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the orientation of the plot.
+
+\begin{DoxyReturn}{Returns}
+The orientation. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_a07f4e721ab3798eef43b7401d54808f7}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_a12bb9968d853a440fd272506f58d83db}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a5b0c5d43d190ffdfc7cdee341c0e6990}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_ab765cf8f5fe1dcf554b1a223bbe2d158}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_af6a4373b3880bdd8c8e20d009c21c0fc}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a7c10a2f8573d8238ce31a4ee8d7dd2db}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a7c10a2f8573d8238ce31a4ee8d7dd2db}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!is\+Domain\+Zoomable@{is\+Domain\+Zoomable}}
+\index{is\+Domain\+Zoomable@{is\+Domain\+Zoomable}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{is\+Domain\+Zoomable()}{isDomainZoomable()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+Zoomable.\+is\+Domain\+Zoomable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the plot\textquotesingle{}s domain is zoomable, and {\ttfamily false} otherwise.
+
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_aee592b4d6f620a0571974e29247a66b1}{is\+Range\+Zoomable()}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a5f49e32b31451203cae07ffee7cab4db}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_a6a2b57b6fac55866636c24ea8fa92469}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_ad077d0e320047532577c86cc50f1ddec}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_a6685f62ba19ca11218dc82abb997be1e}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_ad76e90758ec2f53171f72cba288621a4}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_aee592b4d6f620a0571974e29247a66b1}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_aee592b4d6f620a0571974e29247a66b1}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!is\+Range\+Zoomable@{is\+Range\+Zoomable}}
+\index{is\+Range\+Zoomable@{is\+Range\+Zoomable}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{is\+Range\+Zoomable()}{isRangeZoomable()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+Zoomable.\+is\+Range\+Zoomable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the plot\textquotesingle{}s range is zoomable, and {\ttfamily false} otherwise.
+
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a7c10a2f8573d8238ce31a4ee8d7dd2db}{is\+Domain\+Zoomable()}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a730a3fdcafdb45f7d21112631dec8d28}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_ae3587c02157e69eeb8909513982e3d23}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_a82c166269eb7715eec2faa1f042616be}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_adc804a5ef2e701dfaf6911c33bd178f3}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a3508600766d21adb9a8aa2a8fe121d71}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_abad274f3727b5d7498e9109ed0e9fdb2}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_abad274f3727b5d7498e9109ed0e9fdb2}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!zoom\+Domain\+Axes@{zoom\+Domain\+Axes}}
+\index{zoom\+Domain\+Axes@{zoom\+Domain\+Axes}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{zoom\+Domain\+Axes()}{zoomDomainAxes()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Zoomable.\+zoom\+Domain\+Axes (\begin{DoxyParamCaption}\item[{double}]{factor,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{state,  }\item[{Point2D}]{source }\end{DoxyParamCaption})}
+
+Multiplies the range on the domain axis/axes by the specified factor. The {\ttfamily source} point can be used in some cases to identify a subplot, or to determine the center of zooming (refer to the documentation of the implementing class for details).
+
+
+\begin{DoxyParams}{Parameters}
+{\em factor} & the zoom factor. \\
+\hline
+{\em state} & the plot state. \\
+\hline
+{\em source} & the source point (in Java2D coordinates).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a906118396b0cc076e43cc7c072a3842c}{zoom\+Range\+Axes(double, Plot\+Rendering\+Info, Point2\+D)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_ae19a0a54a2ea8a5f86da75f04133eb10}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_ac5d755df917d1dc10019555e312d9bf4}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_a6f3f86ba882010148e0529af67b04354}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_a9c12b9a44aa98bcf6d93fcc6a17e2ffd}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a63b01d28b28252133fb877ee3a5bc1c6}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_range_x_y_plot_ac68deced95cb5e078066bf097c0831f9}{org.\+jfree.\+chart.\+plot.\+Combined\+Range\+X\+Y\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a5afd53b5a39fea5a55293caf493ca011}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a5afd53b5a39fea5a55293caf493ca011}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!zoom\+Domain\+Axes@{zoom\+Domain\+Axes}}
+\index{zoom\+Domain\+Axes@{zoom\+Domain\+Axes}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{zoom\+Domain\+Axes()}{zoomDomainAxes()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Zoomable.\+zoom\+Domain\+Axes (\begin{DoxyParamCaption}\item[{double}]{factor,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{state,  }\item[{Point2D}]{source,  }\item[{boolean}]{use\+Anchor }\end{DoxyParamCaption})}
+
+Multiplies the range on the domain axis/axes by the specified factor. The {\ttfamily source} point can be used in some cases to identify a subplot, or to determine the center of zooming (refer to the documentation of the implementing class for details).
+
+
+\begin{DoxyParams}{Parameters}
+{\em factor} & the zoom factor. \\
+\hline
+{\em state} & the plot state. \\
+\hline
+{\em source} & the source point (in Java2D coordinates). \\
+\hline
+{\em use\+Anchor} & use source point as zoom anchor?\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a0880fd64ad82feb1ba1a3a2b1b6e5541}{zoom\+Range\+Axes(double, Plot\+Rendering\+Info, Point2\+D, boolean)}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a68c4a6f62d7e889e17ae696f2e2d24ee}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_a65485f04d307490985a140fc81739066}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_aa78eed5e4d9f39f5422ffda8713ba596}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_affa0829b3d886e9449c46b9de61bd703}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a45c5c0d7ed65f1be28593c65a74757d0}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_range_x_y_plot_a9973c03317f5ab913d1e486274e04964}{org.\+jfree.\+chart.\+plot.\+Combined\+Range\+X\+Y\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a01e9066d1cc850c7748ed7cb7c8e7f59}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a01e9066d1cc850c7748ed7cb7c8e7f59}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!zoom\+Domain\+Axes@{zoom\+Domain\+Axes}}
+\index{zoom\+Domain\+Axes@{zoom\+Domain\+Axes}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{zoom\+Domain\+Axes()}{zoomDomainAxes()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Zoomable.\+zoom\+Domain\+Axes (\begin{DoxyParamCaption}\item[{double}]{lower\+Percent,  }\item[{double}]{upper\+Percent,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{state,  }\item[{Point2D}]{source }\end{DoxyParamCaption})}
+
+Zooms in on the domain axes. The {\ttfamily source} point can be used in some cases to identify a subplot for zooming.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lower\+Percent} & the new lower bound. \\
+\hline
+{\em upper\+Percent} & the new upper bound. \\
+\hline
+{\em state} & the plot state. \\
+\hline
+{\em source} & the source point (in Java2D coordinates).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a727d674650212288e299f6e32f498e07}{zoom\+Range\+Axes(double, double, Plot\+Rendering\+Info, Point2\+D)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a33fd9493f13695916d80e67997446cdd}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_a5d06327bbfefc37d4178546762057477}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_ad96a8912dd48c5e3b0bb22351c4427ad}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_a3cbbcfa1a2488b10bd600f1757d41fec}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a0f98b8231152c36b8c4f1b6df06df922}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_range_x_y_plot_ab76144ac2ca476eaa44eeee4d662b3e6}{org.\+jfree.\+chart.\+plot.\+Combined\+Range\+X\+Y\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a906118396b0cc076e43cc7c072a3842c}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a906118396b0cc076e43cc7c072a3842c}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!zoom\+Range\+Axes@{zoom\+Range\+Axes}}
+\index{zoom\+Range\+Axes@{zoom\+Range\+Axes}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{zoom\+Range\+Axes()}{zoomRangeAxes()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Zoomable.\+zoom\+Range\+Axes (\begin{DoxyParamCaption}\item[{double}]{factor,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{state,  }\item[{Point2D}]{source }\end{DoxyParamCaption})}
+
+Multiplies the range on the range axis/axes by the specified factor. The {\ttfamily source} point can be used in some cases to identify a subplot, or to determine the center of zooming (refer to the documentation of the implementing class for details).
+
+
+\begin{DoxyParams}{Parameters}
+{\em factor} & the zoom factor. \\
+\hline
+{\em state} & the plot state. \\
+\hline
+{\em source} & the source point (in Java2D coordinates).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_abad274f3727b5d7498e9109ed0e9fdb2}{zoom\+Domain\+Axes(double, Plot\+Rendering\+Info, Point2\+D)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_abf465c72eede1ebfa6e3f652d2cf3d61}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_a7f3fe50fa325cb0320e7c718b5c1fde9}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_a1ca0d4ba1f8474c0ebd3e52b3b0f3fac}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_a55a57e5d8466bca6547f2e9eb2115d43}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_aa0775f98292f2aa721aac27a2a5b8cac}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_domain_x_y_plot_a561639c8c710104403d3eb71799b4550}{org.\+jfree.\+chart.\+plot.\+Combined\+Domain\+X\+Y\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_domain_category_plot_a7518473f9d33ae6ee055e2045ff4faec}{org.\+jfree.\+chart.\+plot.\+Combined\+Domain\+Category\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a0880fd64ad82feb1ba1a3a2b1b6e5541}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a0880fd64ad82feb1ba1a3a2b1b6e5541}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!zoom\+Range\+Axes@{zoom\+Range\+Axes}}
+\index{zoom\+Range\+Axes@{zoom\+Range\+Axes}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{zoom\+Range\+Axes()}{zoomRangeAxes()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Zoomable.\+zoom\+Range\+Axes (\begin{DoxyParamCaption}\item[{double}]{factor,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{state,  }\item[{Point2D}]{source,  }\item[{boolean}]{use\+Anchor }\end{DoxyParamCaption})}
+
+Multiplies the range on the range axis/axes by the specified factor. The {\ttfamily source} point can be used in some cases to identify a subplot, or to determine the center of zooming (refer to the documentation of the implementing class for details).
+
+
+\begin{DoxyParams}{Parameters}
+{\em factor} & the zoom factor. \\
+\hline
+{\em state} & the plot state. \\
+\hline
+{\em source} & the source point (in Java2D coordinates). \\
+\hline
+{\em use\+Anchor} & use source point as zoom anchor?\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_abad274f3727b5d7498e9109ed0e9fdb2}{zoom\+Domain\+Axes(double, Plot\+Rendering\+Info, Point2\+D)}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_a8d8c5ccab0c266ddad093522ca67a11c}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_a50f9eeb30e6ce295c065e8871797bd2b}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_a1b8c2c7c975e4fb6cfce5a0803f823c0}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_abbfd841a9dc1d2cd6d28db24f19f7968}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a08ca81e03a7066d972eb3d92ddb5697e}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_domain_x_y_plot_a5339ad02fe1b8ca65a4ba2acfbc89f92}{org.\+jfree.\+chart.\+plot.\+Combined\+Domain\+X\+Y\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_domain_category_plot_a83fc502df5988f7ac9e6483c8cd72657}{org.\+jfree.\+chart.\+plot.\+Combined\+Domain\+Category\+Plot}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a727d674650212288e299f6e32f498e07}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a727d674650212288e299f6e32f498e07}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}!zoom\+Range\+Axes@{zoom\+Range\+Axes}}
+\index{zoom\+Range\+Axes@{zoom\+Range\+Axes}!org\+::jfree\+::chart\+::plot\+::\+Zoomable@{org\+::jfree\+::chart\+::plot\+::\+Zoomable}}
+\subsubsection{\texorpdfstring{zoom\+Range\+Axes()}{zoomRangeAxes()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Zoomable.\+zoom\+Range\+Axes (\begin{DoxyParamCaption}\item[{double}]{lower\+Percent,  }\item[{double}]{upper\+Percent,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{state,  }\item[{Point2D}]{source }\end{DoxyParamCaption})}
+
+Zooms in on the range axes. The {\ttfamily source} point can be used in some cases to identify a subplot for zooming.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lower\+Percent} & the new lower bound. \\
+\hline
+{\em upper\+Percent} & the new upper bound. \\
+\hline
+{\em state} & the plot state. \\
+\hline
+{\em source} & the source point (in Java2D coordinates).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_zoomable_a01e9066d1cc850c7748ed7cb7c8e7f59}{zoom\+Domain\+Axes(double, double, Plot\+Rendering\+Info, Point2\+D)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot_ade26392e47e4d08c715c421d5c3c2278}{org.\+jfree.\+chart.\+plot.\+X\+Y\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot_ace3bbe4acfb4b8d7ecdc91c0456e4ce1}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot_a14b041667c009ad10d3c57b27fd677a8}{org.\+jfree.\+chart.\+plot.\+Polar\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_thermometer_plot_a10c451885ff51839a91fe7e46a6c645d}{org.\+jfree.\+chart.\+plot.\+Thermometer\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_fast_scatter_plot_a057819db1adfa16561ac35f9b978e045}{org.\+jfree.\+chart.\+plot.\+Fast\+Scatter\+Plot}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_domain_x_y_plot_ac9a94a2ee716bca23870d7c7731078ac}{org.\+jfree.\+chart.\+plot.\+Combined\+Domain\+X\+Y\+Plot}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_combined_domain_category_plot_adea639250417566ee06ca52727c781f9}{org.\+jfree.\+chart.\+plot.\+Combined\+Domain\+Category\+Plot}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/\mbox{\hyperlink{_zoomable_8java}{Zoomable.\+java}}\end{DoxyCompactItemize}

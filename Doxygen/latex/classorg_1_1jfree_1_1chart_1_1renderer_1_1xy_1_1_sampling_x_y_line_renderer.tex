@@ -1,0 +1,209 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer}{}\section{org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer}\index{org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer@{org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer}}
+Inheritance diagram for org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.693498cm]{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries State}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a02048ebf97d548039ade98343463dffc}{Sampling\+X\+Y\+Line\+Renderer}} ()
+\item 
+Shape \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a10b79f154b6f60fa5b48ddfc64405e03}{get\+Legend\+Line}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a14fdb28396558b7d0c00cae5af9ea755}{set\+Legend\+Line}} (Shape line)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a21ee33734eeee27f54d8cdb0b9c51e11}{get\+Pass\+Count}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_state}{X\+Y\+Item\+Renderer\+State}} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a623879d6b839709aec1a7e112090816a}{initialise}} (Graphics2D g2, Rectangle2D data\+Area, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}} plot, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} data, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_ac3d7b9a5e589a98508f2907005524f5b}{draw\+Item}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_state}{X\+Y\+Item\+Renderer\+State}} state, Rectangle2D data\+Area, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}} plot, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} domain\+Axis, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} range\+Axis, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, int item, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair_state}{Crosshair\+State}} crosshair\+State, int pass)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_afe06934abdfb234ec5a2e30cc6ebed15}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a548d0be1dc889073dfd97413764d7a9d}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A renderer that draws line charts. The renderer doesn\textquotesingle{}t necessarily plot every data item -\/ instead, it tries to plot only those data items that make a difference to the visual output (the other data items are skipped). ~\newline
+This renderer is designed for use with the \mbox{\hyperlink{}{X\+Y\+Plot}} class.
+
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a02048ebf97d548039ade98343463dffc}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a02048ebf97d548039ade98343463dffc}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}!Sampling\+X\+Y\+Line\+Renderer@{Sampling\+X\+Y\+Line\+Renderer}}
+\index{Sampling\+X\+Y\+Line\+Renderer@{Sampling\+X\+Y\+Line\+Renderer}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}}
+\subsubsection{\texorpdfstring{Sampling\+X\+Y\+Line\+Renderer()}{SamplingXYLineRenderer()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer.\+Sampling\+X\+Y\+Line\+Renderer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new renderer. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_afe06934abdfb234ec5a2e30cc6ebed15}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_afe06934abdfb234ec5a2e30cc6ebed15}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the renderer.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if the clone cannot be created. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_ac3d7b9a5e589a98508f2907005524f5b}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_ac3d7b9a5e589a98508f2907005524f5b}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}!draw\+Item@{draw\+Item}}
+\index{draw\+Item@{draw\+Item}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}}
+\subsubsection{\texorpdfstring{draw\+Item()}{drawItem()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer.\+draw\+Item (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_state}{X\+Y\+Item\+Renderer\+State}}}]{state,  }\item[{Rectangle2D}]{data\+Area,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}}}]{plot,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{domain\+Axis,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{range\+Axis,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{int}]{item,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair_state}{Crosshair\+State}}}]{crosshair\+State,  }\item[{int}]{pass }\end{DoxyParamCaption})}
+
+Draws the visual representation of a single data item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em state} & the renderer state. \\
+\hline
+{\em data\+Area} & the area within which the data is being drawn. \\
+\hline
+{\em info} & collects information about the drawing. \\
+\hline
+{\em plot} & the plot (can be used to obtain standard color information etc). \\
+\hline
+{\em domain\+Axis} & the domain axis. \\
+\hline
+{\em range\+Axis} & the range axis. \\
+\hline
+{\em dataset} & the dataset. \\
+\hline
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based). \\
+\hline
+{\em crosshair\+State} & crosshair information for the plot ({\ttfamily null} permitted). \\
+\hline
+{\em pass} & the pass index. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_ad867040a3ea09f5127596aacdd94586a}{org.\+jfree.\+chart.\+renderer.\+xy.\+X\+Y\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a548d0be1dc889073dfd97413764d7a9d}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a548d0be1dc889073dfd97413764d7a9d}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this renderer for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} or {\ttfamily false}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a10b79f154b6f60fa5b48ddfc64405e03}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a10b79f154b6f60fa5b48ddfc64405e03}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}!get\+Legend\+Line@{get\+Legend\+Line}}
+\index{get\+Legend\+Line@{get\+Legend\+Line}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Legend\+Line()}{getLegendLine()}}
+{\footnotesize\ttfamily Shape org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer.\+get\+Legend\+Line (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the shape used to represent a line in the legend.
+
+\begin{DoxyReturn}{Returns}
+The legend line (never {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a14fdb28396558b7d0c00cae5af9ea755}{set\+Legend\+Line(\+Shape)}}
+\end{DoxySeeAlso}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000206}{Deprecated}}]As of version 1.\+0.\+14, this method is deprecated. You should use the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_abstract_renderer_aa45bf25afaedd7148a78f4e4d29cf572}{get\+Base\+Legend\+Shape()}} method instead. \end{DoxyRefDesc}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a21ee33734eeee27f54d8cdb0b9c51e11}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a21ee33734eeee27f54d8cdb0b9c51e11}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}!get\+Pass\+Count@{get\+Pass\+Count}}
+\index{get\+Pass\+Count@{get\+Pass\+Count}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Pass\+Count()}{getPassCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer.\+get\+Pass\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of passes through the data that the renderer requires in order to draw the chart. Most charts will require a single pass, but some require two passes.
+
+\begin{DoxyReturn}{Returns}
+The pass count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_afe42489776da2a4c7e64838382bbaea1}{org.\+jfree.\+chart.\+renderer.\+xy.\+X\+Y\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a623879d6b839709aec1a7e112090816a}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a623879d6b839709aec1a7e112090816a}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}!initialise@{initialise}}
+\index{initialise@{initialise}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}}
+\subsubsection{\texorpdfstring{initialise()}{initialise()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_state}{X\+Y\+Item\+Renderer\+State}} org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer.\+initialise (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{data\+Area,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}}}]{plot,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{data,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info }\end{DoxyParamCaption})}
+
+Initialises the renderer. 
+
+This method will be called before the first item is rendered, giving the renderer an opportunity to initialise any state information it wants to maintain. The renderer can do nothing if it chooses.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em data\+Area} & the area inside the axes. \\
+\hline
+{\em plot} & the plot. \\
+\hline
+{\em data} & the data. \\
+\hline
+{\em info} & an optional info collection object to return data back to the caller.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The renderer state. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_ad3313de1104e462f8299b58ce9901cfb}{org.\+jfree.\+chart.\+renderer.\+xy.\+X\+Y\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a14fdb28396558b7d0c00cae5af9ea755}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a14fdb28396558b7d0c00cae5af9ea755}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}!set\+Legend\+Line@{set\+Legend\+Line}}
+\index{set\+Legend\+Line@{set\+Legend\+Line}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Sampling\+X\+Y\+Line\+Renderer}}
+\subsubsection{\texorpdfstring{set\+Legend\+Line()}{setLegendLine()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+xy.\+Sampling\+X\+Y\+Line\+Renderer.\+set\+Legend\+Line (\begin{DoxyParamCaption}\item[{Shape}]{line }\end{DoxyParamCaption})}
+
+Sets the shape used as a line in each legend item and sends a \mbox{\hyperlink{}{Renderer\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em line} & the line ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_sampling_x_y_line_renderer_a10b79f154b6f60fa5b48ddfc64405e03}{get\+Legend\+Line()}}
+\end{DoxySeeAlso}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000207}{Deprecated}}]As of version 1.\+0.\+14, this method is deprecated. You should use the \mbox{\hyperlink{}{set\+Base\+Legend\+Shape(java.\+awt.\+Shape)}} method instead. \end{DoxyRefDesc}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/xy/\mbox{\hyperlink{_sampling_x_y_line_renderer_8java}{Sampling\+X\+Y\+Line\+Renderer.\+java}}\end{DoxyCompactItemize}

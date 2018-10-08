@@ -1,0 +1,93 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator}{}\section{org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+Calculator Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator}\index{org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+Calculator@{org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+Calculator}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_item}{Box\+And\+Whisker\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_a20ecd03bb4a9de9181bb655f19e8805f}{calculate\+Box\+And\+Whisker\+Statistics}} (List values)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_item}{Box\+And\+Whisker\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_aac9bd67c9bd6f5ff2c79e226254f9e63}{calculate\+Box\+And\+Whisker\+Statistics}} (List values, boolean strip\+Null\+And\+Na\+N\+Items)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_a0298bf482027f1bdf377a80f84697364}{calculate\+Q1}} (List values)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_acf1792d89cb7bb1f41ccb1d054628f98}{calculate\+Q3}} (List values)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A utility class that calculates the mean, median, quartiles Q1 and Q3, plus a list of outlier values...all from an arbitrary list of {\ttfamily Number} objects. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_a20ecd03bb4a9de9181bb655f19e8805f}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_a20ecd03bb4a9de9181bb655f19e8805f}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator}!calculate\+Box\+And\+Whisker\+Statistics@{calculate\+Box\+And\+Whisker\+Statistics}}
+\index{calculate\+Box\+And\+Whisker\+Statistics@{calculate\+Box\+And\+Whisker\+Statistics}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator}}
+\subsubsection{\texorpdfstring{calculate\+Box\+And\+Whisker\+Statistics()}{calculateBoxAndWhiskerStatistics()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_item}{Box\+And\+Whisker\+Item}} org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+Calculator.\+calculate\+Box\+And\+Whisker\+Statistics (\begin{DoxyParamCaption}\item[{List}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the statistics required for a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_item}{Box\+And\+Whisker\+Item}} from a list of {\ttfamily Number} objects. Any items in the list that are {\ttfamily null}, not an instance of {\ttfamily Number}, or equivalent to {\ttfamily Double.\+NaN}, will be ignored.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & a list of numbers (a {\ttfamily null} list is not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A box-\/and-\/whisker item. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_aac9bd67c9bd6f5ff2c79e226254f9e63}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_aac9bd67c9bd6f5ff2c79e226254f9e63}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator}!calculate\+Box\+And\+Whisker\+Statistics@{calculate\+Box\+And\+Whisker\+Statistics}}
+\index{calculate\+Box\+And\+Whisker\+Statistics@{calculate\+Box\+And\+Whisker\+Statistics}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator}}
+\subsubsection{\texorpdfstring{calculate\+Box\+And\+Whisker\+Statistics()}{calculateBoxAndWhiskerStatistics()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_item}{Box\+And\+Whisker\+Item}} org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+Calculator.\+calculate\+Box\+And\+Whisker\+Statistics (\begin{DoxyParamCaption}\item[{List}]{values,  }\item[{boolean}]{strip\+Null\+And\+Na\+N\+Items }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the statistics required for a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_item}{Box\+And\+Whisker\+Item}} from a list of {\ttfamily Number} objects. Any items in the list that are {\ttfamily null}, not an instance of {\ttfamily Number}, or equivalent to {\ttfamily Double.\+NaN}, will be ignored.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & a list of numbers (a {\ttfamily null} list is not permitted). \\
+\hline
+{\em strip\+Null\+And\+Na\+N\+Items} & a flag that controls the handling of null and NaN items.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A box-\/and-\/whisker item.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+3 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_a0298bf482027f1bdf377a80f84697364}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_a0298bf482027f1bdf377a80f84697364}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator}!calculate\+Q1@{calculate\+Q1}}
+\index{calculate\+Q1@{calculate\+Q1}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator}}
+\subsubsection{\texorpdfstring{calculate\+Q1()}{calculateQ1()}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+Calculator.\+calculate\+Q1 (\begin{DoxyParamCaption}\item[{List}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the first quartile for a list of numbers in ascending order. If the items in the list are not in ascending order, the result is unspecified. If the list contains items that are {\ttfamily null}, not an instance of {\ttfamily Number}, or equivalent to {\ttfamily Double.\+NaN}, the result is unspecified.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the numbers in ascending order ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The first quartile. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_acf1792d89cb7bb1f41ccb1d054628f98}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_calculator_acf1792d89cb7bb1f41ccb1d054628f98}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator}!calculate\+Q3@{calculate\+Q3}}
+\index{calculate\+Q3@{calculate\+Q3}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+Calculator}}
+\subsubsection{\texorpdfstring{calculate\+Q3()}{calculateQ3()}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+Calculator.\+calculate\+Q3 (\begin{DoxyParamCaption}\item[{List}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the third quartile for a list of numbers in ascending order. If the items in the list are not in ascending order, the result is unspecified. If the list contains items that are {\ttfamily null}, not an instance of {\ttfamily Number}, or equivalent to {\ttfamily Double.\+NaN}, the result is unspecified.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the list of values ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The third quartile. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/statistics/\mbox{\hyperlink{_box_and_whisker_calculator_8java}{Box\+And\+Whisker\+Calculator.\+java}}\end{DoxyCompactItemize}

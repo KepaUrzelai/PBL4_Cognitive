@@ -1,0 +1,853 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection}{}\section{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection}\index{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection@{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection}}
+Inheritance diagram for org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.714286cm]{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_1_1_value_sequence}{Value\+Sequence}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a394b0423333f069e0085afe6c706e599}{Dynamic\+Time\+Series\+Collection}} (int n\+Series, int n\+Moments)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a34781988574ade62ae8ce2bf97538db6}{Dynamic\+Time\+Series\+Collection}} (int n\+Series, int n\+Moments, Time\+Zone zone)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac8825c45c3b3549c27dbbfae9ca817f6}{Dynamic\+Time\+Series\+Collection}} (int n\+Series, int n\+Moments, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} time\+Sample)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_adf161589329e942dca7b1918f3dde4fe}{Dynamic\+Time\+Series\+Collection}} (int n\+Series, int n\+Moments, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} time\+Sample, Time\+Zone zone)
+\item 
+synchronized long \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3f573d0dbae30daea40d586a5f80d367}{set\+Time\+Base}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} start)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a91be4bef04846e319560bc485c0482f4}{get\+Position}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a96b46efb9a3ddc90fb678ba356e843e6}{set\+Position}} (int position)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac66d1c2bdd1fdb94e7ed868c501b663e}{add\+Series}} (float\mbox{[}$\,$\mbox{]} values, int series\+Number, Comparable series\+Key)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aed9dbb5d298dd4351486dd0229364222}{set\+Series\+Key}} (int series\+Number, Comparable key)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad88bce5caf7774e01dd88b9b02183744}{add\+Value}} (int series\+Number, int index, float value)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a52de34df9ae5ca987aa54da82cd9a8b9}{get\+Series\+Count}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a6d6c9707eb80cec828d2c9c70d5be33e}{get\+Item\+Count}} (int series)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_acac214fc3798d2fa365060d00c9e7caf}{offset\+From\+Newest}} (int delta)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aba7ddce43c331b3dcf877eec01dbc6c7}{offset\+From\+Oldest}} (int delta)
+\item 
+synchronized \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a5ec2d3af4a7ef989e2caf77ffe8121dc}{advance\+Time}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac59d3cdf115f0e93b1741ddf30557779}{invalidate\+Range\+Info}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a5823fd46a425e925939836ae21a4f40d}{get\+Oldest\+Index}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3d0312193c19eff389626044e4e9d28d}{get\+Newest\+Index}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aa6259174ec34b944b2cd14a36562c01a}{append\+Data}} (float\mbox{[}$\,$\mbox{]} new\+Data)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a22d2ef9d2a5591bbb6e5569f11db5160}{append\+Data}} (float\mbox{[}$\,$\mbox{]} new\+Data, int insertion\+Index, int refresh)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aa773dfdb358adda976f97820415828cc}{get\+Newest\+Time}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a2d617efe9eb25065ada7b93af24f9001}{get\+Oldest\+Time}} ()
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a8f658c59c2fa6d670e529c5e484a585e}{getX}} (int series, int item)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a9c955683707aa2d6cc74a4fde7d4cf7a}{get\+Y\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a478c24e8f03cfbedd6464ea36d5d15f3}{getY}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac8f51b76cc0eede515c78e4cd22e7c53}{get\+StartX}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ab9ced1fc76fea263d7a0ae0072e42f53}{get\+EndX}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a9fb776918a455a76c7d03b80cc75703b}{get\+StartY}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a06eb703a8006848633a99341f68a24c4}{get\+EndY}} (int series, int item)
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a138c01cd161ca774ab49979bb304d7f5}{get\+Series\+Key}} (int series)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_afdb5cebf56ab6b2bfebf8cec7d734782}{get\+Domain\+Lower\+Bound}} (boolean include\+Interval)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a471679946440bd1e4a7b9fd2f8c7b21a}{get\+Domain\+Upper\+Bound}} (boolean include\+Interval)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad6caf2b6e69b6d580a3c301dd786ca9e}{get\+Domain\+Bounds}} (boolean include\+Interval)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a750bce6796644544dc4a084164e8596d}{get\+Range\+Lower\+Bound}} (boolean include\+Interval)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad50df36bbe93b4ac342e1dffe79f7316}{get\+Range\+Upper\+Bound}} (boolean include\+Interval)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3b7aac25736fd7122623ee6ae64104f7}{get\+Range\+Bounds}} (boolean include\+Interval)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_acc6f270d26c51df6a908fb08d99c7f47}{S\+T\+A\+RT}} = 0
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aca0d552c1fe59dc1e638c0831d907632}{M\+I\+D\+D\+LE}} = 1
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad0d7ba64f400f15c297d99b6aa44f814}{E\+ND}} = 2
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a53e8bceaf2ef237920ffbddb4deae196}{find\+Domain\+Limits}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a0d5d8b5a6a60f5d1486860e6cac7aad8}{translate\+Get}} (int to\+Fetch)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a968fe69ec54f5921ef43dda0db976e85}{wrap\+Offset}} (int proto\+Index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a27ebe930c406f670d9ca3021374abaf6}{find\+Max\+Value}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a72b3d61ac7ea12aefaa43303334be5cf}{fire\+Series\+Changed}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aad8926b87366b84034d09bea893e0c0e}{history\+Count}}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3579683247506ae81816c9a839465ede}{points\+In\+Time}}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_1_1_value_sequence}{Value\+Sequence}} \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3823ae6f83ca54d5e730fb82b7eb17f7}{value\+History}}
+\item 
+Calendar \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3cabbbf6b6524b3a5acd9e55f085ca15}{working\+Calendar}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A dynamic dataset. 
+
+Like Fast\+Time\+Series\+Collection, this class is a functional replacement for J\+Free\+Chart\textquotesingle{}s \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection}{Time\+Series\+Collection}} {\itshape and} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} classes. Fast\+Time\+Series\+Collection is appropriate for a fixed time range; for real-\/time applications this subclass adds the ability to append new data and discard the oldest. In this class, the arrays used in Fast\+Time\+Series\+Collection become F\+I\+FO\textquotesingle{}s. N\+O\+TE\+:As presented here, all data is assumed $>$= 0, an assumption which is embodied only in methods associated with interface \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info}{Range\+Info}}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a394b0423333f069e0085afe6c706e599}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a394b0423333f069e0085afe6c706e599}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!Dynamic\+Time\+Series\+Collection@{Dynamic\+Time\+Series\+Collection}}
+\index{Dynamic\+Time\+Series\+Collection@{Dynamic\+Time\+Series\+Collection}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{Dynamic\+Time\+Series\+Collection()}{DynamicTimeSeriesCollection()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+Dynamic\+Time\+Series\+Collection (\begin{DoxyParamCaption}\item[{int}]{n\+Series,  }\item[{int}]{n\+Moments }\end{DoxyParamCaption})}
+
+Constructs a dataset with capacity for N series, tied to default timezone.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+Series} & the number of series to be accommodated. \\
+\hline
+{\em n\+Moments} & the number of Time\+Periods to be spanned. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a34781988574ade62ae8ce2bf97538db6}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a34781988574ade62ae8ce2bf97538db6}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!Dynamic\+Time\+Series\+Collection@{Dynamic\+Time\+Series\+Collection}}
+\index{Dynamic\+Time\+Series\+Collection@{Dynamic\+Time\+Series\+Collection}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{Dynamic\+Time\+Series\+Collection()}{DynamicTimeSeriesCollection()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+Dynamic\+Time\+Series\+Collection (\begin{DoxyParamCaption}\item[{int}]{n\+Series,  }\item[{int}]{n\+Moments,  }\item[{Time\+Zone}]{zone }\end{DoxyParamCaption})}
+
+Constructs an empty dataset, tied to a specific timezone.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+Series} & the number of series to be accommodated \\
+\hline
+{\em n\+Moments} & the number of Time\+Periods to be spanned \\
+\hline
+{\em zone} & the timezone. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac8825c45c3b3549c27dbbfae9ca817f6}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac8825c45c3b3549c27dbbfae9ca817f6}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!Dynamic\+Time\+Series\+Collection@{Dynamic\+Time\+Series\+Collection}}
+\index{Dynamic\+Time\+Series\+Collection@{Dynamic\+Time\+Series\+Collection}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{Dynamic\+Time\+Series\+Collection()}{DynamicTimeSeriesCollection()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+Dynamic\+Time\+Series\+Collection (\begin{DoxyParamCaption}\item[{int}]{n\+Series,  }\item[{int}]{n\+Moments,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}}}]{time\+Sample }\end{DoxyParamCaption})}
+
+Creates a new dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+Series} & the number of series. \\
+\hline
+{\em n\+Moments} & the number of items per series. \\
+\hline
+{\em time\+Sample} & a time period sample. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_adf161589329e942dca7b1918f3dde4fe}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_adf161589329e942dca7b1918f3dde4fe}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!Dynamic\+Time\+Series\+Collection@{Dynamic\+Time\+Series\+Collection}}
+\index{Dynamic\+Time\+Series\+Collection@{Dynamic\+Time\+Series\+Collection}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{Dynamic\+Time\+Series\+Collection()}{DynamicTimeSeriesCollection()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+Dynamic\+Time\+Series\+Collection (\begin{DoxyParamCaption}\item[{int}]{n\+Series,  }\item[{int}]{n\+Moments,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}}}]{time\+Sample,  }\item[{Time\+Zone}]{zone }\end{DoxyParamCaption})}
+
+Creates a new dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+Series} & the number of series. \\
+\hline
+{\em n\+Moments} & the number of items per series. \\
+\hline
+{\em time\+Sample} & a time period sample. \\
+\hline
+{\em zone} & the time zone. \\
+\hline
+\end{DoxyParams}
+Expand the following for all defined Time\+Periods\+:
+
+.. etc.... 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac66d1c2bdd1fdb94e7ed868c501b663e}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac66d1c2bdd1fdb94e7ed868c501b663e}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!add\+Series@{add\+Series}}
+\index{add\+Series@{add\+Series}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{add\+Series()}{addSeries()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+add\+Series (\begin{DoxyParamCaption}\item[{float \mbox{[}$\,$\mbox{]}}]{values,  }\item[{int}]{series\+Number,  }\item[{Comparable}]{series\+Key }\end{DoxyParamCaption})}
+
+Adds a series to the dataset. Only the y-\/values are supplied, the x-\/values are specified elsewhere.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the y-\/values. \\
+\hline
+{\em series\+Number} & the series index (zero-\/based). \\
+\hline
+{\em series\+Key} & the series key.\\
+\hline
+\end{DoxyParams}
+Use this as-\/is during setup only, or add the synchronized keyword around the copy loop. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad88bce5caf7774e01dd88b9b02183744}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad88bce5caf7774e01dd88b9b02183744}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!add\+Value@{add\+Value}}
+\index{add\+Value@{add\+Value}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{add\+Value()}{addValue()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+add\+Value (\begin{DoxyParamCaption}\item[{int}]{series\+Number,  }\item[{int}]{index,  }\item[{float}]{value }\end{DoxyParamCaption})}
+
+Adds a value to a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Number} & the series index. \\
+\hline
+{\em index} & ??. \\
+\hline
+{\em value} & the value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a5ec2d3af4a7ef989e2caf77ffe8121dc}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a5ec2d3af4a7ef989e2caf77ffe8121dc}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!advance\+Time@{advance\+Time}}
+\index{advance\+Time@{advance\+Time}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{advance\+Time()}{advanceTime()}}
+{\footnotesize\ttfamily synchronized \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+advance\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Adjust the array offset as needed when a new time-\/period is added\+: Increments the indices \char`\"{}oldest\+At\char`\"{} and \char`\"{}newest\+At\char`\"{}, mod(array length), zeroes the series values at newest\+At, returns the new \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}}.
+
+\begin{DoxyReturn}{Returns}
+The new time period. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aa6259174ec34b944b2cd14a36562c01a}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aa6259174ec34b944b2cd14a36562c01a}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!append\+Data@{append\+Data}}
+\index{append\+Data@{append\+Data}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{append\+Data()}{appendData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+append\+Data (\begin{DoxyParamCaption}\item[{float \mbox{[}$\,$\mbox{]}}]{new\+Data }\end{DoxyParamCaption})}
+
+Appends new data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Data} & the data. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a22d2ef9d2a5591bbb6e5569f11db5160}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a22d2ef9d2a5591bbb6e5569f11db5160}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!append\+Data@{append\+Data}}
+\index{append\+Data@{append\+Data}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{append\+Data()}{appendData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+append\+Data (\begin{DoxyParamCaption}\item[{float \mbox{[}$\,$\mbox{]}}]{new\+Data,  }\item[{int}]{insertion\+Index,  }\item[{int}]{refresh }\end{DoxyParamCaption})}
+
+Appends data at specified index, for loading up with data from file(s).
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Data} & the data \\
+\hline
+{\em insertion\+Index} & the index value at which to put it \\
+\hline
+{\em refresh} & value of n in \char`\"{}refresh the display on every nth call\char`\"{} (ignored if $<$= 0 ) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a53e8bceaf2ef237920ffbddb4deae196}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a53e8bceaf2ef237920ffbddb4deae196}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!find\+Domain\+Limits@{find\+Domain\+Limits}}
+\index{find\+Domain\+Limits@{find\+Domain\+Limits}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{find\+Domain\+Limits()}{findDomainLimits()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+find\+Domain\+Limits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Finds the domain limits. Note\+: this doesn\textquotesingle{}t need to be synchronized because it\textquotesingle{}s called from within another method that already is. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a27ebe930c406f670d9ca3021374abaf6}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a27ebe930c406f670d9ca3021374abaf6}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!find\+Max\+Value@{find\+Max\+Value}}
+\index{find\+Max\+Value@{find\+Max\+Value}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{find\+Max\+Value()}{findMaxValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+find\+Max\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Returns the maximum value.
+
+\begin{DoxyReturn}{Returns}
+The maximum value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a72b3d61ac7ea12aefaa43303334be5cf}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a72b3d61ac7ea12aefaa43303334be5cf}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!fire\+Series\+Changed@{fire\+Series\+Changed}}
+\index{fire\+Series\+Changed@{fire\+Series\+Changed}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{fire\+Series\+Changed()}{fireSeriesChanged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+fire\+Series\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad6caf2b6e69b6d580a3c301dd786ca9e}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad6caf2b6e69b6d580a3c301dd786ca9e}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Domain\+Bounds@{get\+Domain\+Bounds}}
+\index{get\+Domain\+Bounds@{get\+Domain\+Bounds}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Domain\+Bounds()}{getDomainBounds()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Domain\+Bounds (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the range of the values in this dataset\textquotesingle{}s domain.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the x-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The range. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_domain_info_aeb90c8bc6d27c82c39abc99622846732}{org.\+jfree.\+data.\+Domain\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_afdb5cebf56ab6b2bfebf8cec7d734782}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_afdb5cebf56ab6b2bfebf8cec7d734782}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Domain\+Lower\+Bound@{get\+Domain\+Lower\+Bound}}
+\index{get\+Domain\+Lower\+Bound@{get\+Domain\+Lower\+Bound}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Domain\+Lower\+Bound()}{getDomainLowerBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Domain\+Lower\+Bound (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the minimum x-\/value in the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the x-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The minimum value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_domain_info_ae1b4d9d415fe0a79bd2ce0f6e0a3f489}{org.\+jfree.\+data.\+Domain\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a471679946440bd1e4a7b9fd2f8c7b21a}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a471679946440bd1e4a7b9fd2f8c7b21a}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Domain\+Upper\+Bound@{get\+Domain\+Upper\+Bound}}
+\index{get\+Domain\+Upper\+Bound@{get\+Domain\+Upper\+Bound}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Domain\+Upper\+Bound()}{getDomainUpperBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Domain\+Upper\+Bound (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the maximum x-\/value in the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the x-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The maximum value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_domain_info_a00e455f8db5bd8515266000cacc74e89}{org.\+jfree.\+data.\+Domain\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ab9ced1fc76fea263d7a0ae0072e42f53}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ab9ced1fc76fea263d7a0ae0072e42f53}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+EndX@{get\+EndX}}
+\index{get\+EndX@{get\+EndX}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+End\+X()}{getEndX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+EndX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the end x-\/value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_interval_x_y_dataset_a93161a6d6c1db37cfac030239c62ab0a}{org.\+jfree.\+data.\+xy.\+Interval\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a06eb703a8006848633a99341f68a24c4}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a06eb703a8006848633a99341f68a24c4}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+EndY@{get\+EndY}}
+\index{get\+EndY@{get\+EndY}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+End\+Y()}{getEndY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+EndY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the end y-\/value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_interval_x_y_dataset_ae938af574bad07e7f47a8b423223ef9b}{org.\+jfree.\+data.\+xy.\+Interval\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a6d6c9707eb80cec828d2c9c70d5be33e}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a6d6c9707eb80cec828d2c9c70d5be33e}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Item\+Count (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the number of items in a series. 
+
+For this implementation, all series have the same number of items.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_ae81f9de91dfcae45028fc8a486a119da}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3d0312193c19eff389626044e4e9d28d}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3d0312193c19eff389626044e4e9d28d}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Newest\+Index@{get\+Newest\+Index}}
+\index{get\+Newest\+Index@{get\+Newest\+Index}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Newest\+Index()}{getNewestIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Newest\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the index of the newest data item.
+
+\begin{DoxyReturn}{Returns}
+The index. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aa773dfdb358adda976f97820415828cc}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aa773dfdb358adda976f97820415828cc}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Newest\+Time@{get\+Newest\+Time}}
+\index{get\+Newest\+Time@{get\+Newest\+Time}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Newest\+Time()}{getNewestTime()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Newest\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the newest time.
+
+\begin{DoxyReturn}{Returns}
+The newest time. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a5823fd46a425e925939836ae21a4f40d}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a5823fd46a425e925939836ae21a4f40d}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Oldest\+Index@{get\+Oldest\+Index}}
+\index{get\+Oldest\+Index@{get\+Oldest\+Index}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Oldest\+Index()}{getOldestIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Oldest\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+End, positive-\/data-\/only code ~\newline
+Returns the index of the oldest data item.
+
+\begin{DoxyReturn}{Returns}
+The index. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a2d617efe9eb25065ada7b93af24f9001}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a2d617efe9eb25065ada7b93af24f9001}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Oldest\+Time@{get\+Oldest\+Time}}
+\index{get\+Oldest\+Time@{get\+Oldest\+Time}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Oldest\+Time()}{getOldestTime()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Oldest\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the oldest time.
+
+\begin{DoxyReturn}{Returns}
+The oldest time. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a91be4bef04846e319560bc485c0482f4}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a91be4bef04846e319560bc485c0482f4}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the x position type (S\+T\+A\+RT, M\+I\+D\+D\+LE or E\+ND).
+
+\begin{DoxyReturn}{Returns}
+The x position type. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3b7aac25736fd7122623ee6ae64104f7}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3b7aac25736fd7122623ee6ae64104f7}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Range\+Bounds@{get\+Range\+Bounds}}
+\index{get\+Range\+Bounds@{get\+Range\+Bounds}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Range\+Bounds()}{getRangeBounds()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Range\+Bounds (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the value range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The range. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_a2752094d868839b5565131a5bdd8e75e}{org.\+jfree.\+data.\+Range\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a750bce6796644544dc4a084164e8596d}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a750bce6796644544dc4a084164e8596d}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Range\+Lower\+Bound@{get\+Range\+Lower\+Bound}}
+\index{get\+Range\+Lower\+Bound@{get\+Range\+Lower\+Bound}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Range\+Lower\+Bound()}{getRangeLowerBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Range\+Lower\+Bound (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the minimum range value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The minimum range value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_ab0187015bbe75ca00a62a71de72c1a1d}{org.\+jfree.\+data.\+Range\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad50df36bbe93b4ac342e1dffe79f7316}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad50df36bbe93b4ac342e1dffe79f7316}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Range\+Upper\+Bound@{get\+Range\+Upper\+Bound}}
+\index{get\+Range\+Upper\+Bound@{get\+Range\+Upper\+Bound}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Range\+Upper\+Bound()}{getRangeUpperBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Range\+Upper\+Bound (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the maximum range value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The maximum range value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_a85987bb398c50351d190b2b888ff3348}{org.\+jfree.\+data.\+Range\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a52de34df9ae5ca987aa54da82cd9a8b9}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a52de34df9ae5ca987aa54da82cd9a8b9}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Series\+Count@{get\+Series\+Count}}
+\index{get\+Series\+Count@{get\+Series\+Count}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Series\+Count()}{getSeriesCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Series\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of series in the collection.
+
+\begin{DoxyReturn}{Returns}
+The series count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a138c01cd161ca774ab49979bb304d7f5}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a138c01cd161ca774ab49979bb304d7f5}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Series\+Key@{get\+Series\+Key}}
+\index{get\+Series\+Key@{get\+Series\+Key}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Series\+Key()}{getSeriesKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Series\+Key (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the key for a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The key. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a60488892b2314a05a012999e26a74178}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac8f51b76cc0eede515c78e4cd22e7c53}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac8f51b76cc0eede515c78e4cd22e7c53}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+StartX@{get\+StartX}}
+\index{get\+StartX@{get\+StartX}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Start\+X()}{getStartX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+StartX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the start x-\/value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_interval_x_y_dataset_a7548ec7d60d72463313dc6f10aceee62}{org.\+jfree.\+data.\+xy.\+Interval\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a9fb776918a455a76c7d03b80cc75703b}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a9fb776918a455a76c7d03b80cc75703b}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+StartY@{get\+StartY}}
+\index{get\+StartY@{get\+StartY}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Start\+Y()}{getStartY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+StartY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the start y-\/value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_interval_x_y_dataset_afdd414735adb233734bc35b76a005ed9}{org.\+jfree.\+data.\+xy.\+Interval\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a8f658c59c2fa6d670e529c5e484a585e}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a8f658c59c2fa6d670e529c5e484a585e}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+getX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the x-\/value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a85c75ba5b69b551e96afd29d1732ba22}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a478c24e8f03cfbedd6464ea36d5d15f3}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a478c24e8f03cfbedd6464ea36d5d15f3}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+getY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_aa915867221e0f94021bad3140db5254e}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a9c955683707aa2d6cc74a4fde7d4cf7a}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a9c955683707aa2d6cc74a4fde7d4cf7a}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!get\+Y\+Value@{get\+Y\+Value}}
+\index{get\+Y\+Value@{get\+Y\+Value}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{get\+Y\+Value()}{getYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+get\+Y\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a5e86389417eb5ed7b663a952ca370914}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac59d3cdf115f0e93b1741ddf30557779}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ac59d3cdf115f0e93b1741ddf30557779}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!invalidate\+Range\+Info@{invalidate\+Range\+Info}}
+\index{invalidate\+Range\+Info@{invalidate\+Range\+Info}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{invalidate\+Range\+Info()}{invalidateRangeInfo()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+invalidate\+Range\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Invalidates the range info. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_acac214fc3798d2fa365060d00c9e7caf}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_acac214fc3798d2fa365060d00c9e7caf}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!offset\+From\+Newest@{offset\+From\+Newest}}
+\index{offset\+From\+Newest@{offset\+From\+Newest}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{offset\+From\+Newest()}{offsetFromNewest()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+offset\+From\+Newest (\begin{DoxyParamCaption}\item[{int}]{delta }\end{DoxyParamCaption})}
+
+Returns the actual index to a time offset by \char`\"{}delta\char`\"{} from newest\+At.
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & the delta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The offset. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aba7ddce43c331b3dcf877eec01dbc6c7}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aba7ddce43c331b3dcf877eec01dbc6c7}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!offset\+From\+Oldest@{offset\+From\+Oldest}}
+\index{offset\+From\+Oldest@{offset\+From\+Oldest}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{offset\+From\+Oldest()}{offsetFromOldest()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+offset\+From\+Oldest (\begin{DoxyParamCaption}\item[{int}]{delta }\end{DoxyParamCaption})}
+
+??
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & ??\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The offset. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a96b46efb9a3ddc90fb678ba356e843e6}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a96b46efb9a3ddc90fb678ba356e843e6}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{set\+Position()}{setPosition()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+set\+Position (\begin{DoxyParamCaption}\item[{int}]{position }\end{DoxyParamCaption})}
+
+Sets the x position type (S\+T\+A\+RT, M\+I\+D\+D\+LE or E\+ND).
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & The x position type. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aed9dbb5d298dd4351486dd0229364222}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aed9dbb5d298dd4351486dd0229364222}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!set\+Series\+Key@{set\+Series\+Key}}
+\index{set\+Series\+Key@{set\+Series\+Key}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{set\+Series\+Key()}{setSeriesKey()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+set\+Series\+Key (\begin{DoxyParamCaption}\item[{int}]{series\+Number,  }\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Sets the name of a series. If planning to add values individually.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Number} & the series. \\
+\hline
+{\em key} & the new key. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3f573d0dbae30daea40d586a5f80d367}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3f573d0dbae30daea40d586a5f80d367}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!set\+Time\+Base@{set\+Time\+Base}}
+\index{set\+Time\+Base@{set\+Time\+Base}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{set\+Time\+Base()}{setTimeBase()}}
+{\footnotesize\ttfamily synchronized long org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+set\+Time\+Base (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}}}]{start }\end{DoxyParamCaption})}
+
+Fill the points\+In\+Time with times using Time\+Period.\+next()\+: Will silently return if the time array was already populated.
+
+Also computes the data cached for later use by methods implementing the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_domain_info}{Domain\+Info}} interface\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & the start.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+??. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a0d5d8b5a6a60f5d1486860e6cac7aad8}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a0d5d8b5a6a60f5d1486860e6cac7aad8}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!translate\+Get@{translate\+Get}}
+\index{translate\+Get@{translate\+Get}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{translate\+Get()}{translateGet()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+translate\+Get (\begin{DoxyParamCaption}\item[{int}]{to\+Fetch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Re-\/map an index, for use in retrieving data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Fetch} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The translated index. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a968fe69ec54f5921ef43dda0db976e85}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a968fe69ec54f5921ef43dda0db976e85}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!wrap\+Offset@{wrap\+Offset}}
+\index{wrap\+Offset@{wrap\+Offset}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{wrap\+Offset()}{wrapOffset()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+wrap\+Offset (\begin{DoxyParamCaption}\item[{int}]{proto\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+??
+
+
+\begin{DoxyParams}{Parameters}
+{\em proto\+Index} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The offset. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad0d7ba64f400f15c297d99b6aa44f814}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_ad0d7ba64f400f15c297d99b6aa44f814}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!E\+ND@{E\+ND}}
+\index{E\+ND@{E\+ND}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{E\+ND}{END}}
+{\footnotesize\ttfamily final int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+E\+ND = 2\hspace{0.3cm}{\ttfamily [static]}}
+
+Useful constant for controlling the x-\/value returned for a time period. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aad8926b87366b84034d09bea893e0c0e}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aad8926b87366b84034d09bea893e0c0e}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!history\+Count@{history\+Count}}
+\index{history\+Count@{history\+Count}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{history\+Count}{historyCount}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+history\+Count\hspace{0.3cm}{\ttfamily [protected]}}
+
+The history count. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aca0d552c1fe59dc1e638c0831d907632}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_aca0d552c1fe59dc1e638c0831d907632}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!M\+I\+D\+D\+LE@{M\+I\+D\+D\+LE}}
+\index{M\+I\+D\+D\+LE@{M\+I\+D\+D\+LE}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{M\+I\+D\+D\+LE}{MIDDLE}}
+{\footnotesize\ttfamily final int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+M\+I\+D\+D\+LE = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+Useful constant for controlling the x-\/value returned for a time period. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3579683247506ae81816c9a839465ede}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3579683247506ae81816c9a839465ede}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!points\+In\+Time@{points\+In\+Time}}
+\index{points\+In\+Time@{points\+In\+Time}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{points\+In\+Time}{pointsInTime}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+points\+In\+Time\hspace{0.3cm}{\ttfamily [protected]}}
+
+Storage for the x-\/values. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_acc6f270d26c51df6a908fb08d99c7f47}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_acc6f270d26c51df6a908fb08d99c7f47}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!S\+T\+A\+RT@{S\+T\+A\+RT}}
+\index{S\+T\+A\+RT@{S\+T\+A\+RT}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{S\+T\+A\+RT}{START}}
+{\footnotesize\ttfamily final int org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+S\+T\+A\+RT = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+Useful constant for controlling the x-\/value returned for a time period. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3823ae6f83ca54d5e730fb82b7eb17f7}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3823ae6f83ca54d5e730fb82b7eb17f7}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!value\+History@{value\+History}}
+\index{value\+History@{value\+History}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{value\+History}{valueHistory}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_1_1_value_sequence}{Value\+Sequence}} \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+value\+History\hspace{0.3cm}{\ttfamily [protected]}}
+
+An array for storing the objects that represent each series. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3cabbbf6b6524b3a5acd9e55f085ca15}\label{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a3cabbbf6b6524b3a5acd9e55f085ca15}} 
+\index{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}!working\+Calendar@{working\+Calendar}}
+\index{working\+Calendar@{working\+Calendar}!org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection@{org\+::jfree\+::data\+::time\+::\+Dynamic\+Time\+Series\+Collection}}
+\subsubsection{\texorpdfstring{working\+Calendar}{workingCalendar}}
+{\footnotesize\ttfamily Calendar org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection.\+working\+Calendar\hspace{0.3cm}{\ttfamily [protected]}}
+
+A working calendar (to recycle) 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/time/\mbox{\hyperlink{_dynamic_time_series_collection_8java}{Dynamic\+Time\+Series\+Collection.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,145 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x}{}\section{org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+FX Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x}\index{org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+FX@{org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+FX}}
+Inheritance diagram for org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+FX\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a87838fdea9f29dab0589c0c892a7d000}{Zoom\+Handler\+FX}} (String id, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_viewer}{Chart\+Viewer}} parent)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a44112479fac9eaa8bfa9f2a98cdcc7f9}{Zoom\+Handler\+FX}} (String id, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_viewer}{Chart\+Viewer}} parent, boolean alt\+Key, boolean ctrl\+Key, boolean meta\+Key, boolean shift\+Key)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a39eb9924bd9125f685df78a26fe8317d}{handle\+Mouse\+Pressed}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a42e60db6b183e94f2997e79647bb5403}{handle\+Mouse\+Dragged}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_af47ee1c3f51772d2bbd503c5d6c3ba71}{handle\+Mouse\+Released}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Mouse\+Event e)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles drag zooming of charts on a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}. This handler should be configured with the required modifier keys and installed as a live handler (not an auxiliary handler). This handler only works for a {\bfseries \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}} that is embedded in a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_viewer}{Chart\+Viewer}}, since it relies on the {\bfseries \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_viewer}{Chart\+Viewer}}} for drawing the zoom rectangle.
+
+T\+HE A\+PI F\+OR T\+H\+IS C\+L\+A\+SS IS S\+U\+B\+J\+E\+CT TO C\+H\+A\+N\+GE IN F\+U\+T\+U\+RE R\+E\+L\+E\+A\+S\+ES. This is so that we can incorporate feedback on the (new) Java\+FX support in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}.
+
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a87838fdea9f29dab0589c0c892a7d000}\label{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a87838fdea9f29dab0589c0c892a7d000}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}!Zoom\+Handler\+FX@{Zoom\+Handler\+FX}}
+\index{Zoom\+Handler\+FX@{Zoom\+Handler\+FX}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}}
+\subsubsection{\texorpdfstring{Zoom\+Handler\+F\+X()}{ZoomHandlerFX()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+F\+X.\+Zoom\+Handler\+FX (\begin{DoxyParamCaption}\item[{String}]{id,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_viewer}{Chart\+Viewer}}}]{parent }\end{DoxyParamCaption})}
+
+Creates a new instance with no modifier keys required.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & the handler ID ({\ttfamily null} not permitted). \\
+\hline
+{\em parent} & the chart viewer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a44112479fac9eaa8bfa9f2a98cdcc7f9}\label{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a44112479fac9eaa8bfa9f2a98cdcc7f9}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}!Zoom\+Handler\+FX@{Zoom\+Handler\+FX}}
+\index{Zoom\+Handler\+FX@{Zoom\+Handler\+FX}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}}
+\subsubsection{\texorpdfstring{Zoom\+Handler\+F\+X()}{ZoomHandlerFX()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+F\+X.\+Zoom\+Handler\+FX (\begin{DoxyParamCaption}\item[{String}]{id,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_viewer}{Chart\+Viewer}}}]{parent,  }\item[{boolean}]{alt\+Key,  }\item[{boolean}]{ctrl\+Key,  }\item[{boolean}]{meta\+Key,  }\item[{boolean}]{shift\+Key }\end{DoxyParamCaption})}
+
+Creates a new instance that will be activated using the specified combination of modifier keys.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & the handler ID ({\ttfamily null} not permitted). \\
+\hline
+{\em parent} & the chart viewer. \\
+\hline
+{\em alt\+Key} & require A\+LT key? \\
+\hline
+{\em ctrl\+Key} & require C\+T\+RL key? \\
+\hline
+{\em meta\+Key} & require M\+E\+TA key? \\
+\hline
+{\em shift\+Key} & require S\+H\+I\+FT key? \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a42e60db6b183e94f2997e79647bb5403}\label{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a42e60db6b183e94f2997e79647bb5403}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}!handle\+Mouse\+Dragged@{handle\+Mouse\+Dragged}}
+\index{handle\+Mouse\+Dragged@{handle\+Mouse\+Dragged}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Mouse\+Dragged()}{handleMouseDragged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+F\+X.\+handle\+Mouse\+Dragged (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a mouse dragged event by updating the zoom rectangle displayed in the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_viewer}{Chart\+Viewer}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the Java\+FX canvas ({\ttfamily null} not permitted). \\
+\hline
+{\em e} & the mouse event ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a06bbfd28b778bca8ef8caf90174e18f4}{org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+FX}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a39eb9924bd9125f685df78a26fe8317d}\label{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a39eb9924bd9125f685df78a26fe8317d}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}!handle\+Mouse\+Pressed@{handle\+Mouse\+Pressed}}
+\index{handle\+Mouse\+Pressed@{handle\+Mouse\+Pressed}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Mouse\+Pressed()}{handleMousePressed()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+F\+X.\+handle\+Mouse\+Pressed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a mouse pressed event by recording the initial mouse pointer location.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the Java\+FX canvas ({\ttfamily null} not permitted). \\
+\hline
+{\em e} & the mouse event ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a0cf92e5a448b58c199fc12dbdbd39aab}{org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+FX}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_af47ee1c3f51772d2bbd503c5d6c3ba71}\label{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_af47ee1c3f51772d2bbd503c5d6c3ba71}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}!handle\+Mouse\+Released@{handle\+Mouse\+Released}}
+\index{handle\+Mouse\+Released@{handle\+Mouse\+Released}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Zoom\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Mouse\+Released()}{handleMouseReleased()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+F\+X.\+handle\+Mouse\+Released (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a mouse released event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the canvas (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em e} & the event (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_adbb7fa38b9913c536fb2a3ae09c70058}{org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+FX}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/fx/interaction/\mbox{\hyperlink{_zoom_handler_f_x_8java}{Zoom\+Handler\+F\+X.\+java}}\end{DoxyCompactItemize}

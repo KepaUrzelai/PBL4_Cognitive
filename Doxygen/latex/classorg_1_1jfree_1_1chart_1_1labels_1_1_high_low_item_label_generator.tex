@@ -1,0 +1,151 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator}\index{org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.741722cm]{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a28783e569137288a2df208b489b83a36}{High\+Low\+Item\+Label\+Generator}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a131d4d707d5c15354386ec3e00b2db22}{High\+Low\+Item\+Label\+Generator}} (Date\+Format date\+Formatter, Number\+Format number\+Formatter)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a39496a1d1394657cc2c39ed5433d11f8}{generate\+Tool\+Tip}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, int item)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a09770737c897174ae8ac3923086c19eb}{generate\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, int category)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_ab18c4069d475adbf4f4b6c68983bc7c6}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_ab833568f5f95086670af5624ed4c4860}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a51f3cb9649e5c3ec14e9e4386a712b49}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A standard item label generator for plots that use data from a \mbox{\hyperlink{}{O\+H\+L\+C\+Dataset}}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a28783e569137288a2df208b489b83a36}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a28783e569137288a2df208b489b83a36}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}!High\+Low\+Item\+Label\+Generator@{High\+Low\+Item\+Label\+Generator}}
+\index{High\+Low\+Item\+Label\+Generator@{High\+Low\+Item\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{High\+Low\+Item\+Label\+Generator()}{HighLowItemLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator.\+High\+Low\+Item\+Label\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates an item label generator using the default date and number formats. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a131d4d707d5c15354386ec3e00b2db22}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a131d4d707d5c15354386ec3e00b2db22}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}!High\+Low\+Item\+Label\+Generator@{High\+Low\+Item\+Label\+Generator}}
+\index{High\+Low\+Item\+Label\+Generator@{High\+Low\+Item\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{High\+Low\+Item\+Label\+Generator()}{HighLowItemLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator.\+High\+Low\+Item\+Label\+Generator (\begin{DoxyParamCaption}\item[{Date\+Format}]{date\+Formatter,  }\item[{Number\+Format}]{number\+Formatter }\end{DoxyParamCaption})}
+
+Creates a tool tip generator using the supplied date formatter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em date\+Formatter} & the date formatter ({\ttfamily null} not permitted). \\
+\hline
+{\em number\+Formatter} & the number formatter ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_ab18c4069d475adbf4f4b6c68983bc7c6}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_ab18c4069d475adbf4f4b6c68983bc7c6}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of the generator.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if cloning is not supported. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_ab833568f5f95086670af5624ed4c4860}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_ab833568f5f95086670af5624ed4c4860}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests if this object is equal to another.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the other object.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a09770737c897174ae8ac3923086c19eb}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a09770737c897174ae8ac3923086c19eb}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}!generate\+Label@{generate\+Label}}
+\index{generate\+Label@{generate\+Label}!org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Label()}{generateLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator.\+generate\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{int}]{category }\end{DoxyParamCaption})}
+
+Generates a label for the specified item. The label is typically a formatted version of the data value, but any text can be used.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em category} & the category index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_item_label_generator_aced931506ef5a2a355b8846534ad457e}{org.\+jfree.\+chart.\+labels.\+X\+Y\+Item\+Label\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a39496a1d1394657cc2c39ed5433d11f8}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a39496a1d1394657cc2c39ed5433d11f8}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}!generate\+Tool\+Tip@{generate\+Tool\+Tip}}
+\index{generate\+Tool\+Tip@{generate\+Tool\+Tip}!org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Tool\+Tip()}{generateToolTip()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator.\+generate\+Tool\+Tip (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Generates a tooltip text item for a particular item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset. \\
+\hline
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The tooltip text. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator_a310de5269e50370adaa416bf897c24c5}{org.\+jfree.\+chart.\+labels.\+X\+Y\+Tool\+Tip\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a51f3cb9649e5c3ec14e9e4386a712b49}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_high_low_item_label_generator_a51f3cb9649e5c3ec14e9e4386a712b49}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+High\+Low\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+labels.\+High\+Low\+Item\+Label\+Generator.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this instance.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_high_low_item_label_generator_8java}{High\+Low\+Item\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

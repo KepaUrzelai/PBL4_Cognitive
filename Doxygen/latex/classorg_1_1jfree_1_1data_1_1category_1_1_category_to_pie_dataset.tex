@@ -1,0 +1,266 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset}{}\section{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset}\index{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset@{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.138790cm]{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a19579fe08f99baab3999534e9a13022d}{Category\+To\+Pie\+Dataset}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} source, Table\+Order extract, int index)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_abdb68ef3a107a1acaacf56e9b316e30b}{get\+Underlying\+Dataset}} ()
+\item 
+Table\+Order \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a28a869dfdc0e7d844810da4a305063c7}{get\+Extract\+Type}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a2ab6df133bee9435ab2a0dbc7a2fb7ef}{get\+Extract\+Index}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7536f863e26d692f65131df0ed9150c3}{get\+Item\+Count}} ()
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a994ec52d8053b1ac0604dae5495fff5f}{get\+Value}} (int item)
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a5e57f6d91a01781de16ac109e3933d1d}{get\+Key}} (int index)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7a409f1cbb1cc8430652216156e3b7af}{get\+Index}} (Comparable key)
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_aa8974b76f827b4dc093f0d6b66752c1c}{get\+Keys}} ()
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a1252b049b706dac0ec3c3788bb25d1bf}{get\+Value}} (Comparable key)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a4c793a0222730fcb45a6c05279342269}{dataset\+Changed}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{Dataset\+Change\+Event}} event)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a711b20a5a1fd63c4f1aeb08f852f0ccf}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A \mbox{\hyperlink{}{Pie\+Dataset}} implementation that obtains its data from one row or column of a \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a19579fe08f99baab3999534e9a13022d}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a19579fe08f99baab3999534e9a13022d}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!Category\+To\+Pie\+Dataset@{Category\+To\+Pie\+Dataset}}
+\index{Category\+To\+Pie\+Dataset@{Category\+To\+Pie\+Dataset}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{Category\+To\+Pie\+Dataset()}{CategoryToPieDataset()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+Category\+To\+Pie\+Dataset (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{source,  }\item[{Table\+Order}]{extract,  }\item[{int}]{index }\end{DoxyParamCaption})}
+
+An adaptor class that converts any \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} into a \mbox{\hyperlink{}{Pie\+Dataset}}, by taking the values from a single row or column. 
+
+If {\ttfamily source} is {\ttfamily null}, the created dataset will be empty.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source dataset ({\ttfamily null} permitted). \\
+\hline
+{\em extract} & extract data from rows or columns? ({\ttfamily null} not permitted). \\
+\hline
+{\em index} & the row or column index. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a4c793a0222730fcb45a6c05279342269}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a4c793a0222730fcb45a6c05279342269}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!dataset\+Changed@{dataset\+Changed}}
+\index{dataset\+Changed@{dataset\+Changed}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{dataset\+Changed()}{datasetChanged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+dataset\+Changed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{Dataset\+Change\+Event}}}]{event }\end{DoxyParamCaption})}
+
+Sends a \mbox{\hyperlink{}{Dataset\+Change\+Event}} to all registered listeners, with this (not the underlying) dataset as the source.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & the event (ignored, a new event with this dataset as the source is sent to the listeners). \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener_a26ca53969f0dfa539f52e846a3cd72fe}{org.\+jfree.\+data.\+general.\+Dataset\+Change\+Listener}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a711b20a5a1fd63c4f1aeb08f852f0ccf}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a711b20a5a1fd63c4f1aeb08f852f0ccf}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this dataset for equality with an arbitrary object, returning {\ttfamily true} if {\ttfamily obj} is a dataset containing the same keys and values in the same order as this dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a2ab6df133bee9435ab2a0dbc7a2fb7ef}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a2ab6df133bee9435ab2a0dbc7a2fb7ef}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Extract\+Index@{get\+Extract\+Index}}
+\index{get\+Extract\+Index@{get\+Extract\+Index}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Extract\+Index()}{getExtractIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Extract\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the index of the row or column from which to extract the data.
+
+\begin{DoxyReturn}{Returns}
+The extract index.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+2 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a28a869dfdc0e7d844810da4a305063c7}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a28a869dfdc0e7d844810da4a305063c7}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Extract\+Type@{get\+Extract\+Type}}
+\index{get\+Extract\+Type@{get\+Extract\+Type}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Extract\+Type()}{getExtractType()}}
+{\footnotesize\ttfamily Table\+Order org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Extract\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the extract type, which determines whether data is read from one row or one column of the underlying dataset.
+
+\begin{DoxyReturn}{Returns}
+The extract type.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+2 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7a409f1cbb1cc8430652216156e3b7af}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7a409f1cbb1cc8430652216156e3b7af}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Index@{get\+Index}}
+\index{get\+Index@{get\+Index}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Index()}{getIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Index (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Returns the index for a given key, or {\ttfamily -\/1} if there is no such key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index for the key, or {\ttfamily -\/1}. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_ae360fa76e98655c84180651f8e1395d7}{org.\+jfree.\+data.\+Keyed\+Values}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7536f863e26d692f65131df0ed9150c3}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7536f863e26d692f65131df0ed9150c3}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of items (values) in the collection. If the underlying dataset is {\ttfamily null}, this method returns zero.
+
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values_afd00781dbc2e351b7a77aca9a91ca0a9}{org.\+jfree.\+data.\+Values}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a5e57f6d91a01781de16ac109e3933d1d}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a5e57f6d91a01781de16ac109e3933d1d}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Key@{get\+Key}}
+\index{get\+Key@{get\+Key}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Key()}{getKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Key (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the key at the specified index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7536f863e26d692f65131df0ed9150c3}{get\+Item\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The key.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily index} is not in the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_a830386de8513342d99845bbd9cb57bc4}{org.\+jfree.\+data.\+Keyed\+Values}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_aa8974b76f827b4dc093f0d6b66752c1c}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_aa8974b76f827b4dc093f0d6b66752c1c}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Keys@{get\+Keys}}
+\index{get\+Keys@{get\+Keys}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Keys()}{getKeys()}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the keys for the dataset. 
+
+If the underlying dataset is {\ttfamily null}, this method returns an empty list.
+
+\begin{DoxyReturn}{Returns}
+The keys. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_a5bc1316f3c71eeaa6e38effe4ea660d5}{org.\+jfree.\+data.\+Keyed\+Values}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_abdb68ef3a107a1acaacf56e9b316e30b}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_abdb68ef3a107a1acaacf56e9b316e30b}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Underlying\+Dataset@{get\+Underlying\+Dataset}}
+\index{get\+Underlying\+Dataset@{get\+Underlying\+Dataset}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Underlying\+Dataset()}{getUnderlyingDataset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Underlying\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the underlying dataset.
+
+\begin{DoxyReturn}{Returns}
+The underlying dataset (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+2 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a994ec52d8053b1ac0604dae5495fff5f}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a994ec52d8053b1ac0604dae5495fff5f}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Value (\begin{DoxyParamCaption}\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns a value from the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily item} is not in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7536f863e26d692f65131df0ed9150c3}{get\+Item\+Count()}} -\/ 1}. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values_a660d7e60de9e6ed7a3d2c22eb6578ced}{org.\+jfree.\+data.\+Values}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a1252b049b706dac0ec3c3788bb25d1bf}\label{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a1252b049b706dac0ec3c3788bb25d1bf}} 
+\index{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset@{org\+::jfree\+::data\+::category\+::\+Category\+To\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset.\+get\+Value (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Returns the value for a given key. If the key is not recognised, the method should return {\ttfamily null} (but note that {\ttfamily null} can be associated with a valid key also).
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_aa6bb7fe3ff33503d7f31b9be505c3a70}{org.\+jfree.\+data.\+Keyed\+Values}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/category/\mbox{\hyperlink{_category_to_pie_dataset_8java}{Category\+To\+Pie\+Dataset.\+java}}\end{DoxyCompactItemize}

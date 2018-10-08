@@ -1,0 +1,251 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series}{}\section{org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series}\index{org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series@{org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.314049cm]{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a13d7c25b678591c336fe3552e7c6fc99}{X\+Y\+Interval\+Series}} (Comparable key)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a0b1ff8ece95aa620538c35f517aa6cbd}{X\+Y\+Interval\+Series}} (Comparable key, boolean auto\+Sort, boolean allow\+Duplicate\+X\+Values)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a03b07b1832e806978a1e66d51e0981ed}{add}} (double x, double x\+Low, double x\+High, double y, double y\+Low, double y\+High)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a3af8db8f0c79d077b8024769bb09a37a}{add}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_data_item}{X\+Y\+Interval\+Data\+Item}} item, boolean notify)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_afd03e2d1068ff8f2021602f034386a22}{getX}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_af6db3fe496b93daf9975b76ad3e17edd}{get\+X\+Low\+Value}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_aac41d79c55d54ee58dfa8e74215d6e1e}{get\+X\+High\+Value}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_aabd5dda6a780aa76ba4fcc3786ff43af}{get\+Y\+Value}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a2bce1a3a6253a0b31d3c08a1af7031b2}{get\+Y\+Low\+Value}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_ad7950a8dbdddaa85d002c9c7ccdfd1ab}{get\+Y\+High\+Value}} (int index)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_acf462ce44f7eca2502b5141e609e0e25}{get\+Data\+Item}} (int index)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A list of (x, x-\/low, x-\/high, y, y-\/low, y-\/high) data items.
+
+\begin{DoxySince}{Since}
+1.\+0.\+3
+\end{DoxySince}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_collection}{X\+Y\+Interval\+Series\+Collection}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a13d7c25b678591c336fe3552e7c6fc99}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a13d7c25b678591c336fe3552e7c6fc99}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!X\+Y\+Interval\+Series@{X\+Y\+Interval\+Series}}
+\index{X\+Y\+Interval\+Series@{X\+Y\+Interval\+Series}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{X\+Y\+Interval\+Series()}{XYIntervalSeries()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+X\+Y\+Interval\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Creates a new empty series. By default, items added to the series will be sorted into ascending order by x-\/value, and duplicate x-\/values will be allowed (these defaults can be modified with another constructor).
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a0b1ff8ece95aa620538c35f517aa6cbd}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a0b1ff8ece95aa620538c35f517aa6cbd}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!X\+Y\+Interval\+Series@{X\+Y\+Interval\+Series}}
+\index{X\+Y\+Interval\+Series@{X\+Y\+Interval\+Series}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{X\+Y\+Interval\+Series()}{XYIntervalSeries()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+X\+Y\+Interval\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key,  }\item[{boolean}]{auto\+Sort,  }\item[{boolean}]{allow\+Duplicate\+X\+Values }\end{DoxyParamCaption})}
+
+Constructs a new xy-\/series that contains no data. You can specify whether or not duplicate x-\/values are allowed for the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+{\em auto\+Sort} & a flag that controls whether or not the items in the series are sorted. \\
+\hline
+{\em allow\+Duplicate\+X\+Values} & a flag that controls whether duplicate x-\/values are allowed. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a03b07b1832e806978a1e66d51e0981ed}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a03b07b1832e806978a1e66d51e0981ed}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+add (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{x\+Low,  }\item[{double}]{x\+High,  }\item[{double}]{y,  }\item[{double}]{y\+Low,  }\item[{double}]{y\+High }\end{DoxyParamCaption})}
+
+Adds a data item to the series and sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/value. \\
+\hline
+{\em x\+Low} & the lower bound of the x-\/interval. \\
+\hline
+{\em x\+High} & the upper bound of the x-\/interval. \\
+\hline
+{\em y} & the y-\/value. \\
+\hline
+{\em y\+Low} & the lower bound of the y-\/interval. \\
+\hline
+{\em y\+High} & the upper bound of the y-\/interval. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a3af8db8f0c79d077b8024769bb09a37a}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a3af8db8f0c79d077b8024769bb09a37a}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_data_item}{X\+Y\+Interval\+Data\+Item}}}]{item,  }\item[{boolean}]{notify }\end{DoxyParamCaption})}
+
+Adds a data item to the series and, if requested, sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & the data item ({\ttfamily null} not permitted). \\
+\hline
+{\em notify} & notify listeners?\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_acf462ce44f7eca2502b5141e609e0e25}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_acf462ce44f7eca2502b5141e609e0e25}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!get\+Data\+Item@{get\+Data\+Item}}
+\index{get\+Data\+Item@{get\+Data\+Item}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{get\+Data\+Item()}{getDataItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+get\+Data\+Item (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the data item at the specified index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The data item. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_afd03e2d1068ff8f2021602f034386a22}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_afd03e2d1068ff8f2021602f034386a22}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+getX (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the x-\/value for the specified item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_aac41d79c55d54ee58dfa8e74215d6e1e}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_aac41d79c55d54ee58dfa8e74215d6e1e}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!get\+X\+High\+Value@{get\+X\+High\+Value}}
+\index{get\+X\+High\+Value@{get\+X\+High\+Value}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{get\+X\+High\+Value()}{getXHighValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+get\+X\+High\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the upper bound of the x-\/interval for the specified item in the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The upper bound of the x-\/interval.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+5 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_af6db3fe496b93daf9975b76ad3e17edd}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_af6db3fe496b93daf9975b76ad3e17edd}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!get\+X\+Low\+Value@{get\+X\+Low\+Value}}
+\index{get\+X\+Low\+Value@{get\+X\+Low\+Value}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{get\+X\+Low\+Value()}{getXLowValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+get\+X\+Low\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the lower bound of the x-\/interval for the specified item in the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The lower bound of the x-\/interval.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+5 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_ad7950a8dbdddaa85d002c9c7ccdfd1ab}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_ad7950a8dbdddaa85d002c9c7ccdfd1ab}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!get\+Y\+High\+Value@{get\+Y\+High\+Value}}
+\index{get\+Y\+High\+Value@{get\+Y\+High\+Value}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{get\+Y\+High\+Value()}{getYHighValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+get\+Y\+High\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the upper bound of the y-\/interval for the specified item in the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The upper bound of the y-\/interval.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+5 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a2bce1a3a6253a0b31d3c08a1af7031b2}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_a2bce1a3a6253a0b31d3c08a1af7031b2}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!get\+Y\+Low\+Value@{get\+Y\+Low\+Value}}
+\index{get\+Y\+Low\+Value@{get\+Y\+Low\+Value}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{get\+Y\+Low\+Value()}{getYLowValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+get\+Y\+Low\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the lower bound of the Y-\/interval for the specified item in the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The lower bound of the Y-\/interval.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+5 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_aabd5dda6a780aa76ba4fcc3786ff43af}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_aabd5dda6a780aa76ba4fcc3786ff43af}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}!get\+Y\+Value@{get\+Y\+Value}}
+\index{get\+Y\+Value@{get\+Y\+Value}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Interval\+Series}}
+\subsubsection{\texorpdfstring{get\+Y\+Value()}{getYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series.\+get\+Y\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the y-\/value for the specified item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_x_y_interval_series_8java}{X\+Y\+Interval\+Series.\+java}}\end{DoxyCompactItemize}

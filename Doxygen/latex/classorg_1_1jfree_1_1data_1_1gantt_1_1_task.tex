@@ -1,0 +1,257 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{}\section{org.\+jfree.\+data.\+gantt.\+Task Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}\index{org.\+jfree.\+data.\+gantt.\+Task@{org.\+jfree.\+data.\+gantt.\+Task}}
+Inheritance diagram for org.\+jfree.\+data.\+gantt.\+Task\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a8c6869db85eec9ecef3e4a9ee2fbb399}{Task}} (String description, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}} duration)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a4b9cfe48fe63086cb3521bfdae739f73}{Task}} (String description, Date start, Date end)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a663fe2b623805aa2b753862e09a62f5e}{get\+Description}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a2fd2a50d8a77b8f783ec3481b3b46640}{set\+Description}} (String description)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a9562b2f5ca9bcce5f07cb33b2ef59392}{get\+Duration}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a04281bee83c3e14887c3f79680483068}{set\+Duration}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}} duration)
+\item 
+Double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_abb694fbc64799ccd7130883dfd07314a}{get\+Percent\+Complete}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a65d0c00ef5d447498219c70719946394}{set\+Percent\+Complete}} (Double percent)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a91c50a4358774392ab6e7313f699d553}{set\+Percent\+Complete}} (double percent)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a41701b06de7b246dc1d24f3b3a02b915}{add\+Subtask}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} subtask)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a9c2a06d96bcd9ee827037f01d2f2a8db}{remove\+Subtask}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} subtask)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_ae9bd48c7e0e0220aae6aee29f1e73f60}{get\+Subtask\+Count}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a768f34d2fabe792c3a123e813ee4d16e}{get\+Subtask}} (int index)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a184c6853b7b17afce298836701f0dcd3}{equals}} (Object object)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a04808ca5a58846b9a21f6d8bf7cbf3a7}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A simple representation of a task. The task has a description and a duration. You can add sub-\/tasks to the task. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a8c6869db85eec9ecef3e4a9ee2fbb399}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a8c6869db85eec9ecef3e4a9ee2fbb399}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!Task@{Task}}
+\index{Task@{Task}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{Task()}{Task()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+gantt.\+Task.\+Task (\begin{DoxyParamCaption}\item[{String}]{description,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}}}]{duration }\end{DoxyParamCaption})}
+
+Creates a new task.
+
+
+\begin{DoxyParams}{Parameters}
+{\em description} & the task description ({\ttfamily null} not permitted). \\
+\hline
+{\em duration} & the task duration ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a4b9cfe48fe63086cb3521bfdae739f73}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a4b9cfe48fe63086cb3521bfdae739f73}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!Task@{Task}}
+\index{Task@{Task}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{Task()}{Task()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+gantt.\+Task.\+Task (\begin{DoxyParamCaption}\item[{String}]{description,  }\item[{Date}]{start,  }\item[{Date}]{end }\end{DoxyParamCaption})}
+
+Creates a new task.
+
+
+\begin{DoxyParams}{Parameters}
+{\em description} & the task description ({\ttfamily null} not permitted). \\
+\hline
+{\em start} & the start date ({\ttfamily null} not permitted). \\
+\hline
+{\em end} & the end date ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a41701b06de7b246dc1d24f3b3a02b915}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a41701b06de7b246dc1d24f3b3a02b915}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!add\+Subtask@{add\+Subtask}}
+\index{add\+Subtask@{add\+Subtask}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{add\+Subtask()}{addSubtask()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task.\+add\+Subtask (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}}}]{subtask }\end{DoxyParamCaption})}
+
+Adds a sub-\/task to the task.
+
+
+\begin{DoxyParams}{Parameters}
+{\em subtask} & the subtask ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a04808ca5a58846b9a21f6d8bf7cbf3a7}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a04808ca5a58846b9a21f6d8bf7cbf3a7}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+gantt.\+Task.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the task.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & never thrown by this class, but subclasses may not support cloning. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a184c6853b7b17afce298836701f0dcd3}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a184c6853b7b17afce298836701f0dcd3}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+gantt.\+Task.\+equals (\begin{DoxyParamCaption}\item[{Object}]{object }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em object} & the other object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a663fe2b623805aa2b753862e09a62f5e}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a663fe2b623805aa2b753862e09a62f5e}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!get\+Description@{get\+Description}}
+\index{get\+Description@{get\+Description}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{get\+Description()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jfree.\+data.\+gantt.\+Task.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the task description.
+
+\begin{DoxyReturn}{Returns}
+The task description (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a9562b2f5ca9bcce5f07cb33b2ef59392}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a9562b2f5ca9bcce5f07cb33b2ef59392}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!get\+Duration@{get\+Duration}}
+\index{get\+Duration@{get\+Duration}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{get\+Duration()}{getDuration()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}} org.\+jfree.\+data.\+gantt.\+Task.\+get\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the duration (actual or estimated) of the task.
+
+\begin{DoxyReturn}{Returns}
+The task duration (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_abb694fbc64799ccd7130883dfd07314a}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_abb694fbc64799ccd7130883dfd07314a}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!get\+Percent\+Complete@{get\+Percent\+Complete}}
+\index{get\+Percent\+Complete@{get\+Percent\+Complete}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{get\+Percent\+Complete()}{getPercentComplete()}}
+{\footnotesize\ttfamily Double org.\+jfree.\+data.\+gantt.\+Task.\+get\+Percent\+Complete (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the percentage complete for this task.
+
+\begin{DoxyReturn}{Returns}
+The percentage complete (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a768f34d2fabe792c3a123e813ee4d16e}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a768f34d2fabe792c3a123e813ee4d16e}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!get\+Subtask@{get\+Subtask}}
+\index{get\+Subtask@{get\+Subtask}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{get\+Subtask()}{getSubtask()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} org.\+jfree.\+data.\+gantt.\+Task.\+get\+Subtask (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns a sub-\/task.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sub-\/task. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_ae9bd48c7e0e0220aae6aee29f1e73f60}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_ae9bd48c7e0e0220aae6aee29f1e73f60}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!get\+Subtask\+Count@{get\+Subtask\+Count}}
+\index{get\+Subtask\+Count@{get\+Subtask\+Count}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{get\+Subtask\+Count()}{getSubtaskCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+gantt.\+Task.\+get\+Subtask\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the sub-\/task count.
+
+\begin{DoxyReturn}{Returns}
+The sub-\/task count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a9c2a06d96bcd9ee827037f01d2f2a8db}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a9c2a06d96bcd9ee827037f01d2f2a8db}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!remove\+Subtask@{remove\+Subtask}}
+\index{remove\+Subtask@{remove\+Subtask}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{remove\+Subtask()}{removeSubtask()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task.\+remove\+Subtask (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}}}]{subtask }\end{DoxyParamCaption})}
+
+Removes a sub-\/task from the task.
+
+
+\begin{DoxyParams}{Parameters}
+{\em subtask} & the subtask. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a2fd2a50d8a77b8f783ec3481b3b46640}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a2fd2a50d8a77b8f783ec3481b3b46640}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!set\+Description@{set\+Description}}
+\index{set\+Description@{set\+Description}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{set\+Description()}{setDescription()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task.\+set\+Description (\begin{DoxyParamCaption}\item[{String}]{description }\end{DoxyParamCaption})}
+
+Sets the task description.
+
+
+\begin{DoxyParams}{Parameters}
+{\em description} & the description ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a04281bee83c3e14887c3f79680483068}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a04281bee83c3e14887c3f79680483068}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!set\+Duration@{set\+Duration}}
+\index{set\+Duration@{set\+Duration}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{set\+Duration()}{setDuration()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task.\+set\+Duration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}}}]{duration }\end{DoxyParamCaption})}
+
+Sets the task duration (actual or estimated).
+
+
+\begin{DoxyParams}{Parameters}
+{\em duration} & the duration ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a65d0c00ef5d447498219c70719946394}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a65d0c00ef5d447498219c70719946394}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!set\+Percent\+Complete@{set\+Percent\+Complete}}
+\index{set\+Percent\+Complete@{set\+Percent\+Complete}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{set\+Percent\+Complete()}{setPercentComplete()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task.\+set\+Percent\+Complete (\begin{DoxyParamCaption}\item[{Double}]{percent }\end{DoxyParamCaption})}
+
+Sets the percentage complete for the task.
+
+
+\begin{DoxyParams}{Parameters}
+{\em percent} & the percentage ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a91c50a4358774392ab6e7313f699d553}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_a91c50a4358774392ab6e7313f699d553}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}!set\+Percent\+Complete@{set\+Percent\+Complete}}
+\index{set\+Percent\+Complete@{set\+Percent\+Complete}!org\+::jfree\+::data\+::gantt\+::\+Task@{org\+::jfree\+::data\+::gantt\+::\+Task}}
+\subsubsection{\texorpdfstring{set\+Percent\+Complete()}{setPercentComplete()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task.\+set\+Percent\+Complete (\begin{DoxyParamCaption}\item[{double}]{percent }\end{DoxyParamCaption})}
+
+Sets the percentage complete for the task.
+
+
+\begin{DoxyParams}{Parameters}
+{\em percent} & the percentage. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/gantt/\mbox{\hyperlink{_task_8java}{Task.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,146 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{}\section{org.\+jfree.\+chart.\+block.\+Block Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}\index{org.\+jfree.\+chart.\+block.\+Block@{org.\+jfree.\+chart.\+block.\+Block}}
+Inheritance diagram for org.\+jfree.\+chart.\+block.\+Block\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.115093cm]{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_ab362b055d3750130025daf376d874541}{get\+ID}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_acdfb9f36af8bef13785bb29e9752da58}{set\+ID}} (String id)
+\item 
+Size2D \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a651d16c17fbf75d569fd29cf49ee8b9a}{arrange}} (Graphics2D g2)
+\item 
+Size2D \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_ab4cabbc237c5277a4a0018bab930e5fe}{arrange}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}} constraint)
+\item 
+Rectangle2D \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a9f7051224aeaddaf2c1099480394dafc}{get\+Bounds}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a03c8d57948ba1a054d2ed56bc989c5a4}{set\+Bounds}} (Rectangle2D bounds)
+\item 
+Object \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a1bac635d72de5ca6a71eff63dabf77a4}{draw}} (Graphics2D g2, Rectangle2D area, Object params)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A block is an arbitrary item that can be drawn (in Java2D space) within a rectangular area, has a preferred size, and can be arranged by an \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement}{Arrangement}} manager. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a651d16c17fbf75d569fd29cf49ee8b9a}\label{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a651d16c17fbf75d569fd29cf49ee8b9a}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}!arrange@{arrange}}
+\index{arrange@{arrange}!org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}}
+\subsubsection{\texorpdfstring{arrange()}{arrange()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Block.\+arrange (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2 }\end{DoxyParamCaption})}
+
+Arranges the contents of the block, with no constraints, and returns the block size.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The size of the block. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_ab4cabbc237c5277a4a0018bab930e5fe}\label{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_ab4cabbc237c5277a4a0018bab930e5fe}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}!arrange@{arrange}}
+\index{arrange@{arrange}!org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}}
+\subsubsection{\texorpdfstring{arrange()}{arrange()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Block.\+arrange (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}}}]{constraint }\end{DoxyParamCaption})}
+
+Arranges the contents of the block, within the given constraints, and returns the block size.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em constraint} & the constraint ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The block size (in Java2D units, never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_legend_title_a2495bc37b4b9f15e00280185d2de63f4}{org.\+jfree.\+chart.\+title.\+Legend\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_legend_graphic_ae60f43bb510f5553a4ee11178030eb68}{org.\+jfree.\+chart.\+title.\+Legend\+Graphic}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_text_title_ab3eccb24ba6a7c3f411d86001f17e1e0}{org.\+jfree.\+chart.\+title.\+Text\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_paint_scale_legend_a893860f6362afa2f5e22dd1b0ff301f7}{org.\+jfree.\+chart.\+title.\+Paint\+Scale\+Legend}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_label_block_afdb9ca1eaacea8719e9ff9fa30f14e1a}{org.\+jfree.\+chart.\+block.\+Label\+Block}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a6fcab813990b8e21fd307a2e6a7d0475}{org.\+jfree.\+chart.\+title.\+Image\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_af4746269c5628f6ae1ce2be343e5b1e6}{org.\+jfree.\+chart.\+block.\+Block\+Container}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_composite_title_a9f7d9c67faefcc8745d73da575bf731f}{org.\+jfree.\+chart.\+title.\+Composite\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_color_block_a0fc4c45fb677dc2f062fae9f5d4656e0}{org.\+jfree.\+chart.\+block.\+Color\+Block}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_short_text_title_aed42f3ff529f06abb2bc28f0ed8e15a9}{org.\+jfree.\+chart.\+title.\+Short\+Text\+Title}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_empty_block_adf2baca7ef56fa857a0874f08e029a74}{org.\+jfree.\+chart.\+block.\+Empty\+Block}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a1bac635d72de5ca6a71eff63dabf77a4}\label{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a1bac635d72de5ca6a71eff63dabf77a4}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+block.\+Block.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{area,  }\item[{Object}]{params }\end{DoxyParamCaption})}
+
+Draws the block within the specified area. Refer to the documentation for the implementing class for information about the {\ttfamily params} and return value supported.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em area} & the area. \\
+\hline
+{\em params} & optional parameters ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An optional return value (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_text_title_a0c8701f8d3a4844f5de8c08a86a2a652}{org.\+jfree.\+chart.\+title.\+Text\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_legend_graphic_ac29f7144d623700d566b65c515723bef}{org.\+jfree.\+chart.\+title.\+Legend\+Graphic}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_legend_title_a006fb515a2acc72597f9355efc99d1c9}{org.\+jfree.\+chart.\+title.\+Legend\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_paint_scale_legend_ac2571d0f330c72c18821cfc2552a6e57}{org.\+jfree.\+chart.\+title.\+Paint\+Scale\+Legend}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_label_block_a37ce0083b41db3d2c02e4868476bffaa}{org.\+jfree.\+chart.\+block.\+Label\+Block}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_af625a9d48781190c5c12f5e6293820ea}{org.\+jfree.\+chart.\+title.\+Image\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_short_text_title_a9c5effc8dfa4bf48e1aaf3fa62c3c416}{org.\+jfree.\+chart.\+title.\+Short\+Text\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_legend_item_block_container_a402e56d16b82668ea0cd559504021851}{org.\+jfree.\+chart.\+title.\+Legend\+Item\+Block\+Container}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_ac2c5279f4ac5b5e89e48d11b195938a2}{org.\+jfree.\+chart.\+block.\+Block\+Container}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_composite_title_aba3d4ae99c4cebc28b67ca69893bfe83}{org.\+jfree.\+chart.\+title.\+Composite\+Title}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_color_block_a7f085b5efe2aeb2fb4d71211be85ee59}{org.\+jfree.\+chart.\+block.\+Color\+Block}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_empty_block_a0b6a2e4523859ae8787ad8ca0221ec47}{org.\+jfree.\+chart.\+block.\+Empty\+Block}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a9f7051224aeaddaf2c1099480394dafc}\label{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a9f7051224aeaddaf2c1099480394dafc}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}!get\+Bounds@{get\+Bounds}}
+\index{get\+Bounds@{get\+Bounds}!org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}}
+\subsubsection{\texorpdfstring{get\+Bounds()}{getBounds()}}
+{\footnotesize\ttfamily Rectangle2D org.\+jfree.\+chart.\+block.\+Block.\+get\+Bounds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the current bounds of the block.
+
+\begin{DoxyReturn}{Returns}
+The bounds. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_ab362b055d3750130025daf376d874541}\label{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_ab362b055d3750130025daf376d874541}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}!get\+ID@{get\+ID}}
+\index{get\+ID@{get\+ID}!org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}}
+\subsubsection{\texorpdfstring{get\+I\+D()}{getID()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+block.\+Block.\+get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns an ID for the block.
+
+\begin{DoxyReturn}{Returns}
+An ID. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a03c8d57948ba1a054d2ed56bc989c5a4}\label{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a03c8d57948ba1a054d2ed56bc989c5a4}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}!set\+Bounds@{set\+Bounds}}
+\index{set\+Bounds@{set\+Bounds}!org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}}
+\subsubsection{\texorpdfstring{set\+Bounds()}{setBounds()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Block.\+set\+Bounds (\begin{DoxyParamCaption}\item[{Rectangle2D}]{bounds }\end{DoxyParamCaption})}
+
+Sets the bounds of the block.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bounds} & the bounds. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_acdfb9f36af8bef13785bb29e9752da58}\label{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_acdfb9f36af8bef13785bb29e9752da58}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}!set\+ID@{set\+ID}}
+\index{set\+ID@{set\+ID}!org\+::jfree\+::chart\+::block\+::\+Block@{org\+::jfree\+::chart\+::block\+::\+Block}}
+\subsubsection{\texorpdfstring{set\+I\+D()}{setID()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Block.\+set\+ID (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})}
+
+Sets the ID for the block.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & the ID. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/block/\mbox{\hyperlink{_block_8java}{Block.\+java}}\end{DoxyCompactItemize}

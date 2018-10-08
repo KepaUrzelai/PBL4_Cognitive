@@ -1,0 +1,74 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}{}\section{org.\+jfree.\+chart.\+servlet.\+Display\+Chart Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}\index{org.\+jfree.\+chart.\+servlet.\+Display\+Chart@{org.\+jfree.\+chart.\+servlet.\+Display\+Chart}}
+Inheritance diagram for org.\+jfree.\+chart.\+servlet.\+Display\+Chart\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_aaf3c909080ec6f755edac69a9b20f157}{Display\+Chart}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_ab825c900255fc58e4d1912118a27a131}{init}} ()  throws Servlet\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_a0fdd8b42c8723cb20f14a0ba4231309c}{service}} (Http\+Servlet\+Request request, Http\+Servlet\+Response response)  throws Servlet\+Exception, I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Servlet used for streaming charts to the client browser from the temporary directory. You need to add this servlet and mapping to your deployment descriptor (web.\+xml) in order to get it to work. The syntax is as follows\+:
+
+$<$xmp$>$ $<$servlet$>$ $<$servlet-\/name$>$\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}{Display\+Chart}}$<$/servlet-\/name$>$ $<$servlet-\/class$>$\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}{org.\+jfree.\+chart.\+servlet.\+Display\+Chart}}$<$/servlet-\/class$>$ $<$/servlet$>$ $<$servlet-\/mapping$>$ $<$servlet-\/name$>$\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}{Display\+Chart}}$<$/servlet-\/name$>$ $<$url-\/pattern$>$/servlet/\+Display\+Chart$<$/url-\/pattern$>$ $<$/servlet-\/mapping$>$ $<$/xmp$>$ 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_aaf3c909080ec6f755edac69a9b20f157}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_aaf3c909080ec6f755edac69a9b20f157}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart@{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart}!Display\+Chart@{Display\+Chart}}
+\index{Display\+Chart@{Display\+Chart}!org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart@{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart}}
+\subsubsection{\texorpdfstring{Display\+Chart()}{DisplayChart()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+servlet.\+Display\+Chart.\+Display\+Chart (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_ab825c900255fc58e4d1912118a27a131}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_ab825c900255fc58e4d1912118a27a131}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart@{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart}!init@{init}}
+\index{init@{init}!org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart@{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+servlet.\+Display\+Chart.\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Servlet\+Exception}
+
+Init method.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Servlet\+Exception} & never. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_a0fdd8b42c8723cb20f14a0ba4231309c}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart_a0fdd8b42c8723cb20f14a0ba4231309c}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart@{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart}!service@{service}}
+\index{service@{service}!org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart@{org\+::jfree\+::chart\+::servlet\+::\+Display\+Chart}}
+\subsubsection{\texorpdfstring{service()}{service()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+servlet.\+Display\+Chart.\+service (\begin{DoxyParamCaption}\item[{Http\+Servlet\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response }\end{DoxyParamCaption}) throws Servlet\+Exception, I\+O\+Exception}
+
+Service method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & the request. \\
+\hline
+{\em response} & the response.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Servlet\+Exception} & ??. \\
+\hline
+{\em I\+O\+Exception} & ??. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/servlet/\mbox{\hyperlink{_display_chart_8java}{Display\+Chart.\+java}}\end{DoxyCompactItemize}

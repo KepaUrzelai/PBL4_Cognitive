@@ -1,0 +1,363 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer}{}\section{org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer}\index{org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer@{org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer}}
+Inheritance diagram for org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ae3e3008460884a712496a363d9103bc8}{draw\+Series}} (Graphics2D g2, Rectangle2D data\+Area, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}} plot, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series\+Index)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a3c554349d8d283adc729bac88b4d017b}{draw\+Angular\+Grid\+Lines}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}} plot, List ticks, Rectangle2D data\+Area)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ac4353310f0219e6919cec83d3506665d}{draw\+Radial\+Grid\+Lines}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}} plot, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} radial\+Axis, List ticks, Rectangle2D data\+Area)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_legend_item}{Legend\+Item}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a1160128616410b978a4b82ea265fdde2}{get\+Legend\+Item}} (int series)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a3a7f957c63544df781986d288727a5cf}{get\+Plot}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a1b4dbb3579dbdf195cb5dc0901d387f5}{set\+Plot}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}} plot)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ad3adac83e60fe6965050e9b2d447642a}{add\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_renderer_change_listener}{Renderer\+Change\+Listener}} listener)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a643f02dd9cbde3f33cac94589245fdc4}{remove\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_renderer_change_listener}{Renderer\+Change\+Listener}} listener)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a88d1545f3fbb8aaddc89b2afb5ffb050}{get\+Tool\+Tip\+Generator}} (int row, int column)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a88c82899310074e147185e59d46060b2}{get\+Series\+Tool\+Tip\+Generator}} (int series)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a38f9cc455c80c0b6e937bd759a62e3a2}{set\+Series\+Tool\+Tip\+Generator}} (int series, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} generator)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_aeac8f5482fc07b86565f1efce8805e2d}{get\+Base\+Tool\+Tip\+Generator}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a8228783ae5afbc99459106111e892a99}{set\+Base\+Tool\+Tip\+Generator}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} generator)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_u_r_l_generator}{X\+Y\+U\+R\+L\+Generator}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_afe0889dc56f6a7a66f5c743b51548ff5}{get\+U\+R\+L\+Generator}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a8809317358c46f995ce56e79857ff96e}{set\+U\+R\+L\+Generator}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_u_r_l_generator}{X\+Y\+U\+R\+L\+Generator}} url\+Generator)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The interface for a renderer that can be used by the \mbox{\hyperlink{}{Polar\+Plot}} class. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ad3adac83e60fe6965050e9b2d447642a}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ad3adac83e60fe6965050e9b2d447642a}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!add\+Change\+Listener@{add\+Change\+Listener}}
+\index{add\+Change\+Listener@{add\+Change\+Listener}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{add\+Change\+Listener()}{addChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+add\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_renderer_change_listener}{Renderer\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Adds a change listener.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a3c554349d8d283adc729bac88b4d017b}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a3c554349d8d283adc729bac88b4d017b}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!draw\+Angular\+Grid\+Lines@{draw\+Angular\+Grid\+Lines}}
+\index{draw\+Angular\+Grid\+Lines@{draw\+Angular\+Grid\+Lines}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{draw\+Angular\+Grid\+Lines()}{drawAngularGridLines()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+draw\+Angular\+Grid\+Lines (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}}}]{plot,  }\item[{List}]{ticks,  }\item[{Rectangle2D}]{data\+Area }\end{DoxyParamCaption})}
+
+Draw the angular gridlines -\/ the spokes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the drawing surface. \\
+\hline
+{\em plot} & the plot. \\
+\hline
+{\em ticks} & the ticks. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a5439ece62914fdbfbc77c1138cbbda92}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ac4353310f0219e6919cec83d3506665d}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ac4353310f0219e6919cec83d3506665d}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!draw\+Radial\+Grid\+Lines@{draw\+Radial\+Grid\+Lines}}
+\index{draw\+Radial\+Grid\+Lines@{draw\+Radial\+Grid\+Lines}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{draw\+Radial\+Grid\+Lines()}{drawRadialGridLines()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+draw\+Radial\+Grid\+Lines (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}}}]{plot,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{radial\+Axis,  }\item[{List}]{ticks,  }\item[{Rectangle2D}]{data\+Area }\end{DoxyParamCaption})}
+
+Draw the radial gridlines -\/ the rings.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the drawing surface. \\
+\hline
+{\em plot} & the plot. \\
+\hline
+{\em radial\+Axis} & the radial axis. \\
+\hline
+{\em ticks} & the ticks. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a47b1c314c9da7a50b3271f8bb0c4eb1d}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ae3e3008460884a712496a363d9103bc8}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_ae3e3008460884a712496a363d9103bc8}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!draw\+Series@{draw\+Series}}
+\index{draw\+Series@{draw\+Series}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{draw\+Series()}{drawSeries()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+draw\+Series (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{data\+Area,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}}}]{plot,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series\+Index }\end{DoxyParamCaption})}
+
+Plots the data for a given series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the drawing surface. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+{\em info} & collects plot rendering info. \\
+\hline
+{\em plot} & the plot. \\
+\hline
+{\em dataset} & the dataset. \\
+\hline
+{\em series\+Index} & the series index. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a175674973fea05095e787c0d5b4eb06a}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_aeac8f5482fc07b86565f1efce8805e2d}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_aeac8f5482fc07b86565f1efce8805e2d}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!get\+Base\+Tool\+Tip\+Generator@{get\+Base\+Tool\+Tip\+Generator}}
+\index{get\+Base\+Tool\+Tip\+Generator@{get\+Base\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Base\+Tool\+Tip\+Generator()}{getBaseToolTipGenerator()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+get\+Base\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the base tool tip generator.
+
+\begin{DoxyReturn}{Returns}
+The generator (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a8228783ae5afbc99459106111e892a99}{set\+Base\+Tool\+Tip\+Generator(\+X\+Y\+Tool\+Tip\+Generator)}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a79cb58010b42feef92a7def54ad727ba}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a1160128616410b978a4b82ea265fdde2}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a1160128616410b978a4b82ea265fdde2}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!get\+Legend\+Item@{get\+Legend\+Item}}
+\index{get\+Legend\+Item@{get\+Legend\+Item}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Legend\+Item()}{getLegendItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_legend_item}{Legend\+Item}} org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+get\+Legend\+Item (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Return the legend for the given series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The legend item. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_ad8ab0846350353938551d224b76c16fb}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a3a7f957c63544df781986d288727a5cf}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a3a7f957c63544df781986d288727a5cf}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!get\+Plot@{get\+Plot}}
+\index{get\+Plot@{get\+Plot}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Plot()}{getPlot()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}} org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+get\+Plot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the plot that this renderer has been assigned to.
+
+\begin{DoxyReturn}{Returns}
+The plot. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a9cd32aebbc67cd428f05aafd7cb2c3ff}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a88c82899310074e147185e59d46060b2}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a88c82899310074e147185e59d46060b2}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!get\+Series\+Tool\+Tip\+Generator@{get\+Series\+Tool\+Tip\+Generator}}
+\index{get\+Series\+Tool\+Tip\+Generator@{get\+Series\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Series\+Tool\+Tip\+Generator()}{getSeriesToolTipGenerator()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+get\+Series\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the tool tip generator for a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The generator (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a38f9cc455c80c0b6e937bd759a62e3a2}{set\+Series\+Tool\+Tip\+Generator(int, X\+Y\+Tool\+Tip\+Generator)}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a359b2063f711745b5728ee139243b678}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a88d1545f3fbb8aaddc89b2afb5ffb050}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a88d1545f3fbb8aaddc89b2afb5ffb050}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!get\+Tool\+Tip\+Generator@{get\+Tool\+Tip\+Generator}}
+\index{get\+Tool\+Tip\+Generator@{get\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Tool\+Tip\+Generator()}{getToolTipGenerator()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+get\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the tool tip generator for a data item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero based). \\
+\hline
+{\em column} & the column index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The generator (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a8cb1713bde0d1ef338294ee530885743}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_afe0889dc56f6a7a66f5c743b51548ff5}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_afe0889dc56f6a7a66f5c743b51548ff5}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!get\+U\+R\+L\+Generator@{get\+U\+R\+L\+Generator}}
+\index{get\+U\+R\+L\+Generator@{get\+U\+R\+L\+Generator}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{get\+U\+R\+L\+Generator()}{getURLGenerator()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_u_r_l_generator}{X\+Y\+U\+R\+L\+Generator}} org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+get\+U\+R\+L\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the U\+RL generator for H\+T\+ML image maps.
+
+\begin{DoxyReturn}{Returns}
+The U\+RL generator (possibly null).
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a4bb8861bfb9aec6a0e62a26e285f09fe}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a643f02dd9cbde3f33cac94589245fdc4}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a643f02dd9cbde3f33cac94589245fdc4}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!remove\+Change\+Listener@{remove\+Change\+Listener}}
+\index{remove\+Change\+Listener@{remove\+Change\+Listener}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{remove\+Change\+Listener()}{removeChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+remove\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_renderer_change_listener}{Renderer\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Removes a change listener.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a8228783ae5afbc99459106111e892a99}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a8228783ae5afbc99459106111e892a99}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!set\+Base\+Tool\+Tip\+Generator@{set\+Base\+Tool\+Tip\+Generator}}
+\index{set\+Base\+Tool\+Tip\+Generator@{set\+Base\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{set\+Base\+Tool\+Tip\+Generator()}{setBaseToolTipGenerator()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+set\+Base\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}}}]{generator }\end{DoxyParamCaption})}
+
+Sets the base tool tip generator and sends a \mbox{\hyperlink{}{Renderer\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em generator} & the generator ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_aeac8f5482fc07b86565f1efce8805e2d}{get\+Base\+Tool\+Tip\+Generator()}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a57bdfb049e0c886624471fe2167fba2e}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a1b4dbb3579dbdf195cb5dc0901d387f5}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a1b4dbb3579dbdf195cb5dc0901d387f5}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!set\+Plot@{set\+Plot}}
+\index{set\+Plot@{set\+Plot}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{set\+Plot()}{setPlot()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+set\+Plot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_polar_plot}{Polar\+Plot}}}]{plot }\end{DoxyParamCaption})}
+
+Sets the plot that this renderer is assigned to. This method will be called by the plot class...you do not need to call it yourself.
+
+
+\begin{DoxyParams}{Parameters}
+{\em plot} & the plot. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_ad296a32b8f8f8c0bd6d460204781eaea}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a38f9cc455c80c0b6e937bd759a62e3a2}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a38f9cc455c80c0b6e937bd759a62e3a2}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!set\+Series\+Tool\+Tip\+Generator@{set\+Series\+Tool\+Tip\+Generator}}
+\index{set\+Series\+Tool\+Tip\+Generator@{set\+Series\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{set\+Series\+Tool\+Tip\+Generator()}{setSeriesToolTipGenerator()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+set\+Series\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}}}]{generator }\end{DoxyParamCaption})}
+
+Sets the tool tip generator for a series and sends a \mbox{\hyperlink{}{Renderer\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero based). \\
+\hline
+{\em generator} & the generator ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a88c82899310074e147185e59d46060b2}{get\+Series\+Tool\+Tip\+Generator(int)}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_afd59a9fcaf9f825b6c86f04a29e9204d}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a8809317358c46f995ce56e79857ff96e}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_polar_item_renderer_a8809317358c46f995ce56e79857ff96e}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}!set\+U\+R\+L\+Generator@{set\+U\+R\+L\+Generator}}
+\index{set\+U\+R\+L\+Generator@{set\+U\+R\+L\+Generator}!org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::\+Polar\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{set\+U\+R\+L\+Generator()}{setURLGenerator()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Polar\+Item\+Renderer.\+set\+U\+R\+L\+Generator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_u_r_l_generator}{X\+Y\+U\+R\+L\+Generator}}}]{url\+Generator }\end{DoxyParamCaption})}
+
+Sets the U\+RL generator for H\+T\+ML image maps.
+
+
+\begin{DoxyParams}{Parameters}
+{\em url\+Generator} & the U\+RL generator (null permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_default_polar_item_renderer_a9a49fc33df2e4f9e3050dcbff3a03ead}{org.\+jfree.\+chart.\+renderer.\+Default\+Polar\+Item\+Renderer}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/\mbox{\hyperlink{_polar_item_renderer_8java}{Polar\+Item\+Renderer.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,118 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor}{}\section{org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor}\index{org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor@{org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_afde6e18da10a61bc8d662f44aa43ad85}{Abstract\+Pie\+Label\+Distributor}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_record}{Pie\+Label\+Record}} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_af268d48505bf0ed03c4bc6b4e5c1b450}{get\+Pie\+Label\+Record}} (int index)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a1f15a93250e65b65347899e22993f8cf}{add\+Pie\+Label\+Record}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_record}{Pie\+Label\+Record}} record)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_aaaf8f92e86eaee3b0c8016f78ff7e540}{get\+Item\+Count}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a1936d4757aba15058126bc42b80d7864}{clear}} ()
+\item 
+abstract void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a0bc048b05cea4b4f2549c6511dd0a8aa}{distribute\+Labels}} (double minY, double height)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a8ba189619f28deb4e58ba191ea8bd61b}{labels}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A base class for handling the distribution of pie section labels. Create your own subclass and set it using the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot_a8f4cdc293e6bfea16c6ac91daa60c22f}{Pie\+Plot\#set\+Label\+Distributor(\+Abstract\+Pie\+Label\+Distributor)}} method if you want to customise the label distribution. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_afde6e18da10a61bc8d662f44aa43ad85}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_afde6e18da10a61bc8d662f44aa43ad85}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}!Abstract\+Pie\+Label\+Distributor@{Abstract\+Pie\+Label\+Distributor}}
+\index{Abstract\+Pie\+Label\+Distributor@{Abstract\+Pie\+Label\+Distributor}!org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{Abstract\+Pie\+Label\+Distributor()}{AbstractPieLabelDistributor()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor.\+Abstract\+Pie\+Label\+Distributor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a1f15a93250e65b65347899e22993f8cf}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a1f15a93250e65b65347899e22993f8cf}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}!add\+Pie\+Label\+Record@{add\+Pie\+Label\+Record}}
+\index{add\+Pie\+Label\+Record@{add\+Pie\+Label\+Record}!org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{add\+Pie\+Label\+Record()}{addPieLabelRecord()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor.\+add\+Pie\+Label\+Record (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_record}{Pie\+Label\+Record}}}]{record }\end{DoxyParamCaption})}
+
+Adds a label record.
+
+
+\begin{DoxyParams}{Parameters}
+{\em record} & the label record ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a1936d4757aba15058126bc42b80d7864}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a1936d4757aba15058126bc42b80d7864}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}!clear@{clear}}
+\index{clear@{clear}!org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clears the list of labels. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a0bc048b05cea4b4f2549c6511dd0a8aa}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a0bc048b05cea4b4f2549c6511dd0a8aa}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}!distribute\+Labels@{distribute\+Labels}}
+\index{distribute\+Labels@{distribute\+Labels}!org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{distribute\+Labels()}{distributeLabels()}}
+{\footnotesize\ttfamily abstract void org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor.\+distribute\+Labels (\begin{DoxyParamCaption}\item[{double}]{minY,  }\item[{double}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Called by the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot}{Pie\+Plot}} class. Implementations should distribute the labels in this.\+labels then return.
+
+
+\begin{DoxyParams}{Parameters}
+{\em minY} & the y-\/coordinate for the top of the label area. \\
+\hline
+{\em height} & the height of the label area. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_aaaf8f92e86eaee3b0c8016f78ff7e540}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_aaaf8f92e86eaee3b0c8016f78ff7e540}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of items in the list.
+
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_af268d48505bf0ed03c4bc6b4e5c1b450}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_af268d48505bf0ed03c4bc6b4e5c1b450}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}!get\+Pie\+Label\+Record@{get\+Pie\+Label\+Record}}
+\index{get\+Pie\+Label\+Record@{get\+Pie\+Label\+Record}!org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{get\+Pie\+Label\+Record()}{getPieLabelRecord()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_record}{Pie\+Label\+Record}} org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor.\+get\+Pie\+Label\+Record (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns a label record from the list.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label record. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a8ba189619f28deb4e58ba191ea8bd61b}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_abstract_pie_label_distributor_a8ba189619f28deb4e58ba191ea8bd61b}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}!labels@{labels}}
+\index{labels@{labels}!org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Abstract\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{labels}{labels}}
+{\footnotesize\ttfamily List org.\+jfree.\+chart.\+plot.\+Abstract\+Pie\+Label\+Distributor.\+labels\hspace{0.3cm}{\ttfamily [protected]}}
+
+The label records. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/\mbox{\hyperlink{_abstract_pie_label_distributor_8java}{Abstract\+Pie\+Label\+Distributor.\+java}}\end{DoxyCompactItemize}

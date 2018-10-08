@@ -1,0 +1,100 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}{}\section{org.\+jfree.\+data.\+general.\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}\index{org.\+jfree.\+data.\+general.\+Dataset@{org.\+jfree.\+data.\+general.\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+general.\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.389333cm]{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a34655e538642314586d5c92a4c055c4d}{add\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}} listener)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a47cc3418a0f49e520f72f8411601afc4}{remove\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}} listener)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a48357df0f5aacd555b094627eb02d473}{get\+Group}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a48843f06c21e29847a62db0107b40138}{set\+Group}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}} group)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The base interface for data sets. 
+
+All datasets are required to support the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{Dataset\+Change\+Event}} mechanism by allowing listeners to register and receive notification of any changes to the dataset. 
+
+In addition, all datasets must belong to one (and only one) \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}}. The group object maintains a reader-\/writer lock which provides synchronised access to the datasets in multi-\/threaded code. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a34655e538642314586d5c92a4c055c4d}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a34655e538642314586d5c92a4c055c4d}} 
+\index{org\+::jfree\+::data\+::general\+::\+Dataset@{org\+::jfree\+::data\+::general\+::\+Dataset}!add\+Change\+Listener@{add\+Change\+Listener}}
+\index{add\+Change\+Listener@{add\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Dataset@{org\+::jfree\+::data\+::general\+::\+Dataset}}
+\subsubsection{\texorpdfstring{add\+Change\+Listener()}{addChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Dataset.\+add\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Registers an object for notification of changes to the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the object to register. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a98ccd0af41c59cd8fe50543376d0faf9}{org.\+jfree.\+data.\+general.\+Abstract\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a48357df0f5aacd555b094627eb02d473}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a48357df0f5aacd555b094627eb02d473}} 
+\index{org\+::jfree\+::data\+::general\+::\+Dataset@{org\+::jfree\+::data\+::general\+::\+Dataset}!get\+Group@{get\+Group}}
+\index{get\+Group@{get\+Group}!org\+::jfree\+::data\+::general\+::\+Dataset@{org\+::jfree\+::data\+::general\+::\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Group()}{getGroup()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}} org.\+jfree.\+data.\+general.\+Dataset.\+get\+Group (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the dataset group.
+
+\begin{DoxyReturn}{Returns}
+The dataset group. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a8461feb0ca75008e174e5bf72a56f01d}{org.\+jfree.\+data.\+general.\+Abstract\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a47cc3418a0f49e520f72f8411601afc4}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a47cc3418a0f49e520f72f8411601afc4}} 
+\index{org\+::jfree\+::data\+::general\+::\+Dataset@{org\+::jfree\+::data\+::general\+::\+Dataset}!remove\+Change\+Listener@{remove\+Change\+Listener}}
+\index{remove\+Change\+Listener@{remove\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Dataset@{org\+::jfree\+::data\+::general\+::\+Dataset}}
+\subsubsection{\texorpdfstring{remove\+Change\+Listener()}{removeChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Dataset.\+remove\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Deregisters an object for notification of changes to the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the object to deregister. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0a2ba36de45585c70212701459b5979}{org.\+jfree.\+data.\+general.\+Abstract\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a48843f06c21e29847a62db0107b40138}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a48843f06c21e29847a62db0107b40138}} 
+\index{org\+::jfree\+::data\+::general\+::\+Dataset@{org\+::jfree\+::data\+::general\+::\+Dataset}!set\+Group@{set\+Group}}
+\index{set\+Group@{set\+Group}!org\+::jfree\+::data\+::general\+::\+Dataset@{org\+::jfree\+::data\+::general\+::\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Group()}{setGroup()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Dataset.\+set\+Group (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}}}]{group }\end{DoxyParamCaption})}
+
+Sets the dataset group.
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & the dataset group. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0442a73adac8fbb69594378b5e354b0}{org.\+jfree.\+data.\+general.\+Abstract\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/general/\mbox{\hyperlink{_dataset_8java}{Dataset.\+java}}\end{DoxyCompactItemize}

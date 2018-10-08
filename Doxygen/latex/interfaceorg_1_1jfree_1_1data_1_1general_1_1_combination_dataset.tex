@@ -1,0 +1,60 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset}{}\section{org.\+jfree.\+data.\+general.\+Combination\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset}\index{org.\+jfree.\+data.\+general.\+Combination\+Dataset@{org.\+jfree.\+data.\+general.\+Combination\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+general.\+Combination\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset}{Series\+Dataset}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset_aba6918d290f095187907982432506bfe}{get\+Parent}} ()
+\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset_a66aff831b2ae72a85d4485c56f8b0d21}{get\+Map}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface that describes the new methods that any combined dataset needs to implement. A combined dataset object will combine one or more datasets and expose a sub-\/set or union of the combined datasets.
+
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000258}{Deprecated}}]1.\+0.\+13 \end{DoxyRefDesc}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset_a66aff831b2ae72a85d4485c56f8b0d21}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset_a66aff831b2ae72a85d4485c56f8b0d21}} 
+\index{org\+::jfree\+::data\+::general\+::\+Combination\+Dataset@{org\+::jfree\+::data\+::general\+::\+Combination\+Dataset}!get\+Map@{get\+Map}}
+\index{get\+Map@{get\+Map}!org\+::jfree\+::data\+::general\+::\+Combination\+Dataset@{org\+::jfree\+::data\+::general\+::\+Combination\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Map()}{getMap()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+general.\+Combination\+Dataset.\+get\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a map or indirect indexing form our series into parent\textquotesingle{}s series.
+
+\begin{DoxyReturn}{Returns}
+A map or indirect indexing form our series into parent\textquotesingle{}s series. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a4e31368adeb280dd35e158ee9505e89b}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a20540010e04859741397e673b45e2efb}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset_aba6918d290f095187907982432506bfe}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_combination_dataset_aba6918d290f095187907982432506bfe}} 
+\index{org\+::jfree\+::data\+::general\+::\+Combination\+Dataset@{org\+::jfree\+::data\+::general\+::\+Combination\+Dataset}!get\+Parent@{get\+Parent}}
+\index{get\+Parent@{get\+Parent}!org\+::jfree\+::data\+::general\+::\+Combination\+Dataset@{org\+::jfree\+::data\+::general\+::\+Combination\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Parent()}{getParent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset}{Series\+Dataset}} org.\+jfree.\+data.\+general.\+Combination\+Dataset.\+get\+Parent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the parent \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}{Dataset}} of this combination. If there is more than one parent, or a child is found that is not a combination, then returns {\ttfamily null}.
+
+\begin{DoxyReturn}{Returns}
+The parent \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}{Dataset}} of this combination. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a75becba98ba679e1e4fbf9b36c77ac13}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a0817fc414a8e775feff83818ce9a6740}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/general/\mbox{\hyperlink{_combination_dataset_8java}{Combination\+Dataset.\+java}}\end{DoxyCompactItemize}

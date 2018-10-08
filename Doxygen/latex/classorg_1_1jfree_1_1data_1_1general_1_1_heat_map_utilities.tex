@@ -1,0 +1,85 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities}{}\section{org.\+jfree.\+data.\+general.\+Heat\+Map\+Utilities Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities}\index{org.\+jfree.\+data.\+general.\+Heat\+Map\+Utilities@{org.\+jfree.\+data.\+general.\+Heat\+Map\+Utilities}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_aaef17dd57b84cfe4536fac21f1be7734}{extract\+Row\+From\+Heat\+Map\+Dataset}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}{Heat\+Map\+Dataset}} dataset, int row, Comparable series\+Name)
+\item 
+static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_a9a6e5b4495cbd1c70183f2e164213967}{extract\+Column\+From\+Heat\+Map\+Dataset}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}{Heat\+Map\+Dataset}} dataset, int column, Comparable series\+Name)
+\item 
+static Buffered\+Image \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_a12f47a4ae043e6b1107325210d66d22f}{create\+Heat\+Map\+Image}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}{Heat\+Map\+Dataset}} dataset, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale}{Paint\+Scale}} paint\+Scale)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A utility class for the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}{Heat\+Map\+Dataset}}.
+
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_a12f47a4ae043e6b1107325210d66d22f}\label{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_a12f47a4ae043e6b1107325210d66d22f}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities}!create\+Heat\+Map\+Image@{create\+Heat\+Map\+Image}}
+\index{create\+Heat\+Map\+Image@{create\+Heat\+Map\+Image}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{create\+Heat\+Map\+Image()}{createHeatMapImage()}}
+{\footnotesize\ttfamily static Buffered\+Image org.\+jfree.\+data.\+general.\+Heat\+Map\+Utilities.\+create\+Heat\+Map\+Image (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}{Heat\+Map\+Dataset}}}]{dataset,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale}{Paint\+Scale}}}]{paint\+Scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates an image that displays the values from the specified dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em paint\+Scale} & the paint scale for the z-\/values ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A buffered image. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_a9a6e5b4495cbd1c70183f2e164213967}\label{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_a9a6e5b4495cbd1c70183f2e164213967}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities}!extract\+Column\+From\+Heat\+Map\+Dataset@{extract\+Column\+From\+Heat\+Map\+Dataset}}
+\index{extract\+Column\+From\+Heat\+Map\+Dataset@{extract\+Column\+From\+Heat\+Map\+Dataset}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{extract\+Column\+From\+Heat\+Map\+Dataset()}{extractColumnFromHeatMapDataset()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} org.\+jfree.\+data.\+general.\+Heat\+Map\+Utilities.\+extract\+Column\+From\+Heat\+Map\+Dataset (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}{Heat\+Map\+Dataset}}}]{dataset,  }\item[{int}]{column,  }\item[{Comparable}]{series\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a dataset containing one series that holds a copy of the (y, z) data from one column (x-\/index) of the specified dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em column} & the column (x) index. \\
+\hline
+{\em series\+Name} & the series name ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The dataset. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_aaef17dd57b84cfe4536fac21f1be7734}\label{classorg_1_1jfree_1_1data_1_1general_1_1_heat_map_utilities_aaef17dd57b84cfe4536fac21f1be7734}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities}!extract\+Row\+From\+Heat\+Map\+Dataset@{extract\+Row\+From\+Heat\+Map\+Dataset}}
+\index{extract\+Row\+From\+Heat\+Map\+Dataset@{extract\+Row\+From\+Heat\+Map\+Dataset}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{extract\+Row\+From\+Heat\+Map\+Dataset()}{extractRowFromHeatMapDataset()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} org.\+jfree.\+data.\+general.\+Heat\+Map\+Utilities.\+extract\+Row\+From\+Heat\+Map\+Dataset (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}{Heat\+Map\+Dataset}}}]{dataset,  }\item[{int}]{row,  }\item[{Comparable}]{series\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a dataset containing one series that holds a copy of the (x, z) data from one row (y-\/index) of the specified dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row (y) index. \\
+\hline
+{\em series\+Name} & the series name/key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The dataset. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/general/\mbox{\hyperlink{_heat_map_utilities_8java}{Heat\+Map\+Utilities.\+java}}\end{DoxyCompactItemize}

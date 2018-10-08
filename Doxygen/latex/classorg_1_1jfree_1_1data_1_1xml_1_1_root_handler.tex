@@ -1,0 +1,112 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler}{}\section{org.\+jfree.\+data.\+xml.\+Root\+Handler Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler}\index{org.\+jfree.\+data.\+xml.\+Root\+Handler@{org.\+jfree.\+data.\+xml.\+Root\+Handler}}
+Inheritance diagram for org.\+jfree.\+data.\+xml.\+Root\+Handler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_aa69b89ba3c1180322b5ce33c23e64574}{Root\+Handler}} ()
+\item 
+Stack \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a121f0caf0c7fadd0806e9fe0103e7810}{get\+Sub\+Handlers}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a7a853466d5780ea87c1b3316ccddd294}{characters}} (char\mbox{[}$\,$\mbox{]} ch, int start, int length)  throws S\+A\+X\+Exception 
+\item 
+Default\+Handler \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a6c7d1726c1851520d25236abea7f882c}{get\+Current\+Handler}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a757bd4a9107736cd165c5bb5d6988b8a}{push\+Sub\+Handler}} (Default\+Handler subhandler)
+\item 
+Default\+Handler \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_af02db13e09000892a1baaa86b16efe79}{pop\+Sub\+Handler}} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A S\+AX handler that delegates work to sub-\/handlers. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_aa69b89ba3c1180322b5ce33c23e64574}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_aa69b89ba3c1180322b5ce33c23e64574}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}!Root\+Handler@{Root\+Handler}}
+\index{Root\+Handler@{Root\+Handler}!org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}}
+\subsubsection{\texorpdfstring{Root\+Handler()}{RootHandler()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xml.\+Root\+Handler.\+Root\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new handler. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a7a853466d5780ea87c1b3316ccddd294}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a7a853466d5780ea87c1b3316ccddd294}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}!characters@{characters}}
+\index{characters@{characters}!org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}}
+\subsubsection{\texorpdfstring{characters()}{characters()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xml.\+Root\+Handler.\+characters (\begin{DoxyParamCaption}\item[{char \mbox{[}$\,$\mbox{]}}]{ch,  }\item[{int}]{start,  }\item[{int}]{length }\end{DoxyParamCaption}) throws S\+A\+X\+Exception}
+
+Receives some (or all) of the text in the current element.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ch} & character buffer. \\
+\hline
+{\em start} & the start index. \\
+\hline
+{\em length} & the length of the valid character data.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+A\+X\+Exception} & for errors. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a6c7d1726c1851520d25236abea7f882c}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a6c7d1726c1851520d25236abea7f882c}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}!get\+Current\+Handler@{get\+Current\+Handler}}
+\index{get\+Current\+Handler@{get\+Current\+Handler}!org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}}
+\subsubsection{\texorpdfstring{get\+Current\+Handler()}{getCurrentHandler()}}
+{\footnotesize\ttfamily Default\+Handler org.\+jfree.\+data.\+xml.\+Root\+Handler.\+get\+Current\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the handler at the top of the stack.
+
+\begin{DoxyReturn}{Returns}
+The handler. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a121f0caf0c7fadd0806e9fe0103e7810}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a121f0caf0c7fadd0806e9fe0103e7810}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}!get\+Sub\+Handlers@{get\+Sub\+Handlers}}
+\index{get\+Sub\+Handlers@{get\+Sub\+Handlers}!org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}}
+\subsubsection{\texorpdfstring{get\+Sub\+Handlers()}{getSubHandlers()}}
+{\footnotesize\ttfamily Stack org.\+jfree.\+data.\+xml.\+Root\+Handler.\+get\+Sub\+Handlers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the stack of sub handlers.
+
+\begin{DoxyReturn}{Returns}
+The sub-\/handler stack. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_af02db13e09000892a1baaa86b16efe79}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_af02db13e09000892a1baaa86b16efe79}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}!pop\+Sub\+Handler@{pop\+Sub\+Handler}}
+\index{pop\+Sub\+Handler@{pop\+Sub\+Handler}!org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}}
+\subsubsection{\texorpdfstring{pop\+Sub\+Handler()}{popSubHandler()}}
+{\footnotesize\ttfamily Default\+Handler org.\+jfree.\+data.\+xml.\+Root\+Handler.\+pop\+Sub\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Pops a sub-\/handler from the stack.
+
+\begin{DoxyReturn}{Returns}
+The sub-\/handler. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a757bd4a9107736cd165c5bb5d6988b8a}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler_a757bd4a9107736cd165c5bb5d6988b8a}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}!push\+Sub\+Handler@{push\+Sub\+Handler}}
+\index{push\+Sub\+Handler@{push\+Sub\+Handler}!org\+::jfree\+::data\+::xml\+::\+Root\+Handler@{org\+::jfree\+::data\+::xml\+::\+Root\+Handler}}
+\subsubsection{\texorpdfstring{push\+Sub\+Handler()}{pushSubHandler()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xml.\+Root\+Handler.\+push\+Sub\+Handler (\begin{DoxyParamCaption}\item[{Default\+Handler}]{subhandler }\end{DoxyParamCaption})}
+
+Pushes a sub-\/handler onto the stack.
+
+
+\begin{DoxyParams}{Parameters}
+{\em subhandler} & the sub-\/handler. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xml/\mbox{\hyperlink{_root_handler_8java}{Root\+Handler.\+java}}\end{DoxyCompactItemize}

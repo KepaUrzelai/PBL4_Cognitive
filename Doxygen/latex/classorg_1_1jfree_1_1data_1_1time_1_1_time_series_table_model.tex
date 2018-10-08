@@ -1,0 +1,209 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model}{}\section{org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model}\index{org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model@{org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model}}
+Inheritance diagram for org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a3a08169fd0eddd741a1aad1f18404b49}{Time\+Series\+Table\+Model}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a874efc4cdbfbe3d452a3b2b3fd449f3e}{Time\+Series\+Table\+Model}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} series)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_ad524cb12d70d742375e976567e70e08b}{Time\+Series\+Table\+Model}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} series, boolean editable)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a44554c6ac3a714a712f1d1869aeeefaa}{get\+Column\+Count}} ()
+\item 
+Class \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a8202186bf96944757cb1c29673d56bef}{get\+Column\+Class}} (int column)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a52b4391901d138d134b3d1b236dcdb09}{get\+Column\+Name}} (int column)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a67dae9d68ae70b6f11a003cd01004584}{get\+Row\+Count}} ()
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_aa7c4e79d191e71bca00e22c7318b5997}{get\+Value\+At}} (int row, int column)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_af32cedeced693f9ceb8d4d15e2c556e6}{is\+Cell\+Editable}} (int row, int column)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_ad5abdf4a9321a1b9ba716f786ad5131f}{set\+Value\+At}} (Object value, int row, int column)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a677a0cd7e6da07877e06848a43056c26}{series\+Changed}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{Series\+Change\+Event}} event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Wrapper around a time series to convert it to a table model for use in a {\ttfamily J\+Table}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a3a08169fd0eddd741a1aad1f18404b49}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a3a08169fd0eddd741a1aad1f18404b49}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!Time\+Series\+Table\+Model@{Time\+Series\+Table\+Model}}
+\index{Time\+Series\+Table\+Model@{Time\+Series\+Table\+Model}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{Time\+Series\+Table\+Model()}{TimeSeriesTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+Time\+Series\+Table\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a874efc4cdbfbe3d452a3b2b3fd449f3e}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a874efc4cdbfbe3d452a3b2b3fd449f3e}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!Time\+Series\+Table\+Model@{Time\+Series\+Table\+Model}}
+\index{Time\+Series\+Table\+Model@{Time\+Series\+Table\+Model}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{Time\+Series\+Table\+Model()}{TimeSeriesTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+Time\+Series\+Table\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}}}]{series }\end{DoxyParamCaption})}
+
+Constructs a table model for a time series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the time series. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_ad524cb12d70d742375e976567e70e08b}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_ad524cb12d70d742375e976567e70e08b}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!Time\+Series\+Table\+Model@{Time\+Series\+Table\+Model}}
+\index{Time\+Series\+Table\+Model@{Time\+Series\+Table\+Model}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{Time\+Series\+Table\+Model()}{TimeSeriesTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+Time\+Series\+Table\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}}}]{series,  }\item[{boolean}]{editable }\end{DoxyParamCaption})}
+
+Creates a table model based on a time series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the time series. \\
+\hline
+{\em editable} & if
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ , the table is editable. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a8202186bf96944757cb1c29673d56bef}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a8202186bf96944757cb1c29673d56bef}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!get\+Column\+Class@{get\+Column\+Class}}
+\index{get\+Column\+Class@{get\+Column\+Class}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Column\+Class()}{getColumnClass()}}
+{\footnotesize\ttfamily Class org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+get\+Column\+Class (\begin{DoxyParamCaption}\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the column class in the table model.
+
+
+\begin{DoxyParams}{Parameters}
+{\em column} & the column index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The column class in the table model. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a44554c6ac3a714a712f1d1869aeeefaa}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a44554c6ac3a714a712f1d1869aeeefaa}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!get\+Column\+Count@{get\+Column\+Count}}
+\index{get\+Column\+Count@{get\+Column\+Count}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Column\+Count()}{getColumnCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+get\+Column\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of columns in the table model. For this particular model, the column count is fixed at 2.
+
+\begin{DoxyReturn}{Returns}
+The column count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a52b4391901d138d134b3d1b236dcdb09}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a52b4391901d138d134b3d1b236dcdb09}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!get\+Column\+Name@{get\+Column\+Name}}
+\index{get\+Column\+Name@{get\+Column\+Name}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Column\+Name()}{getColumnName()}}
+{\footnotesize\ttfamily String org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+get\+Column\+Name (\begin{DoxyParamCaption}\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the name of a column
+
+
+\begin{DoxyParams}{Parameters}
+{\em column} & the column index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The name of a column. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a67dae9d68ae70b6f11a003cd01004584}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a67dae9d68ae70b6f11a003cd01004584}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!get\+Row\+Count@{get\+Row\+Count}}
+\index{get\+Row\+Count@{get\+Row\+Count}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Row\+Count()}{getRowCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+get\+Row\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of rows in the table model.
+
+\begin{DoxyReturn}{Returns}
+The row count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_aa7c4e79d191e71bca00e22c7318b5997}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_aa7c4e79d191e71bca00e22c7318b5997}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!get\+Value\+At@{get\+Value\+At}}
+\index{get\+Value\+At@{get\+Value\+At}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{get\+Value\+At()}{getValueAt()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+get\+Value\+At (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the data value for a cell in the table model.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row number. \\
+\hline
+{\em column} & the column number.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The data value for a cell in the table model. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_af32cedeced693f9ceb8d4d15e2c556e6}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_af32cedeced693f9ceb8d4d15e2c556e6}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!is\+Cell\+Editable@{is\+Cell\+Editable}}
+\index{is\+Cell\+Editable@{is\+Cell\+Editable}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{is\+Cell\+Editable()}{isCellEditable()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+is\+Cell\+Editable (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns a flag indicating whether or not the specified cell is editable.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row number. \\
+\hline
+{\em column} & the column number.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified cell is editable. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a677a0cd7e6da07877e06848a43056c26}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_a677a0cd7e6da07877e06848a43056c26}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!series\+Changed@{series\+Changed}}
+\index{series\+Changed@{series\+Changed}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{series\+Changed()}{seriesChanged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+series\+Changed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{Series\+Change\+Event}}}]{event }\end{DoxyParamCaption})}
+
+Receives notification that the time series has been changed. Responds by firing a table data change event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & the event. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_change_listener_a441fd65d1290b91e0184124be928ebf7}{org.\+jfree.\+data.\+general.\+Series\+Change\+Listener}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_ad5abdf4a9321a1b9ba716f786ad5131f}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_table_model_ad5abdf4a9321a1b9ba716f786ad5131f}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}!set\+Value\+At@{set\+Value\+At}}
+\index{set\+Value\+At@{set\+Value\+At}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Table\+Model}}
+\subsubsection{\texorpdfstring{set\+Value\+At()}{setValueAt()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Time\+Series\+Table\+Model.\+set\+Value\+At (\begin{DoxyParamCaption}\item[{Object}]{value,  }\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Updates the time series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the new value. \\
+\hline
+{\em row} & the row. \\
+\hline
+{\em column} & the column. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/time/\mbox{\hyperlink{_time_series_table_model_8java}{Time\+Series\+Table\+Model.\+java}}\end{DoxyCompactItemize}

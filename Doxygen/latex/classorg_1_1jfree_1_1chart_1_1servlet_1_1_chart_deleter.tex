@@ -1,0 +1,96 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter}{}\section{org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter}\index{org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter@{org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter}}
+Inheritance diagram for org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a2d659f520dd35e8715697faf3c2bc5f3}{Chart\+Deleter}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_ae1f984d94f1f8fbe6f847919e18bf58d}{add\+Chart}} (String filename)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a0e3f2e5f99e127fe2b09e3c37f017f76}{is\+Chart\+Available}} (String filename)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a7a48fb7bfcc51b401c0b660ca0c21bfa}{value\+Bound}} (Http\+Session\+Binding\+Event event)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_ad8f8ac98ec6fc581b023fb7235ea2d4a}{value\+Unbound}} (Http\+Session\+Binding\+Event event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Used for deleting charts from the temporary directory when the users session expires. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a2d659f520dd35e8715697faf3c2bc5f3}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a2d659f520dd35e8715697faf3c2bc5f3}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}!Chart\+Deleter@{Chart\+Deleter}}
+\index{Chart\+Deleter@{Chart\+Deleter}!org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}}
+\subsubsection{\texorpdfstring{Chart\+Deleter()}{ChartDeleter()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter.\+Chart\+Deleter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Blank constructor. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_ae1f984d94f1f8fbe6f847919e18bf58d}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_ae1f984d94f1f8fbe6f847919e18bf58d}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}!add\+Chart@{add\+Chart}}
+\index{add\+Chart@{add\+Chart}!org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}}
+\subsubsection{\texorpdfstring{add\+Chart()}{addChart()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter.\+add\+Chart (\begin{DoxyParamCaption}\item[{String}]{filename }\end{DoxyParamCaption})}
+
+Add a chart to be deleted when the session expires
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the name of the chart in the temporary directory to be deleted. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a0e3f2e5f99e127fe2b09e3c37f017f76}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a0e3f2e5f99e127fe2b09e3c37f017f76}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}!is\+Chart\+Available@{is\+Chart\+Available}}
+\index{is\+Chart\+Available@{is\+Chart\+Available}!org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}}
+\subsubsection{\texorpdfstring{is\+Chart\+Available()}{isChartAvailable()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter.\+is\+Chart\+Available (\begin{DoxyParamCaption}\item[{String}]{filename }\end{DoxyParamCaption})}
+
+Checks to see if a chart is in the list of charts to be deleted
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the name of the chart in the temporary directory.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean value indicating whether the chart is present in the list. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a7a48fb7bfcc51b401c0b660ca0c21bfa}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_a7a48fb7bfcc51b401c0b660ca0c21bfa}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}!value\+Bound@{value\+Bound}}
+\index{value\+Bound@{value\+Bound}!org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}}
+\subsubsection{\texorpdfstring{value\+Bound()}{valueBound()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter.\+value\+Bound (\begin{DoxyParamCaption}\item[{Http\+Session\+Binding\+Event}]{event }\end{DoxyParamCaption})}
+
+Binding this object to the session has no additional effects.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & the session bind event. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_ad8f8ac98ec6fc581b023fb7235ea2d4a}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter_ad8f8ac98ec6fc581b023fb7235ea2d4a}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}!value\+Unbound@{value\+Unbound}}
+\index{value\+Unbound@{value\+Unbound}!org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter@{org\+::jfree\+::chart\+::servlet\+::\+Chart\+Deleter}}
+\subsubsection{\texorpdfstring{value\+Unbound()}{valueUnbound()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+servlet.\+Chart\+Deleter.\+value\+Unbound (\begin{DoxyParamCaption}\item[{Http\+Session\+Binding\+Event}]{event }\end{DoxyParamCaption})}
+
+When this object is unbound from the session (including upon session expiry) the files that have been added to the Array\+List are iterated and deleted.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & the session unbind event. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/servlet/\mbox{\hyperlink{_chart_deleter_8java}{Chart\+Deleter.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,71 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer}{}\section{org.\+jfree.\+chart.\+util.\+Directional\+Gradient\+Paint\+Transformer Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer}\index{org.\+jfree.\+chart.\+util.\+Directional\+Gradient\+Paint\+Transformer@{org.\+jfree.\+chart.\+util.\+Directional\+Gradient\+Paint\+Transformer}}
+Inheritance diagram for org.\+jfree.\+chart.\+util.\+Directional\+Gradient\+Paint\+Transformer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer_a106ce54a958807e30e1b7ccba4685d8f}{Directional\+Gradient\+Paint\+Transformer}} ()
+\item 
+Gradient\+Paint \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer_ae4c496333f96b718c47e8e7a9e65cd44}{transform}} (Gradient\+Paint paint, Shape target)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Transforms a {\ttfamily Gradient\+Paint} to range over the width of a target shape. The orientation of the resulting {\ttfamily Gradient\+Paint} depend on the coordinates of the original paint\+:
+
+
+\begin{DoxyItemize}
+\item If the original paint starts at 0,0 and ends at a point 0, y != 0, the resulting paint will have a vertical orientation. 
+\item If the original paint starts at 0,0 and ends at a point x !=0, 0, the resulting paint will have a horizontal orientation. 
+\item If the original paint starts at 0,0 and ends at a point x != 0, y != 0, the resulting paint will have a diagonal orientation from the upper left to the lower right edge. Lines of equal color will have a 45 ∞ angle, pointing upwards from left to right. 
+\item If the original paint starts at a point x != 0, y != 0, the resulting paint will have a diagonal orientation from the lower left to the upper right edge. Lines of equal color will have a 45 ∞ angle, pointing downwards from left to right. 
+\end{DoxyItemize}
+
+In all cases, the cyclic flag of the original paint will be taken into account.
+
+\begin{DoxyAuthor}{Author}
+Peter Kolb 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0.\+17 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer_a106ce54a958807e30e1b7ccba4685d8f}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer_a106ce54a958807e30e1b7ccba4685d8f}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Directional\+Gradient\+Paint\+Transformer@{org\+::jfree\+::chart\+::util\+::\+Directional\+Gradient\+Paint\+Transformer}!Directional\+Gradient\+Paint\+Transformer@{Directional\+Gradient\+Paint\+Transformer}}
+\index{Directional\+Gradient\+Paint\+Transformer@{Directional\+Gradient\+Paint\+Transformer}!org\+::jfree\+::chart\+::util\+::\+Directional\+Gradient\+Paint\+Transformer@{org\+::jfree\+::chart\+::util\+::\+Directional\+Gradient\+Paint\+Transformer}}
+\subsubsection{\texorpdfstring{Directional\+Gradient\+Paint\+Transformer()}{DirectionalGradientPaintTransformer()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+util.\+Directional\+Gradient\+Paint\+Transformer.\+Directional\+Gradient\+Paint\+Transformer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer_ae4c496333f96b718c47e8e7a9e65cd44}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_directional_gradient_paint_transformer_ae4c496333f96b718c47e8e7a9e65cd44}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Directional\+Gradient\+Paint\+Transformer@{org\+::jfree\+::chart\+::util\+::\+Directional\+Gradient\+Paint\+Transformer}!transform@{transform}}
+\index{transform@{transform}!org\+::jfree\+::chart\+::util\+::\+Directional\+Gradient\+Paint\+Transformer@{org\+::jfree\+::chart\+::util\+::\+Directional\+Gradient\+Paint\+Transformer}}
+\subsubsection{\texorpdfstring{transform()}{transform()}}
+{\footnotesize\ttfamily Gradient\+Paint org.\+jfree.\+chart.\+util.\+Directional\+Gradient\+Paint\+Transformer.\+transform (\begin{DoxyParamCaption}\item[{Gradient\+Paint}]{paint,  }\item[{Shape}]{target }\end{DoxyParamCaption})}
+
+Transforms a {\ttfamily Gradient\+Paint} instance to fit some target shape.
+
+
+\begin{DoxyParams}{Parameters}
+{\em paint} & the original paint (not {\ttfamily null}). \\
+\hline
+{\em target} & the reference area (not {\ttfamily null}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A transformed paint. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_directional_gradient_paint_transformer_8java}{Directional\+Gradient\+Paint\+Transformer.\+java}}\end{DoxyCompactItemize}

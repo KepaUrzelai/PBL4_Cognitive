@@ -1,0 +1,215 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d}{}\section{org.\+jfree.\+chart.\+plot.\+Pie\+Plot3D Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d}\index{org.\+jfree.\+chart.\+plot.\+Pie\+Plot3D@{org.\+jfree.\+chart.\+plot.\+Pie\+Plot3D}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+Pie\+Plot3D\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=7.080460cm]{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_aa7e41b53624e2b5a4f778b30ba8f5bcd}{Pie\+Plot3D}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a1654d06e2203edc768388b1b5e36654b}{Pie\+Plot3D}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}} dataset)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a10ffdfa0adfbe06f4344390b3e9596c5}{get\+Depth\+Factor}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a8b4759289ed982cd7d456b44b90f6b13}{set\+Depth\+Factor}} (double factor)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a3a06898f05f1e6737aa01f781d80a50e}{get\+Darker\+Sides}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_ad880cf39b21e7aee0c5a6f0d97859e4a}{set\+Darker\+Sides}} (boolean darker)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_aec0a97c54aa5b9e3920d0180bdd5a49f}{draw}} (Graphics2D g2, Rectangle2D plot\+Area, Point2D anchor, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_state}{Plot\+State}} parent\+State, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a938e095a670a32c462f0b626704b32fe}{get\+Plot\+Type}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a5ef3e497d70689a188d74a2781ebafc3}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a350945adfe903b739c352993fa186c73}{draw\+Side}} (Graphics2D g2, Rectangle2D plot\+Area, Arc2D arc, Area front, Area back, Paint paint, Paint outline\+Paint, Stroke outline\+Stroke, boolean draw\+Front, boolean draw\+Back)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A plot that displays data in the form of a 3D pie chart, using data from any class that implements the \mbox{\hyperlink{}{Pie\+Dataset}} interface. 
+
+Although this class extends \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot}{Pie\+Plot}}, it does not currently support exploded sections. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_aa7e41b53624e2b5a4f778b30ba8f5bcd}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_aa7e41b53624e2b5a4f778b30ba8f5bcd}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!Pie\+Plot3D@{Pie\+Plot3D}}
+\index{Pie\+Plot3D@{Pie\+Plot3D}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{Pie\+Plot3\+D()}{PiePlot3D()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+Pie\+Plot3D (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance with no dataset. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a1654d06e2203edc768388b1b5e36654b}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a1654d06e2203edc768388b1b5e36654b}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!Pie\+Plot3D@{Pie\+Plot3D}}
+\index{Pie\+Plot3D@{Pie\+Plot3D}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{Pie\+Plot3\+D()}{PiePlot3D()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+Pie\+Plot3D (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}}}]{dataset }\end{DoxyParamCaption})}
+
+Creates a pie chart with a three dimensional effect using the specified dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_aec0a97c54aa5b9e3920d0180bdd5a49f}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_aec0a97c54aa5b9e3920d0180bdd5a49f}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{plot\+Area,  }\item[{Point2D}]{anchor,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_state}{Plot\+State}}}]{parent\+State,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info }\end{DoxyParamCaption})}
+
+Draws the plot on a Java 2D graphics device (such as the screen or a printer). This method is called by the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{org.\+jfree.\+chart.\+J\+Free\+Chart}} class, you don\textquotesingle{}t normally need to call it yourself.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em plot\+Area} & the area within which the plot should be drawn. \\
+\hline
+{\em anchor} & the anchor point. \\
+\hline
+{\em parent\+State} & the state from the parent plot, if there is one. \\
+\hline
+{\em info} & collects info about the drawing ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a350945adfe903b739c352993fa186c73}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a350945adfe903b739c352993fa186c73}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!draw\+Side@{draw\+Side}}
+\index{draw\+Side@{draw\+Side}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{draw\+Side()}{drawSide()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+draw\+Side (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{plot\+Area,  }\item[{Arc2D}]{arc,  }\item[{Area}]{front,  }\item[{Area}]{back,  }\item[{Paint}]{paint,  }\item[{Paint}]{outline\+Paint,  }\item[{Stroke}]{outline\+Stroke,  }\item[{boolean}]{draw\+Front,  }\item[{boolean}]{draw\+Back }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Draws the side of a pie section.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em plot\+Area} & the plot area. \\
+\hline
+{\em arc} & the arc. \\
+\hline
+{\em front} & the front of the pie. \\
+\hline
+{\em back} & the back of the pie. \\
+\hline
+{\em paint} & the color. \\
+\hline
+{\em outline\+Paint} & the outline paint. \\
+\hline
+{\em outline\+Stroke} & the outline stroke. \\
+\hline
+{\em draw\+Front} & draw the front? \\
+\hline
+{\em draw\+Back} & draw the back? \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a5ef3e497d70689a188d74a2781ebafc3}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a5ef3e497d70689a188d74a2781ebafc3}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this plot for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a3a06898f05f1e6737aa01f781d80a50e}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a3a06898f05f1e6737aa01f781d80a50e}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!get\+Darker\+Sides@{get\+Darker\+Sides}}
+\index{get\+Darker\+Sides@{get\+Darker\+Sides}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{get\+Darker\+Sides()}{getDarkerSides()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+get\+Darker\+Sides (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a flag that controls whether or not the sides of the pie chart are rendered using a darker colour.
+
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_ad880cf39b21e7aee0c5a6f0d97859e4a}{set\+Darker\+Sides(boolean)}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a10ffdfa0adfbe06f4344390b3e9596c5}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a10ffdfa0adfbe06f4344390b3e9596c5}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!get\+Depth\+Factor@{get\+Depth\+Factor}}
+\index{get\+Depth\+Factor@{get\+Depth\+Factor}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{get\+Depth\+Factor()}{getDepthFactor()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+get\+Depth\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the depth factor for the chart.
+
+\begin{DoxyReturn}{Returns}
+The depth factor.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a8b4759289ed982cd7d456b44b90f6b13}{set\+Depth\+Factor(double)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a938e095a670a32c462f0b626704b32fe}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a938e095a670a32c462f0b626704b32fe}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!get\+Plot\+Type@{get\+Plot\+Type}}
+\index{get\+Plot\+Type@{get\+Plot\+Type}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{get\+Plot\+Type()}{getPlotType()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+get\+Plot\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a short string describing the type of plot.
+
+\begin{DoxyReturn}{Returns}
+{\itshape Pie 3D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot}{Plot}}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_ad880cf39b21e7aee0c5a6f0d97859e4a}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_ad880cf39b21e7aee0c5a6f0d97859e4a}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!set\+Darker\+Sides@{set\+Darker\+Sides}}
+\index{set\+Darker\+Sides@{set\+Darker\+Sides}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{set\+Darker\+Sides()}{setDarkerSides()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+set\+Darker\+Sides (\begin{DoxyParamCaption}\item[{boolean}]{darker }\end{DoxyParamCaption})}
+
+Sets a flag that controls whether or not the sides of the pie chart are rendered using a darker colour, and sends a \mbox{\hyperlink{}{Plot\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em darker} & true to darken the sides, false to use the default behaviour.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a3a06898f05f1e6737aa01f781d80a50e}{get\+Darker\+Sides()}}
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+1.\+0.\+7. 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a8b4759289ed982cd7d456b44b90f6b13}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a8b4759289ed982cd7d456b44b90f6b13}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}!set\+Depth\+Factor@{set\+Depth\+Factor}}
+\index{set\+Depth\+Factor@{set\+Depth\+Factor}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Plot3D}}
+\subsubsection{\texorpdfstring{set\+Depth\+Factor()}{setDepthFactor()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Plot3\+D.\+set\+Depth\+Factor (\begin{DoxyParamCaption}\item[{double}]{factor }\end{DoxyParamCaption})}
+
+Sets the pie depth as a percentage of the height of the plot area, and sends a \mbox{\hyperlink{}{Plot\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em factor} & the depth factor (for example, 0.\+20 is twenty percent).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_plot3_d_a10ffdfa0adfbe06f4344390b3e9596c5}{get\+Depth\+Factor()}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/\mbox{\hyperlink{_pie_plot3_d_8java}{Pie\+Plot3\+D.\+java}}\end{DoxyCompactItemize}

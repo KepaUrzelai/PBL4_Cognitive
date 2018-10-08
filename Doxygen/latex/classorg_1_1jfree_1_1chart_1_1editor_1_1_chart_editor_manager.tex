@@ -1,0 +1,62 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager}{}\section{org.\+jfree.\+chart.\+editor.\+Chart\+Editor\+Manager Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager}\index{org.\+jfree.\+chart.\+editor.\+Chart\+Editor\+Manager@{org.\+jfree.\+chart.\+editor.\+Chart\+Editor\+Manager}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_factory}{Chart\+Editor\+Factory}} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_ac8b452e09e624ece012381d03b482c8b}{get\+Chart\+Editor\+Factory}} ()
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_a2131eb6717fb849bd6e92f0fac64097b}{set\+Chart\+Editor\+Factory}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_factory}{Chart\+Editor\+Factory}} f)
+\item 
+static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor}{Chart\+Editor}} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_a3d910d06da2e0dd6877fa46d876a44f4}{get\+Chart\+Editor}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} chart)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The central point for obtaining \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor}{Chart\+Editor}} instances for editing charts. Right now, the A\+PI is minimal -\/ the plan is to extend this class to provide customisation options for chart editors (for example, make some editor items read-\/only). 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_a3d910d06da2e0dd6877fa46d876a44f4}\label{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_a3d910d06da2e0dd6877fa46d876a44f4}} 
+\index{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager@{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager}!get\+Chart\+Editor@{get\+Chart\+Editor}}
+\index{get\+Chart\+Editor@{get\+Chart\+Editor}!org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager@{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager}}
+\subsubsection{\texorpdfstring{get\+Chart\+Editor()}{getChartEditor()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor}{Chart\+Editor}} org.\+jfree.\+chart.\+editor.\+Chart\+Editor\+Manager.\+get\+Chart\+Editor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}}]{chart }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a component that can be used to edit the given chart.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chart} & the chart.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The chart editor. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_ac8b452e09e624ece012381d03b482c8b}\label{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_ac8b452e09e624ece012381d03b482c8b}} 
+\index{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager@{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager}!get\+Chart\+Editor\+Factory@{get\+Chart\+Editor\+Factory}}
+\index{get\+Chart\+Editor\+Factory@{get\+Chart\+Editor\+Factory}!org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager@{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager}}
+\subsubsection{\texorpdfstring{get\+Chart\+Editor\+Factory()}{getChartEditorFactory()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_factory}{Chart\+Editor\+Factory}} org.\+jfree.\+chart.\+editor.\+Chart\+Editor\+Manager.\+get\+Chart\+Editor\+Factory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the current factory.
+
+\begin{DoxyReturn}{Returns}
+The current factory (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_a2131eb6717fb849bd6e92f0fac64097b}\label{classorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_manager_a2131eb6717fb849bd6e92f0fac64097b}} 
+\index{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager@{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager}!set\+Chart\+Editor\+Factory@{set\+Chart\+Editor\+Factory}}
+\index{set\+Chart\+Editor\+Factory@{set\+Chart\+Editor\+Factory}!org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager@{org\+::jfree\+::chart\+::editor\+::\+Chart\+Editor\+Manager}}
+\subsubsection{\texorpdfstring{set\+Chart\+Editor\+Factory()}{setChartEditorFactory()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+editor.\+Chart\+Editor\+Manager.\+set\+Chart\+Editor\+Factory (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1editor_1_1_chart_editor_factory}{Chart\+Editor\+Factory}}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the chart editor factory.
+
+
+\begin{DoxyParams}{Parameters}
+{\em f} & the new factory ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/editor/\mbox{\hyperlink{_chart_editor_manager_8java}{Chart\+Editor\+Manager.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,90 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha}{}\section{org.\+jfree.\+chart.\+util.\+Paint\+Alpha Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha}\index{org.\+jfree.\+chart.\+util.\+Paint\+Alpha@{org.\+jfree.\+chart.\+util.\+Paint\+Alpha}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_acf74303de013426a46c2f87033d5dc17}{set\+Legacy\+Alpha}} (boolean legacy\+Alpha)
+\item 
+static Paint \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_af68c300f097acdce3b6230a5fe4cacad}{darker}} (Paint paint)
+\item 
+static Buffered\+Image \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_a38ba8e2c54dd62310181f208019add8a}{clone\+Image}} (Buffered\+Image image)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class contains static methods for the manipulation of objects of type {\ttfamily Paint} 
+
+The intention is to honour the alpha-\/channel in the process. {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha}{Paint\+Alpha}}} was originally conceived to improve the rendering of 3D Shapes with transparent colours and to allow invisible bars by making them completely transparent. 
+
+In, for example \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_stacked_bar_renderer3_d}{Stacked\+Bar\+Renderer3D}}, bars are rendered with 6 faces. The front face is rendered with the {\ttfamily Paint} requested. The other 5 faces are rendered darker to achieve the 3D effect. 
+
+Previously \mbox{\hyperlink{}{Color\#darker()}} was used for this, which always returns an opaque colour. 
+
+Additionally there are methods to control the behaviour and in particular a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_a38ba8e2c54dd62310181f208019add8a}{clone\+Image(..)}} method which is needed to darken objects of type \mbox{\hyperlink{}{Texture\+Paint}}.
+
+\begin{DoxyAuthor}{Author}
+Dave\+Law
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0.\+15 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_a38ba8e2c54dd62310181f208019add8a}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_a38ba8e2c54dd62310181f208019add8a}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha@{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha}!clone\+Image@{clone\+Image}}
+\index{clone\+Image@{clone\+Image}!org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha@{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha}}
+\subsubsection{\texorpdfstring{clone\+Image()}{cloneImage()}}
+{\footnotesize\ttfamily static Buffered\+Image org.\+jfree.\+chart.\+util.\+Paint\+Alpha.\+clone\+Image (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Clone a \mbox{\hyperlink{}{Buffered\+Image}}. 
+
+Note\+: when constructing the clone, the original Color Model Object is reused.~\newline
+ That keeps things simple and should not be a problem, as all known Color Models~\newline
+ (\mbox{\hyperlink{}{Index\+Color\+Model}}, \mbox{\hyperlink{}{Direct\+Color\+Model}}, \mbox{\hyperlink{}{Component\+Color\+Model}}) are immutable.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & original Buffered\+Image to clone\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new Buffered\+Image reusing the original\textquotesingle{}s Color Model and containing a clone of its pixels 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_af68c300f097acdce3b6230a5fe4cacad}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_af68c300f097acdce3b6230a5fe4cacad}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha@{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha}!darker@{darker}}
+\index{darker@{darker}!org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha@{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha}}
+\subsubsection{\texorpdfstring{darker()}{darker()}}
+{\footnotesize\ttfamily static Paint org.\+jfree.\+chart.\+util.\+Paint\+Alpha.\+darker (\begin{DoxyParamCaption}\item[{Paint}]{paint }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new (if possible, darker) {\ttfamily Paint} of the same Type. If the Type is not supported, the original {\ttfamily Paint} is returned. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paint} & a {\ttfamily Paint} implementation (e.\+g. \mbox{\hyperlink{}{Color}}, \mbox{\hyperlink{}{Gradient\+Paint}}, \mbox{\hyperlink{}{Texture\+Paint}},..) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a (usually new, see above) {\ttfamily Paint} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_acf74303de013426a46c2f87033d5dc17}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha_acf74303de013426a46c2f87033d5dc17}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha@{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha}!set\+Legacy\+Alpha@{set\+Legacy\+Alpha}}
+\index{set\+Legacy\+Alpha@{set\+Legacy\+Alpha}!org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha@{org\+::jfree\+::chart\+::util\+::\+Paint\+Alpha}}
+\subsubsection{\texorpdfstring{set\+Legacy\+Alpha()}{setLegacyAlpha()}}
+{\footnotesize\ttfamily static boolean org.\+jfree.\+chart.\+util.\+Paint\+Alpha.\+set\+Legacy\+Alpha (\begin{DoxyParamCaption}\item[{boolean}]{legacy\+Alpha }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Per default {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_paint_alpha}{Paint\+Alpha}}} will try to honour alpha-\/channel information. In the past this was not the case. If you wish legacy functionality for your application you can request this here.
+
+
+\begin{DoxyParams}{Parameters}
+{\em legacy\+Alpha} & boolean\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the previous setting 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_paint_alpha_8java}{Paint\+Alpha.\+java}}\end{DoxyCompactItemize}

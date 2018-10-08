@@ -1,0 +1,189 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis}{}\section{org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis}\index{org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis@{org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis}}
+Inheritance diagram for org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.153846cm]{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_af014a2dfcf9d4c529d7bd6e07b0bfdd0}{Extended\+Category\+Axis}} (String label)
+\item 
+Font \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a0b167c7b8149bdaa6f608d0bd2fea7b9}{get\+Sub\+Label\+Font}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_aaaa091e9b6e36820bbae9783a54746f5}{set\+Sub\+Label\+Font}} (Font font)
+\item 
+Paint \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a1aece6e248db92354b6a61e3af1c1e57}{get\+Sub\+Label\+Paint}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a25d5fdb730377e92220fbd36cc4f274d}{set\+Sub\+Label\+Paint}} (Paint paint)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a62e86975b4e6d5d64d75eaec7549f305}{add\+Sub\+Label}} (Comparable category, String label)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a65476239b987b478b4e9f448ec4b94bf}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a722070d8eaba3d5f5a51871348b88ca8}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Text\+Block \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_acd739d05fbbfe74ea16f241eca8170f9}{create\+Label}} (Comparable category, float width, Rectangle\+Edge edge, Graphics2D g2)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+An extended version of the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_category_axis}{Category\+Axis}} class that supports sublabels on the axis. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_af014a2dfcf9d4c529d7bd6e07b0bfdd0}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_af014a2dfcf9d4c529d7bd6e07b0bfdd0}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!Extended\+Category\+Axis@{Extended\+Category\+Axis}}
+\index{Extended\+Category\+Axis@{Extended\+Category\+Axis}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{Extended\+Category\+Axis()}{ExtendedCategoryAxis()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+Extended\+Category\+Axis (\begin{DoxyParamCaption}\item[{String}]{label }\end{DoxyParamCaption})}
+
+Creates a new axis.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label} & the axis label. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a62e86975b4e6d5d64d75eaec7549f305}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a62e86975b4e6d5d64d75eaec7549f305}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!add\+Sub\+Label@{add\+Sub\+Label}}
+\index{add\+Sub\+Label@{add\+Sub\+Label}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{add\+Sub\+Label()}{addSubLabel()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+add\+Sub\+Label (\begin{DoxyParamCaption}\item[{Comparable}]{category,  }\item[{String}]{label }\end{DoxyParamCaption})}
+
+Adds a sublabel for a category.
+
+
+\begin{DoxyParams}{Parameters}
+{\em category} & the category. \\
+\hline
+{\em label} & the label. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a722070d8eaba3d5f5a51871348b88ca8}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a722070d8eaba3d5f5a51871348b88ca8}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of this axis.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if there is a problem cloning. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_acd739d05fbbfe74ea16f241eca8170f9}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_acd739d05fbbfe74ea16f241eca8170f9}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!create\+Label@{create\+Label}}
+\index{create\+Label@{create\+Label}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{create\+Label()}{createLabel()}}
+{\footnotesize\ttfamily Text\+Block org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+create\+Label (\begin{DoxyParamCaption}\item[{Comparable}]{category,  }\item[{float}]{width,  }\item[{Rectangle\+Edge}]{edge,  }\item[{Graphics2D}]{g2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Overrides the default behaviour by adding the sublabel to the text block that is used for the category label.
+
+
+\begin{DoxyParams}{Parameters}
+{\em category} & the category. \\
+\hline
+{\em width} & the width (not used yet). \\
+\hline
+{\em edge} & the location of the axis. \\
+\hline
+{\em g2} & the graphics device.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A label. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a65476239b987b478b4e9f448ec4b94bf}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a65476239b987b478b4e9f448ec4b94bf}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this axis for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a0b167c7b8149bdaa6f608d0bd2fea7b9}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a0b167c7b8149bdaa6f608d0bd2fea7b9}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!get\+Sub\+Label\+Font@{get\+Sub\+Label\+Font}}
+\index{get\+Sub\+Label\+Font@{get\+Sub\+Label\+Font}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{get\+Sub\+Label\+Font()}{getSubLabelFont()}}
+{\footnotesize\ttfamily Font org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+get\+Sub\+Label\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the font for the sublabels.
+
+\begin{DoxyReturn}{Returns}
+The font (never {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_aaaa091e9b6e36820bbae9783a54746f5}{set\+Sub\+Label\+Font(\+Font)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a1aece6e248db92354b6a61e3af1c1e57}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a1aece6e248db92354b6a61e3af1c1e57}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!get\+Sub\+Label\+Paint@{get\+Sub\+Label\+Paint}}
+\index{get\+Sub\+Label\+Paint@{get\+Sub\+Label\+Paint}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{get\+Sub\+Label\+Paint()}{getSubLabelPaint()}}
+{\footnotesize\ttfamily Paint org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+get\+Sub\+Label\+Paint (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the paint for the sublabels.
+
+\begin{DoxyReturn}{Returns}
+The paint (never {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a25d5fdb730377e92220fbd36cc4f274d}{set\+Sub\+Label\+Paint(\+Paint)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_aaaa091e9b6e36820bbae9783a54746f5}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_aaaa091e9b6e36820bbae9783a54746f5}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!set\+Sub\+Label\+Font@{set\+Sub\+Label\+Font}}
+\index{set\+Sub\+Label\+Font@{set\+Sub\+Label\+Font}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{set\+Sub\+Label\+Font()}{setSubLabelFont()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+set\+Sub\+Label\+Font (\begin{DoxyParamCaption}\item[{Font}]{font }\end{DoxyParamCaption})}
+
+Sets the font for the sublabels and sends an \mbox{\hyperlink{}{Axis\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em font} & the font ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a0b167c7b8149bdaa6f608d0bd2fea7b9}{get\+Sub\+Label\+Font()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a25d5fdb730377e92220fbd36cc4f274d}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a25d5fdb730377e92220fbd36cc4f274d}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}!set\+Sub\+Label\+Paint@{set\+Sub\+Label\+Paint}}
+\index{set\+Sub\+Label\+Paint@{set\+Sub\+Label\+Paint}!org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Extended\+Category\+Axis}}
+\subsubsection{\texorpdfstring{set\+Sub\+Label\+Paint()}{setSubLabelPaint()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Extended\+Category\+Axis.\+set\+Sub\+Label\+Paint (\begin{DoxyParamCaption}\item[{Paint}]{paint }\end{DoxyParamCaption})}
+
+Sets the paint for the sublabels and sends an \mbox{\hyperlink{}{Axis\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em paint} & the paint ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_extended_category_axis_a1aece6e248db92354b6a61e3af1c1e57}{get\+Sub\+Label\+Paint()}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/axis/\mbox{\hyperlink{_extended_category_axis_8java}{Extended\+Category\+Axis.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,88 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source}{}\section{org.\+jfree.\+chart.\+axis.\+Tick\+Unit\+Source Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source}\index{org.\+jfree.\+chart.\+axis.\+Tick\+Unit\+Source@{org.\+jfree.\+chart.\+axis.\+Tick\+Unit\+Source}}
+Inheritance diagram for org.\+jfree.\+chart.\+axis.\+Tick\+Unit\+Source\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.393035cm]{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_ada1fecd32d2e0ff584a7d2a55ffc349a}{get\+Larger\+Tick\+Unit}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}} unit)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_a38db8c401c916244f48a758a8e8d469f}{get\+Ceiling\+Tick\+Unit}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}} unit)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_a875d23e3610749f233950f61a855360d}{get\+Ceiling\+Tick\+Unit}} (double size)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface used by the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_date_axis}{Date\+Axis}} and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_number_axis}{Number\+Axis}} classes to obtain a suitable \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_a38db8c401c916244f48a758a8e8d469f}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_a38db8c401c916244f48a758a8e8d469f}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source}!get\+Ceiling\+Tick\+Unit@{get\+Ceiling\+Tick\+Unit}}
+\index{get\+Ceiling\+Tick\+Unit@{get\+Ceiling\+Tick\+Unit}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source}}
+\subsubsection{\texorpdfstring{get\+Ceiling\+Tick\+Unit()}{getCeilingTickUnit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}} org.\+jfree.\+chart.\+axis.\+Tick\+Unit\+Source.\+get\+Ceiling\+Tick\+Unit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}}}]{unit }\end{DoxyParamCaption})}
+
+Returns the tick unit in the collection that is greater than or equal to (in size) the specified unit.
+
+
+\begin{DoxyParams}{Parameters}
+{\em unit} & the unit.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A unit from the collection. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_units_a925a94d152ae23f36f676bd9a0dee5e3}{org.\+jfree.\+chart.\+axis.\+Tick\+Units}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_number_tick_unit_source_a8f94f7cddfff2ddf4d57b4e0abe11a12}{org.\+jfree.\+chart.\+axis.\+Number\+Tick\+Unit\+Source}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_standard_tick_unit_source_a3b8cc0c89ecd3bf00acbd1368a571190}{org.\+jfree.\+chart.\+axis.\+Standard\+Tick\+Unit\+Source}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_a875d23e3610749f233950f61a855360d}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_a875d23e3610749f233950f61a855360d}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source}!get\+Ceiling\+Tick\+Unit@{get\+Ceiling\+Tick\+Unit}}
+\index{get\+Ceiling\+Tick\+Unit@{get\+Ceiling\+Tick\+Unit}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source}}
+\subsubsection{\texorpdfstring{get\+Ceiling\+Tick\+Unit()}{getCeilingTickUnit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}} org.\+jfree.\+chart.\+axis.\+Tick\+Unit\+Source.\+get\+Ceiling\+Tick\+Unit (\begin{DoxyParamCaption}\item[{double}]{size }\end{DoxyParamCaption})}
+
+Returns the smallest tick unit available in the source that is greater than or equal to the specified size. If there is no such tick unit, the method should return the largest available tick in the source.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & the size.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A unit from the collection (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_units_ac65181d78c8783d8094d8b28273c37da}{org.\+jfree.\+chart.\+axis.\+Tick\+Units}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_number_tick_unit_source_a552cf17dfcced017ee6497a433a9467a}{org.\+jfree.\+chart.\+axis.\+Number\+Tick\+Unit\+Source}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_standard_tick_unit_source_a93fbb960c8e9c54bef76b7e147427f9d}{org.\+jfree.\+chart.\+axis.\+Standard\+Tick\+Unit\+Source}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_ada1fecd32d2e0ff584a7d2a55ffc349a}\label{interfaceorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_source_ada1fecd32d2e0ff584a7d2a55ffc349a}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source}!get\+Larger\+Tick\+Unit@{get\+Larger\+Tick\+Unit}}
+\index{get\+Larger\+Tick\+Unit@{get\+Larger\+Tick\+Unit}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit\+Source}}
+\subsubsection{\texorpdfstring{get\+Larger\+Tick\+Unit()}{getLargerTickUnit()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}} org.\+jfree.\+chart.\+axis.\+Tick\+Unit\+Source.\+get\+Larger\+Tick\+Unit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{Tick\+Unit}}}]{unit }\end{DoxyParamCaption})}
+
+Returns the smallest tick unit available in the source that is larger than {\ttfamily unit} or, if there is no larger unit, returns {\ttfamily unit}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em unit} & the unit ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A tick unit that is larger than the supplied unit. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_units_a4f4719e1bb4772648808c0d00787a92d}{org.\+jfree.\+chart.\+axis.\+Tick\+Units}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_number_tick_unit_source_a9194262fa7438a0f037a343f7de51eab}{org.\+jfree.\+chart.\+axis.\+Number\+Tick\+Unit\+Source}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_standard_tick_unit_source_a0bb7142a99b046b49fd9c902adfae64a}{org.\+jfree.\+chart.\+axis.\+Standard\+Tick\+Unit\+Source}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/axis/\mbox{\hyperlink{_tick_unit_source_8java}{Tick\+Unit\+Source.\+java}}\end{DoxyCompactItemize}

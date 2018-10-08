@@ -1,0 +1,242 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement}{}\section{org.\+jfree.\+chart.\+block.\+Column\+Arrangement Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement}\index{org.\+jfree.\+chart.\+block.\+Column\+Arrangement@{org.\+jfree.\+chart.\+block.\+Column\+Arrangement}}
+Inheritance diagram for org.\+jfree.\+chart.\+block.\+Column\+Arrangement\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a9a71658d516a78ad59859d778425b6f3}{Column\+Arrangement}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ad702fed1431e40d07444905950171c73}{Column\+Arrangement}} (Horizontal\+Alignment h\+Align, Vertical\+Alignment v\+Align, double h\+Gap, double v\+Gap)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_aaf6f65ef1134e5ce76c842c49a047294}{add}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{Block}} block, Object key)
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ae2f54a850b6d327b59631e746dc55236}{arrange}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}} container, Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}} constraint)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a5da939ad032092f20b3ed15922d171e3}{clear}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a1e7ba2d07657fe36afdba577ad549627}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a6fb3760f183aad27937000b9d23970f8}{arrange\+FF}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}} container, Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}} constraint)
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a5608e9c89d9bcf1241f3172d6b3a9720}{arrange\+NF}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}} container, Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}} constraint)
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ac73dd1076a7e7c54d40c9c6ffbdf9f36}{arrange\+RR}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}} container, Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}} constraint)
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_aee5eb34f12f4a734be7af2c8110e4bf2}{arrange\+RF}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}} container, Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}} constraint)
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ac21fdf947e422c5c3ec7b4c3c16d6f7c}{arrange\+NN}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}} container, Graphics2D g2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Arranges blocks in a column layout. This class is immutable. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a9a71658d516a78ad59859d778425b6f3}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a9a71658d516a78ad59859d778425b6f3}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!Column\+Arrangement@{Column\+Arrangement}}
+\index{Column\+Arrangement@{Column\+Arrangement}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{Column\+Arrangement()}{ColumnArrangement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+Column\+Arrangement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ad702fed1431e40d07444905950171c73}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ad702fed1431e40d07444905950171c73}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!Column\+Arrangement@{Column\+Arrangement}}
+\index{Column\+Arrangement@{Column\+Arrangement}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{Column\+Arrangement()}{ColumnArrangement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+Column\+Arrangement (\begin{DoxyParamCaption}\item[{Horizontal\+Alignment}]{h\+Align,  }\item[{Vertical\+Alignment}]{v\+Align,  }\item[{double}]{h\+Gap,  }\item[{double}]{v\+Gap }\end{DoxyParamCaption})}
+
+Creates a new instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+Align} & the horizontal alignment (currently ignored). \\
+\hline
+{\em v\+Align} & the vertical alignment (currently ignored). \\
+\hline
+{\em h\+Gap} & the horizontal gap. \\
+\hline
+{\em v\+Gap} & the vertical gap. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_aaf6f65ef1134e5ce76c842c49a047294}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_aaf6f65ef1134e5ce76c842c49a047294}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!add@{add}}
+\index{add@{add}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{Block}}}]{block,  }\item[{Object}]{key }\end{DoxyParamCaption})}
+
+Adds a block to be managed by this instance. This method is usually called by the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}}, you shouldn\textquotesingle{}t need to call it directly.
+
+
+\begin{DoxyParams}{Parameters}
+{\em block} & the block. \\
+\hline
+{\em key} & a key that controls the position of the block. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement_ab9ba94da0c30233584985ff29d88b489}{org.\+jfree.\+chart.\+block.\+Arrangement}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ae2f54a850b6d327b59631e746dc55236}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ae2f54a850b6d327b59631e746dc55236}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!arrange@{arrange}}
+\index{arrange@{arrange}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{arrange()}{arrange()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+arrange (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}}}]{container,  }\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}}}]{constraint }\end{DoxyParamCaption})}
+
+Calculates and sets the bounds of all the items in the specified container, subject to the given constraint. The {\ttfamily Graphics2D} can be used by some items (particularly items containing text) to calculate sizing parameters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em container} & the container whose items are being arranged. \\
+\hline
+{\em g2} & the graphics device. \\
+\hline
+{\em constraint} & the size constraint.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The size of the container after arrangement of the contents. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement_a898da14347266c2d9cfa3dd6dff4e2df}{org.\+jfree.\+chart.\+block.\+Arrangement}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a6fb3760f183aad27937000b9d23970f8}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a6fb3760f183aad27937000b9d23970f8}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!arrange\+FF@{arrange\+FF}}
+\index{arrange\+FF@{arrange\+FF}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{arrange\+F\+F()}{arrangeFF()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+arrange\+FF (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}}}]{container,  }\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}}}]{constraint }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Calculates and sets the bounds of all the items in the specified container, subject to the given constraint. The {\ttfamily Graphics2D} can be used by some items (particularly items containing text) to calculate sizing parameters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em container} & the container whose items are being arranged. \\
+\hline
+{\em g2} & the graphics device. \\
+\hline
+{\em constraint} & the size constraint.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The container size after the arrangement. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a5608e9c89d9bcf1241f3172d6b3a9720}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a5608e9c89d9bcf1241f3172d6b3a9720}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!arrange\+NF@{arrange\+NF}}
+\index{arrange\+NF@{arrange\+NF}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{arrange\+N\+F()}{arrangeNF()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+arrange\+NF (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}}}]{container,  }\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}}}]{constraint }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Calculates and sets the bounds of all the items in the specified container, subject to the given constraint. The {\ttfamily Graphics2D} can be used by some items (particularly items containing text) to calculate sizing parameters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em container} & the container whose items are being arranged. \\
+\hline
+{\em constraint} & the size constraint. \\
+\hline
+{\em g2} & the graphics device.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The container size after the arrangement. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ac21fdf947e422c5c3ec7b4c3c16d6f7c}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ac21fdf947e422c5c3ec7b4c3c16d6f7c}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!arrange\+NN@{arrange\+NN}}
+\index{arrange\+NN@{arrange\+NN}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{arrange\+N\+N()}{arrangeNN()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+arrange\+NN (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}}}]{container,  }\item[{Graphics2D}]{g2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Arranges the blocks without any constraints. This puts all blocks into a single column.
+
+
+\begin{DoxyParams}{Parameters}
+{\em container} & the container. \\
+\hline
+{\em g2} & the graphics device.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The size after the arrangement. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_aee5eb34f12f4a734be7af2c8110e4bf2}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_aee5eb34f12f4a734be7af2c8110e4bf2}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!arrange\+RF@{arrange\+RF}}
+\index{arrange\+RF@{arrange\+RF}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{arrange\+R\+F()}{arrangeRF()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+arrange\+RF (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}}}]{container,  }\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}}}]{constraint }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Arranges the blocks in the container using a fixed height and a range for the width.
+
+
+\begin{DoxyParams}{Parameters}
+{\em container} & the container. \\
+\hline
+{\em g2} & the graphics device. \\
+\hline
+{\em constraint} & the constraint.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The size of the container after arrangement. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ac73dd1076a7e7c54d40c9c6ffbdf9f36}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_ac73dd1076a7e7c54d40c9c6ffbdf9f36}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!arrange\+RR@{arrange\+RR}}
+\index{arrange\+RR@{arrange\+RR}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{arrange\+R\+R()}{arrangeRR()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+arrange\+RR (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{Block\+Container}}}]{container,  }\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}}}]{constraint }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Arranges a container with range constraints for both the horizontal and vertical.
+
+
+\begin{DoxyParams}{Parameters}
+{\em container} & the container. \\
+\hline
+{\em g2} & the graphics device. \\
+\hline
+{\em constraint} & the constraint.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The size of the container. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a5da939ad032092f20b3ed15922d171e3}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a5da939ad032092f20b3ed15922d171e3}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!clear@{clear}}
+\index{clear@{clear}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clears any cached information. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement_a4db8248d65d1c074b7cf5ecc35d0f097}{org.\+jfree.\+chart.\+block.\+Arrangement}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a1e7ba2d07657fe36afdba577ad549627}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_column_arrangement_a1e7ba2d07657fe36afdba577ad549627}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement@{org\+::jfree\+::chart\+::block\+::\+Column\+Arrangement}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+block.\+Column\+Arrangement.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this instance for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/block/\mbox{\hyperlink{_column_arrangement_8java}{Column\+Arrangement.\+java}}\end{DoxyCompactItemize}

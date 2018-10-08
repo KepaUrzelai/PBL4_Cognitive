@@ -1,0 +1,141 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor}{}\section{org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor}\index{org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor@{org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_add33e8ee5fd3c290272b3e9eb1569c73}{Pie\+Label\+Distributor}} (int label\+Count)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a4a742856275ba097e9c2560fc98ee749}{distribute\+Labels}} (double minY, double height)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a99d5e162024c77d89be826b1c4f27f58}{sort}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a72726fbc62dfdb2bf6d80c6ea78311b9}{to\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a476218b84d0bbdb44468177d56d81ad2}{adjust\+Inwards}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_ad93c4a06aa785d388cedca6d4308256c}{adjust\+Downwards}} (double minY, double height)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a6a3f796644616599a8794d73bd65cd0e}{adjust\+Upwards}} (double minY, double height)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_aaae8aef8f4804cbb4b944241ef8e1caa}{spread\+Evenly}} (double minY, double height)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class distributes the section labels for one side of a pie chart so that they do not overlap. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_add33e8ee5fd3c290272b3e9eb1569c73}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_add33e8ee5fd3c290272b3e9eb1569c73}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}!Pie\+Label\+Distributor@{Pie\+Label\+Distributor}}
+\index{Pie\+Label\+Distributor@{Pie\+Label\+Distributor}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{Pie\+Label\+Distributor()}{PieLabelDistributor()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor.\+Pie\+Label\+Distributor (\begin{DoxyParamCaption}\item[{int}]{label\+Count }\end{DoxyParamCaption})}
+
+Creates a new distributor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Count} & the number of labels (ignored). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_ad93c4a06aa785d388cedca6d4308256c}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_ad93c4a06aa785d388cedca6d4308256c}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}!adjust\+Downwards@{adjust\+Downwards}}
+\index{adjust\+Downwards@{adjust\+Downwards}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{adjust\+Downwards()}{adjustDownwards()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor.\+adjust\+Downwards (\begin{DoxyParamCaption}\item[{double}]{minY,  }\item[{double}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Any labels that are overlapping are moved down in an attempt to eliminate the overlaps.
+
+
+\begin{DoxyParams}{Parameters}
+{\em minY} & the minimum y value (in Java2D coordinate space). \\
+\hline
+{\em height} & the height available for all labels. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a476218b84d0bbdb44468177d56d81ad2}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a476218b84d0bbdb44468177d56d81ad2}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}!adjust\+Inwards@{adjust\+Inwards}}
+\index{adjust\+Inwards@{adjust\+Inwards}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{adjust\+Inwards()}{adjustInwards()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor.\+adjust\+Inwards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Adjusts the y-\/coordinate for the labels in towards the center in an attempt to fix overlapping. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a6a3f796644616599a8794d73bd65cd0e}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a6a3f796644616599a8794d73bd65cd0e}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}!adjust\+Upwards@{adjust\+Upwards}}
+\index{adjust\+Upwards@{adjust\+Upwards}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{adjust\+Upwards()}{adjustUpwards()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor.\+adjust\+Upwards (\begin{DoxyParamCaption}\item[{double}]{minY,  }\item[{double}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Any labels that are overlapping are moved up in an attempt to eliminate the overlaps.
+
+
+\begin{DoxyParams}{Parameters}
+{\em minY} & the minimum y value (in Java2D coordinate space). \\
+\hline
+{\em height} & the height available for all labels. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a4a742856275ba097e9c2560fc98ee749}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a4a742856275ba097e9c2560fc98ee749}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}!distribute\+Labels@{distribute\+Labels}}
+\index{distribute\+Labels@{distribute\+Labels}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{distribute\+Labels()}{distributeLabels()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor.\+distribute\+Labels (\begin{DoxyParamCaption}\item[{double}]{minY,  }\item[{double}]{height }\end{DoxyParamCaption})}
+
+Distributes the labels.
+
+
+\begin{DoxyParams}{Parameters}
+{\em minY} & the minimum y-\/coordinate in Java2\+D-\/space. \\
+\hline
+{\em height} & the available height (in Java2D units). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a99d5e162024c77d89be826b1c4f27f58}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a99d5e162024c77d89be826b1c4f27f58}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}!sort@{sort}}
+\index{sort@{sort}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{sort()}{sort()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor.\+sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts the label records into ascending order by y-\/value. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_aaae8aef8f4804cbb4b944241ef8e1caa}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_aaae8aef8f4804cbb4b944241ef8e1caa}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}!spread\+Evenly@{spread\+Evenly}}
+\index{spread\+Evenly@{spread\+Evenly}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{spread\+Evenly()}{spreadEvenly()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor.\+spread\+Evenly (\begin{DoxyParamCaption}\item[{double}]{minY,  }\item[{double}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Labels are spaced evenly in the available space in an attempt to eliminate the overlaps.
+
+
+\begin{DoxyParams}{Parameters}
+{\em minY} & the minimum y value (in Java2D coordinate space). \\
+\hline
+{\em height} & the height available for all labels. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a72726fbc62dfdb2bf6d80c6ea78311b9}\label{classorg_1_1jfree_1_1chart_1_1plot_1_1_pie_label_distributor_a72726fbc62dfdb2bf6d80c6ea78311b9}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor@{org\+::jfree\+::chart\+::plot\+::\+Pie\+Label\+Distributor}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+plot.\+Pie\+Label\+Distributor.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a string containing a description of the object for debugging purposes.
+
+\begin{DoxyReturn}{Returns}
+A string. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/\mbox{\hyperlink{_pie_label_distributor_8java}{Pie\+Label\+Distributor.\+java}}\end{DoxyCompactItemize}

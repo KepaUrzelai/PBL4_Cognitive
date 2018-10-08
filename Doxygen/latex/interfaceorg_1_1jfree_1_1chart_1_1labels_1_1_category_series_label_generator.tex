@@ -1,0 +1,48 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_series_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Category\+Series\+Label\+Generator Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_series_label_generator}\index{org.\+jfree.\+chart.\+labels.\+Category\+Series\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+Category\+Series\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Category\+Series\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_series_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_series_label_generator_a7b6ff7a5a11c77b3a2cede3b31dd314f}{generate\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int series)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A generator that creates labels for the series in a \mbox{\hyperlink{}{Category\+Dataset}}. 
+
+Classes that implement this interface should be either (a) immutable, or (b) cloneable via the {\ttfamily Public\+Cloneable} interface (defined in the J\+Common class library). This provides a mechanism for the referring renderer to clone the generator if necessary. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_series_label_generator_a7b6ff7a5a11c77b3a2cede3b31dd314f}\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_series_label_generator_a7b6ff7a5a11c77b3a2cede3b31dd314f}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Category\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Series\+Label\+Generator}!generate\+Label@{generate\+Label}}
+\index{generate\+Label@{generate\+Label}!org\+::jfree\+::chart\+::labels\+::\+Category\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Label()}{generateLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Category\+Series\+Label\+Generator.\+generate\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{series }\end{DoxyParamCaption})}
+
+Generates a label for the specified series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A series label. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_category_series_label_generator_a9aeba3bfd749fa93a0477811d56b339a}{org.\+jfree.\+chart.\+labels.\+Standard\+Category\+Series\+Label\+Generator}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_category_series_label_generator_8java}{Category\+Series\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

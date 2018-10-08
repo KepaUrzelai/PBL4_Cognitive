@@ -1,0 +1,378 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year}{}\section{org.\+jfree.\+data.\+time.\+Year Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1time_1_1_year}\index{org.\+jfree.\+data.\+time.\+Year@{org.\+jfree.\+data.\+time.\+Year}}
+Inheritance diagram for org.\+jfree.\+data.\+time.\+Year\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.190883cm]{classorg_1_1jfree_1_1data_1_1time_1_1_year}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_aadd8bd67be12d625410714bf71b38f37}{Year}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_ac0bf78131cf89bca067e3b5120e1cd50}{Year}} (int year)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a8be658305c0cf8fac00562e23c2ba0a8}{Year}} (Date time)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_aa2e6f6acded9ea74ce136c04cb6d55cc}{Year}} (Date time, Time\+Zone zone)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a5b0866b58a1bf8cffbfc02bab667888d}{Year}} (Date time, Time\+Zone zone, Locale locale)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_ab6da2d250464461b6d9c83743ee07539}{get\+Year}} ()
+\item 
+long \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_ad4c7220e5cd2c321ff4108c7a73ff68b}{get\+First\+Millisecond}} ()
+\item 
+long \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a57299a0e16c221eebc2f69e9daefc6ff}{get\+Last\+Millisecond}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a98c518e97ade2b6267e1b421b0f91162}{peg}} (Calendar calendar)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a0a068d4f45b412bde0a3d50181a5662a}{previous}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a6eb70611dd73047ccce20c9c0d1c21fb}{next}} ()
+\item 
+long \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_affe76a52fc33bf8bc60f04fa8726bc73}{get\+Serial\+Index}} ()
+\item 
+long \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_aee8afd7f92299328416efdf15465ae8a}{get\+First\+Millisecond}} (Calendar calendar)
+\item 
+long \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a0e83766f160b644bd495c7d70570ce08}{get\+Last\+Millisecond}} (Calendar calendar)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_ac994c8806ffdc5244ce2f4e9c4cf953d}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a375116a62ffd54b37f6fb17d35e552ea}{hash\+Code}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_ad5e210a86acb2e54b134bdd1cde4fae2}{compare\+To}} (Object o1)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a1a9282b4a6890c347bfccadef2a68c61}{to\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a46251fbdfaeb9fb60f90d164ed1173cf}{parse\+Year}} (String s)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a27210f049573ad8dcf5049cce284ecb2}{M\+I\+N\+I\+M\+U\+M\+\_\+\+Y\+E\+AR}} = -\/9999
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_abb76bd6ebcbd24a4b797c43d78ebcfa7}{M\+A\+X\+I\+M\+U\+M\+\_\+\+Y\+E\+AR}} = 9999
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents a year in the range -\/9999 to 9999. This class is immutable, which is a requirement for all \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} subclasses. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_aadd8bd67be12d625410714bf71b38f37}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_aadd8bd67be12d625410714bf71b38f37}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!Year@{Year}}
+\index{Year@{Year}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{Year()}{Year()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Year.\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}}}, based on the current system date/time. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_ac0bf78131cf89bca067e3b5120e1cd50}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_ac0bf78131cf89bca067e3b5120e1cd50}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!Year@{Year}}
+\index{Year@{Year}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{Year()}{Year()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Year.\+Year (\begin{DoxyParamCaption}\item[{int}]{year }\end{DoxyParamCaption})}
+
+Creates a time period representing a single year.
+
+
+\begin{DoxyParams}{Parameters}
+{\em year} & the year. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a8be658305c0cf8fac00562e23c2ba0a8}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a8be658305c0cf8fac00562e23c2ba0a8}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!Year@{Year}}
+\index{Year@{Year}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{Year()}{Year()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Year.\+Year (\begin{DoxyParamCaption}\item[{Date}]{time }\end{DoxyParamCaption})}
+
+Creates a new {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}}}, based on a particular instant in time, using the default time zone.
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & the time ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_aa2e6f6acded9ea74ce136c04cb6d55cc}{Year(\+Date, Time\+Zone)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_aa2e6f6acded9ea74ce136c04cb6d55cc}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_aa2e6f6acded9ea74ce136c04cb6d55cc}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!Year@{Year}}
+\index{Year@{Year}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{Year()}{Year()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Year.\+Year (\begin{DoxyParamCaption}\item[{Date}]{time,  }\item[{Time\+Zone}]{zone }\end{DoxyParamCaption})}
+
+Constructs a year, based on a particular instant in time and a time zone.
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & the time ({\ttfamily null} not permitted). \\
+\hline
+{\em zone} & the time zone.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000285}{Deprecated}}]Since 1.\+0.\+12, use \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a5b0866b58a1bf8cffbfc02bab667888d}{Year(\+Date, Time\+Zone, Locale)}} instead. \end{DoxyRefDesc}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a5b0866b58a1bf8cffbfc02bab667888d}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a5b0866b58a1bf8cffbfc02bab667888d}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!Year@{Year}}
+\index{Year@{Year}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{Year()}{Year()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Year.\+Year (\begin{DoxyParamCaption}\item[{Date}]{time,  }\item[{Time\+Zone}]{zone,  }\item[{Locale}]{locale }\end{DoxyParamCaption})}
+
+Creates a new {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}}} instance, for the specified time zone and locale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & the current time ({\ttfamily null} not permitted). \\
+\hline
+{\em zone} & the time zone. \\
+\hline
+{\em locale} & the locale.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+12 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_ad5e210a86acb2e54b134bdd1cde4fae2}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_ad5e210a86acb2e54b134bdd1cde4fae2}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!compare\+To@{compare\+To}}
+\index{compare\+To@{compare\+To}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{compare\+To()}{compareTo()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Year.\+compare\+To (\begin{DoxyParamCaption}\item[{Object}]{o1 }\end{DoxyParamCaption})}
+
+Returns an integer indicating the order of this {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}}} object relative to the specified object\+:
+
+negative == before, zero == same, positive == after.
+
+
+\begin{DoxyParams}{Parameters}
+{\em o1} & the object to compare.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+negative == before, zero == same, positive == after. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_ac994c8806ffdc5244ce2f4e9c4cf953d}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_ac994c8806ffdc5244ce2f4e9c4cf953d}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+time.\+Year.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests the equality of this {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}}} object to an arbitrary object. Returns {\ttfamily true} if the target is a {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}}} instance representing the same year as this object. In all other cases, returns {\ttfamily false}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the year of this and the object are the same. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_ad4c7220e5cd2c321ff4108c7a73ff68b}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_ad4c7220e5cd2c321ff4108c7a73ff68b}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!get\+First\+Millisecond@{get\+First\+Millisecond}}
+\index{get\+First\+Millisecond@{get\+First\+Millisecond}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{get\+First\+Millisecond()}{getFirstMillisecond()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily long org.\+jfree.\+data.\+time.\+Year.\+get\+First\+Millisecond (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the first millisecond of the year. This will be determined relative to the time zone specified in the constructor, or in the calendar instance passed in the most recent call to the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a98c518e97ade2b6267e1b421b0f91162}{peg(\+Calendar)}} method.
+
+\begin{DoxyReturn}{Returns}
+The first millisecond of the year.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a57299a0e16c221eebc2f69e9daefc6ff}{get\+Last\+Millisecond()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_aee8afd7f92299328416efdf15465ae8a}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_aee8afd7f92299328416efdf15465ae8a}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!get\+First\+Millisecond@{get\+First\+Millisecond}}
+\index{get\+First\+Millisecond@{get\+First\+Millisecond}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{get\+First\+Millisecond()}{getFirstMillisecond()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily long org.\+jfree.\+data.\+time.\+Year.\+get\+First\+Millisecond (\begin{DoxyParamCaption}\item[{Calendar}]{calendar }\end{DoxyParamCaption})}
+
+Returns the first millisecond of the year, evaluated using the supplied calendar (which determines the time zone).
+
+
+\begin{DoxyParams}{Parameters}
+{\em calendar} & the calendar ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The first millisecond of the year.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if {\ttfamily calendar} is {\ttfamily null}. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a57299a0e16c221eebc2f69e9daefc6ff}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a57299a0e16c221eebc2f69e9daefc6ff}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!get\+Last\+Millisecond@{get\+Last\+Millisecond}}
+\index{get\+Last\+Millisecond@{get\+Last\+Millisecond}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{get\+Last\+Millisecond()}{getLastMillisecond()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily long org.\+jfree.\+data.\+time.\+Year.\+get\+Last\+Millisecond (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the last millisecond of the year. This will be determined relative to the time zone specified in the constructor, or in the calendar instance passed in the most recent call to the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_a98c518e97ade2b6267e1b421b0f91162}{peg(\+Calendar)}} method.
+
+\begin{DoxyReturn}{Returns}
+The last millisecond of the year.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year_ad4c7220e5cd2c321ff4108c7a73ff68b}{get\+First\+Millisecond()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a0e83766f160b644bd495c7d70570ce08}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a0e83766f160b644bd495c7d70570ce08}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!get\+Last\+Millisecond@{get\+Last\+Millisecond}}
+\index{get\+Last\+Millisecond@{get\+Last\+Millisecond}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{get\+Last\+Millisecond()}{getLastMillisecond()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily long org.\+jfree.\+data.\+time.\+Year.\+get\+Last\+Millisecond (\begin{DoxyParamCaption}\item[{Calendar}]{calendar }\end{DoxyParamCaption})}
+
+Returns the last millisecond of the year, evaluated using the supplied calendar (which determines the time zone).
+
+
+\begin{DoxyParams}{Parameters}
+{\em calendar} & the calendar ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The last millisecond of the year.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if {\ttfamily calendar} is {\ttfamily null}. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_affe76a52fc33bf8bc60f04fa8726bc73}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_affe76a52fc33bf8bc60f04fa8726bc73}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!get\+Serial\+Index@{get\+Serial\+Index}}
+\index{get\+Serial\+Index@{get\+Serial\+Index}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{get\+Serial\+Index()}{getSerialIndex()}}
+{\footnotesize\ttfamily long org.\+jfree.\+data.\+time.\+Year.\+get\+Serial\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a serial index number for the year. 
+
+The implementation simply returns the year number (e.\+g. 2002).
+
+\begin{DoxyReturn}{Returns}
+The serial index number. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_ab6da2d250464461b6d9c83743ee07539}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_ab6da2d250464461b6d9c83743ee07539}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!get\+Year@{get\+Year}}
+\index{get\+Year@{get\+Year}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{get\+Year()}{getYear()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Year.\+get\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the year.
+
+\begin{DoxyReturn}{Returns}
+The year. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a375116a62ffd54b37f6fb17d35e552ea}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a375116a62ffd54b37f6fb17d35e552ea}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Year.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this object instance. The approach described by Joshua Bloch in \char`\"{}\+Effective Java\char`\"{} has been used here\+: 
+
+{\ttfamily \href{http://developer.java.sun.com/developer/Books/effectivejava}{\tt http\+://developer.\+java.\+sun.\+com/developer/\+Books/effectivejava} /\+Chapter3.pdf}
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a6eb70611dd73047ccce20c9c0d1c21fb}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a6eb70611dd73047ccce20c9c0d1c21fb}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!next@{next}}
+\index{next@{next}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{next()}{next()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} org.\+jfree.\+data.\+time.\+Year.\+next (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the year following this one.
+
+\begin{DoxyReturn}{Returns}
+The year following this one (or {\ttfamily null} if the current year is 9999). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a46251fbdfaeb9fb60f90d164ed1173cf}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a46251fbdfaeb9fb60f90d164ed1173cf}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!parse\+Year@{parse\+Year}}
+\index{parse\+Year@{parse\+Year}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{parse\+Year()}{parseYear()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}} org.\+jfree.\+data.\+time.\+Year.\+parse\+Year (\begin{DoxyParamCaption}\item[{String}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Parses the string argument as a year. 
+
+The string format is Y\+Y\+YY.
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & a string representing the year.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily null} if the string is not parseable, the year otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a98c518e97ade2b6267e1b421b0f91162}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a98c518e97ade2b6267e1b421b0f91162}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!peg@{peg}}
+\index{peg@{peg}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{peg()}{peg()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Year.\+peg (\begin{DoxyParamCaption}\item[{Calendar}]{calendar }\end{DoxyParamCaption})}
+
+Recalculates the start date/time and end date/time for this time period relative to the supplied calendar (which incorporates a time zone).
+
+
+\begin{DoxyParams}{Parameters}
+{\em calendar} & the calendar ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+3 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a0a068d4f45b412bde0a3d50181a5662a}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a0a068d4f45b412bde0a3d50181a5662a}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!previous@{previous}}
+\index{previous@{previous}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{previous()}{previous()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} org.\+jfree.\+data.\+time.\+Year.\+previous (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the year preceding this one.
+
+\begin{DoxyReturn}{Returns}
+The year preceding this one (or {\ttfamily null} if the current year is -\/9999). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a1a9282b4a6890c347bfccadef2a68c61}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a1a9282b4a6890c347bfccadef2a68c61}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String org.\+jfree.\+data.\+time.\+Year.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a string representing the year..
+
+\begin{DoxyReturn}{Returns}
+A string representing the year. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_abb76bd6ebcbd24a4b797c43d78ebcfa7}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_abb76bd6ebcbd24a4b797c43d78ebcfa7}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!M\+A\+X\+I\+M\+U\+M\+\_\+\+Y\+E\+AR@{M\+A\+X\+I\+M\+U\+M\+\_\+\+Y\+E\+AR}}
+\index{M\+A\+X\+I\+M\+U\+M\+\_\+\+Y\+E\+AR@{M\+A\+X\+I\+M\+U\+M\+\_\+\+Y\+E\+AR}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{M\+A\+X\+I\+M\+U\+M\+\_\+\+Y\+E\+AR}{MAXIMUM\_YEAR}}
+{\footnotesize\ttfamily final int org.\+jfree.\+data.\+time.\+Year.\+M\+A\+X\+I\+M\+U\+M\+\_\+\+Y\+E\+AR = 9999\hspace{0.3cm}{\ttfamily [static]}}
+
+The maximum year value.
+
+\begin{DoxySince}{Since}
+1.\+0.\+11 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_year_a27210f049573ad8dcf5049cce284ecb2}\label{classorg_1_1jfree_1_1data_1_1time_1_1_year_a27210f049573ad8dcf5049cce284ecb2}} 
+\index{org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}!M\+I\+N\+I\+M\+U\+M\+\_\+\+Y\+E\+AR@{M\+I\+N\+I\+M\+U\+M\+\_\+\+Y\+E\+AR}}
+\index{M\+I\+N\+I\+M\+U\+M\+\_\+\+Y\+E\+AR@{M\+I\+N\+I\+M\+U\+M\+\_\+\+Y\+E\+AR}!org\+::jfree\+::data\+::time\+::\+Year@{org\+::jfree\+::data\+::time\+::\+Year}}
+\subsubsection{\texorpdfstring{M\+I\+N\+I\+M\+U\+M\+\_\+\+Y\+E\+AR}{MINIMUM\_YEAR}}
+{\footnotesize\ttfamily final int org.\+jfree.\+data.\+time.\+Year.\+M\+I\+N\+I\+M\+U\+M\+\_\+\+Y\+E\+AR = -\/9999\hspace{0.3cm}{\ttfamily [static]}}
+
+The minimum year value.
+
+\begin{DoxySince}{Since}
+1.\+0.\+11 
+\end{DoxySince}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/time/\mbox{\hyperlink{_year_8java}{Year.\+java}}\end{DoxyCompactItemize}

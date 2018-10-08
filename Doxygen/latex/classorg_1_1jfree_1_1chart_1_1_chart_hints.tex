@@ -1,0 +1,58 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_hints}{}\section{org.\+jfree.\+chart.\+Chart\+Hints Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1_chart_hints}\index{org.\+jfree.\+chart.\+Chart\+Hints@{org.\+jfree.\+chart.\+Chart\+Hints}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Key}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Key \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_hints_a9a277800f7e1bb7451f2501f22dfcac7}{K\+E\+Y\+\_\+\+B\+E\+G\+I\+N\+\_\+\+E\+L\+E\+M\+E\+NT}} = new Chart\+Hints.\+Key(0)
+\item 
+static final Key \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_hints_aa000d8596f376cf98e1ca44d595322e4}{K\+E\+Y\+\_\+\+E\+N\+D\+\_\+\+E\+L\+E\+M\+E\+NT}} = new Chart\+Hints.\+Key(1)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Special rendering hints that can be used internally by \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} or by specialised implementations of the
+\begin{DoxyCode}
+Graphics2D 
+\end{DoxyCode}
+ A\+PI. For example, J\+Free\+S\+VG\textquotesingle{}s
+\begin{DoxyCode}
+SVGGraphics2D 
+\end{DoxyCode}
+ class, will use the 
+\begin{DoxyCode}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_hints_a9a277800f7e1bb7451f2501f22dfcac7}{KEY\_BEGIN\_ELEMENT}} 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_hints_aa000d8596f376cf98e1ca44d595322e4}{KEY\_END\_ELEMENT}} 
+\end{DoxyCode}
+ hints to drive the output content.
+
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_hints_a9a277800f7e1bb7451f2501f22dfcac7}\label{classorg_1_1jfree_1_1chart_1_1_chart_hints_a9a277800f7e1bb7451f2501f22dfcac7}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Hints@{org\+::jfree\+::chart\+::\+Chart\+Hints}!K\+E\+Y\+\_\+\+B\+E\+G\+I\+N\+\_\+\+E\+L\+E\+M\+E\+NT@{K\+E\+Y\+\_\+\+B\+E\+G\+I\+N\+\_\+\+E\+L\+E\+M\+E\+NT}}
+\index{K\+E\+Y\+\_\+\+B\+E\+G\+I\+N\+\_\+\+E\+L\+E\+M\+E\+NT@{K\+E\+Y\+\_\+\+B\+E\+G\+I\+N\+\_\+\+E\+L\+E\+M\+E\+NT}!org\+::jfree\+::chart\+::\+Chart\+Hints@{org\+::jfree\+::chart\+::\+Chart\+Hints}}
+\subsubsection{\texorpdfstring{K\+E\+Y\+\_\+\+B\+E\+G\+I\+N\+\_\+\+E\+L\+E\+M\+E\+NT}{KEY\_BEGIN\_ELEMENT}}
+{\footnotesize\ttfamily final Key org.\+jfree.\+chart.\+Chart\+Hints.\+K\+E\+Y\+\_\+\+B\+E\+G\+I\+N\+\_\+\+E\+L\+E\+M\+E\+NT = new Chart\+Hints.\+Key(0)\hspace{0.3cm}{\ttfamily [static]}}
+
+The key for a hint to signal the beginning of an element. The value should be a string containing the element id or, alternatively, a Map containing the \textquotesingle{}id\textquotesingle{} (String) and \textquotesingle{}ref\textquotesingle{} (String in J\+S\+ON format). \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_hints_aa000d8596f376cf98e1ca44d595322e4}\label{classorg_1_1jfree_1_1chart_1_1_chart_hints_aa000d8596f376cf98e1ca44d595322e4}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Hints@{org\+::jfree\+::chart\+::\+Chart\+Hints}!K\+E\+Y\+\_\+\+E\+N\+D\+\_\+\+E\+L\+E\+M\+E\+NT@{K\+E\+Y\+\_\+\+E\+N\+D\+\_\+\+E\+L\+E\+M\+E\+NT}}
+\index{K\+E\+Y\+\_\+\+E\+N\+D\+\_\+\+E\+L\+E\+M\+E\+NT@{K\+E\+Y\+\_\+\+E\+N\+D\+\_\+\+E\+L\+E\+M\+E\+NT}!org\+::jfree\+::chart\+::\+Chart\+Hints@{org\+::jfree\+::chart\+::\+Chart\+Hints}}
+\subsubsection{\texorpdfstring{K\+E\+Y\+\_\+\+E\+N\+D\+\_\+\+E\+L\+E\+M\+E\+NT}{KEY\_END\_ELEMENT}}
+{\footnotesize\ttfamily final Key org.\+jfree.\+chart.\+Chart\+Hints.\+K\+E\+Y\+\_\+\+E\+N\+D\+\_\+\+E\+L\+E\+M\+E\+NT = new Chart\+Hints.\+Key(1)\hspace{0.3cm}{\ttfamily [static]}}
+
+The key for a hint that ends an element. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/\mbox{\hyperlink{_chart_hints_8java}{Chart\+Hints.\+java}}\end{DoxyCompactItemize}

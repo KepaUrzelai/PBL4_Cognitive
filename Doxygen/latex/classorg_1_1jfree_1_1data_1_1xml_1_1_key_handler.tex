@@ -1,0 +1,137 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler}{}\section{org.\+jfree.\+data.\+xml.\+Key\+Handler Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler}\index{org.\+jfree.\+data.\+xml.\+Key\+Handler@{org.\+jfree.\+data.\+xml.\+Key\+Handler}}
+Inheritance diagram for org.\+jfree.\+data.\+xml.\+Key\+Handler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a1a803f1b561bbccc5a9215d934c21aa4}{Key\+Handler}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler}{Root\+Handler}} root\+Handler, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_item_handler}{Item\+Handler}} item\+Handler)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_aae89fb7abacca78038c6d449e8fff124}{start\+Element}} (String namespace\+U\+RI, String local\+Name, String q\+Name, Attributes atts)  throws S\+A\+X\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a7863a302800bb789c0872a7367019e03}{end\+Element}} (String namespace\+U\+RI, String local\+Name, String q\+Name)  throws S\+A\+X\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a0c5470a90a05a88d3cd6961c64881ada}{characters}} (char\mbox{[}$\,$\mbox{]} ch, int start, int length)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a7c4b0c513e5459eb2180e175260c6cf8}{get\+Current\+Text}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a3f22c52715ca4fa78afd45fdf406f458}{clear\+Current\+Text}} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A S\+AX handler for reading a key. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a1a803f1b561bbccc5a9215d934c21aa4}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a1a803f1b561bbccc5a9215d934c21aa4}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}!Key\+Handler@{Key\+Handler}}
+\index{Key\+Handler@{Key\+Handler}!org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}}
+\subsubsection{\texorpdfstring{Key\+Handler()}{KeyHandler()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xml.\+Key\+Handler.\+Key\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler}{Root\+Handler}}}]{root\+Handler,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xml_1_1_item_handler}{Item\+Handler}}}]{item\+Handler }\end{DoxyParamCaption})}
+
+The key. ~\newline
+Creates a new handler.
+
+
+\begin{DoxyParams}{Parameters}
+{\em root\+Handler} & the root handler. \\
+\hline
+{\em item\+Handler} & the item handler. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a0c5470a90a05a88d3cd6961c64881ada}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a0c5470a90a05a88d3cd6961c64881ada}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}!characters@{characters}}
+\index{characters@{characters}!org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}}
+\subsubsection{\texorpdfstring{characters()}{characters()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xml.\+Key\+Handler.\+characters (\begin{DoxyParamCaption}\item[{char \mbox{[}$\,$\mbox{]}}]{ch,  }\item[{int}]{start,  }\item[{int}]{length }\end{DoxyParamCaption})}
+
+Receives some (or all) of the text in the current element.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ch} & character buffer. \\
+\hline
+{\em start} & the start index. \\
+\hline
+{\em length} & the length of the valid character data. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a3f22c52715ca4fa78afd45fdf406f458}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a3f22c52715ca4fa78afd45fdf406f458}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}!clear\+Current\+Text@{clear\+Current\+Text}}
+\index{clear\+Current\+Text@{clear\+Current\+Text}!org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}}
+\subsubsection{\texorpdfstring{clear\+Current\+Text()}{clearCurrentText()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xml.\+Key\+Handler.\+clear\+Current\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Removes all text from the textbuffer at the end of a C\+D\+A\+TA section. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a7863a302800bb789c0872a7367019e03}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a7863a302800bb789c0872a7367019e03}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}!end\+Element@{end\+Element}}
+\index{end\+Element@{end\+Element}!org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}}
+\subsubsection{\texorpdfstring{end\+Element()}{endElement()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xml.\+Key\+Handler.\+end\+Element (\begin{DoxyParamCaption}\item[{String}]{namespace\+U\+RI,  }\item[{String}]{local\+Name,  }\item[{String}]{q\+Name }\end{DoxyParamCaption}) throws S\+A\+X\+Exception}
+
+The end of an element.
+
+
+\begin{DoxyParams}{Parameters}
+{\em namespace\+U\+RI} & the namespace. \\
+\hline
+{\em local\+Name} & the element name. \\
+\hline
+{\em q\+Name} & the element name.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+A\+X\+Exception} & for errors. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a7c4b0c513e5459eb2180e175260c6cf8}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_a7c4b0c513e5459eb2180e175260c6cf8}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}!get\+Current\+Text@{get\+Current\+Text}}
+\index{get\+Current\+Text@{get\+Current\+Text}!org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}}
+\subsubsection{\texorpdfstring{get\+Current\+Text()}{getCurrentText()}}
+{\footnotesize\ttfamily String org.\+jfree.\+data.\+xml.\+Key\+Handler.\+get\+Current\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Returns the current text of the textbuffer.
+
+\begin{DoxyReturn}{Returns}
+The current text. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_aae89fb7abacca78038c6d449e8fff124}\label{classorg_1_1jfree_1_1data_1_1xml_1_1_key_handler_aae89fb7abacca78038c6d449e8fff124}} 
+\index{org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}!start\+Element@{start\+Element}}
+\index{start\+Element@{start\+Element}!org\+::jfree\+::data\+::xml\+::\+Key\+Handler@{org\+::jfree\+::data\+::xml\+::\+Key\+Handler}}
+\subsubsection{\texorpdfstring{start\+Element()}{startElement()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xml.\+Key\+Handler.\+start\+Element (\begin{DoxyParamCaption}\item[{String}]{namespace\+U\+RI,  }\item[{String}]{local\+Name,  }\item[{String}]{q\+Name,  }\item[{Attributes}]{atts }\end{DoxyParamCaption}) throws S\+A\+X\+Exception}
+
+The start of an element.
+
+
+\begin{DoxyParams}{Parameters}
+{\em namespace\+U\+RI} & the namespace. \\
+\hline
+{\em local\+Name} & the element name. \\
+\hline
+{\em q\+Name} & the element name. \\
+\hline
+{\em atts} & the attributes.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+A\+X\+Exception} & for errors. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xml/\mbox{\hyperlink{_key_handler_8java}{Key\+Handler.\+java}}\end{DoxyCompactItemize}

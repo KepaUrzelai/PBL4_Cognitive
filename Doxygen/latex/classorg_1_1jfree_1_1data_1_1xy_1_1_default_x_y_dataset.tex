@@ -1,0 +1,371 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset}{}\section{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset}\index{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset@{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.025641cm]{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_aeb6942f7255b4a3582d83688f1157e79}{Default\+X\+Y\+Dataset}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}{get\+Series\+Count}} ()
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a6dfb403ab13b08ab72e484c32c2583e6}{get\+Series\+Key}} (int series)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a436e2b868c431a1d9bc4ce560749334c}{index\+Of}} (Comparable series\+Key)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_domain_order}{Domain\+Order}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ae665218f6d5daa96f37e198265f72200}{get\+Domain\+Order}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_acb92df806d4aa8e3b18283b6dbf05461}{get\+Item\+Count}} (int series)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8b2261dd2265af0d085c4889ae519521}{get\+X\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ab501c39779d3289533248c8c40a18c1d}{getX}} (int series, int item)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a2ac3a1e3295eaa3aacb36b210926fbf4}{get\+Y\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8ad15161967d0f527b5fa885ebc14bc6}{getY}} (int series, int item)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ae5b45f2fa36fbb4a123e5f8cc79e9428}{add\+Series}} (Comparable series\+Key, double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} data)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a16d3b763b0b7eafc0dfb41d19dc684c2}{remove\+Series}} (Comparable series\+Key)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a052652bf9cfccae599debee96b44d9be}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_afa686c5effe2f7eaebccc69e0845a563}{hash\+Code}} ()
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a81d3c0d90cd6535b174c5f18d15d830d}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A default implementation of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} interface that stores data values in arrays of double primitives.
+
+\begin{DoxySince}{Since}
+1.\+0.\+2 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_aeb6942f7255b4a3582d83688f1157e79}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_aeb6942f7255b4a3582d83688f1157e79}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!Default\+X\+Y\+Dataset@{Default\+X\+Y\+Dataset}}
+\index{Default\+X\+Y\+Dataset@{Default\+X\+Y\+Dataset}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{Default\+X\+Y\+Dataset()}{DefaultXYDataset()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+Default\+X\+Y\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset}{Default\+X\+Y\+Dataset}}} instance, initially containing no data. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ae5b45f2fa36fbb4a123e5f8cc79e9428}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ae5b45f2fa36fbb4a123e5f8cc79e9428}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!add\+Series@{add\+Series}}
+\index{add\+Series@{add\+Series}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{add\+Series()}{addSeries()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+add\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{series\+Key,  }\item[{double}]{data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Adds a series or if a series with the same key already exists replaces the data for that series, then sends a \mbox{\hyperlink{}{Dataset\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+{\em data} & the data (must be an array with length 2, containing two arrays of equal length, the first containing the x-\/values and the second containing the y-\/values). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a81d3c0d90cd6535b174c5f18d15d830d}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a81d3c0d90cd6535b174c5f18d15d830d}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Creates an independent copy of this dataset.
+
+\begin{DoxyReturn}{Returns}
+The cloned dataset.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if there is a problem cloning the dataset (for instance, if a non-\/cloneable object is used for a series key). \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a052652bf9cfccae599debee96b44d9be}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a052652bf9cfccae599debee96b44d9be}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset}{Default\+X\+Y\+Dataset}}} instance for equality with an arbitrary object. This method returns {\ttfamily true} if and only if\+: 
+\begin{DoxyItemize}
+\item {\ttfamily obj} is not {\ttfamily null}; 
+\item {\ttfamily obj} is an instance of {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset}{Default\+X\+Y\+Dataset}}}; 
+\item both datasets have the same number of series, each containing exactly the same values. 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ae665218f6d5daa96f37e198265f72200}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ae665218f6d5daa96f37e198265f72200}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!get\+Domain\+Order@{get\+Domain\+Order}}
+\index{get\+Domain\+Order@{get\+Domain\+Order}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Domain\+Order()}{getDomainOrder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_domain_order}{Domain\+Order}} org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+get\+Domain\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the order of the domain (x-\/) values in the dataset. In this implementation, we cannot guarantee that the x-\/values are ordered, so this method returns {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_domain_order_a3e1bac41a165ed944192559f61ac6c20}{Domain\+Order.\+N\+O\+NE}}}.
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_domain_order_a3e1bac41a165ed944192559f61ac6c20}{Domain\+Order.\+N\+O\+NE}}}. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a49306db52a1ea7de951d807d21ab9c7c}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_acb92df806d4aa8e3b18283b6dbf05461}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_acb92df806d4aa8e3b18283b6dbf05461}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+get\+Item\+Count (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the number of items in the specified series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}{get\+Series\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item count.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if {\ttfamily series} is not in the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_ae81f9de91dfcae45028fc8a486a119da}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!get\+Series\+Count@{get\+Series\+Count}}
+\index{get\+Series\+Count@{get\+Series\+Count}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Count()}{getSeriesCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+get\+Series\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of series in the dataset.
+
+\begin{DoxyReturn}{Returns}
+The series count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a6dfb403ab13b08ab72e484c32c2583e6}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a6dfb403ab13b08ab72e484c32c2583e6}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!get\+Series\+Key@{get\+Series\+Key}}
+\index{get\+Series\+Key@{get\+Series\+Key}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Key()}{getSeriesKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+get\+Series\+Key (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the key for a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}{get\+Series\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The key for the series.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if {\ttfamily series} is not in the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a60488892b2314a05a012999e26a74178}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ab501c39779d3289533248c8c40a18c1d}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ab501c39779d3289533248c8c40a18c1d}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+getX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the x-\/value for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series)}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Array\+Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is not within the specified range. \\
+\hline
+{\em Array\+Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily item} is not within the specified range.\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8b2261dd2265af0d085c4889ae519521}{get\+X\+Value(int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a85c75ba5b69b551e96afd29d1732ba22}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8b2261dd2265af0d085c4889ae519521}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8b2261dd2265af0d085c4889ae519521}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!get\+X\+Value@{get\+X\+Value}}
+\index{get\+X\+Value@{get\+X\+Value}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X\+Value()}{getXValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+get\+X\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the x-\/value for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series)}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Array\+Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is not within the specified range. \\
+\hline
+{\em Array\+Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily item} is not within the specified range.\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ab501c39779d3289533248c8c40a18c1d}{get\+X(int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a65bd212539d8f7dfb3d3d36b5f42e083}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8ad15161967d0f527b5fa885ebc14bc6}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8ad15161967d0f527b5fa885ebc14bc6}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+getY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series)}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Array\+Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is not within the specified range. \\
+\hline
+{\em Array\+Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily item} is not within the specified range.\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ab501c39779d3289533248c8c40a18c1d}{get\+X(int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_aa915867221e0f94021bad3140db5254e}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a2ac3a1e3295eaa3aacb36b210926fbf4}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a2ac3a1e3295eaa3aacb36b210926fbf4}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!get\+Y\+Value@{get\+Y\+Value}}
+\index{get\+Y\+Value@{get\+Y\+Value}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y\+Value()}{getYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+get\+Y\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a0e11a4936eb729adf611cb44013abc5b}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series)}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Array\+Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is not within the specified range. \\
+\hline
+{\em Array\+Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily item} is not within the specified range.\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8ad15161967d0f527b5fa885ebc14bc6}{get\+Y(int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a5e86389417eb5ed7b663a952ca370914}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_afa686c5effe2f7eaebccc69e0845a563}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_afa686c5effe2f7eaebccc69e0845a563}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this instance.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a436e2b868c431a1d9bc4ce560749334c}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a436e2b868c431a1d9bc4ce560749334c}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!index\+Of@{index\+Of}}
+\index{index\+Of@{index\+Of}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{index\+Of()}{indexOf()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+index\+Of (\begin{DoxyParamCaption}\item[{Comparable}]{series\+Key }\end{DoxyParamCaption})}
+
+Returns the index of the series with the specified key, or -\/1 if there is no such series in the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Key} & the series key ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index, or -\/1. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a8995ed4d70a6c4efe3a4f23318e47046}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a16d3b763b0b7eafc0dfb41d19dc684c2}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a16d3b763b0b7eafc0dfb41d19dc684c2}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}!remove\+Series@{remove\+Series}}
+\index{remove\+Series@{remove\+Series}!org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{remove\+Series()}{removeSeries()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset.\+remove\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{series\+Key }\end{DoxyParamCaption})}
+
+Removes a series from the dataset, then sends a \mbox{\hyperlink{}{Dataset\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_default_x_y_dataset_8java}{Default\+X\+Y\+Dataset.\+java}}\end{DoxyCompactItemize}

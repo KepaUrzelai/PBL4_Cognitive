@@ -1,0 +1,160 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator}\index{org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.833333cm]{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_ac776d17a7c4d8a8794e78a6f55dd91e6}{Standard\+X\+Y\+Series\+Label\+Generator}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a3b65c771b99039d2033254d6f82812a1}{Standard\+X\+Y\+Series\+Label\+Generator}} (String format)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a375c362db86e54c4d8180f21f18f4ffb}{generate\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a4ffadba190eefa086c57c6a20f979348}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_ae59acaaf79ccd9cf931f0ab2c63bb234}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_aa2337896b2c4167e958c74c62f27b20a}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a339616fa3be9aa12a774dd78f1b03343}{D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}} = \char`\"{}\{0\}\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Object \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a033818dd47b6e203c8c66734bcb0e8d6}{create\+Item\+Array}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A standard series label generator for plots that use data from an \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}. ~\newline
+~\newline
+ This class implements {\ttfamily Public\+Cloneable} by mistake but we retain this for the sake of backward compatibility. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_ac776d17a7c4d8a8794e78a6f55dd91e6}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_ac776d17a7c4d8a8794e78a6f55dd91e6}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}!Standard\+X\+Y\+Series\+Label\+Generator@{Standard\+X\+Y\+Series\+Label\+Generator}}
+\index{Standard\+X\+Y\+Series\+Label\+Generator@{Standard\+X\+Y\+Series\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+X\+Y\+Series\+Label\+Generator()}{StandardXYSeriesLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator.\+Standard\+X\+Y\+Series\+Label\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a default series label generator (uses \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a339616fa3be9aa12a774dd78f1b03343}{D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}}). \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a3b65c771b99039d2033254d6f82812a1}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a3b65c771b99039d2033254d6f82812a1}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}!Standard\+X\+Y\+Series\+Label\+Generator@{Standard\+X\+Y\+Series\+Label\+Generator}}
+\index{Standard\+X\+Y\+Series\+Label\+Generator@{Standard\+X\+Y\+Series\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+X\+Y\+Series\+Label\+Generator()}{StandardXYSeriesLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator.\+Standard\+X\+Y\+Series\+Label\+Generator (\begin{DoxyParamCaption}\item[{String}]{format }\end{DoxyParamCaption})}
+
+Creates a new series label generator.
+
+
+\begin{DoxyParams}{Parameters}
+{\em format} & the format pattern ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a4ffadba190eefa086c57c6a20f979348}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a4ffadba190eefa086c57c6a20f979348}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of the generator. This is unnecessary, because instances are immutable anyway, but we retain this behaviour for backwards compatibility.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if cloning is not supported. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a033818dd47b6e203c8c66734bcb0e8d6}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a033818dd47b6e203c8c66734bcb0e8d6}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}!create\+Item\+Array@{create\+Item\+Array}}
+\index{create\+Item\+Array@{create\+Item\+Array}!org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{create\+Item\+Array()}{createItemArray()}}
+{\footnotesize\ttfamily Object \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator.\+create\+Item\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates the array of items that can be passed to the \mbox{\hyperlink{}{Message\+Format}} class for creating labels.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The items (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_ae59acaaf79ccd9cf931f0ab2c63bb234}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_ae59acaaf79ccd9cf931f0ab2c63bb234}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the other object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a375c362db86e54c4d8180f21f18f4ffb}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a375c362db86e54c4d8180f21f18f4ffb}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}!generate\+Label@{generate\+Label}}
+\index{generate\+Label@{generate\+Label}!org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Label()}{generateLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator.\+generate\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series }\end{DoxyParamCaption})}
+
+Generates a label for the specified series. This label will be used for the chart legend.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A series label. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_series_label_generator_a03bdf2e5c8623657a8f6abc8f467d5b1}{org.\+jfree.\+chart.\+labels.\+X\+Y\+Series\+Label\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_aa2337896b2c4167e958c74c62f27b20a}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_aa2337896b2c4167e958c74c62f27b20a}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this instance.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a339616fa3be9aa12a774dd78f1b03343}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_x_y_series_label_generator_a339616fa3be9aa12a774dd78f1b03343}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}!D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}}
+\index{D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}!org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+X\+Y\+Series\+Label\+Generator}}
+\subsubsection{\texorpdfstring{D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}{DEFAULT\_LABEL\_FORMAT}}
+{\footnotesize\ttfamily final String org.\+jfree.\+chart.\+labels.\+Standard\+X\+Y\+Series\+Label\+Generator.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT = \char`\"{}\{0\}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+The default item label format. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_standard_x_y_series_label_generator_8java}{Standard\+X\+Y\+Series\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

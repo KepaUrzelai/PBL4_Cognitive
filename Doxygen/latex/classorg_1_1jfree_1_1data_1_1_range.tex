@@ -1,0 +1,393 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1_range}{}\section{org.\+jfree.\+data.\+Range Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1_range}\index{org.\+jfree.\+data.\+Range@{org.\+jfree.\+data.\+Range}}
+Inheritance diagram for org.\+jfree.\+data.\+Range\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jfree_1_1data_1_1_range}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a4c6d51dd50e9a0c0ac2f675776095ef7}{Range}} (double lower, double upper)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_ac27eb47cfe21aa447b525de3f01eac58}{get\+Lower\+Bound}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a368a9e34ad6dbc70a93f8caaf1721900}{get\+Upper\+Bound}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_aa67d9b07ecca735d9c21392a05600e85}{get\+Length}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a1b8603b887729e8d7fbbcd1697f83437}{get\+Central\+Value}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_addc9ad1ee912f4cb13720d01beaa8f9c}{contains}} (double value)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_ab7b29fda62b57595ece93849843571ca}{intersects}} (double b0, double b1)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a531d1be5f69bb9f0e79451c56c80f639}{intersects}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} range)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a1b4f861b494f28fa7c3775b70c5f166c}{constrain}} (double value)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a94f2ce23991a0f78975d4f4c915bae40}{equals}} (Object obj)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a09d0128e6e2048926d9a62baacd0059c}{is\+Na\+N\+Range}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_abbc83890787b9fcab9dcfa2f76d7ac4f}{hash\+Code}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a3d6e27cdfeeed858c586feed83c95916}{to\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a885e176d7890aaf750c9aed1ea7cc41f}{combine}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} range1, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} range2)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a820962f424990e7f42bdcc86f43a417f}{combine\+Ignoring\+NaN}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} range1, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} range2)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_abfc602ab8018a33a304b918b17717a26}{expand\+To\+Include}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} range, double value)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a9c50b697926bf73389dc54f4659c927d}{expand}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} range, double lower\+Margin, double upper\+Margin)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a9108f26775569665ffb11174293f4c5f}{shift}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} base, double delta)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_a994b03849da28dbb049c218b876c9094}{shift}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} base, double delta, boolean allow\+Zero\+Crossing)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range_af35eee30dfe7dc99e2b380e2c876ffce}{scale}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} base, double factor)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents an immutable range of values. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a4c6d51dd50e9a0c0ac2f675776095ef7}\label{classorg_1_1jfree_1_1data_1_1_range_a4c6d51dd50e9a0c0ac2f675776095ef7}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!Range@{Range}}
+\index{Range@{Range}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{Range()}{Range()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+Range.\+Range (\begin{DoxyParamCaption}\item[{double}]{lower,  }\item[{double}]{upper }\end{DoxyParamCaption})}
+
+Creates a new range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lower} & the lower bound (must be $<$= upper bound). \\
+\hline
+{\em upper} & the upper bound (must be $>$= lower bound). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a885e176d7890aaf750c9aed1ea7cc41f}\label{classorg_1_1jfree_1_1data_1_1_range_a885e176d7890aaf750c9aed1ea7cc41f}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!combine@{combine}}
+\index{combine@{combine}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{combine()}{combine()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+Range.\+combine (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{range1,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{range2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new range by combining two existing ranges. 
+
+Note that\+: 
+\begin{DoxyItemize}
+\item either range can be {\ttfamily null}, in which case the other range is returned; 
+\item if both ranges are {\ttfamily null} the return value is {\ttfamily null}. 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em range1} & the first range ({\ttfamily null} permitted). \\
+\hline
+{\em range2} & the second range ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new range (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a820962f424990e7f42bdcc86f43a417f}\label{classorg_1_1jfree_1_1data_1_1_range_a820962f424990e7f42bdcc86f43a417f}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!combine\+Ignoring\+NaN@{combine\+Ignoring\+NaN}}
+\index{combine\+Ignoring\+NaN@{combine\+Ignoring\+NaN}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{combine\+Ignoring\+Na\+N()}{combineIgnoringNaN()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+Range.\+combine\+Ignoring\+NaN (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{range1,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{range2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a new range that spans both {\ttfamily range1} and {\ttfamily range2}. This method has a special handling to ignore Double.\+NaN values.
+
+
+\begin{DoxyParams}{Parameters}
+{\em range1} & the first range ({\ttfamily null} permitted). \\
+\hline
+{\em range2} & the second range ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new range (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+15 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a1b4f861b494f28fa7c3775b70c5f166c}\label{classorg_1_1jfree_1_1data_1_1_range_a1b4f861b494f28fa7c3775b70c5f166c}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!constrain@{constrain}}
+\index{constrain@{constrain}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{constrain()}{constrain()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+Range.\+constrain (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+Returns the value within the range that is closest to the specified value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The constrained value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_addc9ad1ee912f4cb13720d01beaa8f9c}\label{classorg_1_1jfree_1_1data_1_1_range_addc9ad1ee912f4cb13720d01beaa8f9c}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!contains@{contains}}
+\index{contains@{contains}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Range.\+contains (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the range contains the specified value and {\ttfamily false} otherwise.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the value to lookup.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the range contains the specified value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a94f2ce23991a0f78975d4f4c915bae40}\label{classorg_1_1jfree_1_1data_1_1_range_a94f2ce23991a0f78975d4f4c915bae40}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Range.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test against ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a9c50b697926bf73389dc54f4659c927d}\label{classorg_1_1jfree_1_1data_1_1_range_a9c50b697926bf73389dc54f4659c927d}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!expand@{expand}}
+\index{expand@{expand}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{expand()}{expand()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+Range.\+expand (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{range,  }\item[{double}]{lower\+Margin,  }\item[{double}]{upper\+Margin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new range by adding margins to an existing range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em range} & the range ({\ttfamily null} not permitted). \\
+\hline
+{\em lower\+Margin} & the lower margin (expressed as a percentage of the range length). \\
+\hline
+{\em upper\+Margin} & the upper margin (expressed as a percentage of the range length).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The expanded range. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_abfc602ab8018a33a304b918b17717a26}\label{classorg_1_1jfree_1_1data_1_1_range_abfc602ab8018a33a304b918b17717a26}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!expand\+To\+Include@{expand\+To\+Include}}
+\index{expand\+To\+Include@{expand\+To\+Include}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{expand\+To\+Include()}{expandToInclude()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+Range.\+expand\+To\+Include (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{range,  }\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a range that includes all the values in the specified {\ttfamily range} A\+ND the specified {\ttfamily value}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em range} & the range ({\ttfamily null} permitted). \\
+\hline
+{\em value} & the value that must be included.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A range.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+1 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a1b8603b887729e8d7fbbcd1697f83437}\label{classorg_1_1jfree_1_1data_1_1_range_a1b8603b887729e8d7fbbcd1697f83437}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!get\+Central\+Value@{get\+Central\+Value}}
+\index{get\+Central\+Value@{get\+Central\+Value}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{get\+Central\+Value()}{getCentralValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+Range.\+get\+Central\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the central value for the range.
+
+\begin{DoxyReturn}{Returns}
+The central value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_aa67d9b07ecca735d9c21392a05600e85}\label{classorg_1_1jfree_1_1data_1_1_range_aa67d9b07ecca735d9c21392a05600e85}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!get\+Length@{get\+Length}}
+\index{get\+Length@{get\+Length}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{get\+Length()}{getLength()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+Range.\+get\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the length of the range.
+
+\begin{DoxyReturn}{Returns}
+The length. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_ac27eb47cfe21aa447b525de3f01eac58}\label{classorg_1_1jfree_1_1data_1_1_range_ac27eb47cfe21aa447b525de3f01eac58}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!get\+Lower\+Bound@{get\+Lower\+Bound}}
+\index{get\+Lower\+Bound@{get\+Lower\+Bound}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{get\+Lower\+Bound()}{getLowerBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+Range.\+get\+Lower\+Bound (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the lower bound for the range.
+
+\begin{DoxyReturn}{Returns}
+The lower bound. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a368a9e34ad6dbc70a93f8caaf1721900}\label{classorg_1_1jfree_1_1data_1_1_range_a368a9e34ad6dbc70a93f8caaf1721900}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!get\+Upper\+Bound@{get\+Upper\+Bound}}
+\index{get\+Upper\+Bound@{get\+Upper\+Bound}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{get\+Upper\+Bound()}{getUpperBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+Range.\+get\+Upper\+Bound (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the upper bound for the range.
+
+\begin{DoxyReturn}{Returns}
+The upper bound. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_abbc83890787b9fcab9dcfa2f76d7ac4f}\label{classorg_1_1jfree_1_1data_1_1_range_abbc83890787b9fcab9dcfa2f76d7ac4f}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Range.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_ab7b29fda62b57595ece93849843571ca}\label{classorg_1_1jfree_1_1data_1_1_range_ab7b29fda62b57595ece93849843571ca}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!intersects@{intersects}}
+\index{intersects@{intersects}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{intersects()}{intersects()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Range.\+intersects (\begin{DoxyParamCaption}\item[{double}]{b0,  }\item[{double}]{b1 }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the range intersects with the specified range, and {\ttfamily false} otherwise.
+
+
+\begin{DoxyParams}{Parameters}
+{\em b0} & the lower bound (should be $<$= b1). \\
+\hline
+{\em b1} & the upper bound (should be $>$= b0).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a531d1be5f69bb9f0e79451c56c80f639}\label{classorg_1_1jfree_1_1data_1_1_range_a531d1be5f69bb9f0e79451c56c80f639}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!intersects@{intersects}}
+\index{intersects@{intersects}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{intersects()}{intersects()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Range.\+intersects (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{range }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the range intersects with the specified range, and {\ttfamily false} otherwise.
+
+
+\begin{DoxyParams}{Parameters}
+{\em range} & another range ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+9 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a09d0128e6e2048926d9a62baacd0059c}\label{classorg_1_1jfree_1_1data_1_1_range_a09d0128e6e2048926d9a62baacd0059c}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!is\+Na\+N\+Range@{is\+Na\+N\+Range}}
+\index{is\+Na\+N\+Range@{is\+Na\+N\+Range}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{is\+Na\+N\+Range()}{isNaNRange()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Range.\+is\+Na\+N\+Range (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if both the lower and upper bounds are {\ttfamily Double.\+NaN}, and {\ttfamily false} otherwise.
+
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_af35eee30dfe7dc99e2b380e2c876ffce}\label{classorg_1_1jfree_1_1data_1_1_range_af35eee30dfe7dc99e2b380e2c876ffce}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!scale@{scale}}
+\index{scale@{scale}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{scale()}{scale()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+Range.\+scale (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{base,  }\item[{double}]{factor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Scales the range by the specified factor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & the base range ({\ttfamily null} not permitted). \\
+\hline
+{\em factor} & the scaling factor (must be non-\/negative).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new range.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+9 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a9108f26775569665ffb11174293f4c5f}\label{classorg_1_1jfree_1_1data_1_1_range_a9108f26775569665ffb11174293f4c5f}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!shift@{shift}}
+\index{shift@{shift}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{shift()}{shift()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+Range.\+shift (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{base,  }\item[{double}]{delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Shifts the range by the specified amount.
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & the base range ({\ttfamily null} not permitted). \\
+\hline
+{\em delta} & the shift amount.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new range. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a994b03849da28dbb049c218b876c9094}\label{classorg_1_1jfree_1_1data_1_1_range_a994b03849da28dbb049c218b876c9094}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!shift@{shift}}
+\index{shift@{shift}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{shift()}{shift()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+Range.\+shift (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{base,  }\item[{double}]{delta,  }\item[{boolean}]{allow\+Zero\+Crossing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Shifts the range by the specified amount.
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & the base range ({\ttfamily null} not permitted). \\
+\hline
+{\em delta} & the shift amount. \\
+\hline
+{\em allow\+Zero\+Crossing} & a flag that determines whether or not the bounds of the range are allowed to cross zero after adjustment.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new range. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_range_a3d6e27cdfeeed858c586feed83c95916}\label{classorg_1_1jfree_1_1data_1_1_range_a3d6e27cdfeeed858c586feed83c95916}} 
+\index{org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!org\+::jfree\+::data\+::\+Range@{org\+::jfree\+::data\+::\+Range}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String org.\+jfree.\+data.\+Range.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a string representation of this \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}.
+
+\begin{DoxyReturn}{Returns}
+A String \char`\"{}\+Range\mbox{[}lower,upper\mbox{]}\char`\"{} where lower=lower range and upper=upper range. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/\mbox{\hyperlink{_range_8java}{Range.\+java}}\end{DoxyCompactItemize}

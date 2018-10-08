@@ -1,0 +1,195 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{}\section{org.\+jfree.\+chart.\+renderer.\+Outlier Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}\index{org.\+jfree.\+chart.\+renderer.\+Outlier@{org.\+jfree.\+chart.\+renderer.\+Outlier}}
+Inheritance diagram for org.\+jfree.\+chart.\+renderer.\+Outlier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a7bd8103a524c046d951e330a27d28021}{Outlier}} (double x\+Coord, double y\+Coord, double radius)
+\item 
+Point2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a39bcfa171a0ce35407048df984dd54f4}{get\+Point}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a0ed1a867a65ba0e2cb62d35646c28b3e}{set\+Point}} (Point2D point)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_af196d7c02c6099338cb7698037cd4ca5}{getX}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a5463dba2b1374b4325c624ee3fb94b46}{getY}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_acfcf85a5ced55b6d111353e2e974f822}{get\+Radius}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_ab70f46de517fda671d08bd00f11b72e5}{set\+Radius}} (double radius)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_aff78452b6e3c321393b8622f960ea7fe}{compare\+To}} (Object o)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a91cbc61ff7c865ce61ee533585dca5dc}{overlaps}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}} other)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_af113d6363655f14b09e01ff7e9abbcdc}{equals}} (Object obj)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a3ad7d121f5de2766eebb032c14a7759a}{to\+String}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents one outlier in the box and whisker plot. 
+
+All the coordinates in this class are in Java2D space. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a7bd8103a524c046d951e330a27d28021}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a7bd8103a524c046d951e330a27d28021}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!Outlier@{Outlier}}
+\index{Outlier@{Outlier}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{Outlier()}{Outlier()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+Outlier.\+Outlier (\begin{DoxyParamCaption}\item[{double}]{x\+Coord,  }\item[{double}]{y\+Coord,  }\item[{double}]{radius }\end{DoxyParamCaption})}
+
+Constructs an outlier item consisting of a point and the radius of the outlier ellipse
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Coord} & the x coordinate of the point. \\
+\hline
+{\em y\+Coord} & the y coordinate of the point. \\
+\hline
+{\em radius} & the radius of the ellipse. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_aff78452b6e3c321393b8622f960ea7fe}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_aff78452b6e3c321393b8622f960ea7fe}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!compare\+To@{compare\+To}}
+\index{compare\+To@{compare\+To}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{compare\+To()}{compareTo()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+renderer.\+Outlier.\+compare\+To (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})}
+
+Compares this object with the specified object for order, based on the outlier\textquotesingle{}s point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em o} & the Object to be compared. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_af113d6363655f14b09e01ff7e9abbcdc}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_af113d6363655f14b09e01ff7e9abbcdc}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Outlier.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this outlier for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a39bcfa171a0ce35407048df984dd54f4}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a39bcfa171a0ce35407048df984dd54f4}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!get\+Point@{get\+Point}}
+\index{get\+Point@{get\+Point}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{get\+Point()}{getPoint()}}
+{\footnotesize\ttfamily Point2D org.\+jfree.\+chart.\+renderer.\+Outlier.\+get\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the xy coordinates of the bounding box containing the outlier ellipse.
+
+\begin{DoxyReturn}{Returns}
+The location of the outlier ellipse. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_acfcf85a5ced55b6d111353e2e974f822}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_acfcf85a5ced55b6d111353e2e974f822}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!get\+Radius@{get\+Radius}}
+\index{get\+Radius@{get\+Radius}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{get\+Radius()}{getRadius()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+renderer.\+Outlier.\+get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the radius of the outlier ellipse.
+
+\begin{DoxyReturn}{Returns}
+The radius. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_af196d7c02c6099338cb7698037cd4ca5}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_af196d7c02c6099338cb7698037cd4ca5}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+renderer.\+Outlier.\+getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the x coordinate of the bounding box containing the outlier ellipse.
+
+\begin{DoxyReturn}{Returns}
+The x coordinate. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a5463dba2b1374b4325c624ee3fb94b46}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a5463dba2b1374b4325c624ee3fb94b46}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+renderer.\+Outlier.\+getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the y coordinate of the bounding box containing the outlier ellipse.
+
+\begin{DoxyReturn}{Returns}
+The y coordinate. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a91cbc61ff7c865ce61ee533585dca5dc}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a91cbc61ff7c865ce61ee533585dca5dc}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!overlaps@{overlaps}}
+\index{overlaps@{overlaps}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{overlaps()}{overlaps()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Outlier.\+overlaps (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}}}]{other }\end{DoxyParamCaption})}
+
+Returns a true if outlier is overlapped and false if it is not. Overlapping is determined by the respective bounding boxes plus a small margin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the other outlier.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A {\ttfamily boolean} indicating whether or not an overlap has occurred. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a0ed1a867a65ba0e2cb62d35646c28b3e}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a0ed1a867a65ba0e2cb62d35646c28b3e}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!set\+Point@{set\+Point}}
+\index{set\+Point@{set\+Point}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{set\+Point()}{setPoint()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Outlier.\+set\+Point (\begin{DoxyParamCaption}\item[{Point2D}]{point }\end{DoxyParamCaption})}
+
+Sets the xy coordinates of the bounding box containing the outlier ellipse.
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & the location. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_ab70f46de517fda671d08bd00f11b72e5}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_ab70f46de517fda671d08bd00f11b72e5}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!set\+Radius@{set\+Radius}}
+\index{set\+Radius@{set\+Radius}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{set\+Radius()}{setRadius()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Outlier.\+set\+Radius (\begin{DoxyParamCaption}\item[{double}]{radius }\end{DoxyParamCaption})}
+
+Sets the radius of the outlier ellipse.
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & the new radius. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a3ad7d121f5de2766eebb032c14a7759a}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_a3ad7d121f5de2766eebb032c14a7759a}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!org\+::jfree\+::chart\+::renderer\+::\+Outlier@{org\+::jfree\+::chart\+::renderer\+::\+Outlier}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+renderer.\+Outlier.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a textual representation of the outlier.
+
+\begin{DoxyReturn}{Returns}
+A {\ttfamily String} representing the outlier. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/\mbox{\hyperlink{_outlier_8java}{Outlier.\+java}}\end{DoxyCompactItemize}

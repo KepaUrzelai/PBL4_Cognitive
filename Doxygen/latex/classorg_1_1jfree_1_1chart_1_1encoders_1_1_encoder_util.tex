@@ -1,0 +1,228 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util}{}\section{org.\+jfree.\+chart.\+encoders.\+Encoder\+Util Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util}\index{org.\+jfree.\+chart.\+encoders.\+Encoder\+Util@{org.\+jfree.\+chart.\+encoders.\+Encoder\+Util}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static byte \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ab62148769acef556ec785dd08e886ae7}{encode}} (Buffered\+Image image, String format)  throws I\+O\+Exception 
+\item 
+static byte \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a74c7ce7c56566304fb11e00cf5a988db}{encode}} (Buffered\+Image image, String format, boolean encode\+Alpha)  throws I\+O\+Exception 
+\item 
+static byte \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ad189d7ff6965d3fd3289e70c63ff43ab}{encode}} (Buffered\+Image image, String format, float quality)  throws I\+O\+Exception 
+\item 
+static byte \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a0468e3e81b1c1134228a4c6f923d1090}{encode}} (Buffered\+Image image, String format, float quality, boolean encode\+Alpha)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_aa607c49b1c0dc5dde458c241b7b3067a}{write\+Buffered\+Image}} (Buffered\+Image image, String format, Output\+Stream output\+Stream)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a566e83a07fe380bae8dd098d54c70033}{write\+Buffered\+Image}} (Buffered\+Image image, String format, Output\+Stream output\+Stream, float quality)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ae917483b87ebd02607952f969bd949c4}{write\+Buffered\+Image}} (Buffered\+Image image, String format, Output\+Stream output\+Stream, boolean encode\+Alpha)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a29346a4a16937f3ed31e7a3fdc682f67}{write\+Buffered\+Image}} (Buffered\+Image image, String format, Output\+Stream output\+Stream, float quality, boolean encode\+Alpha)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A collection of utility methods for encoding images and returning them as a byte\mbox{[}\mbox{]} or writing them directly to an Output\+Stream. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ab62148769acef556ec785dd08e886ae7}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ab62148769acef556ec785dd08e886ae7}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}!encode@{encode}}
+\index{encode@{encode}!org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}}
+\subsubsection{\texorpdfstring{encode()}{encode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily static byte \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+encoders.\+Encoder\+Util.\+encode (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{String}]{format }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Encode the image in a specific format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be encoded. \\
+\hline
+{\em format} & The \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_format}{Image\+Format}} to use.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The byte\mbox{[}\mbox{]} that is the encoded image. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a74c7ce7c56566304fb11e00cf5a988db}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a74c7ce7c56566304fb11e00cf5a988db}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}!encode@{encode}}
+\index{encode@{encode}!org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}}
+\subsubsection{\texorpdfstring{encode()}{encode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily static byte \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+encoders.\+Encoder\+Util.\+encode (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{String}]{format,  }\item[{boolean}]{encode\+Alpha }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Encode the image in a specific format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be encoded. \\
+\hline
+{\em format} & The \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_format}{Image\+Format}} to use. \\
+\hline
+{\em encode\+Alpha} & Whether to encode alpha transparency (not supported by all Image\+Encoders). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The byte\mbox{[}\mbox{]} that is the encoded image. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ad189d7ff6965d3fd3289e70c63ff43ab}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ad189d7ff6965d3fd3289e70c63ff43ab}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}!encode@{encode}}
+\index{encode@{encode}!org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}}
+\subsubsection{\texorpdfstring{encode()}{encode()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily static byte \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+encoders.\+Encoder\+Util.\+encode (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{String}]{format,  }\item[{float}]{quality }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Encode the image in a specific format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be encoded. \\
+\hline
+{\em format} & The \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_format}{Image\+Format}} to use. \\
+\hline
+{\em quality} & The quality to use for the image encoding (not supported by all Image\+Encoders). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The byte\mbox{[}\mbox{]} that is the encoded image. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a0468e3e81b1c1134228a4c6f923d1090}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a0468e3e81b1c1134228a4c6f923d1090}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}!encode@{encode}}
+\index{encode@{encode}!org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}}
+\subsubsection{\texorpdfstring{encode()}{encode()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily static byte \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+encoders.\+Encoder\+Util.\+encode (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{String}]{format,  }\item[{float}]{quality,  }\item[{boolean}]{encode\+Alpha }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Encode the image in a specific format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be encoded. \\
+\hline
+{\em format} & The \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_format}{Image\+Format}} to use. \\
+\hline
+{\em quality} & The quality to use for the image encoding (not supported by all Image\+Encoders). \\
+\hline
+{\em encode\+Alpha} & Whether to encode alpha transparency (not supported by all Image\+Encoders). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The byte\mbox{[}\mbox{]} that is the encoded image. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_aa607c49b1c0dc5dde458c241b7b3067a}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_aa607c49b1c0dc5dde458c241b7b3067a}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}!write\+Buffered\+Image@{write\+Buffered\+Image}}
+\index{write\+Buffered\+Image@{write\+Buffered\+Image}!org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}}
+\subsubsection{\texorpdfstring{write\+Buffered\+Image()}{writeBufferedImage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+encoders.\+Encoder\+Util.\+write\+Buffered\+Image (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{String}]{format,  }\item[{Output\+Stream}]{output\+Stream }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Encode the image in a specific format and write it to an Output\+Stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be encoded. \\
+\hline
+{\em format} & The \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_format}{Image\+Format}} to use. \\
+\hline
+{\em output\+Stream} & The Output\+Stream to write the encoded image to. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a566e83a07fe380bae8dd098d54c70033}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a566e83a07fe380bae8dd098d54c70033}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}!write\+Buffered\+Image@{write\+Buffered\+Image}}
+\index{write\+Buffered\+Image@{write\+Buffered\+Image}!org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}}
+\subsubsection{\texorpdfstring{write\+Buffered\+Image()}{writeBufferedImage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+encoders.\+Encoder\+Util.\+write\+Buffered\+Image (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{String}]{format,  }\item[{Output\+Stream}]{output\+Stream,  }\item[{float}]{quality }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Encode the image in a specific format and write it to an Output\+Stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be encoded. \\
+\hline
+{\em format} & The \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_format}{Image\+Format}} to use. \\
+\hline
+{\em output\+Stream} & The Output\+Stream to write the encoded image to. \\
+\hline
+{\em quality} & The quality to use for the image encoding (not supported by all Image\+Encoders). \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ae917483b87ebd02607952f969bd949c4}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_ae917483b87ebd02607952f969bd949c4}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}!write\+Buffered\+Image@{write\+Buffered\+Image}}
+\index{write\+Buffered\+Image@{write\+Buffered\+Image}!org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}}
+\subsubsection{\texorpdfstring{write\+Buffered\+Image()}{writeBufferedImage()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+encoders.\+Encoder\+Util.\+write\+Buffered\+Image (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{String}]{format,  }\item[{Output\+Stream}]{output\+Stream,  }\item[{boolean}]{encode\+Alpha }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Encode the image in a specific format and write it to an Output\+Stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be encoded. \\
+\hline
+{\em format} & The \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_format}{Image\+Format}} to use. \\
+\hline
+{\em output\+Stream} & The Output\+Stream to write the encoded image to. \\
+\hline
+{\em encode\+Alpha} & Whether to encode alpha transparency (not supported by all Image\+Encoders). \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a29346a4a16937f3ed31e7a3fdc682f67}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_encoder_util_a29346a4a16937f3ed31e7a3fdc682f67}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}!write\+Buffered\+Image@{write\+Buffered\+Image}}
+\index{write\+Buffered\+Image@{write\+Buffered\+Image}!org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util@{org\+::jfree\+::chart\+::encoders\+::\+Encoder\+Util}}
+\subsubsection{\texorpdfstring{write\+Buffered\+Image()}{writeBufferedImage()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+encoders.\+Encoder\+Util.\+write\+Buffered\+Image (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{String}]{format,  }\item[{Output\+Stream}]{output\+Stream,  }\item[{float}]{quality,  }\item[{boolean}]{encode\+Alpha }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Encode the image in a specific format and write it to an Output\+Stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to be encoded. \\
+\hline
+{\em format} & The \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_format}{Image\+Format}} to use. \\
+\hline
+{\em output\+Stream} & The Output\+Stream to write the encoded image to. \\
+\hline
+{\em quality} & The quality to use for the image encoding (not supported by all Image\+Encoders). \\
+\hline
+{\em encode\+Alpha} & Whether to encode alpha transparency (not supported by all Image\+Encoders). \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/encoders/\mbox{\hyperlink{_encoder_util_8java}{Encoder\+Util.\+java}}\end{DoxyCompactItemize}

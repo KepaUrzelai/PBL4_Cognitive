@@ -1,0 +1,66 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1_values}{}\section{org.\+jfree.\+data.\+Values Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1_values}\index{org.\+jfree.\+data.\+Values@{org.\+jfree.\+data.\+Values}}
+Inheritance diagram for org.\+jfree.\+data.\+Values\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.295082cm]{interfaceorg_1_1jfree_1_1data_1_1_values}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values_afd00781dbc2e351b7a77aca9a91ca0a9}{get\+Item\+Count}} ()
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values_a660d7e60de9e6ed7a3d2c22eb6578ced}{get\+Value}} (int index)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface through which (single-\/dimension) data values can be accessed. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_values_afd00781dbc2e351b7a77aca9a91ca0a9}\label{interfaceorg_1_1jfree_1_1data_1_1_values_afd00781dbc2e351b7a77aca9a91ca0a9}} 
+\index{org\+::jfree\+::data\+::\+Values@{org\+::jfree\+::data\+::\+Values}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::\+Values@{org\+::jfree\+::data\+::\+Values}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Values.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of items (values) in the collection.
+
+\begin{DoxyReturn}{Returns}
+The item count (possibly zero). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7536f863e26d692f65131df0ed9150c3}{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values_a82166915731034d230c83ee87177cd3b}{org.\+jfree.\+data.\+Default\+Keyed\+Values}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_pie_dataset_a4cf186a9f52bd58498c9f8551f0b5957}{org.\+jfree.\+data.\+general.\+Default\+Pie\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_values_a660d7e60de9e6ed7a3d2c22eb6578ced}\label{interfaceorg_1_1jfree_1_1data_1_1_values_a660d7e60de9e6ed7a3d2c22eb6578ced}} 
+\index{org\+::jfree\+::data\+::\+Values@{org\+::jfree\+::data\+::\+Values}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::\+Values@{org\+::jfree\+::data\+::\+Values}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+Values.\+get\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the value with the specified index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values_afd00781dbc2e351b7a77aca9a91ca0a9}{get\+Item\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily index} is not in the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a994ec52d8053b1ac0604dae5495fff5f}{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_pie_dataset_af7ed54fb104914f6bc70c5fea2470fdb}{org.\+jfree.\+data.\+general.\+Default\+Pie\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values_a38fcea7e618e557e028940a48ffc61f0}{org.\+jfree.\+data.\+Default\+Keyed\+Values}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/\mbox{\hyperlink{_values_8java}{Values.\+java}}\end{DoxyCompactItemize}

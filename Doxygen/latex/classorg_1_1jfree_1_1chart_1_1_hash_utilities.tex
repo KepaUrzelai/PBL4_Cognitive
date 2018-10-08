@@ -1,0 +1,309 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities}{}\section{org.\+jfree.\+chart.\+Hash\+Utilities Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities}\index{org.\+jfree.\+chart.\+Hash\+Utilities@{org.\+jfree.\+chart.\+Hash\+Utilities}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a272dce8293f08de8a41967f97ca1adf1}{hash\+Code\+For\+Paint}} (Paint p)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_ad2742a30adc83df83b996f887b9bf7a3}{hash\+Code\+For\+Double\+Array}} (double\mbox{[}$\,$\mbox{]} a)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_aa24ce901adc9ad33cd04567ea5ffe5a5}{hash\+Code}} (int pre, boolean b)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_ad50b1d78d0086f6908582a1f5ffab09a}{hash\+Code}} (int pre, int i)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a92e7ba4f47b99af9d134c2984a91e75a}{hash\+Code}} (int pre, double d)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a7e50a32f19cc06e32d63aa2a73a52dd2}{hash\+Code}} (int pre, Paint p)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a7cc50195affa5e10dc1b6d4a360b9517}{hash\+Code}} (int pre, Stroke s)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a6d0e49602b82e6b6b47a85d117ebd178}{hash\+Code}} (int pre, String s)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a1c0e9a0350bf1436b2637133979fc60e}{hash\+Code}} (int pre, Comparable c)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a1c8dcc152204db64fb0440a1506fa6da}{hash\+Code}} (int pre, Object obj)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a64a891c3427c63ae6eddcd835c4951d5}{hash\+Code}} (int pre, Boolean\+List list)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a575aff69ef23d2879a022f44396c9ad1}{hash\+Code}} (int pre, Paint\+List list)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a18afb776adb8fcb7ea69dc23a8aff1e4}{hash\+Code}} (int pre, Stroke\+List list)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Some utility methods for calculating hash codes. ~\newline
+ \begin{DoxySince}{Since}
+1.\+0.\+3 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_aa24ce901adc9ad33cd04567ea5ffe5a5}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_aa24ce901adc9ad33cd04567ea5ffe5a5}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{boolean}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash value based on a seed value and the value of a boolean primitive.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em b} & the boolean value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hash value.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_ad50b1d78d0086f6908582a1f5ffab09a}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_ad50b1d78d0086f6908582a1f5ffab09a}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash value based on a seed value and the value of an int primitive.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em i} & the int value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hash value.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+8 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a92e7ba4f47b99af9d134c2984a91e75a}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a92e7ba4f47b99af9d134c2984a91e75a}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [3/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{double}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash value based on a seed value and the value of a double primitive.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em d} & the double value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hash value.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a7e50a32f19cc06e32d63aa2a73a52dd2}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a7e50a32f19cc06e32d63aa2a73a52dd2}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [4/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{Paint}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash value based on a seed value and a paint instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em p} & the paint ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hash value.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a7cc50195affa5e10dc1b6d4a360b9517}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a7cc50195affa5e10dc1b6d4a360b9517}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [5/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{Stroke}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash value based on a seed value and a stroke instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em s} & the stroke ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hash value.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a6d0e49602b82e6b6b47a85d117ebd178}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a6d0e49602b82e6b6b47a85d117ebd178}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [6/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{String}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash value based on a seed value and a string instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em s} & the string ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hash value.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a1c0e9a0350bf1436b2637133979fc60e}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a1c0e9a0350bf1436b2637133979fc60e}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [7/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{Comparable}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash value based on a seed value and a {\ttfamily Comparable} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em c} & the comparable ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hash value.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a1c8dcc152204db64fb0440a1506fa6da}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a1c8dcc152204db64fb0440a1506fa6da}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [8/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{Object}]{obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash value based on a seed value and an {\ttfamily Object} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A hash value.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+8 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a64a891c3427c63ae6eddcd835c4951d5}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a64a891c3427c63ae6eddcd835c4951d5}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [9/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{Boolean\+List}]{list }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Computes a hash code for a \mbox{\hyperlink{}{Boolean\+List}}. In the latest version of J\+Common, the \mbox{\hyperlink{}{Boolean\+List}} class should implement the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_aa24ce901adc9ad33cd04567ea5ffe5a5}{hash\+Code()}} method correctly, but we compute it here anyway so that we can work with older versions of J\+Common (back to 1.\+0.\+0).
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em list} & the list ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The hash code.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+9 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a575aff69ef23d2879a022f44396c9ad1}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a575aff69ef23d2879a022f44396c9ad1}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [10/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{Paint\+List}]{list }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Computes a hash code for a \mbox{\hyperlink{}{Paint\+List}}. In the latest version of J\+Common, the \mbox{\hyperlink{}{Paint\+List}} class should implement the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_aa24ce901adc9ad33cd04567ea5ffe5a5}{hash\+Code()}} method correctly, but we compute it here anyway so that we can work with older versions of J\+Common (back to 1.\+0.\+0).
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em list} & the list ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The hash code.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+9 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a18afb776adb8fcb7ea69dc23a8aff1e4}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a18afb776adb8fcb7ea69dc23a8aff1e4}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}\hspace{0.1cm}{\footnotesize\ttfamily [11/11]}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code (\begin{DoxyParamCaption}\item[{int}]{pre,  }\item[{Stroke\+List}]{list }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Computes a hash code for a \mbox{\hyperlink{}{Stroke\+List}}. In the latest version of J\+Common, the \mbox{\hyperlink{}{Stroke\+List}} class should implement the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_hash_utilities_aa24ce901adc9ad33cd04567ea5ffe5a5}{hash\+Code()}} method correctly, but we compute it here anyway so that we can work with older versions of J\+Common (back to 1.\+0.\+0).
+
+
+\begin{DoxyParams}{Parameters}
+{\em pre} & the seed value. \\
+\hline
+{\em list} & the list ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The hash code.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+9 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_ad2742a30adc83df83b996f887b9bf7a3}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_ad2742a30adc83df83b996f887b9bf7a3}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code\+For\+Double\+Array@{hash\+Code\+For\+Double\+Array}}
+\index{hash\+Code\+For\+Double\+Array@{hash\+Code\+For\+Double\+Array}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code\+For\+Double\+Array()}{hashCodeForDoubleArray()}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code\+For\+Double\+Array (\begin{DoxyParamCaption}\item[{double \mbox{[}$\,$\mbox{]}}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash code for a {\ttfamily double\mbox{[}\mbox{]}} instance. If the array is {\ttfamily null}, this method returns zero.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & the array ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a272dce8293f08de8a41967f97ca1adf1}\label{classorg_1_1jfree_1_1chart_1_1_hash_utilities_a272dce8293f08de8a41967f97ca1adf1}} 
+\index{org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}!hash\+Code\+For\+Paint@{hash\+Code\+For\+Paint}}
+\index{hash\+Code\+For\+Paint@{hash\+Code\+For\+Paint}!org\+::jfree\+::chart\+::\+Hash\+Utilities@{org\+::jfree\+::chart\+::\+Hash\+Utilities}}
+\subsubsection{\texorpdfstring{hash\+Code\+For\+Paint()}{hashCodeForPaint()}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+Hash\+Utilities.\+hash\+Code\+For\+Paint (\begin{DoxyParamCaption}\item[{Paint}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a hash code for a {\ttfamily Paint} instance. If {\ttfamily p} is {\ttfamily null}, this method returns zero.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the paint ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/\mbox{\hyperlink{_hash_utilities_8java}{Hash\+Utilities.\+java}}\end{DoxyCompactItemize}

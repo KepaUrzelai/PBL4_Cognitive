@@ -1,0 +1,129 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier}{}\section{org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier}\index{org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier@{org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Paint \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_ad7f6058a6390128ef1e52cddee4f8d0b}{get\+Next\+Paint}} ()
+\item 
+Paint \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a2b467eb43237810e9ab135ecd3d70017}{get\+Next\+Outline\+Paint}} ()
+\item 
+Paint \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_ad9386ba5a8bd895ba5b4850618324366}{get\+Next\+Fill\+Paint}} ()
+\item 
+Stroke \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a5e3b2ef52841d31b514d27c954bea536}{get\+Next\+Stroke}} ()
+\item 
+Stroke \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_aa105b3b934971ebb5fea78e30d41f2fb}{get\+Next\+Outline\+Stroke}} ()
+\item 
+Shape \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a003bd6d202ea37f0e20e8a63b6183525}{get\+Next\+Shape}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A supplier of {\ttfamily Paint}, {\ttfamily Stroke} and {\ttfamily Shape} objects for use by plots and renderers. By providing a central place for obtaining these items, we can ensure that duplication is avoided. 
+
+To support the cloning of charts, classes that implement this interface should also implement {\ttfamily Public\+Cloneable}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_ad9386ba5a8bd895ba5b4850618324366}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_ad9386ba5a8bd895ba5b4850618324366}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}!get\+Next\+Fill\+Paint@{get\+Next\+Fill\+Paint}}
+\index{get\+Next\+Fill\+Paint@{get\+Next\+Fill\+Paint}!org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}}
+\subsubsection{\texorpdfstring{get\+Next\+Fill\+Paint()}{getNextFillPaint()}}
+{\footnotesize\ttfamily Paint org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier.\+get\+Next\+Fill\+Paint (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the next fill paint in a sequence maintained by the supplier.
+
+\begin{DoxyReturn}{Returns}
+The paint.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+6 
+\end{DoxySince}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_default_drawing_supplier_a25a4db4213706fe8b54a0490aa14e727}{org.\+jfree.\+chart.\+plot.\+Default\+Drawing\+Supplier}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a2b467eb43237810e9ab135ecd3d70017}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a2b467eb43237810e9ab135ecd3d70017}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}!get\+Next\+Outline\+Paint@{get\+Next\+Outline\+Paint}}
+\index{get\+Next\+Outline\+Paint@{get\+Next\+Outline\+Paint}!org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}}
+\subsubsection{\texorpdfstring{get\+Next\+Outline\+Paint()}{getNextOutlinePaint()}}
+{\footnotesize\ttfamily Paint org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier.\+get\+Next\+Outline\+Paint (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the next outline paint in a sequence maintained by the supplier.
+
+\begin{DoxyReturn}{Returns}
+The paint. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_default_drawing_supplier_ab6d4d685e012ec207b8aa58b926090e2}{org.\+jfree.\+chart.\+plot.\+Default\+Drawing\+Supplier}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_aa105b3b934971ebb5fea78e30d41f2fb}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_aa105b3b934971ebb5fea78e30d41f2fb}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}!get\+Next\+Outline\+Stroke@{get\+Next\+Outline\+Stroke}}
+\index{get\+Next\+Outline\+Stroke@{get\+Next\+Outline\+Stroke}!org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}}
+\subsubsection{\texorpdfstring{get\+Next\+Outline\+Stroke()}{getNextOutlineStroke()}}
+{\footnotesize\ttfamily Stroke org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier.\+get\+Next\+Outline\+Stroke (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the next {\ttfamily Stroke} object in a sequence maintained by the supplier.
+
+\begin{DoxyReturn}{Returns}
+The stroke. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_default_drawing_supplier_a09adc92560316dcc9acabb7720a0e910}{org.\+jfree.\+chart.\+plot.\+Default\+Drawing\+Supplier}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_ad7f6058a6390128ef1e52cddee4f8d0b}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_ad7f6058a6390128ef1e52cddee4f8d0b}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}!get\+Next\+Paint@{get\+Next\+Paint}}
+\index{get\+Next\+Paint@{get\+Next\+Paint}!org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}}
+\subsubsection{\texorpdfstring{get\+Next\+Paint()}{getNextPaint()}}
+{\footnotesize\ttfamily Paint org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier.\+get\+Next\+Paint (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the next paint in a sequence maintained by the supplier.
+
+\begin{DoxyReturn}{Returns}
+The paint. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_default_drawing_supplier_a4e1f7e6db7275fbe64dd76b6075556a9}{org.\+jfree.\+chart.\+plot.\+Default\+Drawing\+Supplier}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a003bd6d202ea37f0e20e8a63b6183525}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a003bd6d202ea37f0e20e8a63b6183525}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}!get\+Next\+Shape@{get\+Next\+Shape}}
+\index{get\+Next\+Shape@{get\+Next\+Shape}!org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}}
+\subsubsection{\texorpdfstring{get\+Next\+Shape()}{getNextShape()}}
+{\footnotesize\ttfamily Shape org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier.\+get\+Next\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the next {\ttfamily Shape} object in a sequence maintained by the supplier.
+
+\begin{DoxyReturn}{Returns}
+The shape. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_default_drawing_supplier_ada83bbc7e56d31ce1c49da7d51baf313}{org.\+jfree.\+chart.\+plot.\+Default\+Drawing\+Supplier}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a5e3b2ef52841d31b514d27c954bea536}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1_drawing_supplier_a5e3b2ef52841d31b514d27c954bea536}} 
+\index{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}!get\+Next\+Stroke@{get\+Next\+Stroke}}
+\index{get\+Next\+Stroke@{get\+Next\+Stroke}!org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier@{org\+::jfree\+::chart\+::plot\+::\+Drawing\+Supplier}}
+\subsubsection{\texorpdfstring{get\+Next\+Stroke()}{getNextStroke()}}
+{\footnotesize\ttfamily Stroke org.\+jfree.\+chart.\+plot.\+Drawing\+Supplier.\+get\+Next\+Stroke (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the next {\ttfamily Stroke} object in a sequence maintained by the supplier.
+
+\begin{DoxyReturn}{Returns}
+The stroke. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_default_drawing_supplier_adbe0467f0c53618cda9c1ec0d69143dd}{org.\+jfree.\+chart.\+plot.\+Default\+Drawing\+Supplier}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/\mbox{\hyperlink{_drawing_supplier_8java}{Drawing\+Supplier.\+java}}\end{DoxyCompactItemize}

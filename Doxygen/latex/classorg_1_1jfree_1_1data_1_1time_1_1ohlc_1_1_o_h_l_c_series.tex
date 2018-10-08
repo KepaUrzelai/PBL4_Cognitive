@@ -1,0 +1,144 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series}{}\section{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series}\index{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series@{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series}}
+Inheritance diagram for org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.314049cm]{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_affe626c978fe6af4306fab8e0c3a20ea}{O\+H\+L\+C\+Series}} (Comparable key)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_aff62f6333a35fc48fc65b8ce1742ccbb}{get\+Period}} (int index)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a55207c2cbe1624465f00101b3e32439c}{get\+Data\+Item}} (int index)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a8710820f7e0d9b77d15202ec2c631641}{add}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} period, double open, double high, double low, double close)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a1d1b8ffe105d1d603a506633c6057e2c}{add}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_item}{O\+H\+L\+C\+Item}} item)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a7d43ed5430d46a4cdc097a4fb15a24b9}{remove}} (int index)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A list of (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}}, open, high, low, close) data items.
+
+\begin{DoxySince}{Since}
+1.\+0.\+4
+\end{DoxySince}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection}{O\+H\+L\+C\+Series\+Collection}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_affe626c978fe6af4306fab8e0c3a20ea}\label{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_affe626c978fe6af4306fab8e0c3a20ea}} 
+\index{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}!O\+H\+L\+C\+Series@{O\+H\+L\+C\+Series}}
+\index{O\+H\+L\+C\+Series@{O\+H\+L\+C\+Series}!org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}}
+\subsubsection{\texorpdfstring{O\+H\+L\+C\+Series()}{OHLCSeries()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series.\+O\+H\+L\+C\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Creates a new empty series. By default, items added to the series will be sorted into ascending order by period, and duplicate periods will not be allowed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a8710820f7e0d9b77d15202ec2c631641}\label{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a8710820f7e0d9b77d15202ec2c631641}} 
+\index{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}}}]{period,  }\item[{double}]{open,  }\item[{double}]{high,  }\item[{double}]{low,  }\item[{double}]{close }\end{DoxyParamCaption})}
+
+Adds a data item to the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em period} & the period. \\
+\hline
+{\em open} & the open-\/value. \\
+\hline
+{\em high} & the high-\/value. \\
+\hline
+{\em low} & the low-\/value. \\
+\hline
+{\em close} & the close-\/value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a1d1b8ffe105d1d603a506633c6057e2c}\label{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a1d1b8ffe105d1d603a506633c6057e2c}} 
+\index{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_item}{O\+H\+L\+C\+Item}}}]{item }\end{DoxyParamCaption})}
+
+Adds a data item to the series. The values from the item passed to this method will be copied into a new object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & the item ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+17 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a55207c2cbe1624465f00101b3e32439c}\label{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a55207c2cbe1624465f00101b3e32439c}} 
+\index{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}!get\+Data\+Item@{get\+Data\+Item}}
+\index{get\+Data\+Item@{get\+Data\+Item}!org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}}
+\subsubsection{\texorpdfstring{get\+Data\+Item()}{getDataItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series.\+get\+Data\+Item (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the data item at the specified index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The data item. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_aff62f6333a35fc48fc65b8ce1742ccbb}\label{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_aff62f6333a35fc48fc65b8ce1742ccbb}} 
+\index{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}!get\+Period@{get\+Period}}
+\index{get\+Period@{get\+Period}!org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}}
+\subsubsection{\texorpdfstring{get\+Period()}{getPeriod()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series.\+get\+Period (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the time period for the specified item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The time period. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a7d43ed5430d46a4cdc097a4fb15a24b9}\label{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_a7d43ed5430d46a4cdc097a4fb15a24b9}} 
+\index{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}!remove@{remove}}
+\index{remove@{remove}!org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series@{org\+::jfree\+::data\+::time\+::ohlc\+::\+O\+H\+L\+C\+Series}}
+\subsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series.\+remove (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Removes the item with the specified index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/time/ohlc/\mbox{\hyperlink{_o_h_l_c_series_8java}{O\+H\+L\+C\+Series.\+java}}\end{DoxyCompactItemize}

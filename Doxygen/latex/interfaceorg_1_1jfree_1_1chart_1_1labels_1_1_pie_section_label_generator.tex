@@ -1,0 +1,77 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Pie\+Section\+Label\+Generator Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator}\index{org.\+jfree.\+chart.\+labels.\+Pie\+Section\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+Pie\+Section\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Pie\+Section\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a9c514ffcd269a3d73720c1ed588c624f}{generate\+Section\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}} dataset, Comparable key)
+\item 
+Attributed\+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a3e031cb96d404cbc1736723269ca8a80}{generate\+Attributed\+Section\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}} dataset, Comparable key)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface for a label generator for plots that use data from a \mbox{\hyperlink{}{Pie\+Dataset}}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a3e031cb96d404cbc1736723269ca8a80}\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a3e031cb96d404cbc1736723269ca8a80}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Pie\+Section\+Label\+Generator}!generate\+Attributed\+Section\+Label@{generate\+Attributed\+Section\+Label}}
+\index{generate\+Attributed\+Section\+Label@{generate\+Attributed\+Section\+Label}!org\+::jfree\+::chart\+::labels\+::\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Attributed\+Section\+Label()}{generateAttributedSectionLabel()}}
+{\footnotesize\ttfamily Attributed\+String org.\+jfree.\+chart.\+labels.\+Pie\+Section\+Label\+Generator.\+generate\+Attributed\+Section\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}}}]{dataset,  }\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Generates an attributed label for the specified series, or {\ttfamily null} if no attributed label is available (in which case, the string returned by \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a9c514ffcd269a3d73720c1ed588c624f}{generate\+Section\+Label(\+Pie\+Dataset, Comparable)}} will provide the fallback). Only certain attributes are recognised by the code that ultimately displays the labels\+: 
+\begin{DoxyItemize}
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+F\+O\+NT}}\+: will set the font; 
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+P\+O\+S\+T\+U\+RE}}\+: a value of \mbox{\hyperlink{}{Text\+Attribute\#\+P\+O\+S\+T\+U\+R\+E\+\_\+\+O\+B\+L\+I\+Q\+UE}} will add \mbox{\hyperlink{}{Font\#\+I\+T\+A\+L\+IC}} to the current font; 
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+W\+E\+I\+G\+HT}}\+: a value of \mbox{\hyperlink{}{Text\+Attribute\#\+W\+E\+I\+G\+H\+T\+\_\+\+B\+O\+LD}} will add \mbox{\hyperlink{}{Font\#\+B\+O\+LD}} to the current font; 
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+F\+O\+R\+E\+G\+R\+O\+U\+ND}}\+: this will set the \mbox{\hyperlink{}{Paint}} for the current 
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+S\+U\+P\+E\+R\+S\+C\+R\+I\+PT}}\+: the values \mbox{\hyperlink{}{Text\+Attribute\#\+S\+U\+P\+E\+R\+S\+C\+R\+I\+P\+T\+\_\+\+S\+UB}} and \mbox{\hyperlink{}{Text\+Attribute\#\+S\+U\+P\+E\+R\+S\+C\+R\+I\+P\+T\+\_\+\+S\+U\+P\+ER}} are recognised. 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset. \\
+\hline
+{\em key} & the key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An attributed label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a77c817699c799f3112e7ed696bae25d5}{org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a9c514ffcd269a3d73720c1ed588c624f}\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a9c514ffcd269a3d73720c1ed588c624f}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Pie\+Section\+Label\+Generator}!generate\+Section\+Label@{generate\+Section\+Label}}
+\index{generate\+Section\+Label@{generate\+Section\+Label}!org\+::jfree\+::chart\+::labels\+::\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Section\+Label()}{generateSectionLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Pie\+Section\+Label\+Generator.\+generate\+Section\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}}}]{dataset,  }\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Generates a label for a pie section.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em key} & the section key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a043e8cf227d2d5f5a457219ec6769488}{org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_pie_section_label_generator_8java}{Pie\+Section\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,272 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset}{}\section{org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset}\index{org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset@{org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a8057b4eb916e10c4fa9d9bc4a5d19bde}{get\+Mean\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_aaf7ccfc01f6781e32bf674818aba2a7f}{get\+Median\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a9594fa74639e0dde5c4464db4de1e65a}{get\+Q1\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_aa0a7303f8abdc2cc56f5c4a1cdff2c49}{get\+Q3\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a11d53213d4eb15fd9691645b1b0edcb4}{get\+Min\+Regular\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a152f6bb587ba044108d7ddf68808f333}{get\+Max\+Regular\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a3008c9b45ede75485f3f1f8d3443dda3}{get\+Min\+Outlier}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a6591ebc4568691272437f1743610780d}{get\+Max\+Outlier}} (int series, int item)
+\item 
+List \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a7e0197e600e22c92f3201edc841aca0b}{get\+Outliers}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a3df6c697a6acb9897a6bd728db18d578}{get\+Outlier\+Coefficient}} ()
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a83de87c9326c44163e2670b3b00d0280}{get\+Farout\+Coefficient}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface that defines data in the form of (x, max, min, average, median) tuples. 
+
+Example\+: J\+Free\+Chart uses this interface to obtain data for A\+I\+MS max-\/min-\/average-\/median plots. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a83de87c9326c44163e2670b3b00d0280}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a83de87c9326c44163e2670b3b00d0280}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Farout\+Coefficient@{get\+Farout\+Coefficient}}
+\index{get\+Farout\+Coefficient@{get\+Farout\+Coefficient}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Farout\+Coefficient()}{getFaroutCoefficient()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Farout\+Coefficient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value used as the farout coefficient. The farout coefficient allows the calculation of which values will be off the graph.
+
+\begin{DoxyReturn}{Returns}
+A {\ttfamily double} representing the value used to calculate farouts 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a0e7767b34470a4bb8b74de4c3646e1a9}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a6591ebc4568691272437f1743610780d}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a6591ebc4568691272437f1743610780d}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Max\+Outlier@{get\+Max\+Outlier}}
+\index{get\+Max\+Outlier@{get\+Max\+Outlier}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Max\+Outlier()}{getMaxOutlier()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Max\+Outlier (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the maximum value which is not a farout, ie Q3 + (interquartile range $\ast$ farout coefficient).
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A {\ttfamily Number} representing the maximum non-\/farout value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a3bf4cfe81f62aa7bcea3b0abf9e045d3}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a152f6bb587ba044108d7ddf68808f333}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a152f6bb587ba044108d7ddf68808f333}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Max\+Regular\+Value@{get\+Max\+Regular\+Value}}
+\index{get\+Max\+Regular\+Value@{get\+Max\+Regular\+Value}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Max\+Regular\+Value()}{getMaxRegularValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Max\+Regular\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the max-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The max-\/value for the specified series and item. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a67ab411220452537047ac852330bd0c0}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a8057b4eb916e10c4fa9d9bc4a5d19bde}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a8057b4eb916e10c4fa9d9bc4a5d19bde}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Mean\+Value@{get\+Mean\+Value}}
+\index{get\+Mean\+Value@{get\+Mean\+Value}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Mean\+Value()}{getMeanValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Mean\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the mean for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The mean for the specified series and item. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a304903af30ed69f64ecad290fbfef916}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_aaf7ccfc01f6781e32bf674818aba2a7f}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_aaf7ccfc01f6781e32bf674818aba2a7f}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Median\+Value@{get\+Median\+Value}}
+\index{get\+Median\+Value@{get\+Median\+Value}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Median\+Value()}{getMedianValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Median\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the median-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The median-\/value for the specified series and item. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_abae40a79cd11132e2fbc3a6f708a654b}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a3008c9b45ede75485f3f1f8d3443dda3}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a3008c9b45ede75485f3f1f8d3443dda3}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Min\+Outlier@{get\+Min\+Outlier}}
+\index{get\+Min\+Outlier@{get\+Min\+Outlier}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Min\+Outlier()}{getMinOutlier()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Min\+Outlier (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the minimum value which is not a farout. 
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A {\ttfamily Number} representing the maximum non-\/farout value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a0bf29647538b91763c23cb07f6aadf6c}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a11d53213d4eb15fd9691645b1b0edcb4}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a11d53213d4eb15fd9691645b1b0edcb4}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Min\+Regular\+Value@{get\+Min\+Regular\+Value}}
+\index{get\+Min\+Regular\+Value@{get\+Min\+Regular\+Value}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Min\+Regular\+Value()}{getMinRegularValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Min\+Regular\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the min-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The min-\/value for the specified series and item. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a7104c413a84e5908e40bfa42d931d965}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a3df6c697a6acb9897a6bd728db18d578}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a3df6c697a6acb9897a6bd728db18d578}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Outlier\+Coefficient@{get\+Outlier\+Coefficient}}
+\index{get\+Outlier\+Coefficient@{get\+Outlier\+Coefficient}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Outlier\+Coefficient()}{getOutlierCoefficient()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Outlier\+Coefficient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value used as the outlier coefficient. The outlier coefficient gives an indication of the degree of certainty in an unskewed distribution. Increasing the coefficient increases the number of values included. Currently only used to ensure farout coefficient is greater than the outlier coefficient
+
+\begin{DoxyReturn}{Returns}
+A {\ttfamily double} representing the value used to calculate outliers 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_ac47213bfcf3d3a0069a096077ea77531}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a7e0197e600e22c92f3201edc841aca0b}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a7e0197e600e22c92f3201edc841aca0b}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Outliers@{get\+Outliers}}
+\index{get\+Outliers@{get\+Outliers}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Outliers()}{getOutliers()}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Outliers (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns a list of outliers for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list of outliers for the specified series and item (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_af17fd8f346542c9633d159bdcc543f57}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a9594fa74639e0dde5c4464db4de1e65a}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_a9594fa74639e0dde5c4464db4de1e65a}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Q1\+Value@{get\+Q1\+Value}}
+\index{get\+Q1\+Value@{get\+Q1\+Value}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Q1\+Value()}{getQ1Value()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Q1\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the Q1 median-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Q1 median-\/value for the specified series and item. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_acc9e0188091c4431574b0da61d5e2311}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_aa0a7303f8abdc2cc56f5c4a1cdff2c49}\label{interfaceorg_1_1jfree_1_1data_1_1statistics_1_1_box_and_whisker_x_y_dataset_aa0a7303f8abdc2cc56f5c4a1cdff2c49}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}!get\+Q3\+Value@{get\+Q3\+Value}}
+\index{get\+Q3\+Value@{get\+Q3\+Value}!org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Box\+And\+Whisker\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Q3\+Value()}{getQ3Value()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Box\+And\+Whisker\+X\+Y\+Dataset.\+get\+Q3\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the Q3 median-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Q3 median-\/value for the specified series and item. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a02e36cd7245601a5bb665c36f953a27a}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/statistics/\mbox{\hyperlink{_box_and_whisker_x_y_dataset_8java}{Box\+And\+Whisker\+X\+Y\+Dataset.\+java}}\end{DoxyCompactItemize}

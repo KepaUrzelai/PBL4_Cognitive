@@ -1,0 +1,148 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter}{}\section{org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter}\index{org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter@{org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter}}
+Inheritance diagram for org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.739130cm]{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_af6e9c32b3bc115b9e5d4726cc1254dbb}{Gradient\+Bar\+Painter}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a2ffcfdc410a83a01d2a8a0bbd6d221d8}{Gradient\+Bar\+Painter}} (double g1, double g2, double g3)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_ac89360601b497bee3e7380f57b495e0a}{paint\+Bar}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}} renderer, int row, int column, Rectangular\+Shape bar, Rectangle\+Edge base)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a6fdd82aba724f29c372b091c6ab42a07}{paint\+Bar\+Shadow}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}} renderer, int row, int column, Rectangular\+Shape bar, Rectangle\+Edge base, boolean peg\+Shadow)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_ab57cd0c00c4b649ff6bfb3f6b06c757c}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a171dcfafe826b939e57e773b3cbefeb4}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An implementation of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter}{Bar\+Painter}} interface that uses several gradient fills to enrich the appearance of the bars.
+
+\begin{DoxySince}{Since}
+1.\+0.\+11 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_af6e9c32b3bc115b9e5d4726cc1254dbb}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_af6e9c32b3bc115b9e5d4726cc1254dbb}} 
+\index{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}!Gradient\+Bar\+Painter@{Gradient\+Bar\+Painter}}
+\index{Gradient\+Bar\+Painter@{Gradient\+Bar\+Painter}!org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}}
+\subsubsection{\texorpdfstring{Gradient\+Bar\+Painter()}{GradientBarPainter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter.\+Gradient\+Bar\+Painter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a2ffcfdc410a83a01d2a8a0bbd6d221d8}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a2ffcfdc410a83a01d2a8a0bbd6d221d8}} 
+\index{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}!Gradient\+Bar\+Painter@{Gradient\+Bar\+Painter}}
+\index{Gradient\+Bar\+Painter@{Gradient\+Bar\+Painter}!org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}}
+\subsubsection{\texorpdfstring{Gradient\+Bar\+Painter()}{GradientBarPainter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter.\+Gradient\+Bar\+Painter (\begin{DoxyParamCaption}\item[{double}]{g1,  }\item[{double}]{g2,  }\item[{double}]{g3 }\end{DoxyParamCaption})}
+
+Creates a new instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g1} & percentage value defining the line between regions 1 and 2. \\
+\hline
+{\em g2} & percentage value defining the line between regions 2 and 3. \\
+\hline
+{\em g3} & percentage value defining the line between regions 3 and 4. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_ab57cd0c00c4b649ff6bfb3f6b06c757c}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_ab57cd0c00c4b649ff6bfb3f6b06c757c}} 
+\index{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this instance for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the obj ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a171dcfafe826b939e57e773b3cbefeb4}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a171dcfafe826b939e57e773b3cbefeb4}} 
+\index{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this instance.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_ac89360601b497bee3e7380f57b495e0a}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_ac89360601b497bee3e7380f57b495e0a}} 
+\index{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}!paint\+Bar@{paint\+Bar}}
+\index{paint\+Bar@{paint\+Bar}!org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}}
+\subsubsection{\texorpdfstring{paint\+Bar()}{paintBar()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter.\+paint\+Bar (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}}}]{renderer,  }\item[{int}]{row,  }\item[{int}]{column,  }\item[{Rectangular\+Shape}]{bar,  }\item[{Rectangle\+Edge}]{base }\end{DoxyParamCaption})}
+
+Paints a single bar instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target. \\
+\hline
+{\em renderer} & the renderer. \\
+\hline
+{\em row} & the row index. \\
+\hline
+{\em column} & the column index. \\
+\hline
+{\em bar} & the bar \\
+\hline
+{\em base} & indicates which side of the rectangle is the base of the bar. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter_af5a3c8984af0bc1a4ba94c830048193a}{org.\+jfree.\+chart.\+renderer.\+category.\+Bar\+Painter}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a6fdd82aba724f29c372b091c6ab42a07}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a6fdd82aba724f29c372b091c6ab42a07}} 
+\index{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}!paint\+Bar\+Shadow@{paint\+Bar\+Shadow}}
+\index{paint\+Bar\+Shadow@{paint\+Bar\+Shadow}!org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Gradient\+Bar\+Painter}}
+\subsubsection{\texorpdfstring{paint\+Bar\+Shadow()}{paintBarShadow()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter.\+paint\+Bar\+Shadow (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}}}]{renderer,  }\item[{int}]{row,  }\item[{int}]{column,  }\item[{Rectangular\+Shape}]{bar,  }\item[{Rectangle\+Edge}]{base,  }\item[{boolean}]{peg\+Shadow }\end{DoxyParamCaption})}
+
+Paints a single bar instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target. \\
+\hline
+{\em renderer} & the renderer. \\
+\hline
+{\em row} & the row index. \\
+\hline
+{\em column} & the column index. \\
+\hline
+{\em bar} & the bar \\
+\hline
+{\em base} & indicates which side of the rectangle is the base of the bar. \\
+\hline
+{\em peg\+Shadow} & peg the shadow to the base of the bar? \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter_a400718f4cbe3832397ec4ae6c7260d6a}{org.\+jfree.\+chart.\+renderer.\+category.\+Bar\+Painter}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/category/\mbox{\hyperlink{_gradient_bar_painter_8java}{Gradient\+Bar\+Painter.\+java}}\end{DoxyCompactItemize}

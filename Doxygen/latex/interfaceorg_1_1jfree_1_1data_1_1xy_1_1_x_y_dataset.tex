@@ -1,0 +1,159 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{}\section{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}\index{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset@{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_domain_order}{Domain\+Order}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a49306db52a1ea7de951d807d21ab9c7c}{get\+Domain\+Order}} ()
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_ae81f9de91dfcae45028fc8a486a119da}{get\+Item\+Count}} (int series)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a85c75ba5b69b551e96afd29d1732ba22}{getX}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a65bd212539d8f7dfb3d3d36b5f42e083}{get\+X\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_aa915867221e0f94021bad3140db5254e}{getY}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a5e86389417eb5ed7b663a952ca370914}{get\+Y\+Value}} (int series, int item)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface through which data in the form of (x, y) items can be accessed. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a49306db52a1ea7de951d807d21ab9c7c}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a49306db52a1ea7de951d807d21ab9c7c}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}!get\+Domain\+Order@{get\+Domain\+Order}}
+\index{get\+Domain\+Order@{get\+Domain\+Order}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Domain\+Order()}{getDomainOrder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_domain_order}{Domain\+Order}} org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset.\+get\+Domain\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the order of the domain (or X) values returned by the dataset.
+
+\begin{DoxyReturn}{Returns}
+The order (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection_add31c4755cd5492cdc1a6e3055530467}{org.\+jfree.\+data.\+time.\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_simple_histogram_dataset_a5f4f64559cabfd40b1879e5ab9402399}{org.\+jfree.\+data.\+statistics.\+Simple\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_z_dataset_a9e4e89eafc3996ec5c9fd10f6d3891a4}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Z\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ae665218f6d5daa96f37e198265f72200}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series_collection_a4b80b66e0dc0f3aa894d151cf0507711}{org.\+jfree.\+data.\+xy.\+X\+Y\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_abstract_x_y_dataset_a5c1bd55a50eb79df12c9d50894f74866}{org.\+jfree.\+data.\+xy.\+Abstract\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_ae81f9de91dfcae45028fc8a486a119da}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_ae81f9de91dfcae45028fc8a486a119da}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset.\+get\+Item\+Count (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the number of items in a series. ~\newline
+~\newline
+ It is recommended that classes that implement this method should throw an {\ttfamily Illegal\+Argument\+Exception} if the {\ttfamily series} argument is outside the specified range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{get\+Series\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a6d6c9707eb80cec828d2c9c70d5be33e}{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aab2e36e1765d6e8e80f41faa233fcdfb}{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection_a6e229bafa67272c19c73d3f553e3d29c}{org.\+jfree.\+data.\+time.\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_af6ef60605755d26a4cd16fcb54f1a3e3}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series_collection_a9f06d873e55cdcefa42ccaa049dc8a1a}{org.\+jfree.\+data.\+xy.\+X\+Y\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a09cac32858b5274bcfe7b8070a52d5e5}{org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_ab13353a0418d82e3755c0cc7bef1cfcf}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_table_x_y_dataset_a28caf1b2b3803db97d1b4548a7f26d42}{org.\+jfree.\+data.\+time.\+Time\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_ac8693287c1a19d1228b14cb9c22f52aa}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_table_x_y_dataset_a04eb2509a27d4e1707a64ea260710849}{org.\+jfree.\+data.\+xy.\+Default\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_period_values_collection_aaa63a2c05b1a61f655cc24115fcdd63e}{org.\+jfree.\+data.\+time.\+Time\+Period\+Values\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a2c07e48f3cfd8b379856b7729c485273}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a8a4a746f281fa9d20fbad3f339063549}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a406199d4c7353865851ff20ec3523d28}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_category_table_x_y_dataset_a4e9554da109c26a84321724a1a06bd27}{org.\+jfree.\+data.\+xy.\+Category\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection_a69a6b517673d0152e060d616742931cc}{org.\+jfree.\+data.\+xy.\+Vector\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a40e8e83a09112bf32478cdd8bc906800}{org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_x_y_task_dataset_a48fa86ab7e66f3a99100b7ffac52597e}{org.\+jfree.\+data.\+gantt.\+X\+Y\+Task\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a2bff752977bb7e121b5ff080114165d3}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_simple_histogram_dataset_a3de03f4cbb147a93230850fce30da30f}{org.\+jfree.\+data.\+statistics.\+Simple\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_z_dataset_ab2b89b3c08d589c6d554ad4656be1dd2}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Z\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_acb92df806d4aa8e3b18283b6dbf05461}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_bar_dataset_a2dc0cb6c553d2957352f666e1ef69c8c}{org.\+jfree.\+data.\+xy.\+X\+Y\+Bar\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_collection_a5cc746cbd6f7de1b6593782a3c5b6739}{org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_interval_series_collection_a9a30e504b86b6ac333de0c3e34a3907d}{org.\+jfree.\+data.\+xy.\+Y\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_interval_series_collection_a54e146ea83bd2dfe56966ac098e9c502}{org.\+jfree.\+data.\+xy.\+X\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_interval_x_y_dataset_a902acf0c4bef6282326f87be5a8e0f10}{org.\+jfree.\+data.\+xy.\+Default\+Interval\+X\+Y\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_collection_a2dd853641a952363c53c352046efb240}{org.\+jfree.\+data.\+xy.\+Matrix\+Series\+Collection}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a85c75ba5b69b551e96afd29d1732ba22}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a85c75ba5b69b551e96afd29d1732ba22}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset.\+getX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the x-\/value for an item within a series. The x-\/values may or may not be returned in ascending order, that is up to the class implementing the interface.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series)}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a8f658c59c2fa6d670e529c5e484a585e}{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection_afaf4cb9df5f63edbe8b1eff071b9b8d0}{org.\+jfree.\+data.\+time.\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ae8e467b524a18e629f7777a5cd54e349}{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_interval_x_y_dataset_a73bb4e27acf510ab125c2a2c1fb4020a}{org.\+jfree.\+data.\+xy.\+Default\+Interval\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a4971da895c3ca3722fbf01cc40dd9124}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_table_x_y_dataset_a5b64bfd810fe031ffaded80c28a6c345}{org.\+jfree.\+data.\+time.\+Time\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series_collection_ad5ddad3a50f77de286608767e874e396}{org.\+jfree.\+data.\+xy.\+X\+Y\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a0d0b61165a8016d43005d1d4a41b0c79}{org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a5cd509f1412767a8630a4f0440508b64}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a2883ae1f7436e49fba834c2e14f039a7}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_simple_histogram_dataset_a2e2e54d5364b95e41b7643061b9d1b58}{org.\+jfree.\+data.\+statistics.\+Simple\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_table_x_y_dataset_ab2d943baa055ad2ba480f27d0293a0f8}{org.\+jfree.\+data.\+xy.\+Default\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_x_y_task_dataset_a782158dc49cc9885099754f4fefa45ce}{org.\+jfree.\+data.\+gantt.\+X\+Y\+Task\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_period_values_collection_ac857f32843f8ae8ed8e27d15fd313606}{org.\+jfree.\+data.\+time.\+Time\+Period\+Values\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_aee8614ff104e69820747b4181f7adfc2}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_af62edd939cd88c0bf2350231798c3892}{org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection_ad7741f58379e334e2e027b5c0446fd45}{org.\+jfree.\+data.\+xy.\+Vector\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_category_table_x_y_dataset_ac4f984661a2f855b1e4a82d05731b1f4}{org.\+jfree.\+data.\+xy.\+Category\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_z_dataset_a46a17db4f8c6013a1ff779529478c221}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Z\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_ab501c39779d3289533248c8c40a18c1d}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_ac323284fc0d4b04b2e725324c477fbe7}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_bar_dataset_a517abc432ea872cbd470288b17725337}{org.\+jfree.\+data.\+xy.\+X\+Y\+Bar\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_collection_a0abae4cd2bcaab48244751b896c0ee5d}{org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_interval_series_collection_aea821e6f7de4ea55e3ebf533ae124c10}{org.\+jfree.\+data.\+xy.\+Y\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_collection_a3fbbf6d5deb2ec56a7778c3053da5ead}{org.\+jfree.\+data.\+xy.\+Matrix\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_interval_series_collection_a2af637ee9454c9b23c9c61e6716eb01d}{org.\+jfree.\+data.\+xy.\+X\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_aa55b6574aaf34207a1a53e6bd8e422ea}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_aeb1a869407d3258cca101ad2408ad17c}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a65bd212539d8f7dfb3d3d36b5f42e083}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a65bd212539d8f7dfb3d3d36b5f42e083}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}!get\+X\+Value@{get\+X\+Value}}
+\index{get\+X\+Value@{get\+X\+Value}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X\+Value()}{getXValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset.\+get\+X\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the x-\/value for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series)}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection_af4c7434196da5c1658c8eb7e24580733}{org.\+jfree.\+data.\+time.\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_table_x_y_dataset_a74bc9da96ff2a538f8753d2abc2588b0}{org.\+jfree.\+data.\+time.\+Time\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_simple_histogram_dataset_abe5b334c787c634308cfd38c39be0a22}{org.\+jfree.\+data.\+statistics.\+Simple\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a528dc828a917fd0ba0fb959cacbaead1}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection_a94c0b22e67110c43fb565a756b1c89e9}{org.\+jfree.\+data.\+xy.\+Vector\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_x_y_task_dataset_aa4e0735ca3ef93d31ff25870ddead3c2}{org.\+jfree.\+data.\+gantt.\+X\+Y\+Task\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_bar_dataset_a84dba23fe8e4a19faff04e32a4bc0ea3}{org.\+jfree.\+data.\+xy.\+X\+Y\+Bar\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_z_dataset_a595c9b15046e75687ad4cc5f7b6a4617}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Z\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8b2261dd2265af0d085c4889ae519521}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_interval_x_y_dataset_aecdfbb6de5b66cf970a8849b4a88efe9}{org.\+jfree.\+data.\+xy.\+Default\+Interval\+X\+Y\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_abstract_x_y_dataset_a0d74392c194073e586d8a039767c622f}{org.\+jfree.\+data.\+xy.\+Abstract\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_aa915867221e0f94021bad3140db5254e}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_aa915867221e0f94021bad3140db5254e}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset.\+getY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series)}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a478c24e8f03cfbedd6464ea36d5d15f3}{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection_a43ff1a03fa8e1f41ad1e1f611b9d28fb}{org.\+jfree.\+data.\+time.\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a82d15ff790d019c18338037925dc8685}{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_table_x_y_dataset_a774346f32546e4722886bf5b837d6d7a}{org.\+jfree.\+data.\+time.\+Time\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a8afdda497f72a548bbc43a066f86a28b}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_interval_x_y_dataset_a5085de7f01a34d6599e275e3151c0e1c}{org.\+jfree.\+data.\+xy.\+Default\+Interval\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series_collection_aaafd64893e0c908c3f7c3f9ffc8d9bc9}{org.\+jfree.\+data.\+xy.\+X\+Y\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a306f5b5bbf13aeca319bc90cbb855010}{org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_x_y_task_dataset_af647b3b2fe8439c794156c0004fc3234}{org.\+jfree.\+data.\+gantt.\+X\+Y\+Task\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_table_x_y_dataset_a14d79167e9baad0df8490dc6e357e791}{org.\+jfree.\+data.\+xy.\+Default\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_x_y_dataset_a6b5b403d1094947c415cbea649904128}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a64188cebb42182d6637bf4c39d3075eb}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_simple_histogram_dataset_a320b9e6c74edb45fd1c878964a5466c1}{org.\+jfree.\+data.\+statistics.\+Simple\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_period_values_collection_a505d89600471d16e572dffeaa4d349ec}{org.\+jfree.\+data.\+time.\+Time\+Period\+Values\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection_a835b5143e64a99dff524840bba65ce5d}{org.\+jfree.\+data.\+xy.\+Vector\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_category_table_x_y_dataset_afd52434e62b1890759230d8f4aa6059f}{org.\+jfree.\+data.\+xy.\+Category\+Table\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_collection_a466c1c681b804f65c56985ea65ec2a20}{org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_z_dataset_adcfdc1d2da9d58dae9cd6d2a006be1af}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Z\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a8ad15161967d0f527b5fa885ebc14bc6}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a51ae6185e5c71a07e8e2f496e101e868}{org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a39ab3e7c0f3444b23cf9d768a5c52cd8}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_interval_series_collection_a68019ee85c039bec59b0a3a61989d131}{org.\+jfree.\+data.\+xy.\+Y\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_interval_series_collection_ae156ad8d79e2278653592a74680ce835}{org.\+jfree.\+data.\+xy.\+X\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a87e02aef2783486fbe4be09ae4f1e3bf}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_bar_dataset_a737db1e347fb9cb8b75179a54cf38287}{org.\+jfree.\+data.\+xy.\+X\+Y\+Bar\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_a0a62365f2ccccaf19cd49e003daeb5bc}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_collection_a7b873b64cb261ff072a480f22e29b505}{org.\+jfree.\+data.\+xy.\+Matrix\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_aa36cc16a07371b3e5027f2a9343bb24f}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a5e86389417eb5ed7b663a952ca370914}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a5e86389417eb5ed7b663a952ca370914}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}!get\+Y\+Value@{get\+Y\+Value}}
+\index{get\+Y\+Value@{get\+Y\+Value}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y\+Value()}{getYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset.\+get\+Y\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value (as a double primitive) for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series)}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_dynamic_time_series_collection_a9c955683707aa2d6cc74a4fde7d4cf7a}{org.\+jfree.\+data.\+time.\+Dynamic\+Time\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_simple_histogram_dataset_ad84a0d6f8df0d044dfad47ddf28fc7a0}{org.\+jfree.\+data.\+statistics.\+Simple\+Histogram\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_x_y_task_dataset_a5e6056162609e273bff52db664ee8bb2}{org.\+jfree.\+data.\+gantt.\+X\+Y\+Task\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection_a418ee78010207ee552d5c2e74a031b31}{org.\+jfree.\+data.\+xy.\+Vector\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_z_dataset_a1d085e3b2a18c6af96b15fd78d4ae9e8}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Z\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_dataset_a2ac3a1e3295eaa3aacb36b210926fbf4}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_bar_dataset_ad5f518543e018a6bc34cfe303bc9fa69}{org.\+jfree.\+data.\+xy.\+X\+Y\+Bar\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_interval_series_collection_a2dbffee80faab6bf16da287aecd32685}{org.\+jfree.\+data.\+xy.\+X\+Y\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_interval_series_collection_a6443d84ede22abd2c56368b16509b076}{org.\+jfree.\+data.\+xy.\+X\+Interval\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_interval_x_y_dataset_a924e1f58152217e3648fbe6cdc64bf34}{org.\+jfree.\+data.\+xy.\+Default\+Interval\+X\+Y\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_interval_series_collection_a741571e5d370b9f083cea6419b417954}{org.\+jfree.\+data.\+xy.\+Y\+Interval\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_abstract_x_y_dataset_a2a37653acb0e32c2dbf89fd9ca8695fe}{org.\+jfree.\+data.\+xy.\+Abstract\+X\+Y\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_x_y_dataset_8java}{X\+Y\+Dataset.\+java}}\end{DoxyCompactItemize}

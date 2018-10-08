@@ -1,0 +1,398 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics}{}\section{org.\+jfree.\+data.\+statistics.\+Statistics Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics}\index{org.\+jfree.\+data.\+statistics.\+Statistics@{org.\+jfree.\+data.\+statistics.\+Statistics}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a793d7b5028cb1856231d904d9ab169fd}{calculate\+Mean}} (Number\mbox{[}$\,$\mbox{]} values)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a0a7d049ddd8817616317ebbdfb542dd1}{calculate\+Mean}} (Number\mbox{[}$\,$\mbox{]} values, boolean include\+Null\+And\+NaN)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a27d86921cd629adfb4e11cc25f31889b}{calculate\+Mean}} (Collection values)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_ad7edaf335d8f7fe9ce148b02dc317cd6}{calculate\+Mean}} (Collection values, boolean include\+Null\+And\+NaN)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a83928ff9ff68a235326afd8fbdcab73d}{calculate\+Median}} (List values)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a473dcad23f5bb87f704c62562554c89b}{calculate\+Median}} (List values, boolean copy\+And\+Sort)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_aa3d422f68c55c28884922f3060f455e5}{calculate\+Median}} (List values, int start, int end)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a92e227d45c4996f2aed412ae87cd17ba}{calculate\+Median}} (List values, int start, int end, boolean copy\+And\+Sort)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a44416f7f6ff7f62d4d41ef13e3d1863f}{get\+Std\+Dev}} (Number\mbox{[}$\,$\mbox{]} data)
+\item 
+static double \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a710851304d13d6c83f0b6c799da5b94b}{get\+Linear\+Fit}} (Number\mbox{[}$\,$\mbox{]} x\+Data, Number\mbox{[}$\,$\mbox{]} y\+Data)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a2a1d9b8f0980f6c98f8f90bbd7d95e28}{get\+Slope}} (Number\mbox{[}$\,$\mbox{]} x\+Data, Number\mbox{[}$\,$\mbox{]} y\+Data)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_ade3298593f093df2dcb1d051b418d261}{get\+Correlation}} (Number\mbox{[}$\,$\mbox{]} data1, Number\mbox{[}$\,$\mbox{]} data2)
+\item 
+static double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a0226b7b4d5998983761091e1c31e46e7}{get\+Moving\+Average}} (Number\mbox{[}$\,$\mbox{]} x\+Data, Number\mbox{[}$\,$\mbox{]} y\+Data, int period)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A utility class that provides some common statistical functions. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a793d7b5028cb1856231d904d9ab169fd}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a793d7b5028cb1856231d904d9ab169fd}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!calculate\+Mean@{calculate\+Mean}}
+\index{calculate\+Mean@{calculate\+Mean}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{calculate\+Mean()}{calculateMean()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+calculate\+Mean (\begin{DoxyParamCaption}\item[{Number \mbox{[}$\,$\mbox{]}}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the mean of an array of numbers. This is equivalent to calling 
+\begin{DoxyCode}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a793d7b5028cb1856231d904d9ab169fd}{calculateMean}}(values, \textcolor{keyword}{true}) 
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The mean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a0a7d049ddd8817616317ebbdfb542dd1}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a0a7d049ddd8817616317ebbdfb542dd1}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!calculate\+Mean@{calculate\+Mean}}
+\index{calculate\+Mean@{calculate\+Mean}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{calculate\+Mean()}{calculateMean()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+calculate\+Mean (\begin{DoxyParamCaption}\item[{Number \mbox{[}$\,$\mbox{]}}]{values,  }\item[{boolean}]{include\+Null\+And\+NaN }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the mean of an array of numbers.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em include\+Null\+And\+NaN} & a flag that controls whether or not 
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+Double.NaN 
+\end{DoxyCode}
+ values are included in the calculation (if either is present in the array, the result is \mbox{\hyperlink{}{Double\#\+NaN}}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The mean.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+3 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a27d86921cd629adfb4e11cc25f31889b}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a27d86921cd629adfb4e11cc25f31889b}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!calculate\+Mean@{calculate\+Mean}}
+\index{calculate\+Mean@{calculate\+Mean}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{calculate\+Mean()}{calculateMean()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+calculate\+Mean (\begin{DoxyParamCaption}\item[{Collection}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the mean of a collection of
+\begin{DoxyCode}
+Number 
+\end{DoxyCode}
+ objects.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The mean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_ad7edaf335d8f7fe9ce148b02dc317cd6}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_ad7edaf335d8f7fe9ce148b02dc317cd6}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!calculate\+Mean@{calculate\+Mean}}
+\index{calculate\+Mean@{calculate\+Mean}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{calculate\+Mean()}{calculateMean()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+calculate\+Mean (\begin{DoxyParamCaption}\item[{Collection}]{values,  }\item[{boolean}]{include\+Null\+And\+NaN }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the mean of a collection of
+\begin{DoxyCode}
+Number 
+\end{DoxyCode}
+ objects.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em include\+Null\+And\+NaN} & a flag that controls whether or not 
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ and
+\begin{DoxyCode}
+Double.NaN 
+\end{DoxyCode}
+ values are included in the calculation (if either is present in the array, the result is \mbox{\hyperlink{}{Double\#\+NaN}}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The mean.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+3 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a83928ff9ff68a235326afd8fbdcab73d}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a83928ff9ff68a235326afd8fbdcab73d}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!calculate\+Median@{calculate\+Median}}
+\index{calculate\+Median@{calculate\+Median}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{calculate\+Median()}{calculateMedian()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+calculate\+Median (\begin{DoxyParamCaption}\item[{List}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the median for a list of values (
+\begin{DoxyCode}
+Number 
+\end{DoxyCode}
+ objects). The list of values will be copied, and the copy sorted, before calculating the median. To avoid this step (if your list of values is already sorted), use the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a473dcad23f5bb87f704c62562554c89b}{calculate\+Median(\+List, boolean)}} method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The median. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a473dcad23f5bb87f704c62562554c89b}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a473dcad23f5bb87f704c62562554c89b}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!calculate\+Median@{calculate\+Median}}
+\index{calculate\+Median@{calculate\+Median}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{calculate\+Median()}{calculateMedian()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+calculate\+Median (\begin{DoxyParamCaption}\item[{List}]{values,  }\item[{boolean}]{copy\+And\+Sort }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the median for a list of values (
+\begin{DoxyCode}
+Number 
+\end{DoxyCode}
+ objects). If
+\begin{DoxyCode}
+copyAndSort 
+\end{DoxyCode}
+ is
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ , the list is assumed to be presorted in ascending order by value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ permitted). \\
+\hline
+{\em copy\+And\+Sort} & a flag that controls whether the list of values is copied and sorted.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The median. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_aa3d422f68c55c28884922f3060f455e5}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_aa3d422f68c55c28884922f3060f455e5}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!calculate\+Median@{calculate\+Median}}
+\index{calculate\+Median@{calculate\+Median}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{calculate\+Median()}{calculateMedian()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+calculate\+Median (\begin{DoxyParamCaption}\item[{List}]{values,  }\item[{int}]{start,  }\item[{int}]{end }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the median for a sublist within a list of values (
+\begin{DoxyCode}
+Number 
+\end{DoxyCode}
+ objects).
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the values, in any order (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em start} & the start index. \\
+\hline
+{\em end} & the end index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The median. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a92e227d45c4996f2aed412ae87cd17ba}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a92e227d45c4996f2aed412ae87cd17ba}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!calculate\+Median@{calculate\+Median}}
+\index{calculate\+Median@{calculate\+Median}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{calculate\+Median()}{calculateMedian()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+calculate\+Median (\begin{DoxyParamCaption}\item[{List}]{values,  }\item[{int}]{start,  }\item[{int}]{end,  }\item[{boolean}]{copy\+And\+Sort }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the median for a sublist within a list of values (
+\begin{DoxyCode}
+Number 
+\end{DoxyCode}
+ objects). The entire list will be sorted if the 
+\begin{DoxyCode}
+ascending 
+\end{DoxyCode}
+ argument is
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & the values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em start} & the start index. \\
+\hline
+{\em end} & the end index. \\
+\hline
+{\em copy\+And\+Sort} & a flag that that controls whether the list of values is copied and sorted.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The median. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_ade3298593f093df2dcb1d051b418d261}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_ade3298593f093df2dcb1d051b418d261}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!get\+Correlation@{get\+Correlation}}
+\index{get\+Correlation@{get\+Correlation}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{get\+Correlation()}{getCorrelation()}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+get\+Correlation (\begin{DoxyParamCaption}\item[{Number \mbox{[}$\,$\mbox{]}}]{data1,  }\item[{Number \mbox{[}$\,$\mbox{]}}]{data2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculates the correlation between two datasets. Both arrays should contain the same number of items. Null values are treated as zero. 
+
+Information about the correlation calculation was obtained from\+:
+
+\href{http://trochim.human.cornell.edu/kb/statcorr.htm}{\tt http\+://trochim.\+human.\+cornell.\+edu/kb/statcorr.\+htm}
+
+
+\begin{DoxyParams}{Parameters}
+{\em data1} & the first dataset. \\
+\hline
+{\em data2} & the second dataset.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The correlation. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a710851304d13d6c83f0b6c799da5b94b}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a710851304d13d6c83f0b6c799da5b94b}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!get\+Linear\+Fit@{get\+Linear\+Fit}}
+\index{get\+Linear\+Fit@{get\+Linear\+Fit}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{get\+Linear\+Fit()}{getLinearFit()}}
+{\footnotesize\ttfamily static double \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+statistics.\+Statistics.\+get\+Linear\+Fit (\begin{DoxyParamCaption}\item[{Number \mbox{[}$\,$\mbox{]}}]{x\+Data,  }\item[{Number \mbox{[}$\,$\mbox{]}}]{y\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fits a straight line to a set of (x, y) data, returning the slope and intercept.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Data} & the x-\/data (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em y\+Data} & the y-\/data (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A double array with the intercept in \mbox{[}0\mbox{]} and the slope in \mbox{[}1\mbox{]}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a0226b7b4d5998983761091e1c31e46e7}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a0226b7b4d5998983761091e1c31e46e7}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!get\+Moving\+Average@{get\+Moving\+Average}}
+\index{get\+Moving\+Average@{get\+Moving\+Average}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{get\+Moving\+Average()}{getMovingAverage()}}
+{\footnotesize\ttfamily static double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+statistics.\+Statistics.\+get\+Moving\+Average (\begin{DoxyParamCaption}\item[{Number \mbox{[}$\,$\mbox{]}}]{x\+Data,  }\item[{Number \mbox{[}$\,$\mbox{]}}]{y\+Data,  }\item[{int}]{period }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a data set for a moving average on the data set passed in.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Data} & an array of the x data. \\
+\hline
+{\em y\+Data} & an array of the y data. \\
+\hline
+{\em period} & the number of data points to average\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A double\mbox{[}\mbox{]}\mbox{[}\mbox{]} the length of the data set in the first dimension, with two doubles for x and y in the second dimension 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a2a1d9b8f0980f6c98f8f90bbd7d95e28}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a2a1d9b8f0980f6c98f8f90bbd7d95e28}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!get\+Slope@{get\+Slope}}
+\index{get\+Slope@{get\+Slope}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{get\+Slope()}{getSlope()}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+get\+Slope (\begin{DoxyParamCaption}\item[{Number \mbox{[}$\,$\mbox{]}}]{x\+Data,  }\item[{Number \mbox{[}$\,$\mbox{]}}]{y\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Finds the slope of a regression line using least squares.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Data} & the x-\/values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em y\+Data} & the y-\/values (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The slope. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a44416f7f6ff7f62d4d41ef13e3d1863f}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_statistics_a44416f7f6ff7f62d4d41ef13e3d1863f}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}!get\+Std\+Dev@{get\+Std\+Dev}}
+\index{get\+Std\+Dev@{get\+Std\+Dev}!org\+::jfree\+::data\+::statistics\+::\+Statistics@{org\+::jfree\+::data\+::statistics\+::\+Statistics}}
+\subsubsection{\texorpdfstring{get\+Std\+Dev()}{getStdDev()}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+statistics.\+Statistics.\+get\+Std\+Dev (\begin{DoxyParamCaption}\item[{Number \mbox{[}$\,$\mbox{]}}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the standard deviation of a set of numbers.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ or zero length array not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The standard deviation of a set of numbers. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/statistics/\mbox{\hyperlink{_statistics_8java}{Statistics.\+java}}\end{DoxyCompactItemize}

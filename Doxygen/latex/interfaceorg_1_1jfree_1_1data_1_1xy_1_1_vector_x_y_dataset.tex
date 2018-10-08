@@ -1,0 +1,99 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset}{}\section{org.\+jfree.\+data.\+xy.\+Vector\+X\+Y\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset}\index{org.\+jfree.\+data.\+xy.\+Vector\+X\+Y\+Dataset@{org.\+jfree.\+data.\+xy.\+Vector\+X\+Y\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+Vector\+X\+Y\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_a1126d5960a9f446d360f89715d93d209}{get\+Vector\+X\+Value}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_ac3a14bcfbf867f625abfe605a20d1d54}{get\+Vector\+Y\+Value}} (int series, int item)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector}{Vector}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_aba926f9aaf6a756befe095ac4b84de0e}{get\+Vector}} (int series, int item)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An extension of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} interface that allows a vector to be defined at a specific (x, y) location.
+
+\begin{DoxySince}{Since}
+1.\+0.\+6 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_aba926f9aaf6a756befe095ac4b84de0e}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_aba926f9aaf6a756befe095ac4b84de0e}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset}!get\+Vector@{get\+Vector}}
+\index{get\+Vector@{get\+Vector}!org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Vector()}{getVector()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector}{Vector}} org.\+jfree.\+data.\+xy.\+Vector\+X\+Y\+Dataset.\+get\+Vector (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the vector for an item in a series. Depending on the particular dataset implementation, this may involve creating a new \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector}{Vector}} instance --- if you are just interested in the x and y components, use the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_a1126d5960a9f446d360f89715d93d209}{get\+Vector\+X\+Value(int, int)}} and \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_ac3a14bcfbf867f625abfe605a20d1d54}{get\+Vector\+Y\+Value(int, int)}} methods instead.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index. \\
+\hline
+{\em item} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The vector (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection_a6ab6bd07b9a775e401201ac380ee5750}{org.\+jfree.\+data.\+xy.\+Vector\+Series\+Collection}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_a1126d5960a9f446d360f89715d93d209}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_a1126d5960a9f446d360f89715d93d209}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset}!get\+Vector\+X\+Value@{get\+Vector\+X\+Value}}
+\index{get\+Vector\+X\+Value@{get\+Vector\+X\+Value}!org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Vector\+X\+Value()}{getVectorXValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Vector\+X\+Y\+Dataset.\+get\+Vector\+X\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the x-\/component of the vector for an item in a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index. \\
+\hline
+{\em item} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/component of the vector. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection_acb84437fda51302c4a5b8a300cd812fb}{org.\+jfree.\+data.\+xy.\+Vector\+Series\+Collection}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_ac3a14bcfbf867f625abfe605a20d1d54}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_vector_x_y_dataset_ac3a14bcfbf867f625abfe605a20d1d54}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset}!get\+Vector\+Y\+Value@{get\+Vector\+Y\+Value}}
+\index{get\+Vector\+Y\+Value@{get\+Vector\+Y\+Value}!org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Vector\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Vector\+Y\+Value()}{getVectorYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Vector\+X\+Y\+Dataset.\+get\+Vector\+Y\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/component of the vector for an item in a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index. \\
+\hline
+{\em item} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/component of the vector. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection_a70d900e7ff5c26b9b94b607b820d6567}{org.\+jfree.\+data.\+xy.\+Vector\+Series\+Collection}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_vector_x_y_dataset_8java}{Vector\+X\+Y\+Dataset.\+java}}\end{DoxyCompactItemize}

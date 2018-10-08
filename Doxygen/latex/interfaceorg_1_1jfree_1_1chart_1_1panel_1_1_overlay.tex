@@ -1,0 +1,78 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay}{}\section{org.\+jfree.\+chart.\+panel.\+Overlay Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay}\index{org.\+jfree.\+chart.\+panel.\+Overlay@{org.\+jfree.\+chart.\+panel.\+Overlay}}
+Inheritance diagram for org.\+jfree.\+chart.\+panel.\+Overlay\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_aef899ccf9040a90153f231db8796069f}{paint\+Overlay}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}} chart\+Panel)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_aa1d3ce6adb108ff2b780dcb40d09e6ee}{add\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_overlay_change_listener}{Overlay\+Change\+Listener}} listener)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_a9f3320b02450b959d11045136952cca4}{remove\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_overlay_change_listener}{Overlay\+Change\+Listener}} listener)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines the interface for an overlay that can be added to a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}}.
+
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_aa1d3ce6adb108ff2b780dcb40d09e6ee}\label{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_aa1d3ce6adb108ff2b780dcb40d09e6ee}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Overlay}!add\+Change\+Listener@{add\+Change\+Listener}}
+\index{add\+Change\+Listener@{add\+Change\+Listener}!org\+::jfree\+::chart\+::panel\+::\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Overlay}}
+\subsubsection{\texorpdfstring{add\+Change\+Listener()}{addChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Overlay.\+add\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_overlay_change_listener}{Overlay\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Registers a change listener with the overlay.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_aef899ccf9040a90153f231db8796069f}\label{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_aef899ccf9040a90153f231db8796069f}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Overlay}!paint\+Overlay@{paint\+Overlay}}
+\index{paint\+Overlay@{paint\+Overlay}!org\+::jfree\+::chart\+::panel\+::\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Overlay}}
+\subsubsection{\texorpdfstring{paint\+Overlay()}{paintOverlay()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Overlay.\+paint\+Overlay (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}}}]{chart\+Panel }\end{DoxyParamCaption})}
+
+Paints the crosshairs in the layer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target. \\
+\hline
+{\em chart\+Panel} & the chart panel. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a1601884f0d667eab61c224336dc87145}{org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_a9f3320b02450b959d11045136952cca4}\label{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_a9f3320b02450b959d11045136952cca4}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Overlay}!remove\+Change\+Listener@{remove\+Change\+Listener}}
+\index{remove\+Change\+Listener@{remove\+Change\+Listener}!org\+::jfree\+::chart\+::panel\+::\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Overlay}}
+\subsubsection{\texorpdfstring{remove\+Change\+Listener()}{removeChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Overlay.\+remove\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_overlay_change_listener}{Overlay\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Deregisters a listener from the overlay.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/panel/\mbox{\hyperlink{_overlay_8java}{Overlay.\+java}}\end{DoxyCompactItemize}

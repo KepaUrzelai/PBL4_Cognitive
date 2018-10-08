@@ -1,0 +1,248 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator}\index{org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.982456cm]{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a396c181748014a114419deaa22ebde92}{Standard\+Pie\+Section\+Label\+Generator}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a4c00d2aa3e629c8cd4487291e9096f57}{Standard\+Pie\+Section\+Label\+Generator}} (Locale locale)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a975824217e5f1db7553c3f0efc062fa9}{Standard\+Pie\+Section\+Label\+Generator}} (String label\+Format)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a423b600ec04b0c45da8f39b4f3b854fd}{Standard\+Pie\+Section\+Label\+Generator}} (String label\+Format, Locale locale)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a26463e65d0fa9fd2980cca2ce110d3c4}{Standard\+Pie\+Section\+Label\+Generator}} (String label\+Format, Number\+Format number\+Format, Number\+Format percent\+Format)
+\item 
+Attributed\+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_ad53325d20bd03f6c19cb2dec97b36b29}{get\+Attributed\+Label}} (int section)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a6aa94eabd64ee4652031696b0a3c5797}{set\+Attributed\+Label}} (int section, Attributed\+String label)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a043e8cf227d2d5f5a457219ec6769488}{generate\+Section\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}} dataset, Comparable key)
+\item 
+Attributed\+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a77c817699c799f3112e7ed696bae25d5}{generate\+Attributed\+Section\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}} dataset, Comparable key)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a35a182df1a7b80769f68c7142b46b970}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a5be89383f354a39b7364b5d3ed02718e}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a65aeb0d419f1f1edd0fa43dd13b902b6}{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}} = \char`\"{}\{0\}\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A standard item label generator for plots that use data from a \mbox{\hyperlink{}{Pie\+Dataset}}. 
+
+For the label format, use \{0\} where the pie section key should be inserted, \{1\} for the absolute section value and \{2\} for the percent amount of the pie section, e.\+g. {\ttfamily \char`\"{}\{0\} = \{1\} (\{2\})\char`\"{}} will display as {\ttfamily apple = 120 (5\%)}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a396c181748014a114419deaa22ebde92}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a396c181748014a114419deaa22ebde92}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}}
+\index{Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Section\+Label\+Generator()}{StandardPieSectionLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+Standard\+Pie\+Section\+Label\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new section label generator using \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a65aeb0d419f1f1edd0fa43dd13b902b6}{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}} as the label format string, and platform default number and percentage formatters. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a4c00d2aa3e629c8cd4487291e9096f57}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a4c00d2aa3e629c8cd4487291e9096f57}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}}
+\index{Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Section\+Label\+Generator()}{StandardPieSectionLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+Standard\+Pie\+Section\+Label\+Generator (\begin{DoxyParamCaption}\item[{Locale}]{locale }\end{DoxyParamCaption})}
+
+Creates a new instance for the specified locale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em locale} & the local ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a975824217e5f1db7553c3f0efc062fa9}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a975824217e5f1db7553c3f0efc062fa9}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}}
+\index{Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Section\+Label\+Generator()}{StandardPieSectionLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+Standard\+Pie\+Section\+Label\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format }\end{DoxyParamCaption})}
+
+Creates a new section label generator using the specified label format string, and platform default number and percentage formatters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a423b600ec04b0c45da8f39b4f3b854fd}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a423b600ec04b0c45da8f39b4f3b854fd}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}}
+\index{Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Section\+Label\+Generator()}{StandardPieSectionLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+Standard\+Pie\+Section\+Label\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format,  }\item[{Locale}]{locale }\end{DoxyParamCaption})}
+
+Creates a new instance for the specified locale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format ({\ttfamily null} not permitted). \\
+\hline
+{\em locale} & the local ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a26463e65d0fa9fd2980cca2ce110d3c4}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a26463e65d0fa9fd2980cca2ce110d3c4}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}}
+\index{Standard\+Pie\+Section\+Label\+Generator@{Standard\+Pie\+Section\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Standard\+Pie\+Section\+Label\+Generator()}{StandardPieSectionLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+Standard\+Pie\+Section\+Label\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format,  }\item[{Number\+Format}]{number\+Format,  }\item[{Number\+Format}]{percent\+Format }\end{DoxyParamCaption})}
+
+Creates an item label generator using the specified number formatters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format string ({\ttfamily null} not permitted). \\
+\hline
+{\em number\+Format} & the format object for the values ({\ttfamily null} not permitted). \\
+\hline
+{\em percent\+Format} & the format object for the percentages ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a5be89383f354a39b7364b5d3ed02718e}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a5be89383f354a39b7364b5d3ed02718e}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of the generator.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & should not happen. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a35a182df1a7b80769f68c7142b46b970}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a35a182df1a7b80769f68c7142b46b970}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests the generator for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test against ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a77c817699c799f3112e7ed696bae25d5}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a77c817699c799f3112e7ed696bae25d5}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!generate\+Attributed\+Section\+Label@{generate\+Attributed\+Section\+Label}}
+\index{generate\+Attributed\+Section\+Label@{generate\+Attributed\+Section\+Label}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Attributed\+Section\+Label()}{generateAttributedSectionLabel()}}
+{\footnotesize\ttfamily Attributed\+String org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+generate\+Attributed\+Section\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}}}]{dataset,  }\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Generates an attributed label for the specified series, or {\ttfamily null} if no attributed label is available (in which case, the string returned by \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a043e8cf227d2d5f5a457219ec6769488}{generate\+Section\+Label(\+Pie\+Dataset, Comparable)}} will provide the fallback). Only certain attributes are recognised by the code that ultimately displays the labels\+: 
+\begin{DoxyItemize}
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+F\+O\+NT}}\+: will set the font; 
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+P\+O\+S\+T\+U\+RE}}\+: a value of \mbox{\hyperlink{}{Text\+Attribute\#\+P\+O\+S\+T\+U\+R\+E\+\_\+\+O\+B\+L\+I\+Q\+UE}} will add \mbox{\hyperlink{}{Font\#\+I\+T\+A\+L\+IC}} to the current font; 
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+W\+E\+I\+G\+HT}}\+: a value of \mbox{\hyperlink{}{Text\+Attribute\#\+W\+E\+I\+G\+H\+T\+\_\+\+B\+O\+LD}} will add \mbox{\hyperlink{}{Font\#\+B\+O\+LD}} to the current font; 
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+F\+O\+R\+E\+G\+R\+O\+U\+ND}}\+: this will set the \mbox{\hyperlink{}{Paint}} for the current 
+\item \mbox{\hyperlink{}{Text\+Attribute\#\+S\+U\+P\+E\+R\+S\+C\+R\+I\+PT}}\+: the values \mbox{\hyperlink{}{Text\+Attribute\#\+S\+U\+P\+E\+R\+S\+C\+R\+I\+P\+T\+\_\+\+S\+UB}} and \mbox{\hyperlink{}{Text\+Attribute\#\+S\+U\+P\+E\+R\+S\+C\+R\+I\+P\+T\+\_\+\+S\+U\+P\+ER}} are recognised. 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em key} & the key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An attributed label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a3e031cb96d404cbc1736723269ca8a80}{org.\+jfree.\+chart.\+labels.\+Pie\+Section\+Label\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a043e8cf227d2d5f5a457219ec6769488}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a043e8cf227d2d5f5a457219ec6769488}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!generate\+Section\+Label@{generate\+Section\+Label}}
+\index{generate\+Section\+Label@{generate\+Section\+Label}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Section\+Label()}{generateSectionLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+generate\+Section\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}}}]{dataset,  }\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Generates a label for a pie section.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em key} & the section key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_pie_section_label_generator_a9c514ffcd269a3d73720c1ed588c624f}{org.\+jfree.\+chart.\+labels.\+Pie\+Section\+Label\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_ad53325d20bd03f6c19cb2dec97b36b29}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_ad53325d20bd03f6c19cb2dec97b36b29}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!get\+Attributed\+Label@{get\+Attributed\+Label}}
+\index{get\+Attributed\+Label@{get\+Attributed\+Label}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{get\+Attributed\+Label()}{getAttributedLabel()}}
+{\footnotesize\ttfamily Attributed\+String org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+get\+Attributed\+Label (\begin{DoxyParamCaption}\item[{int}]{section }\end{DoxyParamCaption})}
+
+Returns the attributed label for a section, or {\ttfamily null} if none is defined.
+
+
+\begin{DoxyParams}{Parameters}
+{\em section} & the section index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The attributed label. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a6aa94eabd64ee4652031696b0a3c5797}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a6aa94eabd64ee4652031696b0a3c5797}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!set\+Attributed\+Label@{set\+Attributed\+Label}}
+\index{set\+Attributed\+Label@{set\+Attributed\+Label}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{set\+Attributed\+Label()}{setAttributedLabel()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+set\+Attributed\+Label (\begin{DoxyParamCaption}\item[{int}]{section,  }\item[{Attributed\+String}]{label }\end{DoxyParamCaption})}
+
+Sets the attributed label for a section.
+
+
+\begin{DoxyParams}{Parameters}
+{\em section} & the section index. \\
+\hline
+{\em label} & the label ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a65aeb0d419f1f1edd0fa43dd13b902b6}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_pie_section_label_generator_a65aeb0d419f1f1edd0fa43dd13b902b6}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}!D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}}
+\index{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}!org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Standard\+Pie\+Section\+Label\+Generator}}
+\subsubsection{\texorpdfstring{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT}{DEFAULT\_SECTION\_LABEL\_FORMAT}}
+{\footnotesize\ttfamily final String org.\+jfree.\+chart.\+labels.\+Standard\+Pie\+Section\+Label\+Generator.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+L\+A\+B\+E\+L\+\_\+\+F\+O\+R\+M\+AT = \char`\"{}\{0\}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+The default section label format. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_standard_pie_section_label_generator_8java}{Standard\+Pie\+Section\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,137 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band}{}\section{org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band}\index{org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band@{org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band}}
+Inheritance diagram for org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a83f68919e175e43c81c657a251caba78}{Marker\+Axis\+Band}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_number_axis}{Number\+Axis}} axis, double top\+Outer\+Gap, double top\+Inner\+Gap, double bottom\+Outer\+Gap, double bottom\+Inner\+Gap, Font font)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a5a608c3a4930980ca45d53487947259e}{add\+Marker}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_interval_marker}{Interval\+Marker}} marker)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a1dc9755dee1737e45107a9234c57aa79}{get\+Height}} (Graphics2D g2)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_aef22218740d425740beef81c4c370964}{draw}} (Graphics2D g2, Rectangle2D plot\+Area, Rectangle2D data\+Area, double x, double y)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a6dfdfc54f5ee21f9bd2f60fcfbe2c0bf}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a476caf21452b906c946f5b9f0501e6fa}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A band that can be added to a number axis to display regions. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a83f68919e175e43c81c657a251caba78}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a83f68919e175e43c81c657a251caba78}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}!Marker\+Axis\+Band@{Marker\+Axis\+Band}}
+\index{Marker\+Axis\+Band@{Marker\+Axis\+Band}!org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}}
+\subsubsection{\texorpdfstring{Marker\+Axis\+Band()}{MarkerAxisBand()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band.\+Marker\+Axis\+Band (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_number_axis}{Number\+Axis}}}]{axis,  }\item[{double}]{top\+Outer\+Gap,  }\item[{double}]{top\+Inner\+Gap,  }\item[{double}]{bottom\+Outer\+Gap,  }\item[{double}]{bottom\+Inner\+Gap,  }\item[{Font}]{font }\end{DoxyParamCaption})}
+
+Constructs a new axis band.
+
+
+\begin{DoxyParams}{Parameters}
+{\em axis} & the owner. \\
+\hline
+{\em top\+Outer\+Gap} & the top outer gap. \\
+\hline
+{\em top\+Inner\+Gap} & the top inner gap. \\
+\hline
+{\em bottom\+Outer\+Gap} & the bottom outer gap. \\
+\hline
+{\em bottom\+Inner\+Gap} & the bottom inner gap. \\
+\hline
+{\em font} & the font. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a5a608c3a4930980ca45d53487947259e}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a5a608c3a4930980ca45d53487947259e}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}!add\+Marker@{add\+Marker}}
+\index{add\+Marker@{add\+Marker}!org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}}
+\subsubsection{\texorpdfstring{add\+Marker()}{addMarker()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band.\+add\+Marker (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_interval_marker}{Interval\+Marker}}}]{marker }\end{DoxyParamCaption})}
+
+Adds a marker to the band.
+
+
+\begin{DoxyParams}{Parameters}
+{\em marker} & the marker. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_aef22218740d425740beef81c4c370964}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_aef22218740d425740beef81c4c370964}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{plot\+Area,  }\item[{Rectangle2D}]{data\+Area,  }\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})}
+
+Draws the band.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em plot\+Area} & the plot area. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+{\em x} & the x-\/coordinate. \\
+\hline
+{\em y} & the y-\/coordinate. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a6dfdfc54f5ee21f9bd2f60fcfbe2c0bf}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a6dfdfc54f5ee21f9bd2f60fcfbe2c0bf}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this axis for equality with another object. Note that the axis that the band belongs to is ignored in the test.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} or {\ttfamily false}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a1dc9755dee1737e45107a9234c57aa79}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a1dc9755dee1737e45107a9234c57aa79}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}!get\+Height@{get\+Height}}
+\index{get\+Height@{get\+Height}!org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}}
+\subsubsection{\texorpdfstring{get\+Height()}{getHeight()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band.\+get\+Height (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2 }\end{DoxyParamCaption})}
+
+Returns the height of the band.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The height of the band. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a476caf21452b906c946f5b9f0501e6fa}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_marker_axis_band_a476caf21452b906c946f5b9f0501e6fa}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band@{org\+::jfree\+::chart\+::axis\+::\+Marker\+Axis\+Band}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+axis.\+Marker\+Axis\+Band.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for the object.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/axis/\mbox{\hyperlink{_marker_axis_band_8java}{Marker\+Axis\+Band.\+java}}\end{DoxyCompactItemize}

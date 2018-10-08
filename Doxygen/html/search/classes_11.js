@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['rainbowpalette',['RainbowPalette',['../classorg_1_1jfree_1_1chart_1_1plot_1_1_rainbow_palette.html',1,'org::jfree::chart::plot']]],
+  ['range',['Range',['../classorg_1_1jfree_1_1data_1_1_range.html',1,'org::jfree::data']]],
+  ['rangeinfo',['RangeInfo',['../interfaceorg_1_1jfree_1_1data_1_1_range_info.html',1,'org::jfree::data']]],
+  ['rangetest',['RangeTest',['../classorg_1_1jfree_1_1data_1_1_range_test.html',1,'org::jfree::data']]],
+  ['rangetype',['RangeType',['../classorg_1_1jfree_1_1data_1_1_range_type.html',1,'org::jfree::data']]],
+  ['rangetypetest',['RangeTypeTest',['../classorg_1_1jfree_1_1data_1_1_range_type_test.html',1,'org::jfree::data']]],
+  ['rectangleconstraint',['RectangleConstraint',['../classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint.html',1,'org::jfree::chart::block']]],
+  ['rectangleconstrainttest',['RectangleConstraintTest',['../classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint_test.html',1,'org::jfree::chart::block']]],
+  ['registroimagenes',['RegistroImagenes',['../classdiagnostico_1_1_registro_imagenes.html',1,'diagnostico']]],
+  ['regression',['Regression',['../classorg_1_1jfree_1_1data_1_1statistics_1_1_regression.html',1,'org::jfree::data::statistics']]],
+  ['regressiontest',['RegressionTest',['../classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_test.html',1,'org::jfree::data::statistics']]],
+  ['regulartimeperiod',['RegularTimePeriod',['../classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period.html',1,'org::jfree::data::time']]],
+  ['relativedateformat',['RelativeDateFormat',['../classorg_1_1jfree_1_1chart_1_1util_1_1_relative_date_format.html',1,'org::jfree::chart::util']]],
+  ['relativedateformattest',['RelativeDateFormatTest',['../classorg_1_1jfree_1_1chart_1_1util_1_1_relative_date_format_test.html',1,'org::jfree::chart::util']]],
+  ['rendererchangedetector',['RendererChangeDetector',['../classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_change_detector.html',1,'org::jfree::chart::renderer']]],
+  ['rendererchangeevent',['RendererChangeEvent',['../classorg_1_1jfree_1_1chart_1_1event_1_1_renderer_change_event.html',1,'org::jfree::chart::event']]],
+  ['rendererchangelistener',['RendererChangeListener',['../interfaceorg_1_1jfree_1_1chart_1_1event_1_1_renderer_change_listener.html',1,'org::jfree::chart::event']]],
+  ['rendererstate',['RendererState',['../classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_state.html',1,'org::jfree::chart::renderer']]],
+  ['rendererutilities',['RendererUtilities',['../classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities.html',1,'org::jfree::chart::renderer']]],
+  ['rendererutilitiestest',['RendererUtilitiesTest',['../classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_test.html',1,'org::jfree::chart::renderer']]],
+  ['rendererxypackageutils',['RendererXYPackageUtils',['../classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_renderer_x_y_package_utils.html',1,'org::jfree::chart::renderer::xy']]],
+  ['resourcebundlewrapper',['ResourceBundleWrapper',['../classorg_1_1jfree_1_1chart_1_1util_1_1_resource_bundle_wrapper.html',1,'org::jfree::chart::util']]],
+  ['ringplot',['RingPlot',['../classorg_1_1jfree_1_1chart_1_1plot_1_1_ring_plot.html',1,'org::jfree::chart::plot']]],
+  ['ringplottest',['RingPlotTest',['../classorg_1_1jfree_1_1chart_1_1plot_1_1_ring_plot_test.html',1,'org::jfree::chart::plot']]],
+  ['roothandler',['RootHandler',['../classorg_1_1jfree_1_1data_1_1xml_1_1_root_handler.html',1,'org::jfree::data::xml']]]
+];

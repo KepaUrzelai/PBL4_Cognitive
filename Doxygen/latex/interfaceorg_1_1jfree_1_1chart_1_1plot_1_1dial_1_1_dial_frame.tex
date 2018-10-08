@@ -1,0 +1,51 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_frame}{}\section{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Frame Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_frame}\index{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Frame@{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Frame}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Frame\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_frame}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Shape \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_frame_ad7f7696c45b0af4fe283d16a0a630d60}{get\+Window}} (Rectangle2D frame)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A dial frame is the face plate for a dial plot -\/ it is always drawn last. \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} includes a couple of implementations of this interface (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_standard_dial_frame}{Standard\+Dial\+Frame}} and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_arc_dial_frame}{Arc\+Dial\+Frame}}). ~\newline
+~\newline
+ Classes that implement this interface should be \mbox{\hyperlink{}{Serializable}}, otherwise chart serialization may fail.
+
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_frame_ad7f7696c45b0af4fe283d16a0a630d60}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_frame_ad7f7696c45b0af4fe283d16a0a630d60}} 
+\index{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Frame@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Frame}!get\+Window@{get\+Window}}
+\index{get\+Window@{get\+Window}!org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Frame@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Frame}}
+\subsubsection{\texorpdfstring{get\+Window()}{getWindow()}}
+{\footnotesize\ttfamily Shape org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Frame.\+get\+Window (\begin{DoxyParamCaption}\item[{Rectangle2D}]{frame }\end{DoxyParamCaption})}
+
+Returns the shape of the viewing window for the dial, or {\ttfamily null} if the dial is completely open. Other layers in the plot will rely on their drawing to be clipped within this window.
+
+
+\begin{DoxyParams}{Parameters}
+{\em frame} & the reference frame for the dial.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The window. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_arc_dial_frame_a60aef0f1dc5859e5d1684d8587c3652d}{org.\+jfree.\+chart.\+plot.\+dial.\+Arc\+Dial\+Frame}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_standard_dial_frame_aa32ae5b534b6461b43ae970382ac18ea}{org.\+jfree.\+chart.\+plot.\+dial.\+Standard\+Dial\+Frame}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/dial/\mbox{\hyperlink{_dial_frame_8java}{Dial\+Frame.\+java}}\end{DoxyCompactItemize}

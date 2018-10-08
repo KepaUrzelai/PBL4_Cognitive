@@ -1,0 +1,169 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset}{}\section{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset}\index{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset@{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.211073cm]{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a32154c8bf58ca7479d33f14131c34a3b}{J\+D\+B\+C\+Category\+Dataset}} (String url, String driver\+Name, String user, String passwd)  throws Class\+Not\+Found\+Exception, S\+Q\+L\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_ab55a6e05b7e40a24a0ba9a453fb2bb04}{J\+D\+B\+C\+Category\+Dataset}} (Connection connection)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a130761231d8b73f6e6081ee87fb249dd}{J\+D\+B\+C\+Category\+Dataset}} (Connection connection, String query)  throws S\+Q\+L\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_af119519811886f662cb823bdf5c3a154}{get\+Transpose}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a55b7021af40abd87ba5f54623da2174d}{set\+Transpose}} (boolean transpose)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a9c414ca370a469776e84b4c27a587243}{execute\+Query}} (String query)  throws S\+Q\+L\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a7201f716b99ad1e92b30d07453ba14f7}{execute\+Query}} (Connection con, String query)  throws S\+Q\+L\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A \mbox{\hyperlink{}{Category\+Dataset}} implementation over a database J\+D\+BC result set. The dataset is populated via a call to \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a9c414ca370a469776e84b4c27a587243}{execute\+Query(\+String)}} with the string S\+QL query. The S\+QL query must return at least two columns. The first column will be the category name and remaining columns values (each column represents a series). Subsequent calls to \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a9c414ca370a469776e84b4c27a587243}{execute\+Query(\+String)}} will refresh the dataset. 
+
+The database connection is read-\/only and no write back facility exists. 
+
+N\+O\+TE\+: Many people have found this class too restrictive in general use. For the greatest flexibility, please consider writing your own code to read data from a {\ttfamily Result\+Set} and populate a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_category_dataset_a7aef01d862220fc6f4f384c31f2477fe}{Default\+Category\+Dataset}} directly. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a32154c8bf58ca7479d33f14131c34a3b}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a32154c8bf58ca7479d33f14131c34a3b}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}!J\+D\+B\+C\+Category\+Dataset@{J\+D\+B\+C\+Category\+Dataset}}
+\index{J\+D\+B\+C\+Category\+Dataset@{J\+D\+B\+C\+Category\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+Category\+Dataset()}{JDBCCategoryDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset.\+J\+D\+B\+C\+Category\+Dataset (\begin{DoxyParamCaption}\item[{String}]{url,  }\item[{String}]{driver\+Name,  }\item[{String}]{user,  }\item[{String}]{passwd }\end{DoxyParamCaption}) throws Class\+Not\+Found\+Exception, S\+Q\+L\+Exception}
+
+Creates a new dataset with a database connection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & the U\+RL of the database connection. \\
+\hline
+{\em driver\+Name} & the database driver class name. \\
+\hline
+{\em user} & the database user. \\
+\hline
+{\em passwd} & the database user\textquotesingle{}s password.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Class\+Not\+Found\+Exception} & if the driver cannot be found. \\
+\hline
+{\em S\+Q\+L\+Exception} & if there is an error obtaining a connection to the database. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_ab55a6e05b7e40a24a0ba9a453fb2bb04}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_ab55a6e05b7e40a24a0ba9a453fb2bb04}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}!J\+D\+B\+C\+Category\+Dataset@{J\+D\+B\+C\+Category\+Dataset}}
+\index{J\+D\+B\+C\+Category\+Dataset@{J\+D\+B\+C\+Category\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+Category\+Dataset()}{JDBCCategoryDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset.\+J\+D\+B\+C\+Category\+Dataset (\begin{DoxyParamCaption}\item[{Connection}]{connection }\end{DoxyParamCaption})}
+
+Create a new dataset with the given database connection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em connection} & the database connection. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a130761231d8b73f6e6081ee87fb249dd}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a130761231d8b73f6e6081ee87fb249dd}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}!J\+D\+B\+C\+Category\+Dataset@{J\+D\+B\+C\+Category\+Dataset}}
+\index{J\+D\+B\+C\+Category\+Dataset@{J\+D\+B\+C\+Category\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+Category\+Dataset()}{JDBCCategoryDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset.\+J\+D\+B\+C\+Category\+Dataset (\begin{DoxyParamCaption}\item[{Connection}]{connection,  }\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Creates a new dataset with the given database connection, and executes the supplied query to populate the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em connection} & the connection. \\
+\hline
+{\em query} & the query.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a9c414ca370a469776e84b4c27a587243}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a9c414ca370a469776e84b4c27a587243}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}!execute\+Query@{execute\+Query}}
+\index{execute\+Query@{execute\+Query}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{execute\+Query()}{executeQuery()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset.\+execute\+Query (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Populates the dataset by executing the supplied query against the existing database connection. If no connection exists then no action is taken. 
+
+The results from the query are extracted and cached locally, thus applying an upper limit on how many rows can be retrieved successfully.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & the query.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a7201f716b99ad1e92b30d07453ba14f7}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a7201f716b99ad1e92b30d07453ba14f7}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}!execute\+Query@{execute\+Query}}
+\index{execute\+Query@{execute\+Query}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{execute\+Query()}{executeQuery()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset.\+execute\+Query (\begin{DoxyParamCaption}\item[{Connection}]{con,  }\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Populates the dataset by executing the supplied query against the existing database connection. If no connection exists then no action is taken. 
+
+The results from the query are extracted and cached locally, thus applying an upper limit on how many rows can be retrieved successfully.
+
+
+\begin{DoxyParams}{Parameters}
+{\em con} & the connection. \\
+\hline
+{\em query} & the query.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_af119519811886f662cb823bdf5c3a154}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_af119519811886f662cb823bdf5c3a154}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}!get\+Transpose@{get\+Transpose}}
+\index{get\+Transpose@{get\+Transpose}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Transpose()}{getTranspose()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset.\+get\+Transpose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a flag that controls whether or not the table values are transposed when added to the dataset.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a55b7021af40abd87ba5f54623da2174d}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_category_dataset_a55b7021af40abd87ba5f54623da2174d}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}!set\+Transpose@{set\+Transpose}}
+\index{set\+Transpose@{set\+Transpose}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Transpose()}{setTranspose()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Category\+Dataset.\+set\+Transpose (\begin{DoxyParamCaption}\item[{boolean}]{transpose }\end{DoxyParamCaption})}
+
+Sets a flag that controls whether or not the table values are transposed when added to the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em transpose} & the flag. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/jdbc/\mbox{\hyperlink{_j_d_b_c_category_dataset_8java}{J\+D\+B\+C\+Category\+Dataset.\+java}}\end{DoxyCompactItemize}

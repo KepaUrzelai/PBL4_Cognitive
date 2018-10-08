@@ -1,0 +1,215 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation}{}\section{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation}\index{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation@{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation}}
+Inheritance diagram for org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.248607cm]{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a29e84ffa5417925c2b760651d65240c7}{X\+Y\+Image\+Annotation}} (double x, double y, Image image)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a66b091b9414ad06c4276c03c62d2fca5}{X\+Y\+Image\+Annotation}} (double x, double y, Image image, Rectangle\+Anchor anchor)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_ad77b6ae97c4b5eab5f3a0ba95f9331c1}{getX}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acbc4b1c73134c8c7d7e04c0323c85c42}{getY}} ()
+\item 
+Image \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a4158e32d650804e61aab81edd3bce15a}{get\+Image}} ()
+\item 
+Rectangle\+Anchor \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a2149a26b8d4163b1f6ccce3b8ddf9e83}{get\+Image\+Anchor}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_ae60cac497a5354b0640499084046637d}{draw}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}} plot, Rectangle2D data\+Area, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} domain\+Axis, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} range\+Axis, int renderer\+Index, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_aec33b4cbf0a993645535408d28692f6b}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acf32ed3da18593fd2d5871c0bfd1ca7b}{hash\+Code}} ()
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acf5922efb01896ecdd303c236d70adaa}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+An annotation that allows an image to be placed at some location on an \mbox{\hyperlink{}{X\+Y\+Plot}}.
+
+T\+O\+DO\+: implement serialization properly (image is not serializable). 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a29e84ffa5417925c2b760651d65240c7}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a29e84ffa5417925c2b760651d65240c7}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!X\+Y\+Image\+Annotation@{X\+Y\+Image\+Annotation}}
+\index{X\+Y\+Image\+Annotation@{X\+Y\+Image\+Annotation}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{X\+Y\+Image\+Annotation()}{XYImageAnnotation()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+X\+Y\+Image\+Annotation (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{Image}]{image }\end{DoxyParamCaption})}
+
+Creates a new annotation to be displayed at the specified (x, y) location.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate (in data space). \\
+\hline
+{\em y} & the y-\/coordinate (in data space). \\
+\hline
+{\em image} & the image ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a66b091b9414ad06c4276c03c62d2fca5}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a66b091b9414ad06c4276c03c62d2fca5}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!X\+Y\+Image\+Annotation@{X\+Y\+Image\+Annotation}}
+\index{X\+Y\+Image\+Annotation@{X\+Y\+Image\+Annotation}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{X\+Y\+Image\+Annotation()}{XYImageAnnotation()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+X\+Y\+Image\+Annotation (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{Image}]{image,  }\item[{Rectangle\+Anchor}]{anchor }\end{DoxyParamCaption})}
+
+Creates a new annotation to be displayed at the specified (x, y) location.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate (in data space). \\
+\hline
+{\em y} & the y-\/coordinate (in data space). \\
+\hline
+{\em image} & the image ({\ttfamily null} not permitted). \\
+\hline
+{\em anchor} & the image anchor ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+4 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acf5922efb01896ecdd303c236d70adaa}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acf5922efb01896ecdd303c236d70adaa}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the annotation.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if the annotation can\textquotesingle{}t be cloned. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_ae60cac497a5354b0640499084046637d}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_ae60cac497a5354b0640499084046637d}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}}}]{plot,  }\item[{Rectangle2D}]{data\+Area,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{domain\+Axis,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{range\+Axis,  }\item[{int}]{renderer\+Index,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info }\end{DoxyParamCaption})}
+
+Draws the annotation. This method is called by the drawing code in the \mbox{\hyperlink{}{X\+Y\+Plot}} class, you don\textquotesingle{}t normally need to call this method directly.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em plot} & the plot. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+{\em domain\+Axis} & the domain axis. \\
+\hline
+{\em range\+Axis} & the range axis. \\
+\hline
+{\em renderer\+Index} & the renderer index. \\
+\hline
+{\em info} & if supplied, this info object will be populated with entity information. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_annotation_ada5edc52b7dfbaa9ded956afe447b543}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Annotation}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_aec33b4cbf0a993645535408d28692f6b}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_aec33b4cbf0a993645535408d28692f6b}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a4158e32d650804e61aab81edd3bce15a}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a4158e32d650804e61aab81edd3bce15a}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!get\+Image@{get\+Image}}
+\index{get\+Image@{get\+Image}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{get\+Image()}{getImage()}}
+{\footnotesize\ttfamily Image org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+get\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the image for the annotation.
+
+\begin{DoxyReturn}{Returns}
+The image.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+4 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a2149a26b8d4163b1f6ccce3b8ddf9e83}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_a2149a26b8d4163b1f6ccce3b8ddf9e83}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!get\+Image\+Anchor@{get\+Image\+Anchor}}
+\index{get\+Image\+Anchor@{get\+Image\+Anchor}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{get\+Image\+Anchor()}{getImageAnchor()}}
+{\footnotesize\ttfamily Rectangle\+Anchor org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+get\+Image\+Anchor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the image anchor for the annotation.
+
+\begin{DoxyReturn}{Returns}
+The image anchor.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+4 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_ad77b6ae97c4b5eab5f3a0ba95f9331c1}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_ad77b6ae97c4b5eab5f3a0ba95f9331c1}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the x-\/coordinate (in data space) for the annotation.
+
+\begin{DoxyReturn}{Returns}
+The x-\/coordinate.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+4 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acbc4b1c73134c8c7d7e04c0323c85c42}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acbc4b1c73134c8c7d7e04c0323c85c42}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the y-\/coordinate (in data space) for the annotation.
+
+\begin{DoxyReturn}{Returns}
+The y-\/coordinate.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+4 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acf32ed3da18593fd2d5871c0bfd1ca7b}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_acf32ed3da18593fd2d5871c0bfd1ca7b}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Image\+Annotation}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this object.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/annotations/\mbox{\hyperlink{_x_y_image_annotation_8java}{X\+Y\+Image\+Annotation.\+java}}\end{DoxyCompactItemize}

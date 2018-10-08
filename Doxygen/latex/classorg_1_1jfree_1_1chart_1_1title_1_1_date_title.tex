@@ -1,0 +1,232 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title}{}\section{org.\+jfree.\+chart.\+title.\+Date\+Title Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title}\index{org.\+jfree.\+chart.\+title.\+Date\+Title@{org.\+jfree.\+chart.\+title.\+Date\+Title}}
+Inheritance diagram for org.\+jfree.\+chart.\+title.\+Date\+Title\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.834862cm]{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a061f618ba94f5fc912a1d666d745de5b}{Date\+Title}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a27c04018a19f116822c98019e380b6b0}{Date\+Title}} (int style)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a6c19017125745efe8c80e7a91b307676}{Date\+Title}} (int style, Locale locale, Font font, Paint paint)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a15ad8c6e7d231cf7131d56043b5a22dd}{Date\+Title}} (int style, Locale locale, Font font, Paint paint, Rectangle\+Edge position, Horizontal\+Alignment horizontal\+Alignment, Vertical\+Alignment vertical\+Alignment, Rectangle\+Insets padding)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a476f7d83cbb6221fab6a97c04ba9c262}{set\+Date\+Format}} (int style, Locale locale)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A chart title that displays the date. 
+
+Keep in mind that a chart can have several titles, and that they can appear at the top, left, right or bottom of the chart -\/ a
+\begin{DoxyCode}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a061f618ba94f5fc912a1d666d745de5b}{DateTitle}} 
+\end{DoxyCode}
+ will commonly appear at the bottom of a chart, although you can place it anywhere. 
+
+By specifying the locale, dates are formatted to the correct standard for the given locale. For example, a date would appear as \char`\"{}\+January 17, 2000\char`\"{} in the US, but \char`\"{}17 January 2000\char`\"{} in most European locales. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a061f618ba94f5fc912a1d666d745de5b}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a061f618ba94f5fc912a1d666d745de5b}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}!Date\+Title@{Date\+Title}}
+\index{Date\+Title@{Date\+Title}!org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}}
+\subsubsection{\texorpdfstring{Date\+Title()}{DateTitle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+title.\+Date\+Title.\+Date\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new chart title that displays the current date in the default (L\+O\+NG) format for the locale, positioned to the bottom right of the chart. 
+
+The color will be black in 12 point, plain Helvetica font (maps to Arial on Win32 systems without Helvetica). \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a27c04018a19f116822c98019e380b6b0}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a27c04018a19f116822c98019e380b6b0}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}!Date\+Title@{Date\+Title}}
+\index{Date\+Title@{Date\+Title}!org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}}
+\subsubsection{\texorpdfstring{Date\+Title()}{DateTitle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+title.\+Date\+Title.\+Date\+Title (\begin{DoxyParamCaption}\item[{int}]{style }\end{DoxyParamCaption})}
+
+Creates a new chart title that displays the current date with the specified style (for the default locale). 
+
+The date style should be one of\+:
+\begin{DoxyCode}
+SHORT 
+\end{DoxyCode}
+ , 
+\begin{DoxyCode}
+MEDIUM 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+LONG 
+\end{DoxyCode}
+ or
+\begin{DoxyCode}
+FULL 
+\end{DoxyCode}
+ (defined in
+\begin{DoxyCode}
+java.util.DateFormat 
+\end{DoxyCode}
+ ).
+
+
+\begin{DoxyParams}{Parameters}
+{\em style} & the date style. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a6c19017125745efe8c80e7a91b307676}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a6c19017125745efe8c80e7a91b307676}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}!Date\+Title@{Date\+Title}}
+\index{Date\+Title@{Date\+Title}!org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}}
+\subsubsection{\texorpdfstring{Date\+Title()}{DateTitle()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+title.\+Date\+Title.\+Date\+Title (\begin{DoxyParamCaption}\item[{int}]{style,  }\item[{Locale}]{locale,  }\item[{Font}]{font,  }\item[{Paint}]{paint }\end{DoxyParamCaption})}
+
+Creates a new chart title that displays the current date. 
+
+The date style should be one of\+:
+\begin{DoxyCode}
+SHORT 
+\end{DoxyCode}
+ , 
+\begin{DoxyCode}
+MEDIUM 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+LONG 
+\end{DoxyCode}
+ or
+\begin{DoxyCode}
+FULL 
+\end{DoxyCode}
+ (defined in
+\begin{DoxyCode}
+java.util.DateFormat 
+\end{DoxyCode}
+ ). 
+
+For the locale, you can use
+\begin{DoxyCode}
+Locale.getDefault() 
+\end{DoxyCode}
+ for the default locale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em style} & the date style. \\
+\hline
+{\em locale} & the locale. \\
+\hline
+{\em font} & the font. \\
+\hline
+{\em paint} & the text color. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a15ad8c6e7d231cf7131d56043b5a22dd}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a15ad8c6e7d231cf7131d56043b5a22dd}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}!Date\+Title@{Date\+Title}}
+\index{Date\+Title@{Date\+Title}!org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}}
+\subsubsection{\texorpdfstring{Date\+Title()}{DateTitle()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+title.\+Date\+Title.\+Date\+Title (\begin{DoxyParamCaption}\item[{int}]{style,  }\item[{Locale}]{locale,  }\item[{Font}]{font,  }\item[{Paint}]{paint,  }\item[{Rectangle\+Edge}]{position,  }\item[{Horizontal\+Alignment}]{horizontal\+Alignment,  }\item[{Vertical\+Alignment}]{vertical\+Alignment,  }\item[{Rectangle\+Insets}]{padding }\end{DoxyParamCaption})}
+
+Creates a new chart title that displays the current date. 
+
+The date style should be one of\+:
+\begin{DoxyCode}
+SHORT 
+\end{DoxyCode}
+ , 
+\begin{DoxyCode}
+MEDIUM 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+LONG 
+\end{DoxyCode}
+ or
+\begin{DoxyCode}
+FULL 
+\end{DoxyCode}
+ (defined in
+\begin{DoxyCode}
+java.util.DateFormat 
+\end{DoxyCode}
+ ). 
+
+For the locale, you can use
+\begin{DoxyCode}
+Locale.getDefault() 
+\end{DoxyCode}
+ for the default locale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em style} & the date style. \\
+\hline
+{\em locale} & the locale. \\
+\hline
+{\em font} & the font (not null). \\
+\hline
+{\em paint} & the text color (not null). \\
+\hline
+{\em position} & the relative location of this title (use constants in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_title}{Title}}). \\
+\hline
+{\em horizontal\+Alignment} & the horizontal text alignment of this title (use constants in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_title}{Title}}). \\
+\hline
+{\em vertical\+Alignment} & the vertical text alignment of this title (use constants in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_title}{Title}}). \\
+\hline
+{\em padding} & determines the blank space around the outside of the title (not null). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a476f7d83cbb6221fab6a97c04ba9c262}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_date_title_a476f7d83cbb6221fab6a97c04ba9c262}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}!set\+Date\+Format@{set\+Date\+Format}}
+\index{set\+Date\+Format@{set\+Date\+Format}!org\+::jfree\+::chart\+::title\+::\+Date\+Title@{org\+::jfree\+::chart\+::title\+::\+Date\+Title}}
+\subsubsection{\texorpdfstring{set\+Date\+Format()}{setDateFormat()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+title.\+Date\+Title.\+set\+Date\+Format (\begin{DoxyParamCaption}\item[{int}]{style,  }\item[{Locale}]{locale }\end{DoxyParamCaption})}
+
+Set the format of the date. 
+
+The date style should be one of\+:
+\begin{DoxyCode}
+SHORT 
+\end{DoxyCode}
+ , 
+\begin{DoxyCode}
+MEDIUM 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+LONG 
+\end{DoxyCode}
+ or
+\begin{DoxyCode}
+FULL 
+\end{DoxyCode}
+ (defined in
+\begin{DoxyCode}
+java.util.DateFormat 
+\end{DoxyCode}
+ ). 
+
+For the locale, you can use
+\begin{DoxyCode}
+Locale.getDefault() 
+\end{DoxyCode}
+ for the default locale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em style} & the date style. \\
+\hline
+{\em locale} & the locale. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/title/\mbox{\hyperlink{_date_title_8java}{Date\+Title.\+java}}\end{DoxyCompactItemize}

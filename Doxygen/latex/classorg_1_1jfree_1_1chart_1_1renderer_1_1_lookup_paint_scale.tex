@@ -1,0 +1,215 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale}{}\section{org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale}\index{org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale@{org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale}}
+Inheritance diagram for org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.430396cm]{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Paint\+Item}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a2f6388ccc77dbe8c7d342a40198e83a6}{Lookup\+Paint\+Scale}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ad9db0619c71c8803a363963ea4051ca2}{Lookup\+Paint\+Scale}} (double lower\+Bound, double upper\+Bound, Paint default\+Paint)
+\item 
+Paint \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ab0716e02714ce29375ca366aa76e65fa}{get\+Default\+Paint}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a7ef26ef52021e5a5c09b28c174913511}{get\+Lower\+Bound}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ad7956f5f6498550f77ce5c7ed8f22583}{get\+Upper\+Bound}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a381c4195f78e3e182d1e518500a78151}{add}} (Number value, Paint paint)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a691420f855702671a42b1fde5adccb16}{add}} (double value, Paint paint)
+\item 
+Paint \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a8a1dcf9c72f6844f8a0aee28b98e4134}{get\+Paint}} (double value)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ae3a42b32c206176fdd037699d5e9e2cc}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a6af6382886c03d69dc8e490959a642ad}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A paint scale that uses a lookup table to associate paint instances with data value ranges.
+
+\begin{DoxySince}{Since}
+1.\+0.\+4 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a2f6388ccc77dbe8c7d342a40198e83a6}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a2f6388ccc77dbe8c7d342a40198e83a6}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!Lookup\+Paint\+Scale@{Lookup\+Paint\+Scale}}
+\index{Lookup\+Paint\+Scale@{Lookup\+Paint\+Scale}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{Lookup\+Paint\+Scale()}{LookupPaintScale()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+Lookup\+Paint\+Scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new paint scale. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ad9db0619c71c8803a363963ea4051ca2}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ad9db0619c71c8803a363963ea4051ca2}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!Lookup\+Paint\+Scale@{Lookup\+Paint\+Scale}}
+\index{Lookup\+Paint\+Scale@{Lookup\+Paint\+Scale}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{Lookup\+Paint\+Scale()}{LookupPaintScale()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+Lookup\+Paint\+Scale (\begin{DoxyParamCaption}\item[{double}]{lower\+Bound,  }\item[{double}]{upper\+Bound,  }\item[{Paint}]{default\+Paint }\end{DoxyParamCaption})}
+
+Creates a new paint scale with the specified default paint.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lower\+Bound} & the lower bound. \\
+\hline
+{\em upper\+Bound} & the upper bound. \\
+\hline
+{\em default\+Paint} & the default paint ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a381c4195f78e3e182d1e518500a78151}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a381c4195f78e3e182d1e518500a78151}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!add@{add}}
+\index{add@{add}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+add (\begin{DoxyParamCaption}\item[{Number}]{value,  }\item[{Paint}]{paint }\end{DoxyParamCaption})}
+
+Adds an entry to the lookup table. Any values from {\ttfamily n} up to but not including the next value in the table take on the specified {\ttfamily paint}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the data value ({\ttfamily null} not permitted). \\
+\hline
+{\em paint} & the paint.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000197}{Deprecated}}]Use \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a691420f855702671a42b1fde5adccb16}{add(double, Paint)}}. \end{DoxyRefDesc}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a691420f855702671a42b1fde5adccb16}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a691420f855702671a42b1fde5adccb16}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!add@{add}}
+\index{add@{add}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+add (\begin{DoxyParamCaption}\item[{double}]{value,  }\item[{Paint}]{paint }\end{DoxyParamCaption})}
+
+Adds an entry to the lookup table. Any values from {\ttfamily n} up to but not including the next value in the table take on the specified {\ttfamily paint}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the data value. \\
+\hline
+{\em paint} & the paint.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+6 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a6af6382886c03d69dc8e490959a642ad}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a6af6382886c03d69dc8e490959a642ad}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the instance.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if there is a problem cloning the instance. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ae3a42b32c206176fdd037699d5e9e2cc}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ae3a42b32c206176fdd037699d5e9e2cc}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this instance for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ab0716e02714ce29375ca366aa76e65fa}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ab0716e02714ce29375ca366aa76e65fa}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!get\+Default\+Paint@{get\+Default\+Paint}}
+\index{get\+Default\+Paint@{get\+Default\+Paint}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{get\+Default\+Paint()}{getDefaultPaint()}}
+{\footnotesize\ttfamily Paint org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+get\+Default\+Paint (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the default paint (never {\ttfamily null}).
+
+\begin{DoxyReturn}{Returns}
+The default paint. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a7ef26ef52021e5a5c09b28c174913511}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a7ef26ef52021e5a5c09b28c174913511}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!get\+Lower\+Bound@{get\+Lower\+Bound}}
+\index{get\+Lower\+Bound@{get\+Lower\+Bound}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{get\+Lower\+Bound()}{getLowerBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+get\+Lower\+Bound (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the lower bound.
+
+\begin{DoxyReturn}{Returns}
+The lower bound.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ad7956f5f6498550f77ce5c7ed8f22583}{get\+Upper\+Bound()}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a125f1d305abf1f3764b62f5a9c5fabbd}{org.\+jfree.\+chart.\+renderer.\+Paint\+Scale}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a8a1dcf9c72f6844f8a0aee28b98e4134}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a8a1dcf9c72f6844f8a0aee28b98e4134}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!get\+Paint@{get\+Paint}}
+\index{get\+Paint@{get\+Paint}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{get\+Paint()}{getPaint()}}
+{\footnotesize\ttfamily Paint org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+get\+Paint (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+Returns the paint associated with the specified value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The paint.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ab0716e02714ce29375ca366aa76e65fa}{get\+Default\+Paint()}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a32b81d8ac78e030422937dc97526661d}{org.\+jfree.\+chart.\+renderer.\+Paint\+Scale}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ad7956f5f6498550f77ce5c7ed8f22583}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ad7956f5f6498550f77ce5c7ed8f22583}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}!get\+Upper\+Bound@{get\+Upper\+Bound}}
+\index{get\+Upper\+Bound@{get\+Upper\+Bound}!org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Lookup\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{get\+Upper\+Bound()}{getUpperBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale.\+get\+Upper\+Bound (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the upper bound.
+
+\begin{DoxyReturn}{Returns}
+The upper bound.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a7ef26ef52021e5a5c09b28c174913511}{get\+Lower\+Bound()}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_abf6986bb5661248213645ea975828495}{org.\+jfree.\+chart.\+renderer.\+Paint\+Scale}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/\mbox{\hyperlink{_lookup_paint_scale_8java}{Lookup\+Paint\+Scale.\+java}}\end{DoxyCompactItemize}

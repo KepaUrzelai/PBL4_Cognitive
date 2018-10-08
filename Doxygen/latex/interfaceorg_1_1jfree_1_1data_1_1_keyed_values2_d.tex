@@ -1,0 +1,183 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d}{}\section{org.\+jfree.\+data.\+Keyed\+Values2D Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d}\index{org.\+jfree.\+data.\+Keyed\+Values2D@{org.\+jfree.\+data.\+Keyed\+Values2D}}
+Inheritance diagram for org.\+jfree.\+data.\+Keyed\+Values2D\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.306667cm]{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Comparable \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a7c145e2383036a479460e4bca7b40a95}{get\+Row\+Key}} (int row)
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_ae92ded12999f2872687a5754ddf29254}{get\+Row\+Index}} (Comparable key)
+\item 
+List \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_aeda9aab284e61f69ca6e81370e76f70a}{get\+Row\+Keys}} ()
+\item 
+Comparable \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a9ced6cbaf04f048db059e1ebf5184d2a}{get\+Column\+Key}} (int column)
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a3360f2f612f16e8c90409d65e3992d38}{get\+Column\+Index}} (Comparable key)
+\item 
+List \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_af6b8780fee7cccdb967fc0f199398615}{get\+Column\+Keys}} ()
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a61c450ca108cd99e53174fc91393a99a}{get\+Value}} (Comparable row\+Key, Comparable column\+Key)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An extension of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}} interface where a unique key is associated with the row and column indices. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a3360f2f612f16e8c90409d65e3992d38}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a3360f2f612f16e8c90409d65e3992d38}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}!get\+Column\+Index@{get\+Column\+Index}}
+\index{get\+Column\+Index@{get\+Column\+Index}!org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}}
+\subsubsection{\texorpdfstring{get\+Column\+Index()}{getColumnIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Keyed\+Values2\+D.\+get\+Column\+Index (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Returns the column index for a given key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the column key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The column index, or {\ttfamily -\/1} if the key is unrecognised. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_interval_category_dataset_aa081b358d8813325db79019dafaa2c62}{org.\+jfree.\+data.\+category.\+Default\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a2c2546143d897b391809f172566a1e00}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_af2dfd30fc9a145d8371467b02b269dc3}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_a1645d262991fd239a0a847d117dd975d}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values2_d_a7850b37a7f84b089906f1713b6fef6f0}{org.\+jfree.\+data.\+Default\+Keyed\+Values2D}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a3d161e58090dcf60534fd670a387f429}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_category_dataset_abd03d702aa033c675c043d04578fdd16}{org.\+jfree.\+data.\+category.\+Default\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_test_interval_category_dataset_a90dc04f1966adbcc80f505554c8afd40}{org.\+jfree.\+data.\+general.\+Test\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a0860f901b12c1330b9b442e8b378e237}{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a4f7ede857998defbef577b37c3d62bc9}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a9ced6cbaf04f048db059e1ebf5184d2a}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a9ced6cbaf04f048db059e1ebf5184d2a}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}!get\+Column\+Key@{get\+Column\+Key}}
+\index{get\+Column\+Key@{get\+Column\+Key}!org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}}
+\subsubsection{\texorpdfstring{get\+Column\+Key()}{getColumnKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+Keyed\+Values2\+D.\+get\+Column\+Key (\begin{DoxyParamCaption}\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the column key for a given index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The column key.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily row} is out of bounds. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_interval_category_dataset_a522cac1ea57092736c3a2212e97e56b9}{org.\+jfree.\+data.\+category.\+Default\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_aac3ec96693b12a73f35a21e81a0998b9}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_ada7e3476ceb52c6ad531e49297cdfbc9}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_a7ee310334e29539ed7ccf42a63323602}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values2_d_af2df339aaadf2c30c6fb2e331a69c39c}{org.\+jfree.\+data.\+Default\+Keyed\+Values2D}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_ae2f2a653fe8b60273034e7237b19118f}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aefb8cdefb6baf9ef40d25de9b5c33c63}{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a1030967720c6585c3a46acf80872ce3c}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_category_dataset_a830798ee850da00ea96dcf29f28c70e7}{org.\+jfree.\+data.\+category.\+Default\+Category\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_test_interval_category_dataset_a55b29571a2a0e450010e23a8ce7ad872}{org.\+jfree.\+data.\+general.\+Test\+Interval\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_af6b8780fee7cccdb967fc0f199398615}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_af6b8780fee7cccdb967fc0f199398615}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}!get\+Column\+Keys@{get\+Column\+Keys}}
+\index{get\+Column\+Keys@{get\+Column\+Keys}!org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}}
+\subsubsection{\texorpdfstring{get\+Column\+Keys()}{getColumnKeys()}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+Keyed\+Values2\+D.\+get\+Column\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the column keys.
+
+\begin{DoxyReturn}{Returns}
+The keys. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a0d4ff5c831a0e65c1b9658d00d04930d}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_interval_category_dataset_a1601fe05521b19269fc838d371907613}{org.\+jfree.\+data.\+category.\+Default\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_a7b6adfe3285ed140fc188ab1dbd154d7}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_aa5e1211afffe37c4d8d6f25e0da9f045}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values2_d_ae390bd83ecd242c0e90eee1d8adede7a}{org.\+jfree.\+data.\+Default\+Keyed\+Values2D}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_adfd4f4d9f2ead4df88b5793517429ddf}{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a5a6d9404ac2413409fe2c046a8c758df}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_category_dataset_aca704a2ac8b38d61e38b2c0e843024f0}{org.\+jfree.\+data.\+category.\+Default\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_test_interval_category_dataset_a1b13db9fa7117272e3772074064ee5f2}{org.\+jfree.\+data.\+general.\+Test\+Interval\+Category\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a7d5753768700a7a2e33f6e2918aa6ecd}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_ae92ded12999f2872687a5754ddf29254}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_ae92ded12999f2872687a5754ddf29254}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}!get\+Row\+Index@{get\+Row\+Index}}
+\index{get\+Row\+Index@{get\+Row\+Index}!org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}}
+\subsubsection{\texorpdfstring{get\+Row\+Index()}{getRowIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Keyed\+Values2\+D.\+get\+Row\+Index (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Returns the row index for a given key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the row key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The row index, or {\ttfamily -\/1} if the key is unrecognised. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_interval_category_dataset_afba38bccf1dff83c9346fec2dad6aa69}{org.\+jfree.\+data.\+category.\+Default\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a0d0e397a4efbd71661d91aed88a2fceb}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_ad9d326f8427acc2ccda08946308fa12f}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_a019bd8dc0f4782a42bd52e161f3913ba}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a4398f6c557565408f40cda1e11e16a08}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_ad364c75ca5d7a8bae6f3eaa2e0807310}{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_add3562d698dc54aa8a80555690172816}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values2_d_aaca2e39352630d0f49c45a09b8a106e6}{org.\+jfree.\+data.\+Default\+Keyed\+Values2D}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_category_dataset_a2ba50eec333627d8a187c2f252b8600a}{org.\+jfree.\+data.\+category.\+Default\+Category\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_test_interval_category_dataset_ad4e109937c0ebf76ebd15b607f1d30de}{org.\+jfree.\+data.\+general.\+Test\+Interval\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a7c145e2383036a479460e4bca7b40a95}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a7c145e2383036a479460e4bca7b40a95}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}!get\+Row\+Key@{get\+Row\+Key}}
+\index{get\+Row\+Key@{get\+Row\+Key}!org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}}
+\subsubsection{\texorpdfstring{get\+Row\+Key()}{getRowKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+Keyed\+Values2\+D.\+get\+Row\+Key (\begin{DoxyParamCaption}\item[{int}]{row }\end{DoxyParamCaption})}
+
+Returns the row key for a given index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The row key.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily row} is out of bounds. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_interval_category_dataset_a43d43fb85d81f77ce7737d381c91b8b3}{org.\+jfree.\+data.\+category.\+Default\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a7433281da93ea1c231c3d134c3c86aa9}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_a3d1639e32ea6605c35735de8e89486f8}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_a0dcf3b92e34fabc4322b887c083e790a}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_adf6c7e868a48a871bfec44f2a14a00e9}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a6fcf1e054f8df00a8d37ea3b6eb0960a}{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_abb1a58ac4db1497c2874e7a10e0f2026}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values2_d_ada2ab1693bba62c0f8a8d5e046614b59}{org.\+jfree.\+data.\+Default\+Keyed\+Values2D}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_category_dataset_a8828cdefd54d499565516fa42d44f89a}{org.\+jfree.\+data.\+category.\+Default\+Category\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_test_interval_category_dataset_af8d67eac5f22766176eba84d80614940}{org.\+jfree.\+data.\+general.\+Test\+Interval\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_aeda9aab284e61f69ca6e81370e76f70a}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_aeda9aab284e61f69ca6e81370e76f70a}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}!get\+Row\+Keys@{get\+Row\+Keys}}
+\index{get\+Row\+Keys@{get\+Row\+Keys}!org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}}
+\subsubsection{\texorpdfstring{get\+Row\+Keys()}{getRowKeys()}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+Keyed\+Values2\+D.\+get\+Row\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the row keys.
+
+\begin{DoxyReturn}{Returns}
+The keys. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_interval_category_dataset_aa8a0a871f4557e0ef292fe5e9db0d55b}{org.\+jfree.\+data.\+category.\+Default\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a9b93cea941b50fd0a0b908bfa0b1e278}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_abd2788a3ec62a9b685a1ef9dd75fa787}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_ae75c8347b1a96730dab876b0d0daede9}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_afac3ef11a6f20fcbae0b573ce8d9562e}{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a196f0032878b86a97a1939a269590d83}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values2_d_a5def878586be4fbe2c3bc7750eaac41b}{org.\+jfree.\+data.\+Default\+Keyed\+Values2D}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a049adf2f25b6b3b2ea567fe902bf9b76}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_category_dataset_abc377b9d7b99192614e8a35984d7d5d3}{org.\+jfree.\+data.\+category.\+Default\+Category\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_test_interval_category_dataset_a33175ea9716119996c05f16cf32ccd3e}{org.\+jfree.\+data.\+general.\+Test\+Interval\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a61c450ca108cd99e53174fc91393a99a}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a61c450ca108cd99e53174fc91393a99a}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::\+Keyed\+Values2D@{org\+::jfree\+::data\+::\+Keyed\+Values2D}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+Keyed\+Values2\+D.\+get\+Value (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key }\end{DoxyParamCaption})}
+
+Returns the value associated with the specified keys.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key ({\ttfamily null} not permitted). \\
+\hline
+{\em column\+Key} & the column key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_unknown_key_exception}{Unknown\+Key\+Exception}}} & if either key is not recognised. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_interval_category_dataset_a29084222ab5d48db99953fabcd209d03}{org.\+jfree.\+data.\+category.\+Default\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a89f6f1df4d88768e84b3bd313cbd3eab}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_box_and_whisker_category_dataset_a1cc42e6e9cebb07fc3ad2bab59733088}{org.\+jfree.\+data.\+statistics.\+Default\+Box\+And\+Whisker\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values2_d_a12490c45f6bd535f4cb0bbb5f6127567}{org.\+jfree.\+data.\+Default\+Keyed\+Values2D}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a18db7dd73ce5bd7e83174d8bc2db6e80}{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_aad13ed434468a34eef42391095e57ce4}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_default_category_dataset_a5e7aadea1d0257eaccec5836b66a0d3e}{org.\+jfree.\+data.\+category.\+Default\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_test_interval_category_dataset_a0ae7aff04c45ad61c8b0cea8be0b2d1e}{org.\+jfree.\+data.\+general.\+Test\+Interval\+Category\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_multi_value_category_dataset_ad4f8c7103acbcdf5fb2ce723d4ea360b}{org.\+jfree.\+data.\+statistics.\+Default\+Multi\+Value\+Category\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_default_statistical_category_dataset_abd1e47cb280bcac4a251fcc160953f58}{org.\+jfree.\+data.\+statistics.\+Default\+Statistical\+Category\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/\mbox{\hyperlink{_keyed_values2_d_8java}{Keyed\+Values2\+D.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,90 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Category\+Item\+Label\+Generator Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator}\index{org.\+jfree.\+chart.\+labels.\+Category\+Item\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+Category\+Item\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Category\+Item\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.359551cm]{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_af16f2beea92dee57d6de10f2248f2235}{generate\+Row\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int row)
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_a5c9725076b50f97656bcec07b4ac744e}{generate\+Column\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int column)
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_acae81c6066bec7b9a0761ca61fe6f626}{generate\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int row, int column)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A {\itshape category item label generator} is an object that can be assigned to a \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_category_item_renderer}{org.\+jfree.\+chart.\+renderer.\+category.\+Category\+Item\+Renderer}} and that assumes responsibility for creating text items to be used as labels for the items in a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}. 
+
+To assist with cloning charts, classes that implement this interface should also implement the \mbox{\hyperlink{}{org.\+jfree.\+util.\+Public\+Cloneable}} interface. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_a5c9725076b50f97656bcec07b4ac744e}\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_a5c9725076b50f97656bcec07b4ac744e}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator}!generate\+Column\+Label@{generate\+Column\+Label}}
+\index{generate\+Column\+Label@{generate\+Column\+Label}!org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Column\+Label()}{generateColumnLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Category\+Item\+Label\+Generator.\+generate\+Column\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Generates a label for the specified row.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_acae81c6066bec7b9a0761ca61fe6f626}\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_acae81c6066bec7b9a0761ca61fe6f626}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator}!generate\+Label@{generate\+Label}}
+\index{generate\+Label@{generate\+Label}!org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Label()}{generateLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Category\+Item\+Label\+Generator.\+generate\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Generates a label for the specified item. The label is typically a formatted version of the data value, but any text can be used.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_category_item_label_generator_a966ea4561ba36347b8af7e4f2ebe37f6}{org.\+jfree.\+chart.\+labels.\+Standard\+Category\+Item\+Label\+Generator}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_af16f2beea92dee57d6de10f2248f2235}\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_item_label_generator_af16f2beea92dee57d6de10f2248f2235}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator}!generate\+Row\+Label@{generate\+Row\+Label}}
+\index{generate\+Row\+Label@{generate\+Row\+Label}!org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Row\+Label()}{generateRowLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Category\+Item\+Label\+Generator.\+generate\+Row\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{row }\end{DoxyParamCaption})}
+
+Generates a label for the specified row.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label. 
+\end{DoxyReturn}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_category_item_label_generator_8java}{Category\+Item\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

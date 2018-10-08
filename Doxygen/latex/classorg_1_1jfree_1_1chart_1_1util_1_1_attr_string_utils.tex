@@ -1,0 +1,162 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils}{}\section{org.\+jfree.\+chart.\+util.\+Attr\+String\+Utils Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils}\index{org.\+jfree.\+chart.\+util.\+Attr\+String\+Utils@{org.\+jfree.\+chart.\+util.\+Attr\+String\+Utils}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Rectangle2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_afe6e808417c8ff2db6fa9f0d19583120}{get\+Text\+Bounds}} (Attributed\+String text, Graphics2D g2)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a025319962e8f093cb2964ee90503d3e1}{draw\+Rotated\+String}} (Attributed\+String text, Graphics2D g2, double angle, float x, float y)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a663719d4a9243e06c939a4f9a4c51e6b}{draw\+Rotated\+String}} (Attributed\+String text, Graphics2D g2, float textX, float textY, double angle, float rotateX, float rotateY)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a288f0992e17da17f9ec157d59883f25c}{draw\+Rotated\+String}} (Attributed\+String text, Graphics2D g2, float x, float y, Text\+Anchor text\+Anchor, double angle, float rotationX, float rotationY)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a50ba4e87808b54f9ec3a6e7b91b0c7b4}{draw\+Rotated\+String}} (Attributed\+String text, Graphics2D g2, float x, float y, Text\+Anchor text\+Anchor, double angle, Text\+Anchor rotation\+Anchor)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Some {\ttfamily Attributed\+String} utilities.
+
+\begin{DoxySince}{Since}
+1.\+0.\+16 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a025319962e8f093cb2964ee90503d3e1}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a025319962e8f093cb2964ee90503d3e1}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}!draw\+Rotated\+String@{draw\+Rotated\+String}}
+\index{draw\+Rotated\+String@{draw\+Rotated\+String}!org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}}
+\subsubsection{\texorpdfstring{draw\+Rotated\+String()}{drawRotatedString()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+util.\+Attr\+String\+Utils.\+draw\+Rotated\+String (\begin{DoxyParamCaption}\item[{Attributed\+String}]{text,  }\item[{Graphics2D}]{g2,  }\item[{double}]{angle,  }\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Draws the attributed string at {\ttfamily (x, y)}, rotated by the specified angle about {\ttfamily (x, y)}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the attributed string ({\ttfamily null} not permitted). \\
+\hline
+{\em g2} & the graphics output target. \\
+\hline
+{\em angle} & the angle. \\
+\hline
+{\em x} & the x-\/coordinate. \\
+\hline
+{\em y} & the y-\/coordinate.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+16 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a663719d4a9243e06c939a4f9a4c51e6b}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a663719d4a9243e06c939a4f9a4c51e6b}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}!draw\+Rotated\+String@{draw\+Rotated\+String}}
+\index{draw\+Rotated\+String@{draw\+Rotated\+String}!org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}}
+\subsubsection{\texorpdfstring{draw\+Rotated\+String()}{drawRotatedString()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+util.\+Attr\+String\+Utils.\+draw\+Rotated\+String (\begin{DoxyParamCaption}\item[{Attributed\+String}]{text,  }\item[{Graphics2D}]{g2,  }\item[{float}]{textX,  }\item[{float}]{textY,  }\item[{double}]{angle,  }\item[{float}]{rotateX,  }\item[{float}]{rotateY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Draws the attributed string at {\ttfamily (textX, textY)}, rotated by the specified angle about {\ttfamily (rotateX, rotateY)}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the attributed string ({\ttfamily null} not permitted). \\
+\hline
+{\em g2} & the graphics output target. \\
+\hline
+{\em textX} & the x-\/coordinate for the text. \\
+\hline
+{\em textY} & the y-\/coordinate for the text. \\
+\hline
+{\em angle} & the rotation angle (in radians). \\
+\hline
+{\em rotateX} & the x-\/coordinate for the rotation point. \\
+\hline
+{\em rotateY} & the y-\/coordinate for the rotation point.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+16 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a288f0992e17da17f9ec157d59883f25c}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a288f0992e17da17f9ec157d59883f25c}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}!draw\+Rotated\+String@{draw\+Rotated\+String}}
+\index{draw\+Rotated\+String@{draw\+Rotated\+String}!org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}}
+\subsubsection{\texorpdfstring{draw\+Rotated\+String()}{drawRotatedString()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+util.\+Attr\+String\+Utils.\+draw\+Rotated\+String (\begin{DoxyParamCaption}\item[{Attributed\+String}]{text,  }\item[{Graphics2D}]{g2,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{Text\+Anchor}]{text\+Anchor,  }\item[{double}]{angle,  }\item[{float}]{rotationX,  }\item[{float}]{rotationY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Draws the string anchored to {\ttfamily (x, y)}, rotated by the specified angle about {\ttfamily (rotationX, rotationY)}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the text ({\ttfamily null} not permitted). \\
+\hline
+{\em g2} & the graphics target. \\
+\hline
+{\em x} & the x-\/coordinate for the text location. \\
+\hline
+{\em y} & the y-\/coordinate for the text location. \\
+\hline
+{\em text\+Anchor} & the text anchor point. \\
+\hline
+{\em angle} & the rotation (in radians). \\
+\hline
+{\em rotationX} & the x-\/coordinate for the rotation point. \\
+\hline
+{\em rotationY} & the y-\/coordinate for the rotation point.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+16 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a50ba4e87808b54f9ec3a6e7b91b0c7b4}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_a50ba4e87808b54f9ec3a6e7b91b0c7b4}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}!draw\+Rotated\+String@{draw\+Rotated\+String}}
+\index{draw\+Rotated\+String@{draw\+Rotated\+String}!org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}}
+\subsubsection{\texorpdfstring{draw\+Rotated\+String()}{drawRotatedString()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+util.\+Attr\+String\+Utils.\+draw\+Rotated\+String (\begin{DoxyParamCaption}\item[{Attributed\+String}]{text,  }\item[{Graphics2D}]{g2,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{Text\+Anchor}]{text\+Anchor,  }\item[{double}]{angle,  }\item[{Text\+Anchor}]{rotation\+Anchor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Draws a rotated string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the text to draw. \\
+\hline
+{\em g2} & the graphics target. \\
+\hline
+{\em x} & the x-\/coordinate for the text location. \\
+\hline
+{\em y} & the y-\/coordinate for the text location. \\
+\hline
+{\em text\+Anchor} & the text anchor point. \\
+\hline
+{\em angle} & the rotation (in radians). \\
+\hline
+{\em rotation\+Anchor} & the rotation anchor point.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+16 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_afe6e808417c8ff2db6fa9f0d19583120}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_attr_string_utils_afe6e808417c8ff2db6fa9f0d19583120}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}!get\+Text\+Bounds@{get\+Text\+Bounds}}
+\index{get\+Text\+Bounds@{get\+Text\+Bounds}!org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils@{org\+::jfree\+::chart\+::util\+::\+Attr\+String\+Utils}}
+\subsubsection{\texorpdfstring{get\+Text\+Bounds()}{getTextBounds()}}
+{\footnotesize\ttfamily static Rectangle2D org.\+jfree.\+chart.\+util.\+Attr\+String\+Utils.\+get\+Text\+Bounds (\begin{DoxyParamCaption}\item[{Attributed\+String}]{text,  }\item[{Graphics2D}]{g2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the bounds for the attributed string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the attributed string ({\ttfamily null} not permitted). \\
+\hline
+{\em g2} & the graphics target ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The bounds (never {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_attr_string_utils_8java}{Attr\+String\+Utils.\+java}}\end{DoxyCompactItemize}

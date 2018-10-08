@@ -1,0 +1,183 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period}{}\section{org.\+jfree.\+data.\+time.\+Simple\+Time\+Period Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period}\index{org.\+jfree.\+data.\+time.\+Simple\+Time\+Period@{org.\+jfree.\+data.\+time.\+Simple\+Time\+Period}}
+Inheritance diagram for org.\+jfree.\+data.\+time.\+Simple\+Time\+Period\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.466960cm]{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a389b9f6b4826d714b30dadb9e28b6e04}{Simple\+Time\+Period}} (long start, long end)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a94de9a015c3f3e1add30f776938d104b}{Simple\+Time\+Period}} (Date start, Date end)
+\item 
+Date \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_aad32b7d42e1b0da520b2101321601142}{get\+Start}} ()
+\item 
+long \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a9ead4c8717504b46e185666e8165a45e}{get\+Start\+Millis}} ()
+\item 
+Date \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_afb5fba801200f718c01519eced7ed921}{get\+End}} ()
+\item 
+long \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a737d71745c5a0b48f92c4ed025a42551}{get\+End\+Millis}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a63370386f066e52bd7fbb388ff27cfd3}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a35fc33fff28858317ef7cfd357e4f166}{compare\+To}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_ad47c7e4b3f685ee75b8e7dfa67ccda60}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An arbitrary period of time, measured to millisecond precision using {\ttfamily java.\+util.\+Date}. 
+
+This class is intentionally immutable (that is, once constructed, you cannot alter the start and end attributes). 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a389b9f6b4826d714b30dadb9e28b6e04}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a389b9f6b4826d714b30dadb9e28b6e04}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!Simple\+Time\+Period@{Simple\+Time\+Period}}
+\index{Simple\+Time\+Period@{Simple\+Time\+Period}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{Simple\+Time\+Period()}{SimpleTimePeriod()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+Simple\+Time\+Period (\begin{DoxyParamCaption}\item[{long}]{start,  }\item[{long}]{end }\end{DoxyParamCaption})}
+
+Creates a new time allocation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & the start date/time in milliseconds. \\
+\hline
+{\em end} & the end date/time in milliseconds. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a94de9a015c3f3e1add30f776938d104b}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a94de9a015c3f3e1add30f776938d104b}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!Simple\+Time\+Period@{Simple\+Time\+Period}}
+\index{Simple\+Time\+Period@{Simple\+Time\+Period}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{Simple\+Time\+Period()}{SimpleTimePeriod()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+Simple\+Time\+Period (\begin{DoxyParamCaption}\item[{Date}]{start,  }\item[{Date}]{end }\end{DoxyParamCaption})}
+
+Creates a new time allocation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & the start date/time ({\ttfamily null} not permitted). \\
+\hline
+{\em end} & the end date/time ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a35fc33fff28858317ef7cfd357e4f166}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a35fc33fff28858317ef7cfd357e4f166}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!compare\+To@{compare\+To}}
+\index{compare\+To@{compare\+To}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{compare\+To()}{compareTo()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+compare\+To (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Returns an integer that indicates the relative ordering of two time periods.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An integer.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Class\+Cast\+Exception} & if {\ttfamily obj} is not an instance of \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}}. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a63370386f066e52bd7fbb388ff27cfd3}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a63370386f066e52bd7fbb388ff27cfd3}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this time period instance for equality with an arbitrary object. The object is considered equal if it is an instance of \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period}{Time\+Period}} and it has the same start and end dates.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the other object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_afb5fba801200f718c01519eced7ed921}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_afb5fba801200f718c01519eced7ed921}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!get\+End@{get\+End}}
+\index{get\+End@{get\+End}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{get\+End()}{getEnd()}}
+{\footnotesize\ttfamily Date org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+get\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the end date/time.
+
+\begin{DoxyReturn}{Returns}
+The end date/time (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period_aa0fe39753e3af6252b98f5ff9f534f51}{org.\+jfree.\+data.\+time.\+Time\+Period}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a737d71745c5a0b48f92c4ed025a42551}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a737d71745c5a0b48f92c4ed025a42551}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!get\+End\+Millis@{get\+End\+Millis}}
+\index{get\+End\+Millis@{get\+End\+Millis}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{get\+End\+Millis()}{getEndMillis()}}
+{\footnotesize\ttfamily long org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+get\+End\+Millis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the end date/time in milliseconds.
+
+\begin{DoxyReturn}{Returns}
+The end.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+10. 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_aad32b7d42e1b0da520b2101321601142}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_aad32b7d42e1b0da520b2101321601142}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!get\+Start@{get\+Start}}
+\index{get\+Start@{get\+Start}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{get\+Start()}{getStart()}}
+{\footnotesize\ttfamily Date org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+get\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the start date/time.
+
+\begin{DoxyReturn}{Returns}
+The start date/time (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1time_1_1_time_period_aa8f08870c3b6b95ee24064383521e72e}{org.\+jfree.\+data.\+time.\+Time\+Period}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a9ead4c8717504b46e185666e8165a45e}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_a9ead4c8717504b46e185666e8165a45e}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!get\+Start\+Millis@{get\+Start\+Millis}}
+\index{get\+Start\+Millis@{get\+Start\+Millis}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{get\+Start\+Millis()}{getStartMillis()}}
+{\footnotesize\ttfamily long org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+get\+Start\+Millis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the start date/time in milliseconds.
+
+\begin{DoxyReturn}{Returns}
+The start.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+10. 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_ad47c7e4b3f685ee75b8e7dfa67ccda60}\label{classorg_1_1jfree_1_1data_1_1time_1_1_simple_time_period_ad47c7e4b3f685ee75b8e7dfa67ccda60}} 
+\index{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period@{org\+::jfree\+::data\+::time\+::\+Simple\+Time\+Period}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Simple\+Time\+Period.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this object instance. The approach described by Joshua Bloch in \char`\"{}\+Effective Java\char`\"{} has been used here -\/ see\+: 
+
+{\ttfamily \href{http://developer.java.sun.com/}{\tt http\+://developer.\+java.\+sun.\+com/} developer/\+Books/effectivejava/\+Chapter3.\+pdf}
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/time/\mbox{\hyperlink{_simple_time_period_8java}{Simple\+Time\+Period.\+java}}\end{DoxyCompactItemize}

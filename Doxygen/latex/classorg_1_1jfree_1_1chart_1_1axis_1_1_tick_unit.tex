@@ -1,0 +1,165 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}{}\section{org.\+jfree.\+chart.\+axis.\+Tick\+Unit Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}\index{org.\+jfree.\+chart.\+axis.\+Tick\+Unit@{org.\+jfree.\+chart.\+axis.\+Tick\+Unit}}
+Inheritance diagram for org.\+jfree.\+chart.\+axis.\+Tick\+Unit\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a522e33e366d5ab9c1fbef59e9f3c0739}{Tick\+Unit}} (double size)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a5c321f74b766b72190be386d3542e788}{Tick\+Unit}} (double size, int minor\+Tick\+Count)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_aea808587f970ef1374d35b9a36358d2b}{get\+Size}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_ad9225c99e3a579eef24640709ed41547}{get\+Minor\+Tick\+Count}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_ac3020741bd6fe238ffc01a19ad0351c6}{value\+To\+String}} (double value)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a544d66ed4908ad6b77e70029a8d1fc64}{compare\+To}} (Object object)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a27b0b5ec6b177c5285fa4da3f642ede2}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a3264720f7f7a9e706699b529be4a0ced}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class representing a tick unit. This determines the spacing of the tick marks on an axis. 
+
+This class (and any subclasses) should be immutable, the reason being that O\+R\+D\+E\+R\+ED collections of tick units are maintained and if one instance can be changed, it may destroy the order of the collection that it belongs to. In addition, if the implementations are immutable, they can belong to multiple collections.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a522e33e366d5ab9c1fbef59e9f3c0739}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a522e33e366d5ab9c1fbef59e9f3c0739}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}!Tick\+Unit@{Tick\+Unit}}
+\index{Tick\+Unit@{Tick\+Unit}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}}
+\subsubsection{\texorpdfstring{Tick\+Unit()}{TickUnit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Tick\+Unit.\+Tick\+Unit (\begin{DoxyParamCaption}\item[{double}]{size }\end{DoxyParamCaption})}
+
+Constructs a new tick unit.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & the tick unit size. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a5c321f74b766b72190be386d3542e788}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a5c321f74b766b72190be386d3542e788}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}!Tick\+Unit@{Tick\+Unit}}
+\index{Tick\+Unit@{Tick\+Unit}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}}
+\subsubsection{\texorpdfstring{Tick\+Unit()}{TickUnit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Tick\+Unit.\+Tick\+Unit (\begin{DoxyParamCaption}\item[{double}]{size,  }\item[{int}]{minor\+Tick\+Count }\end{DoxyParamCaption})}
+
+Constructs a new tick unit.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & the tick unit size. \\
+\hline
+{\em minor\+Tick\+Count} & the minor tick count.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a544d66ed4908ad6b77e70029a8d1fc64}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a544d66ed4908ad6b77e70029a8d1fc64}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}!compare\+To@{compare\+To}}
+\index{compare\+To@{compare\+To}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}}
+\subsubsection{\texorpdfstring{compare\+To()}{compareTo()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+axis.\+Tick\+Unit.\+compare\+To (\begin{DoxyParamCaption}\item[{Object}]{object }\end{DoxyParamCaption})}
+
+Compares this tick unit to an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em object} & the object to compare against.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily 1} if the size of the other object is less than this, {\ttfamily 0} if both have the same size and {\ttfamily -\/1} this size is less than the others. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a27b0b5ec6b177c5285fa4da3f642ede2}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a27b0b5ec6b177c5285fa4da3f642ede2}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+axis.\+Tick\+Unit.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this unit for equality with another object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} or {\ttfamily false}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_ad9225c99e3a579eef24640709ed41547}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_ad9225c99e3a579eef24640709ed41547}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}!get\+Minor\+Tick\+Count@{get\+Minor\+Tick\+Count}}
+\index{get\+Minor\+Tick\+Count@{get\+Minor\+Tick\+Count}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}}
+\subsubsection{\texorpdfstring{get\+Minor\+Tick\+Count()}{getMinorTickCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+axis.\+Tick\+Unit.\+get\+Minor\+Tick\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the minor tick count.
+
+\begin{DoxyReturn}{Returns}
+The minor tick count.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_aea808587f970ef1374d35b9a36358d2b}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_aea808587f970ef1374d35b9a36358d2b}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}}
+\subsubsection{\texorpdfstring{get\+Size()}{getSize()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Tick\+Unit.\+get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the size of the tick unit.
+
+\begin{DoxyReturn}{Returns}
+The size of the tick unit. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a3264720f7f7a9e706699b529be4a0ced}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_a3264720f7f7a9e706699b529be4a0ced}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+axis.\+Tick\+Unit.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this instance.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_ac3020741bd6fe238ffc01a19ad0351c6}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_tick_unit_ac3020741bd6fe238ffc01a19ad0351c6}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}!value\+To\+String@{value\+To\+String}}
+\index{value\+To\+String@{value\+To\+String}!org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit@{org\+::jfree\+::chart\+::axis\+::\+Tick\+Unit}}
+\subsubsection{\texorpdfstring{value\+To\+String()}{valueToString()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+axis.\+Tick\+Unit.\+value\+To\+String (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+Converts the supplied value to a string. 
+
+Subclasses may implement special formatting by overriding this method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the data value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value as string. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/axis/\mbox{\hyperlink{_tick_unit_8java}{Tick\+Unit.\+java}}\end{DoxyCompactItemize}

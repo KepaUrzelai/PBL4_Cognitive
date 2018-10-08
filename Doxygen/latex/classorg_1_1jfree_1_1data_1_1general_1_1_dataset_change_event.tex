@@ -1,0 +1,55 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{}\section{org.\+jfree.\+data.\+general.\+Dataset\+Change\+Event Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}\index{org.\+jfree.\+data.\+general.\+Dataset\+Change\+Event@{org.\+jfree.\+data.\+general.\+Dataset\+Change\+Event}}
+Inheritance diagram for org.\+jfree.\+data.\+general.\+Dataset\+Change\+Event\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event_a3fc1eb4a5d2030b12e593dd374bf540b}{Dataset\+Change\+Event}} (Object source, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}{Dataset}} dataset)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}{Dataset}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event_ad775b83cdff537ec5eb5ff53316986c7}{get\+Dataset}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A change event that encapsulates information about a change to a dataset. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event_a3fc1eb4a5d2030b12e593dd374bf540b}\label{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event_a3fc1eb4a5d2030b12e593dd374bf540b}} 
+\index{org\+::jfree\+::data\+::general\+::\+Dataset\+Change\+Event@{org\+::jfree\+::data\+::general\+::\+Dataset\+Change\+Event}!Dataset\+Change\+Event@{Dataset\+Change\+Event}}
+\index{Dataset\+Change\+Event@{Dataset\+Change\+Event}!org\+::jfree\+::data\+::general\+::\+Dataset\+Change\+Event@{org\+::jfree\+::data\+::general\+::\+Dataset\+Change\+Event}}
+\subsubsection{\texorpdfstring{Dataset\+Change\+Event()}{DatasetChangeEvent()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+general.\+Dataset\+Change\+Event.\+Dataset\+Change\+Event (\begin{DoxyParamCaption}\item[{Object}]{source,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}{Dataset}}}]{dataset }\end{DoxyParamCaption})}
+
+Constructs a new event. The source is either the dataset or the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot}{org.\+jfree.\+chart.\+plot.\+Plot}} class. The dataset can be {\ttfamily null} (in this case the source will be the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot}{org.\+jfree.\+chart.\+plot.\+Plot}} class).
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source of the event. \\
+\hline
+{\em dataset} & the dataset that generated the event ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event_ad775b83cdff537ec5eb5ff53316986c7}\label{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event_ad775b83cdff537ec5eb5ff53316986c7}} 
+\index{org\+::jfree\+::data\+::general\+::\+Dataset\+Change\+Event@{org\+::jfree\+::data\+::general\+::\+Dataset\+Change\+Event}!get\+Dataset@{get\+Dataset}}
+\index{get\+Dataset@{get\+Dataset}!org\+::jfree\+::data\+::general\+::\+Dataset\+Change\+Event@{org\+::jfree\+::data\+::general\+::\+Dataset\+Change\+Event}}
+\subsubsection{\texorpdfstring{get\+Dataset()}{getDataset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}{Dataset}} org.\+jfree.\+data.\+general.\+Dataset\+Change\+Event.\+get\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the dataset that generated the event. Note that the dataset may be {\ttfamily null} since adding a {\ttfamily null} dataset to a plot will generated a change event.
+
+\begin{DoxyReturn}{Returns}
+The dataset (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/general/\mbox{\hyperlink{_dataset_change_event_8java}{Dataset\+Change\+Event.\+java}}\end{DoxyCompactItemize}

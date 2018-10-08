@@ -1,0 +1,105 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities}{}\section{org.\+jfree.\+chart.\+renderer.\+Renderer\+Utilities Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities}\index{org.\+jfree.\+chart.\+renderer.\+Renderer\+Utilities@{org.\+jfree.\+chart.\+renderer.\+Renderer\+Utilities}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a5f4babcfcbf8653de17fd78e571e2841}{find\+Live\+Items\+Lower\+Bound}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, double x\+Low, double x\+High)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a644f6c1daff241b217df12b36c6660e4}{find\+Live\+Items\+Upper\+Bound}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, double x\+Low, double x\+High)
+\item 
+static int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a47df0e979b7ea6854d2134816c7ba5bd}{find\+Live\+Items}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, double x\+Low, double x\+High)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Utility methods related to the rendering process.
+
+\begin{DoxySince}{Since}
+1.\+0.\+6 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a47df0e979b7ea6854d2134816c7ba5bd}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a47df0e979b7ea6854d2134816c7ba5bd}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities@{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities}!find\+Live\+Items@{find\+Live\+Items}}
+\index{find\+Live\+Items@{find\+Live\+Items}!org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities@{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities}}
+\subsubsection{\texorpdfstring{find\+Live\+Items()}{findLiveItems()}}
+{\footnotesize\ttfamily static int \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+renderer.\+Renderer\+Utilities.\+find\+Live\+Items (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{double}]{x\+Low,  }\item[{double}]{x\+High }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Finds a range of item indices that is guaranteed to contain all the x-\/values from x0 to x1 (inclusive).
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series index. \\
+\hline
+{\em x\+Low} & the lower bound of the x-\/value range. \\
+\hline
+{\em x\+High} & the upper bound of the x-\/value range.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The indices of the boundary items. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a5f4babcfcbf8653de17fd78e571e2841}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a5f4babcfcbf8653de17fd78e571e2841}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities@{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities}!find\+Live\+Items\+Lower\+Bound@{find\+Live\+Items\+Lower\+Bound}}
+\index{find\+Live\+Items\+Lower\+Bound@{find\+Live\+Items\+Lower\+Bound}!org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities@{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities}}
+\subsubsection{\texorpdfstring{find\+Live\+Items\+Lower\+Bound()}{findLiveItemsLowerBound()}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+renderer.\+Renderer\+Utilities.\+find\+Live\+Items\+Lower\+Bound (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{double}]{x\+Low,  }\item[{double}]{x\+High }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Finds the lower index of the range of live items in the specified data series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series index. \\
+\hline
+{\em x\+Low} & the lowest x-\/value in the live range. \\
+\hline
+{\em x\+High} & the highest x-\/value in the live range.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index of the required item.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+6
+\end{DoxySince}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a644f6c1daff241b217df12b36c6660e4}{find\+Live\+Items\+Upper\+Bound(\+X\+Y\+Dataset, int, double, double)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a644f6c1daff241b217df12b36c6660e4}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a644f6c1daff241b217df12b36c6660e4}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities@{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities}!find\+Live\+Items\+Upper\+Bound@{find\+Live\+Items\+Upper\+Bound}}
+\index{find\+Live\+Items\+Upper\+Bound@{find\+Live\+Items\+Upper\+Bound}!org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities@{org\+::jfree\+::chart\+::renderer\+::\+Renderer\+Utilities}}
+\subsubsection{\texorpdfstring{find\+Live\+Items\+Upper\+Bound()}{findLiveItemsUpperBound()}}
+{\footnotesize\ttfamily static int org.\+jfree.\+chart.\+renderer.\+Renderer\+Utilities.\+find\+Live\+Items\+Upper\+Bound (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{double}]{x\+Low,  }\item[{double}]{x\+High }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Finds the upper index of the range of live items in the specified data series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series index. \\
+\hline
+{\em x\+Low} & the lowest x-\/value in the live range. \\
+\hline
+{\em x\+High} & the highest x-\/value in the live range.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index of the required item.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+6
+\end{DoxySince}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_renderer_utilities_a5f4babcfcbf8653de17fd78e571e2841}{find\+Live\+Items\+Lower\+Bound(\+X\+Y\+Dataset, int, double, double)}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/\mbox{\hyperlink{_renderer_utilities_8java}{Renderer\+Utilities.\+java}}\end{DoxyCompactItemize}

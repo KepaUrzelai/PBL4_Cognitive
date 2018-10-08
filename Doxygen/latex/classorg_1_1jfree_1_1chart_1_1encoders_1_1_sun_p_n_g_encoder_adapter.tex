@@ -1,0 +1,147 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter}{}\section{org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter}\index{org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter@{org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter}}
+Inheritance diagram for org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_aa1012f037f19d693fec4e86da1d5f785}{get\+Quality}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_a1cb7ff32f553cea1eccd1767e3050bb9}{set\+Quality}} (float quality)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_adc379d171449112333184b52e7292df8}{is\+Encoding\+Alpha}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_a105f0b1888336e8bd7b5716a05d1184a}{set\+Encoding\+Alpha}} (boolean encoding\+Alpha)
+\item 
+byte \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_aabba217aad5303766501a159dfae6b07}{encode}} (Buffered\+Image buffered\+Image)  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_ad1bb8a4e33cc9a8b6b259c0955d807f1}{encode}} (Buffered\+Image buffered\+Image, Output\+Stream output\+Stream)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Adapter class for the Sun P\+NG Encoder. The \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder_factory}{Image\+Encoder\+Factory}} will only return a reference to this class by default if the library has been compiled under a J\+DK 1.\+4+ and is being run using a J\+DK 1.\+4+. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_aabba217aad5303766501a159dfae6b07}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_aabba217aad5303766501a159dfae6b07}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}!encode@{encode}}
+\index{encode@{encode}!org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}}
+\subsubsection{\texorpdfstring{encode()}{encode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily byte \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter.\+encode (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{buffered\+Image }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+Encodes an image in P\+NG format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em buffered\+Image} & The image to be encoded.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The byte\mbox{[}\mbox{]} that is the encoded image.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder_a3290449de5246d80ca626835e5dac183}{org.\+jfree.\+chart.\+encoders.\+Image\+Encoder}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_ad1bb8a4e33cc9a8b6b259c0955d807f1}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_ad1bb8a4e33cc9a8b6b259c0955d807f1}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}!encode@{encode}}
+\index{encode@{encode}!org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}}
+\subsubsection{\texorpdfstring{encode()}{encode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter.\+encode (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{buffered\+Image,  }\item[{Output\+Stream}]{output\+Stream }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+Encodes an image in P\+NG format and writes it to an Output\+Stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em buffered\+Image} & The image to be encoded. \\
+\hline
+{\em output\+Stream} & The Output\+Stream to write the encoded image to. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder_ad9396ba6a8a9c6f490a31f36f2226dac}{org.\+jfree.\+chart.\+encoders.\+Image\+Encoder}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_aa1012f037f19d693fec4e86da1d5f785}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_aa1012f037f19d693fec4e86da1d5f785}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}!get\+Quality@{get\+Quality}}
+\index{get\+Quality@{get\+Quality}!org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}}
+\subsubsection{\texorpdfstring{get\+Quality()}{getQuality()}}
+{\footnotesize\ttfamily float org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter.\+get\+Quality (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the quality of the image encoding (always 0.\+0).
+
+\begin{DoxyReturn}{Returns}
+A float representing the quality. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder_a292037d46187ca04bbd3a9362bf6ad22}{org.\+jfree.\+chart.\+encoders.\+Image\+Encoder}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_adc379d171449112333184b52e7292df8}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_adc379d171449112333184b52e7292df8}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}!is\+Encoding\+Alpha@{is\+Encoding\+Alpha}}
+\index{is\+Encoding\+Alpha@{is\+Encoding\+Alpha}!org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}}
+\subsubsection{\texorpdfstring{is\+Encoding\+Alpha()}{isEncodingAlpha()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter.\+is\+Encoding\+Alpha (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get whether the encoder should encode alpha transparency (always false).
+
+\begin{DoxyReturn}{Returns}
+Whether the encoder is encoding alpha transparency. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder_afd771eda4e4d50113696e241f5a34f2c}{org.\+jfree.\+chart.\+encoders.\+Image\+Encoder}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_a105f0b1888336e8bd7b5716a05d1184a}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_a105f0b1888336e8bd7b5716a05d1184a}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}!set\+Encoding\+Alpha@{set\+Encoding\+Alpha}}
+\index{set\+Encoding\+Alpha@{set\+Encoding\+Alpha}!org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}}
+\subsubsection{\texorpdfstring{set\+Encoding\+Alpha()}{setEncodingAlpha()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter.\+set\+Encoding\+Alpha (\begin{DoxyParamCaption}\item[{boolean}]{encoding\+Alpha }\end{DoxyParamCaption})}
+
+Set whether the encoder should encode alpha transparency (not supported in this \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder}{Image\+Encoder}}).
+
+
+\begin{DoxyParams}{Parameters}
+{\em encoding\+Alpha} & Whether the encoder should encode alpha transparency. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder_a1f75e96b9ec512882b6d32c4f0bac3d2}{org.\+jfree.\+chart.\+encoders.\+Image\+Encoder}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_a1cb7ff32f553cea1eccd1767e3050bb9}\label{classorg_1_1jfree_1_1chart_1_1encoders_1_1_sun_p_n_g_encoder_adapter_a1cb7ff32f553cea1eccd1767e3050bb9}} 
+\index{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}!set\+Quality@{set\+Quality}}
+\index{set\+Quality@{set\+Quality}!org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter@{org\+::jfree\+::chart\+::encoders\+::\+Sun\+P\+N\+G\+Encoder\+Adapter}}
+\subsubsection{\texorpdfstring{set\+Quality()}{setQuality()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+encoders.\+Sun\+P\+N\+G\+Encoder\+Adapter.\+set\+Quality (\begin{DoxyParamCaption}\item[{float}]{quality }\end{DoxyParamCaption})}
+
+Set the quality of the image encoding (not supported in this \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder}{Image\+Encoder}}).
+
+
+\begin{DoxyParams}{Parameters}
+{\em quality} & A float representing the quality. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1encoders_1_1_image_encoder_a143bbe40d39b16192a92128696877782}{org.\+jfree.\+chart.\+encoders.\+Image\+Encoder}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/encoders/\mbox{\hyperlink{_sun_p_n_g_encoder_adapter_8java}{Sun\+P\+N\+G\+Encoder\+Adapter.\+java}}\end{DoxyCompactItemize}

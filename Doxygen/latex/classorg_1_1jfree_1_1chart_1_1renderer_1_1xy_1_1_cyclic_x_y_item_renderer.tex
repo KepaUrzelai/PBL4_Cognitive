@@ -1,0 +1,133 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer}{}\section{org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer}\index{org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer@{org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer}}
+Inheritance diagram for org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.872274cm]{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Overwrite\+Data\+Set}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a59b929bd36e803496658638f1667ca64}{Cyclic\+X\+Y\+Item\+Renderer}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a665298b147d4772b40c800425b0ddd81}{Cyclic\+X\+Y\+Item\+Renderer}} (int type)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a118969b7a23bf99acedb4168b2531a68}{Cyclic\+X\+Y\+Item\+Renderer}} (int type, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} label\+Generator)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_abcf1e1a868a535c8f7ff4ab8edca02b2}{Cyclic\+X\+Y\+Item\+Renderer}} (int type, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}} label\+Generator, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_u_r_l_generator}{X\+Y\+U\+R\+L\+Generator}} url\+Generator)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_ad65b27f80e77aeac1578ef3c792bf3f5}{draw\+Item}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_state}{X\+Y\+Item\+Renderer\+State}} state, Rectangle2D data\+Area, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}} plot, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} domain\+Axis, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} range\+Axis, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, int item, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair_state}{Crosshair\+State}} crosshair\+State, int pass)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The Cyclic XY item renderer is specially designed to handle cyclic axis. While the standard renderer would draw a line across the plot when a cycling occurs, the cyclic renderer splits the line at each cycle end instead. This is done by interpolating new points at cycle boundary. Thus, correct appearance is restored.
+
+The Cyclic XY item renderer works exactly like a standard XY item renderer with non-\/cyclic axis. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a59b929bd36e803496658638f1667ca64}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a59b929bd36e803496658638f1667ca64}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}!Cyclic\+X\+Y\+Item\+Renderer@{Cyclic\+X\+Y\+Item\+Renderer}}
+\index{Cyclic\+X\+Y\+Item\+Renderer@{Cyclic\+X\+Y\+Item\+Renderer}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{Cyclic\+X\+Y\+Item\+Renderer()}{CyclicXYItemRenderer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer.\+Cyclic\+X\+Y\+Item\+Renderer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a665298b147d4772b40c800425b0ddd81}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a665298b147d4772b40c800425b0ddd81}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}!Cyclic\+X\+Y\+Item\+Renderer@{Cyclic\+X\+Y\+Item\+Renderer}}
+\index{Cyclic\+X\+Y\+Item\+Renderer@{Cyclic\+X\+Y\+Item\+Renderer}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{Cyclic\+X\+Y\+Item\+Renderer()}{CyclicXYItemRenderer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer.\+Cyclic\+X\+Y\+Item\+Renderer (\begin{DoxyParamCaption}\item[{int}]{type }\end{DoxyParamCaption})}
+
+Creates a new renderer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the renderer type. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a118969b7a23bf99acedb4168b2531a68}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_a118969b7a23bf99acedb4168b2531a68}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}!Cyclic\+X\+Y\+Item\+Renderer@{Cyclic\+X\+Y\+Item\+Renderer}}
+\index{Cyclic\+X\+Y\+Item\+Renderer@{Cyclic\+X\+Y\+Item\+Renderer}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{Cyclic\+X\+Y\+Item\+Renderer()}{CyclicXYItemRenderer()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer.\+Cyclic\+X\+Y\+Item\+Renderer (\begin{DoxyParamCaption}\item[{int}]{type,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}}}]{label\+Generator }\end{DoxyParamCaption})}
+
+Creates a new renderer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the renderer type. \\
+\hline
+{\em label\+Generator} & the tooltip generator. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_abcf1e1a868a535c8f7ff4ab8edca02b2}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_abcf1e1a868a535c8f7ff4ab8edca02b2}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}!Cyclic\+X\+Y\+Item\+Renderer@{Cyclic\+X\+Y\+Item\+Renderer}}
+\index{Cyclic\+X\+Y\+Item\+Renderer@{Cyclic\+X\+Y\+Item\+Renderer}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{Cyclic\+X\+Y\+Item\+Renderer()}{CyclicXYItemRenderer()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer.\+Cyclic\+X\+Y\+Item\+Renderer (\begin{DoxyParamCaption}\item[{int}]{type,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator}{X\+Y\+Tool\+Tip\+Generator}}}]{label\+Generator,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_u_r_l_generator}{X\+Y\+U\+R\+L\+Generator}}}]{url\+Generator }\end{DoxyParamCaption})}
+
+Creates a new renderer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the renderer type. \\
+\hline
+{\em label\+Generator} & the tooltip generator. \\
+\hline
+{\em url\+Generator} & the url generator. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_ad65b27f80e77aeac1578ef3c792bf3f5}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_cyclic_x_y_item_renderer_ad65b27f80e77aeac1578ef3c792bf3f5}} 
+\index{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}!draw\+Item@{draw\+Item}}
+\index{draw\+Item@{draw\+Item}!org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer@{org\+::jfree\+::chart\+::renderer\+::xy\+::\+Cyclic\+X\+Y\+Item\+Renderer}}
+\subsubsection{\texorpdfstring{draw\+Item()}{drawItem()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+xy.\+Cyclic\+X\+Y\+Item\+Renderer.\+draw\+Item (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_state}{X\+Y\+Item\+Renderer\+State}}}]{state,  }\item[{Rectangle2D}]{data\+Area,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}}}]{plot,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{domain\+Axis,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{range\+Axis,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{int}]{item,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair_state}{Crosshair\+State}}}]{crosshair\+State,  }\item[{int}]{pass }\end{DoxyParamCaption})}
+
+Draws the visual representation of a single data item. When using cyclic axis, do not draw a line from right to left when cycling as would a standard XY item renderer, but instead draw a line from the previous point to the cycle bound in the last cycle, and a line from the cycle bound to current point in the current cycle.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em state} & the renderer state. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+{\em info} & the plot rendering info. \\
+\hline
+{\em plot} & the plot. \\
+\hline
+{\em domain\+Axis} & the domain axis. \\
+\hline
+{\em range\+Axis} & the range axis. \\
+\hline
+{\em dataset} & the dataset. \\
+\hline
+{\em series} & the series index. \\
+\hline
+{\em item} & the item index. \\
+\hline
+{\em crosshair\+State} & crosshair information for the plot ({\ttfamily null} permitted). \\
+\hline
+{\em pass} & the current pass index. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1xy_1_1_x_y_item_renderer_ad867040a3ea09f5127596aacdd94586a}{org.\+jfree.\+chart.\+renderer.\+xy.\+X\+Y\+Item\+Renderer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/xy/\mbox{\hyperlink{_cyclic_x_y_item_renderer_8java}{Cyclic\+X\+Y\+Item\+Renderer.\+java}}\end{DoxyCompactItemize}

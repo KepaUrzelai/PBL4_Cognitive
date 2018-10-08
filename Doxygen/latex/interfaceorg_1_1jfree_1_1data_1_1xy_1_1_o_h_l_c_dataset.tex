@@ -1,0 +1,262 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset}{}\section{org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset}\index{org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset@{org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.985816cm]{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a03f647b09b1a04ae0c2eb2bc5116d4d4}{get\+High}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_acd02ab8db72bebf0234954bd962365cb}{get\+High\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a87d7730829e66f23a2601c3519cf828a}{get\+Low}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a19a2a153a113ed4f82eedd596e94d1ed}{get\+Low\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a652f2a7a04925cc72472d390217fef08}{get\+Open}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a20654fd4801bc8871dfe51bf65d62af6}{get\+Open\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a7c84699d1c3f6d5b4d1378d7b23d49ac}{get\+Close}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a5533f5d89de4aec9d67cfdc9289a1099}{get\+Close\+Value}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a05012f783f010c1a62873a0c40e7b7fa}{get\+Volume}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a132a37218de3b54bf308b3dcfb93cf84}{get\+Volume\+Value}} (int series, int item)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface that defines data in the form of (x, high, low, open, close) tuples. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a7c84699d1c3f6d5b4d1378d7b23d49ac}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a7c84699d1c3f6d5b4d1378d7b23d49ac}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+Close@{get\+Close}}
+\index{get\+Close@{get\+Close}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Close()}{getClose()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+Close (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a7f58c968f7c5b50b3e122c49f5d33069}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_a12694885b103c14192fea35616c464f9}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a6746247a2fcb824cfdcde9dff7d83d13}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_afca93f709f3d421a3d57b67e00357b03}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a0811cf5e7e6b2e05cd783980f1c17703}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a5533f5d89de4aec9d67cfdc9289a1099}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a5533f5d89de4aec9d67cfdc9289a1099}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+Close\+Value@{get\+Close\+Value}}
+\index{get\+Close\+Value@{get\+Close\+Value}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Close\+Value()}{getCloseValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+Close\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the close-\/value (as a double primitive) for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The close-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_ad1bc2a134c68b370da40608ce58a6b36}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_af316dffa7faed1c0c8c2f66b7b0acf5f}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a599e2f3c9be3e6e5d9ab15e6f1bfc2ea}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_ae13de67fcd68bf22dd1436d5059212e7}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_abadc41ef36d20718c10f784dd786a5b1}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a03f647b09b1a04ae0c2eb2bc5116d4d4}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a03f647b09b1a04ae0c2eb2bc5116d4d4}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+High@{get\+High}}
+\index{get\+High@{get\+High}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+High()}{getHigh()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+High (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the high-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a8ff1342849ccce17620f04158a99792b}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a6709a0b24bb619f18f80d1f70b7d7019}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_a3a49c92b4564fa5d6c9628b4395feaef}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_a23bff0b7d14e36f42fe82fd177f050d6}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a2aa5a696278793154f451fddbb698e1e}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_acd02ab8db72bebf0234954bd962365cb}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_acd02ab8db72bebf0234954bd962365cb}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+High\+Value@{get\+High\+Value}}
+\index{get\+High\+Value@{get\+High\+Value}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+High\+Value()}{getHighValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+High\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the high-\/value (as a double primitive) for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The high-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_ae49cdfb833330fec9bb8a8e21683945c}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a17e07dbe03ac67b77b4aa57e17f7b61a}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_a00f2b176d8247829325f711fca2af339}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_a7c992f9b0fac581e574332c70329fae7}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a63283b86bacb75de07fd3e4e8b5eae5b}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a87d7730829e66f23a2601c3519cf828a}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a87d7730829e66f23a2601c3519cf828a}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+Low@{get\+Low}}
+\index{get\+Low@{get\+Low}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Low()}{getLow()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+Low (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the low-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a94216d1171b19bc6b3268f570a2c9457}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a2efcaba52f70e4982cc7872fcf447bfb}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_a01dec545835846178a9731df03bbc435}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_a6613a90e1ad1a6ecfdee32baa3097a14}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a317d15536060c58dbe89de699b605fc6}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a19a2a153a113ed4f82eedd596e94d1ed}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a19a2a153a113ed4f82eedd596e94d1ed}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+Low\+Value@{get\+Low\+Value}}
+\index{get\+Low\+Value@{get\+Low\+Value}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Low\+Value()}{getLowValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+Low\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the low-\/value (as a double primitive) for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The low-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a23473c76cc9364c1b6a646014eab2423}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a6bbbc0af890605eb5a42974c29a9c85b}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_a4cecc7ed3e3050d94f84389b3d82b9cb}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_a507dcc283d6624b8da7d12c4352dcd0d}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_ad14de9483cb4c2fa324f6064a6659228}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a652f2a7a04925cc72472d390217fef08}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a652f2a7a04925cc72472d390217fef08}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+Open@{get\+Open}}
+\index{get\+Open@{get\+Open}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Open()}{getOpen()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+Open (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the open-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a9113b1e7b51c716176aa3f8e954d0e7a}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_aab9642612da56d8b23037a2e0ab64f64}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_a8fd97df563c199b6ace3bb56ac18b0a1}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_a851641b43354b55dcd343a57b5f1b4a9}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_aaa997e001d9ecd85cb2ecb628048e3ab}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a20654fd4801bc8871dfe51bf65d62af6}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a20654fd4801bc8871dfe51bf65d62af6}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+Open\+Value@{get\+Open\+Value}}
+\index{get\+Open\+Value@{get\+Open\+Value}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Open\+Value()}{getOpenValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+Open\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the open-\/value (as a double primitive) for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The open-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a6f455c326e5f591bc1ef4b90b7bb4499}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_abff3ec5a5c09adb6bf28255be06e3fab}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a3184febfa7139d57a1821c4d24d59360}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_aa27c323e713453b49bad22eecd6597e2}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_a90452500367ee5658b035fb0e563fe0c}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a05012f783f010c1a62873a0c40e7b7fa}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a05012f783f010c1a62873a0c40e7b7fa}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+Volume@{get\+Volume}}
+\index{get\+Volume@{get\+Volume}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Volume()}{getVolume()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+Volume (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the volume for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_abd11201b4e46155128c2662fc54aa72c}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_a39320d1f0ac295608b343df4bde3b4a6}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_a36d4aedaf6e8a20597f5127434bc0562}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_a83b83f0c9bfd31b3b26adc04760cc910}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_aadeb99143b984112ba4fa142d0c0a931}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a132a37218de3b54bf308b3dcfb93cf84}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_o_h_l_c_dataset_a132a37218de3b54bf308b3dcfb93cf84}} 
+\index{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}!get\+Volume\+Value@{get\+Volume\+Value}}
+\index{get\+Volume\+Value@{get\+Volume\+Value}!org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset@{org\+::jfree\+::data\+::xy\+::\+O\+H\+L\+C\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Volume\+Value()}{getVolumeValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+O\+H\+L\+C\+Dataset.\+get\+Volume\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the volume-\/value (as a double primitive) for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The volume-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_combined_dataset_a8d5839a8b62e420e5f7cab7106440a19}{org.\+jfree.\+data.\+general.\+Combined\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1ohlc_1_1_o_h_l_c_series_collection_aaf9b44fedb9a8de27d541cb6e86c349b}{org.\+jfree.\+data.\+time.\+ohlc.\+O\+H\+L\+C\+Series\+Collection}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_high_low_dataset_af97ca5089ee14cddbd768a78af00a501}{org.\+jfree.\+data.\+xy.\+Default\+High\+Low\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_o_h_l_c_dataset_ab7daa41ae6b486616cc15c3b90212c15}{org.\+jfree.\+data.\+xy.\+Default\+O\+H\+L\+C\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_sub_series_dataset_ae13206ea086cd80ef9b9a4cb11c8b174}{org.\+jfree.\+data.\+general.\+Sub\+Series\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_o_h_l_c_dataset_8java}{O\+H\+L\+C\+Dataset.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,92 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter}{}\section{org.\+jfree.\+chart.\+renderer.\+category.\+Bar\+Painter Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter}\index{org.\+jfree.\+chart.\+renderer.\+category.\+Bar\+Painter@{org.\+jfree.\+chart.\+renderer.\+category.\+Bar\+Painter}}
+Inheritance diagram for org.\+jfree.\+chart.\+renderer.\+category.\+Bar\+Painter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.723077cm]{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter_af5a3c8984af0bc1a4ba94c830048193a}{paint\+Bar}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}} renderer, int row, int column, Rectangular\+Shape bar, Rectangle\+Edge base)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter_a400718f4cbe3832397ec4ae6c7260d6a}{paint\+Bar\+Shadow}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}} renderer, int row, int column, Rectangular\+Shape bar, Rectangle\+Edge base, boolean peg\+Shadow)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The interface for plugin painter for the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}} class. When developing a class that implements this interface, bear in mind the following\+: 
+\begin{DoxyItemize}
+\item the {\ttfamily equals(\+Object)} method should be overridden; 
+\item instances of the class should be immutable OR implement the {\ttfamily Public\+Cloneable} interface, so that a renderer using the painter can be cloned reliably; 
+\item the class should be {\ttfamily Serializable}, otherwise chart serialization will not be supported. 
+\end{DoxyItemize}
+
+\begin{DoxySince}{Since}
+1.\+0.\+11 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter_af5a3c8984af0bc1a4ba94c830048193a}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter_af5a3c8984af0bc1a4ba94c830048193a}} 
+\index{org\+::jfree\+::chart\+::renderer\+::category\+::\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Bar\+Painter}!paint\+Bar@{paint\+Bar}}
+\index{paint\+Bar@{paint\+Bar}!org\+::jfree\+::chart\+::renderer\+::category\+::\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Bar\+Painter}}
+\subsubsection{\texorpdfstring{paint\+Bar()}{paintBar()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+category.\+Bar\+Painter.\+paint\+Bar (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}}}]{renderer,  }\item[{int}]{row,  }\item[{int}]{column,  }\item[{Rectangular\+Shape}]{bar,  }\item[{Rectangle\+Edge}]{base }\end{DoxyParamCaption})}
+
+Paints a single bar on behalf of a renderer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target. \\
+\hline
+{\em renderer} & the renderer. \\
+\hline
+{\em row} & the row index for the item. \\
+\hline
+{\em column} & the column index for the item. \\
+\hline
+{\em bar} & the bounds for the bar. \\
+\hline
+{\em base} & the base of the bar. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_ac89360601b497bee3e7380f57b495e0a}{org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_standard_bar_painter_a9b7d0283e251003da72865b7986c2855}{org.\+jfree.\+chart.\+renderer.\+category.\+Standard\+Bar\+Painter}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter_a400718f4cbe3832397ec4ae6c7260d6a}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_painter_a400718f4cbe3832397ec4ae6c7260d6a}} 
+\index{org\+::jfree\+::chart\+::renderer\+::category\+::\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Bar\+Painter}!paint\+Bar\+Shadow@{paint\+Bar\+Shadow}}
+\index{paint\+Bar\+Shadow@{paint\+Bar\+Shadow}!org\+::jfree\+::chart\+::renderer\+::category\+::\+Bar\+Painter@{org\+::jfree\+::chart\+::renderer\+::category\+::\+Bar\+Painter}}
+\subsubsection{\texorpdfstring{paint\+Bar\+Shadow()}{paintBarShadow()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+category.\+Bar\+Painter.\+paint\+Bar\+Shadow (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_bar_renderer}{Bar\+Renderer}}}]{renderer,  }\item[{int}]{row,  }\item[{int}]{column,  }\item[{Rectangular\+Shape}]{bar,  }\item[{Rectangle\+Edge}]{base,  }\item[{boolean}]{peg\+Shadow }\end{DoxyParamCaption})}
+
+Paints the shadow for a single bar on behalf of a renderer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target. \\
+\hline
+{\em renderer} & the renderer. \\
+\hline
+{\em row} & the row index for the item. \\
+\hline
+{\em column} & the column index for the item. \\
+\hline
+{\em bar} & the bounds for the bar. \\
+\hline
+{\em base} & the base of the bar. \\
+\hline
+{\em peg\+Shadow} & peg the shadow to the base of the bar? \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_gradient_bar_painter_a6fdd82aba724f29c372b091c6ab42a07}{org.\+jfree.\+chart.\+renderer.\+category.\+Gradient\+Bar\+Painter}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_standard_bar_painter_a41cdf2e55cca272d470c7c87b9401376}{org.\+jfree.\+chart.\+renderer.\+category.\+Standard\+Bar\+Painter}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/category/\mbox{\hyperlink{_bar_painter_8java}{Bar\+Painter.\+java}}\end{DoxyCompactItemize}

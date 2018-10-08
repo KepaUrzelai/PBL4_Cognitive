@@ -1,0 +1,158 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_transferable}{}\section{org.\+jfree.\+chart.\+Chart\+Transferable Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1_chart_transferable}\index{org.\+jfree.\+chart.\+Chart\+Transferable@{org.\+jfree.\+chart.\+Chart\+Transferable}}
+Inheritance diagram for org.\+jfree.\+chart.\+Chart\+Transferable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1_chart_transferable}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a1056fa295ed88a1b78de03e5ee5f6f57}{Chart\+Transferable}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} chart, int width, int height)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_transferable_ab0687ab2ad4db362be7b0cec33cc546c}{Chart\+Transferable}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} chart, int width, int height, boolean clone\+Data)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_transferable_ade4593d6ece3da0688100dd75bb468d6}{Chart\+Transferable}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} chart, int width, int height, int min\+DrawW, int min\+DrawH, int max\+DrawW, int max\+DrawH, boolean clone\+Data)
+\item 
+Data\+Flavor \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a4a61fdacdba70c109a1596ec069ba75f}{get\+Transfer\+Data\+Flavors}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a6ae064d2e14caab8bae11e960271e4ba}{is\+Data\+Flavor\+Supported}} (Data\+Flavor flavor)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a1e434206754f1c95efeed2700cfdd538}{get\+Transfer\+Data}} (Data\+Flavor flavor)  throws Unsupported\+Flavor\+Exception, I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A class used to represent a chart on the clipboard.
+
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a1056fa295ed88a1b78de03e5ee5f6f57}\label{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a1056fa295ed88a1b78de03e5ee5f6f57}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}!Chart\+Transferable@{Chart\+Transferable}}
+\index{Chart\+Transferable@{Chart\+Transferable}!org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}}
+\subsubsection{\texorpdfstring{Chart\+Transferable()}{ChartTransferable()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+Chart\+Transferable.\+Chart\+Transferable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}}]{chart,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+Creates a new chart selection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chart} & the chart. \\
+\hline
+{\em width} & the chart width. \\
+\hline
+{\em height} & the chart height. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_transferable_ab0687ab2ad4db362be7b0cec33cc546c}\label{classorg_1_1jfree_1_1chart_1_1_chart_transferable_ab0687ab2ad4db362be7b0cec33cc546c}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}!Chart\+Transferable@{Chart\+Transferable}}
+\index{Chart\+Transferable@{Chart\+Transferable}!org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}}
+\subsubsection{\texorpdfstring{Chart\+Transferable()}{ChartTransferable()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+Chart\+Transferable.\+Chart\+Transferable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}}]{chart,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{boolean}]{clone\+Data }\end{DoxyParamCaption})}
+
+Creates a new chart selection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chart} & the chart. \\
+\hline
+{\em width} & the chart width. \\
+\hline
+{\em height} & the chart height. \\
+\hline
+{\em clone\+Data} & clone the dataset(s)? \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_transferable_ade4593d6ece3da0688100dd75bb468d6}\label{classorg_1_1jfree_1_1chart_1_1_chart_transferable_ade4593d6ece3da0688100dd75bb468d6}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}!Chart\+Transferable@{Chart\+Transferable}}
+\index{Chart\+Transferable@{Chart\+Transferable}!org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}}
+\subsubsection{\texorpdfstring{Chart\+Transferable()}{ChartTransferable()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+Chart\+Transferable.\+Chart\+Transferable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}}]{chart,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{int}]{min\+DrawW,  }\item[{int}]{min\+DrawH,  }\item[{int}]{max\+DrawW,  }\item[{int}]{max\+DrawH,  }\item[{boolean}]{clone\+Data }\end{DoxyParamCaption})}
+
+Creates a new chart selection. The minimum and maximum drawing dimensions are used to match the scaling behaviour in the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}} class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chart} & the chart. \\
+\hline
+{\em width} & the chart width. \\
+\hline
+{\em height} & the chart height. \\
+\hline
+{\em min\+DrawW} & the minimum drawing width. \\
+\hline
+{\em min\+DrawH} & the minimum drawing height. \\
+\hline
+{\em max\+DrawW} & the maximum drawing width. \\
+\hline
+{\em max\+DrawH} & the maximum drawing height. \\
+\hline
+{\em clone\+Data} & clone the dataset(s)?\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a1e434206754f1c95efeed2700cfdd538}\label{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a1e434206754f1c95efeed2700cfdd538}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}!get\+Transfer\+Data@{get\+Transfer\+Data}}
+\index{get\+Transfer\+Data@{get\+Transfer\+Data}!org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}}
+\subsubsection{\texorpdfstring{get\+Transfer\+Data()}{getTransferData()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+Chart\+Transferable.\+get\+Transfer\+Data (\begin{DoxyParamCaption}\item[{Data\+Flavor}]{flavor }\end{DoxyParamCaption}) throws Unsupported\+Flavor\+Exception, I\+O\+Exception}
+
+Returns the content for the requested flavor, if it is supported.
+
+
+\begin{DoxyParams}{Parameters}
+{\em flavor} & the requested flavor.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The content.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\+awt.\+datatransfer.\+Unsupported\+Flavor\+Exception} & if the flavor is not supported. \\
+\hline
+{\em java.\+io.\+I\+O\+Exception} & if there is an IO problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a4a61fdacdba70c109a1596ec069ba75f}\label{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a4a61fdacdba70c109a1596ec069ba75f}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}!get\+Transfer\+Data\+Flavors@{get\+Transfer\+Data\+Flavors}}
+\index{get\+Transfer\+Data\+Flavors@{get\+Transfer\+Data\+Flavors}!org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}}
+\subsubsection{\texorpdfstring{get\+Transfer\+Data\+Flavors()}{getTransferDataFlavors()}}
+{\footnotesize\ttfamily Data\+Flavor \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+Chart\+Transferable.\+get\+Transfer\+Data\+Flavors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the data flavors supported.
+
+\begin{DoxyReturn}{Returns}
+The data flavors supported. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a6ae064d2e14caab8bae11e960271e4ba}\label{classorg_1_1jfree_1_1chart_1_1_chart_transferable_a6ae064d2e14caab8bae11e960271e4ba}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}!is\+Data\+Flavor\+Supported@{is\+Data\+Flavor\+Supported}}
+\index{is\+Data\+Flavor\+Supported@{is\+Data\+Flavor\+Supported}!org\+::jfree\+::chart\+::\+Chart\+Transferable@{org\+::jfree\+::chart\+::\+Chart\+Transferable}}
+\subsubsection{\texorpdfstring{is\+Data\+Flavor\+Supported()}{isDataFlavorSupported()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+Chart\+Transferable.\+is\+Data\+Flavor\+Supported (\begin{DoxyParamCaption}\item[{Data\+Flavor}]{flavor }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the specified flavor is supported.
+
+
+\begin{DoxyParams}{Parameters}
+{\em flavor} & the flavor.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/\mbox{\hyperlink{_chart_transferable_8java}{Chart\+Transferable.\+java}}\end{DoxyCompactItemize}

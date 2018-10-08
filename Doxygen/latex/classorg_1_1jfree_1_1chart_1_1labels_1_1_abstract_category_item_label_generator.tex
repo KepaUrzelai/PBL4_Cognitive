@@ -1,0 +1,256 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator}\index{org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.573034cm]{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a3c0ba4bceb1c69d82ed5baf8ee453624}{generate\+Row\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int row)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a9747731ecb97965eb7bfcb218bfe9f27}{generate\+Column\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int column)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a4f5292f7a93ed8cb2d7eb35386bd88de}{get\+Label\+Format}} ()
+\item 
+Number\+Format \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a49fb722031d810ccb05f160172868459}{get\+Number\+Format}} ()
+\item 
+Date\+Format \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_abfe34589fef191fb02edc3b908be18cd}{get\+Date\+Format}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a92d79ad602e58995379754649c42353e}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_aa88f8541867de6d809af00b7eb46941a}{hash\+Code}} ()
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a8289eb2e1eddc09948d3417c1a2c84d9}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a707b913a83f87fee80e547854c1185f6}{Abstract\+Category\+Item\+Label\+Generator}} (String label\+Format, Number\+Format formatter)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a2f2cd7b8bd0b7c896e26d4d7f3d373ab}{Abstract\+Category\+Item\+Label\+Generator}} (String label\+Format, Number\+Format formatter, Number\+Format percent\+Formatter)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a838556843383b9b22edbdab763f35d57}{Abstract\+Category\+Item\+Label\+Generator}} (String label\+Format, Date\+Format formatter)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a4860a2f577cf4bc44cb9c4bc447c8846}{generate\+Label\+String}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int row, int column)
+\item 
+Object \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_ac092296d76ccb5e9df9737148139e961}{create\+Item\+Array}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int row, int column)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A base class that can be used to create a label or tooltip generator that can be assigned to a \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_category_item_renderer}{org.\+jfree.\+chart.\+renderer.\+category.\+Category\+Item\+Renderer}}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a707b913a83f87fee80e547854c1185f6}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a707b913a83f87fee80e547854c1185f6}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!Abstract\+Category\+Item\+Label\+Generator@{Abstract\+Category\+Item\+Label\+Generator}}
+\index{Abstract\+Category\+Item\+Label\+Generator@{Abstract\+Category\+Item\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Abstract\+Category\+Item\+Label\+Generator()}{AbstractCategoryItemLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+Abstract\+Category\+Item\+Label\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format,  }\item[{Number\+Format}]{formatter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates a label generator with the specified number formatter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format string ({\ttfamily null} not permitted). \\
+\hline
+{\em formatter} & the number formatter ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a2f2cd7b8bd0b7c896e26d4d7f3d373ab}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a2f2cd7b8bd0b7c896e26d4d7f3d373ab}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!Abstract\+Category\+Item\+Label\+Generator@{Abstract\+Category\+Item\+Label\+Generator}}
+\index{Abstract\+Category\+Item\+Label\+Generator@{Abstract\+Category\+Item\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Abstract\+Category\+Item\+Label\+Generator()}{AbstractCategoryItemLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+Abstract\+Category\+Item\+Label\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format,  }\item[{Number\+Format}]{formatter,  }\item[{Number\+Format}]{percent\+Formatter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates a label generator with the specified number formatter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format string ({\ttfamily null} not permitted). \\
+\hline
+{\em formatter} & the number formatter ({\ttfamily null} not permitted). \\
+\hline
+{\em percent\+Formatter} & the percent formatter ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+2 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a838556843383b9b22edbdab763f35d57}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a838556843383b9b22edbdab763f35d57}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!Abstract\+Category\+Item\+Label\+Generator@{Abstract\+Category\+Item\+Label\+Generator}}
+\index{Abstract\+Category\+Item\+Label\+Generator@{Abstract\+Category\+Item\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Abstract\+Category\+Item\+Label\+Generator()}{AbstractCategoryItemLabelGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+Abstract\+Category\+Item\+Label\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format,  }\item[{Date\+Format}]{formatter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates a label generator with the specified date formatter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format string ({\ttfamily null} not permitted). \\
+\hline
+{\em formatter} & the date formatter ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a8289eb2e1eddc09948d3417c1a2c84d9}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a8289eb2e1eddc09948d3417c1a2c84d9}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of the generator.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & should not happen. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_ac092296d76ccb5e9df9737148139e961}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_ac092296d76ccb5e9df9737148139e961}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!create\+Item\+Array@{create\+Item\+Array}}
+\index{create\+Item\+Array@{create\+Item\+Array}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{create\+Item\+Array()}{createItemArray()}}
+{\footnotesize\ttfamily Object \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+create\+Item\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates the array of items that can be passed to the \mbox{\hyperlink{}{Message\+Format}} class for creating labels.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The items (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a92d79ad602e58995379754649c42353e}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a92d79ad602e58995379754649c42353e}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the other object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a9747731ecb97965eb7bfcb218bfe9f27}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a9747731ecb97965eb7bfcb218bfe9f27}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!generate\+Column\+Label@{generate\+Column\+Label}}
+\index{generate\+Column\+Label@{generate\+Column\+Label}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Column\+Label()}{generateColumnLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+generate\+Column\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Generates a label for the specified row.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a4860a2f577cf4bc44cb9c4bc447c8846}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a4860a2f577cf4bc44cb9c4bc447c8846}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!generate\+Label\+String@{generate\+Label\+String}}
+\index{generate\+Label\+String@{generate\+Label\+String}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Label\+String()}{generateLabelString()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+generate\+Label\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Generates a for the specified item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a3c0ba4bceb1c69d82ed5baf8ee453624}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a3c0ba4bceb1c69d82ed5baf8ee453624}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!generate\+Row\+Label@{generate\+Row\+Label}}
+\index{generate\+Row\+Label@{generate\+Row\+Label}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Row\+Label()}{generateRowLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+generate\+Row\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{row }\end{DoxyParamCaption})}
+
+Generates a label for the specified row.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_abfe34589fef191fb02edc3b908be18cd}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_abfe34589fef191fb02edc3b908be18cd}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!get\+Date\+Format@{get\+Date\+Format}}
+\index{get\+Date\+Format@{get\+Date\+Format}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{get\+Date\+Format()}{getDateFormat()}}
+{\footnotesize\ttfamily Date\+Format org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+get\+Date\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the date formatter.
+
+\begin{DoxyReturn}{Returns}
+The date formatter (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a4f5292f7a93ed8cb2d7eb35386bd88de}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a4f5292f7a93ed8cb2d7eb35386bd88de}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!get\+Label\+Format@{get\+Label\+Format}}
+\index{get\+Label\+Format@{get\+Label\+Format}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{get\+Label\+Format()}{getLabelFormat()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+get\+Label\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the label format string.
+
+\begin{DoxyReturn}{Returns}
+The label format string (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a49fb722031d810ccb05f160172868459}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_a49fb722031d810ccb05f160172868459}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!get\+Number\+Format@{get\+Number\+Format}}
+\index{get\+Number\+Format@{get\+Number\+Format}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{get\+Number\+Format()}{getNumberFormat()}}
+{\footnotesize\ttfamily Number\+Format org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+get\+Number\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number formatter.
+
+\begin{DoxyReturn}{Returns}
+The number formatter (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_aa88f8541867de6d809af00b7eb46941a}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_category_item_label_generator_aa88f8541867de6d809af00b7eb46941a}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Category\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+labels.\+Abstract\+Category\+Item\+Label\+Generator.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this instance.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_abstract_category_item_label_generator_8java}{Abstract\+Category\+Item\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

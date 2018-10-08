@@ -1,0 +1,415 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series}{}\section{org.\+jfree.\+data.\+general.\+Series Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1general_1_1_series}\index{org.\+jfree.\+data.\+general.\+Series@{org.\+jfree.\+data.\+general.\+Series}}
+Inheritance diagram for org.\+jfree.\+data.\+general.\+Series\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.111111cm]{classorg_1_1jfree_1_1data_1_1general_1_1_series}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a3cc77859046ad99ea9f01aea606f8165}{get\+Key}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a9d5a4915a30d62fc59dbfc351efdf24e}{set\+Key}} (Comparable key)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a903888e10e128bb6e7d139110c0e6619}{get\+Description}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_af5fefb218fda90ab6a957141e7b7e2e3}{set\+Description}} (String description)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a9a5482d882214bd5a1be9690b77fbd39}{get\+Notify}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a3d1c8936672fc710b1ae7c56751230b6}{set\+Notify}} (boolean notify)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_aa9ff89ce98672029f036d2063b56704c}{is\+Empty}} ()
+\item 
+abstract int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a702b874ef23df4e06eeda075fd432594}{get\+Item\+Count}} ()
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a8e7f39a9bb93cfd3b3ea180dccab1f35}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a38ea4fb648966bd788681aee965b3311}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a2e3ec0d224f21617a941872143d83bd3}{hash\+Code}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a904ebb4fe8d0dacca7ec8c9a2f272a75}{add\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_change_listener}{Series\+Change\+Listener}} listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_ac3a253a273213a76b06f6a3b632457bb}{remove\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_change_listener}{Series\+Change\+Listener}} listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_adf6b3f452e82f6f4b38186e6d691791a}{fire\+Series\+Changed}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a4a2d0a038d4efeffebaafbbe4f7874df}{add\+Property\+Change\+Listener}} (Property\+Change\+Listener listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6a5826407b91adae3f21b50596450919}{remove\+Property\+Change\+Listener}} (Property\+Change\+Listener listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_ae42a0e1a4aa0f483b202ec772836d5ed}{add\+Vetoable\+Change\+Listener}} (Vetoable\+Change\+Listener listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_aede4a6b692401c0e85e74cdd005236db}{remove\+Vetoable\+Change\+Listener}} (Vetoable\+Change\+Listener listener)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_ac6fa61b6422c85047cb83a800f417f25}{Series}} (Comparable key)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_af5897ef93189a672b9dc02e6facfba94}{Series}} (Comparable key, String description)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6c728147cd28460113771d4e69086a62}{notify\+Listeners}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{Series\+Change\+Event}} event)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a34249552e35b2759b5b349608e6de46b}{fire\+Property\+Change}} (String property, Object old\+Value, Object new\+Value)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6e0e43f7549c40d90ebad83ec99db980}{fire\+Vetoable\+Change}} (String property, Object old\+Value, Object new\+Value)  throws Property\+Veto\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class representing a data series. Subclasses are left to implement the actual data structures. 
+
+The series has two properties (\char`\"{}\+Key\char`\"{} and \char`\"{}\+Description\char`\"{}) for which you can register a {\ttfamily Property\+Change\+Listener}. 
+
+You can also register a \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_change_listener}{Series\+Change\+Listener}} to receive notification of changes to the series data. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_ac6fa61b6422c85047cb83a800f417f25}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_ac6fa61b6422c85047cb83a800f417f25}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!Series@{Series}}
+\index{Series@{Series}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{Series()}{Series()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+general.\+Series.\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates a new series with the specified key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_af5897ef93189a672b9dc02e6facfba94}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_af5897ef93189a672b9dc02e6facfba94}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!Series@{Series}}
+\index{Series@{Series}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{Series()}{Series()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+general.\+Series.\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key,  }\item[{String}]{description }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates a new series with the specified key and description.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} N\+OT permitted). \\
+\hline
+{\em description} & the series description ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a904ebb4fe8d0dacca7ec8c9a2f272a75}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a904ebb4fe8d0dacca7ec8c9a2f272a75}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!add\+Change\+Listener@{add\+Change\+Listener}}
+\index{add\+Change\+Listener@{add\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{add\+Change\+Listener()}{addChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+add\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_change_listener}{Series\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Registers an object with this series, to receive notification whenever the series changes. 
+
+Objects being registered must implement the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_change_listener}{Series\+Change\+Listener}} interface.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener to register. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a4a2d0a038d4efeffebaafbbe4f7874df}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a4a2d0a038d4efeffebaafbbe4f7874df}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!add\+Property\+Change\+Listener@{add\+Property\+Change\+Listener}}
+\index{add\+Property\+Change\+Listener@{add\+Property\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{add\+Property\+Change\+Listener()}{addPropertyChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+add\+Property\+Change\+Listener (\begin{DoxyParamCaption}\item[{Property\+Change\+Listener}]{listener }\end{DoxyParamCaption})}
+
+Adds a property change listener to the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_ae42a0e1a4aa0f483b202ec772836d5ed}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_ae42a0e1a4aa0f483b202ec772836d5ed}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!add\+Vetoable\+Change\+Listener@{add\+Vetoable\+Change\+Listener}}
+\index{add\+Vetoable\+Change\+Listener@{add\+Vetoable\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{add\+Vetoable\+Change\+Listener()}{addVetoableChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+add\+Vetoable\+Change\+Listener (\begin{DoxyParamCaption}\item[{Vetoable\+Change\+Listener}]{listener }\end{DoxyParamCaption})}
+
+Adds a vetoable property change listener to the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a8e7f39a9bb93cfd3b3ea180dccab1f35}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a8e7f39a9bb93cfd3b3ea180dccab1f35}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+general.\+Series.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the series. 
+
+Notes\+: 
+\begin{DoxyItemize}
+\item No need to clone the name or description, since String object is immutable. 
+\item We set the listener list to empty, since the listeners did not register with the clone. 
+\item Same applies to the Property\+Change\+Support instance. 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+A clone of the series.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & not thrown by this class, but subclasses may differ. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a38ea4fb648966bd788681aee965b3311}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a38ea4fb648966bd788681aee965b3311}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+general.\+Series.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests the series for equality with another object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} or {\ttfamily false}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a34249552e35b2759b5b349608e6de46b}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a34249552e35b2759b5b349608e6de46b}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!fire\+Property\+Change@{fire\+Property\+Change}}
+\index{fire\+Property\+Change@{fire\+Property\+Change}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{fire\+Property\+Change()}{firePropertyChange()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+fire\+Property\+Change (\begin{DoxyParamCaption}\item[{String}]{property,  }\item[{Object}]{old\+Value,  }\item[{Object}]{new\+Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Fires a property change event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em property} & the property key. \\
+\hline
+{\em old\+Value} & the old value. \\
+\hline
+{\em new\+Value} & the new value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_adf6b3f452e82f6f4b38186e6d691791a}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_adf6b3f452e82f6f4b38186e6d691791a}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!fire\+Series\+Changed@{fire\+Series\+Changed}}
+\index{fire\+Series\+Changed@{fire\+Series\+Changed}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{fire\+Series\+Changed()}{fireSeriesChanged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+fire\+Series\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+General method for signalling to registered listeners that the series has been changed. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6e0e43f7549c40d90ebad83ec99db980}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6e0e43f7549c40d90ebad83ec99db980}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!fire\+Vetoable\+Change@{fire\+Vetoable\+Change}}
+\index{fire\+Vetoable\+Change@{fire\+Vetoable\+Change}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{fire\+Vetoable\+Change()}{fireVetoableChange()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+fire\+Vetoable\+Change (\begin{DoxyParamCaption}\item[{String}]{property,  }\item[{Object}]{old\+Value,  }\item[{Object}]{new\+Value }\end{DoxyParamCaption}) throws Property\+Veto\+Exception\hspace{0.3cm}{\ttfamily [protected]}}
+
+Fires a vetoable property change event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em property} & the property key. \\
+\hline
+{\em old\+Value} & the old value. \\
+\hline
+{\em new\+Value} & the new value.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Property\+Veto\+Exception} & if the change was vetoed. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a903888e10e128bb6e7d139110c0e6619}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a903888e10e128bb6e7d139110c0e6619}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!get\+Description@{get\+Description}}
+\index{get\+Description@{get\+Description}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{get\+Description()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jfree.\+data.\+general.\+Series.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a description of the series.
+
+\begin{DoxyReturn}{Returns}
+The series description (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_af5fefb218fda90ab6a957141e7b7e2e3}{set\+Description(\+String)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a702b874ef23df4e06eeda075fd432594}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a702b874ef23df4e06eeda075fd432594}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily abstract int org.\+jfree.\+data.\+general.\+Series.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Returns the number of data items in the series.
+
+\begin{DoxyReturn}{Returns}
+The number of data items in the series. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a3cc77859046ad99ea9f01aea606f8165}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a3cc77859046ad99ea9f01aea606f8165}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!get\+Key@{get\+Key}}
+\index{get\+Key@{get\+Key}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{get\+Key()}{getKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+general.\+Series.\+get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the key for the series.
+
+\begin{DoxyReturn}{Returns}
+The series key (never {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a9d5a4915a30d62fc59dbfc351efdf24e}{set\+Key(\+Comparable)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a9a5482d882214bd5a1be9690b77fbd39}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a9a5482d882214bd5a1be9690b77fbd39}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!get\+Notify@{get\+Notify}}
+\index{get\+Notify@{get\+Notify}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{get\+Notify()}{getNotify()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+general.\+Series.\+get\+Notify (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the flag that controls whether or not change events are sent to registered listeners.
+
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a3d1c8936672fc710b1ae7c56751230b6}{set\+Notify(boolean)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a2e3ec0d224f21617a941872143d83bd3}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a2e3ec0d224f21617a941872143d83bd3}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+general.\+Series.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_aa9ff89ce98672029f036d2063b56704c}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_aa9ff89ce98672029f036d2063b56704c}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{is\+Empty()}{isEmpty()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+general.\+Series.\+is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the series contains no data items, and {\ttfamily false} otherwise.
+
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6c728147cd28460113771d4e69086a62}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6c728147cd28460113771d4e69086a62}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!notify\+Listeners@{notify\+Listeners}}
+\index{notify\+Listeners@{notify\+Listeners}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{notify\+Listeners()}{notifyListeners()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+notify\+Listeners (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{Series\+Change\+Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Sends a change event to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & contains information about the event that triggered the notification. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_ac3a253a273213a76b06f6a3b632457bb}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_ac3a253a273213a76b06f6a3b632457bb}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!remove\+Change\+Listener@{remove\+Change\+Listener}}
+\index{remove\+Change\+Listener@{remove\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{remove\+Change\+Listener()}{removeChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+remove\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_change_listener}{Series\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Deregisters an object, so that it not longer receives notification whenever the series changes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener to deregister. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6a5826407b91adae3f21b50596450919}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a6a5826407b91adae3f21b50596450919}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!remove\+Property\+Change\+Listener@{remove\+Property\+Change\+Listener}}
+\index{remove\+Property\+Change\+Listener@{remove\+Property\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{remove\+Property\+Change\+Listener()}{removePropertyChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+remove\+Property\+Change\+Listener (\begin{DoxyParamCaption}\item[{Property\+Change\+Listener}]{listener }\end{DoxyParamCaption})}
+
+Removes a property change listener from the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_aede4a6b692401c0e85e74cdd005236db}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_aede4a6b692401c0e85e74cdd005236db}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!remove\+Vetoable\+Change\+Listener@{remove\+Vetoable\+Change\+Listener}}
+\index{remove\+Vetoable\+Change\+Listener@{remove\+Vetoable\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{remove\+Vetoable\+Change\+Listener()}{removeVetoableChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+remove\+Vetoable\+Change\+Listener (\begin{DoxyParamCaption}\item[{Vetoable\+Change\+Listener}]{listener }\end{DoxyParamCaption})}
+
+Removes a vetoable property change listener from the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_af5fefb218fda90ab6a957141e7b7e2e3}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_af5fefb218fda90ab6a957141e7b7e2e3}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!set\+Description@{set\+Description}}
+\index{set\+Description@{set\+Description}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{set\+Description()}{setDescription()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+set\+Description (\begin{DoxyParamCaption}\item[{String}]{description }\end{DoxyParamCaption})}
+
+Sets the description of the series and sends a {\ttfamily Property\+Change\+Event} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em description} & the description ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a903888e10e128bb6e7d139110c0e6619}{get\+Description()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a9d5a4915a30d62fc59dbfc351efdf24e}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a9d5a4915a30d62fc59dbfc351efdf24e}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!set\+Key@{set\+Key}}
+\index{set\+Key@{set\+Key}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{set\+Key()}{setKey()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+set\+Key (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Sets the key for the series and sends a {\ttfamily Vetoable\+Change\+Event} (with the property name \char`\"{}\+Key\char`\"{}) to all registered listeners. For backwards compatibility, this method also fires a regular {\ttfamily Property\+Change\+Event}. If the key change is vetoed this method will throw an Illegal\+Argument\+Exception.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a3cc77859046ad99ea9f01aea606f8165}{get\+Key()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_series_a3d1c8936672fc710b1ae7c56751230b6}\label{classorg_1_1jfree_1_1data_1_1general_1_1_series_a3d1c8936672fc710b1ae7c56751230b6}} 
+\index{org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}!set\+Notify@{set\+Notify}}
+\index{set\+Notify@{set\+Notify}!org\+::jfree\+::data\+::general\+::\+Series@{org\+::jfree\+::data\+::general\+::\+Series}}
+\subsubsection{\texorpdfstring{set\+Notify()}{setNotify()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Series.\+set\+Notify (\begin{DoxyParamCaption}\item[{boolean}]{notify }\end{DoxyParamCaption})}
+
+Sets the flag that controls whether or not change events are sent to registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em notify} & the new value of the flag.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_a9a5482d882214bd5a1be9690b77fbd39}{get\+Notify()}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/general/\mbox{\hyperlink{_series_8java}{Series.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,175 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{}\section{org.\+jfree.\+chart.\+Chart\+Rendering\+Info Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}\index{org.\+jfree.\+chart.\+Chart\+Rendering\+Info@{org.\+jfree.\+chart.\+Chart\+Rendering\+Info}}
+Inheritance diagram for org.\+jfree.\+chart.\+Chart\+Rendering\+Info\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_aad79afd960519b122dd46da5cb9e4c40}{Chart\+Rendering\+Info}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_af0e12c776e631f426b271ccf75653ce2}{Chart\+Rendering\+Info}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1entity_1_1_entity_collection}{Entity\+Collection}} entities)
+\item 
+Rectangle2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_aa1fcdd48a4c2ab12d8bd808401185c9b}{get\+Chart\+Area}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_abb45f3508efa2ad07500a048dd3eabe4}{set\+Chart\+Area}} (Rectangle2D area)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1entity_1_1_entity_collection}{Entity\+Collection}} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_af353145dd9f3c18dba7e344f02303136}{get\+Entity\+Collection}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_ace7a3e8216473d9d758e99924043d545}{set\+Entity\+Collection}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1entity_1_1_entity_collection}{Entity\+Collection}} entities)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a7b6bba7eab1a5c9dd0bb5d45f18b8801}{clear}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_afe705ff9a7514ce7d8b424c6affc21f4}{get\+Plot\+Info}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a5578f75ce9a6917b63eb802fb9200555}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a3b2c7bc5c9db5f825fa45541d7eca7e1}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A structure for storing rendering information from one call to the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart_a319d136fc007faada9be1db3005a55cd}{J\+Free\+Chart.\+draw()}} method. 
+
+An instance of the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} class can draw itself within an arbitrary rectangle on any {\ttfamily Graphics2D}. It is assumed that client code will sometimes render the same chart in more than one view, so the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} instance does not retain any information about its rendered dimensions. This information can be useful sometimes, so you have the option to collect the information at each call to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart_a319d136fc007faada9be1db3005a55cd}{J\+Free\+Chart.\+draw()}}}, by passing an instance of this {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}} class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_aad79afd960519b122dd46da5cb9e4c40}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_aad79afd960519b122dd46da5cb9e4c40}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!Chart\+Rendering\+Info@{Chart\+Rendering\+Info}}
+\index{Chart\+Rendering\+Info@{Chart\+Rendering\+Info}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{Chart\+Rendering\+Info()}{ChartRenderingInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+Chart\+Rendering\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructs a new \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} structure that can be used to collect information about the dimensions of a rendered chart. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_af0e12c776e631f426b271ccf75653ce2}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_af0e12c776e631f426b271ccf75653ce2}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!Chart\+Rendering\+Info@{Chart\+Rendering\+Info}}
+\index{Chart\+Rendering\+Info@{Chart\+Rendering\+Info}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{Chart\+Rendering\+Info()}{ChartRenderingInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+Chart\+Rendering\+Info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1entity_1_1_entity_collection}{Entity\+Collection}}}]{entities }\end{DoxyParamCaption})}
+
+Constructs a new instance. If an entity collection is supplied, it will be populated with information about the entities in a chart. If it is {\ttfamily null}, no entity information (including tool tips) will be collected.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entities} & an entity collection ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a7b6bba7eab1a5c9dd0bb5d45f18b8801}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a7b6bba7eab1a5c9dd0bb5d45f18b8801}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!clear@{clear}}
+\index{clear@{clear}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clears the information recorded by this object. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a3b2c7bc5c9db5f825fa45541d7eca7e1}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a3b2c7bc5c9db5f825fa45541d7eca7e1}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of this object.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if the object cannot be cloned. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a5578f75ce9a6917b63eb802fb9200555}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_a5578f75ce9a6917b63eb802fb9200555}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test against ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_aa1fcdd48a4c2ab12d8bd808401185c9b}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_aa1fcdd48a4c2ab12d8bd808401185c9b}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!get\+Chart\+Area@{get\+Chart\+Area}}
+\index{get\+Chart\+Area@{get\+Chart\+Area}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{get\+Chart\+Area()}{getChartArea()}}
+{\footnotesize\ttfamily Rectangle2D org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+get\+Chart\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the area in which the chart was drawn.
+
+\begin{DoxyReturn}{Returns}
+The area in which the chart was drawn.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_abb45f3508efa2ad07500a048dd3eabe4}{set\+Chart\+Area(\+Rectangle2\+D)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_af353145dd9f3c18dba7e344f02303136}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_af353145dd9f3c18dba7e344f02303136}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!get\+Entity\+Collection@{get\+Entity\+Collection}}
+\index{get\+Entity\+Collection@{get\+Entity\+Collection}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{get\+Entity\+Collection()}{getEntityCollection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1entity_1_1_entity_collection}{Entity\+Collection}} org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+get\+Entity\+Collection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the collection of entities maintained by this instance.
+
+\begin{DoxyReturn}{Returns}
+The entity collection (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_ace7a3e8216473d9d758e99924043d545}{set\+Entity\+Collection(\+Entity\+Collection)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_afe705ff9a7514ce7d8b424c6affc21f4}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_afe705ff9a7514ce7d8b424c6affc21f4}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!get\+Plot\+Info@{get\+Plot\+Info}}
+\index{get\+Plot\+Info@{get\+Plot\+Info}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{get\+Plot\+Info()}{getPlotInfo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+get\+Plot\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the rendering info for the chart\textquotesingle{}s plot.
+
+\begin{DoxyReturn}{Returns}
+The rendering info for the plot. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_abb45f3508efa2ad07500a048dd3eabe4}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_abb45f3508efa2ad07500a048dd3eabe4}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!set\+Chart\+Area@{set\+Chart\+Area}}
+\index{set\+Chart\+Area@{set\+Chart\+Area}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{set\+Chart\+Area()}{setChartArea()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+set\+Chart\+Area (\begin{DoxyParamCaption}\item[{Rectangle2D}]{area }\end{DoxyParamCaption})}
+
+Sets the area in which the chart was drawn.
+
+
+\begin{DoxyParams}{Parameters}
+{\em area} & the chart area.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_aa1fcdd48a4c2ab12d8bd808401185c9b}{get\+Chart\+Area()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_ace7a3e8216473d9d758e99924043d545}\label{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_ace7a3e8216473d9d758e99924043d545}} 
+\index{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}!set\+Entity\+Collection@{set\+Entity\+Collection}}
+\index{set\+Entity\+Collection@{set\+Entity\+Collection}!org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info@{org\+::jfree\+::chart\+::\+Chart\+Rendering\+Info}}
+\subsubsection{\texorpdfstring{set\+Entity\+Collection()}{setEntityCollection()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+Chart\+Rendering\+Info.\+set\+Entity\+Collection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1entity_1_1_entity_collection}{Entity\+Collection}}}]{entities }\end{DoxyParamCaption})}
+
+Sets the entity collection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entities} & the entity collection ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info_af353145dd9f3c18dba7e344f02303136}{get\+Entity\+Collection()}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/\mbox{\hyperlink{_chart_rendering_info_8java}{Chart\+Rendering\+Info.\+java}}\end{DoxyCompactItemize}

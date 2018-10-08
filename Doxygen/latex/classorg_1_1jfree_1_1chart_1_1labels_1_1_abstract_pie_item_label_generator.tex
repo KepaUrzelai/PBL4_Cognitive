@@ -1,0 +1,181 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator}\index{org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator@{org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.456140cm]{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a0aeb620d6ae74c7a838d9906ce153465}{get\+Label\+Format}} ()
+\item 
+Number\+Format \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a71d814e6b3ccdfd5f712b37e5ec7473d}{get\+Number\+Format}} ()
+\item 
+Number\+Format \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ab13f8e781bb862f97253d945749107e9}{get\+Percent\+Format}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a702da5f3b6681f1e9c9b86de6fefb458}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ade858196c29fc2515d17c1f662931e2b}{hash\+Code}} ()
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ad4d0a15b079514de4002761fb637e679}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_acb9acd93d6bb8c92da253b7f29db883d}{Abstract\+Pie\+Item\+Label\+Generator}} (String label\+Format, Number\+Format number\+Format, Number\+Format percent\+Format)
+\item 
+Object \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a4e8f2f699263b772b5713cf290ed5814}{create\+Item\+Array}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}} dataset, Comparable key)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a0f7486688672912ead542733a119df45}{generate\+Section\+Label}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}} dataset, Comparable key)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A base class used for generating pie chart item labels. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_acb9acd93d6bb8c92da253b7f29db883d}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_acb9acd93d6bb8c92da253b7f29db883d}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!Abstract\+Pie\+Item\+Label\+Generator@{Abstract\+Pie\+Item\+Label\+Generator}}
+\index{Abstract\+Pie\+Item\+Label\+Generator@{Abstract\+Pie\+Item\+Label\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{Abstract\+Pie\+Item\+Label\+Generator()}{AbstractPieItemLabelGenerator()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+Abstract\+Pie\+Item\+Label\+Generator (\begin{DoxyParamCaption}\item[{String}]{label\+Format,  }\item[{Number\+Format}]{number\+Format,  }\item[{Number\+Format}]{percent\+Format }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates an item label generator using the specified number formatters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label\+Format} & the label format string ({\ttfamily null} not permitted). \\
+\hline
+{\em number\+Format} & the format object for the values ({\ttfamily null} not permitted). \\
+\hline
+{\em percent\+Format} & the format object for the percentages ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ad4d0a15b079514de4002761fb637e679}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ad4d0a15b079514de4002761fb637e679}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of the generator.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & should not happen. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a4e8f2f699263b772b5713cf290ed5814}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a4e8f2f699263b772b5713cf290ed5814}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!create\+Item\+Array@{create\+Item\+Array}}
+\index{create\+Item\+Array@{create\+Item\+Array}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{create\+Item\+Array()}{createItemArray()}}
+{\footnotesize\ttfamily Object \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+create\+Item\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}}}]{dataset,  }\item[{Comparable}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates the array of items that can be passed to the \mbox{\hyperlink{}{Message\+Format}} class for creating labels. The returned array contains four values\+: 
+\begin{DoxyItemize}
+\item result\mbox{[}0\mbox{]} = the section key converted to a {\ttfamily String}; 
+\item result\mbox{[}1\mbox{]} = the formatted data value; 
+\item result\mbox{[}2\mbox{]} = the formatted percentage (of the total); 
+\item result\mbox{[}3\mbox{]} = the formatted total value. 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em key} & the key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The items (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a702da5f3b6681f1e9c9b86de6fefb458}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a702da5f3b6681f1e9c9b86de6fefb458}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests the generator for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test against ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a0f7486688672912ead542733a119df45}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a0f7486688672912ead542733a119df45}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!generate\+Section\+Label@{generate\+Section\+Label}}
+\index{generate\+Section\+Label@{generate\+Section\+Label}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Section\+Label()}{generateSectionLabel()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+generate\+Section\+Label (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_pie_dataset}{Pie\+Dataset}}}]{dataset,  }\item[{Comparable}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Generates a label for a pie section.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em key} & the section key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The label (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a0aeb620d6ae74c7a838d9906ce153465}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a0aeb620d6ae74c7a838d9906ce153465}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!get\+Label\+Format@{get\+Label\+Format}}
+\index{get\+Label\+Format@{get\+Label\+Format}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{get\+Label\+Format()}{getLabelFormat()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+get\+Label\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the label format string.
+
+\begin{DoxyReturn}{Returns}
+The label format string (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a71d814e6b3ccdfd5f712b37e5ec7473d}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_a71d814e6b3ccdfd5f712b37e5ec7473d}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!get\+Number\+Format@{get\+Number\+Format}}
+\index{get\+Number\+Format@{get\+Number\+Format}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{get\+Number\+Format()}{getNumberFormat()}}
+{\footnotesize\ttfamily Number\+Format org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+get\+Number\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number formatter.
+
+\begin{DoxyReturn}{Returns}
+The formatter (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ab13f8e781bb862f97253d945749107e9}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ab13f8e781bb862f97253d945749107e9}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!get\+Percent\+Format@{get\+Percent\+Format}}
+\index{get\+Percent\+Format@{get\+Percent\+Format}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{get\+Percent\+Format()}{getPercentFormat()}}
+{\footnotesize\ttfamily Number\+Format org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+get\+Percent\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the percent formatter.
+
+\begin{DoxyReturn}{Returns}
+The formatter (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ade858196c29fc2515d17c1f662931e2b}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_abstract_pie_item_label_generator_ade858196c29fc2515d17c1f662931e2b}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Abstract\+Pie\+Item\+Label\+Generator}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+labels.\+Abstract\+Pie\+Item\+Label\+Generator.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code for this instance.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_abstract_pie_item_label_generator_8java}{Abstract\+Pie\+Item\+Label\+Generator.\+java}}\end{DoxyCompactItemize}

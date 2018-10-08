@@ -1,0 +1,183 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format}{}\section{org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format}\index{org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format@{org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format}}
+Inheritance diagram for org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_af4d5f14b2f65e1904803eef43a7e0ba0}{Hex\+Number\+Format}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a8548044999f9a1a0f102f3ed5defd9c8}{Hex\+Number\+Format}} (int digits)
+\item 
+final int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a812af5b3ad68bf3409c5fb1d81415d66}{get\+Number\+Of\+Digits}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a134b4b389c64ecf6fbe95a5131ccc5eb}{set\+Number\+Of\+Digits}} (int digits)
+\item 
+String\+Buffer \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_ab535fc7fd936d62c53469f85c728c214}{format}} (double number, String\+Buffer to\+Append\+To, Field\+Position pos)
+\item 
+String\+Buffer \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a89694d4c793548d1558070be8f7244d6}{format}} (long number, String\+Buffer to\+Append\+To, Field\+Position pos)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_ab6c821389cd089b7b5beb129be0e2fbc}{parse}} (String source, Parse\+Position parse\+Position)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a040e486fc5bdfa36c78dd721cc8d946e}{B\+Y\+TE}} = 2
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a5fa5d3f24fe7f0a7aa1ef6e500d48551}{W\+O\+RD}} = 4
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a0066bb539bff20dfc58a026e01b9d834}{D\+W\+O\+RD}} = 8
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a449224a5d7a7786945e434459d555a44}{Q\+W\+O\+RD}} = 16
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A custom number formatter that formats numbers as hexadecimal strings. There are some limitations, so be careful using this class.
+
+\begin{DoxySince}{Since}
+1.\+0.\+6 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_af4d5f14b2f65e1904803eef43a7e0ba0}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_af4d5f14b2f65e1904803eef43a7e0ba0}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!Hex\+Number\+Format@{Hex\+Number\+Format}}
+\index{Hex\+Number\+Format@{Hex\+Number\+Format}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{Hex\+Number\+Format()}{HexNumberFormat()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+Hex\+Number\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance with 8 digits. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a8548044999f9a1a0f102f3ed5defd9c8}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a8548044999f9a1a0f102f3ed5defd9c8}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!Hex\+Number\+Format@{Hex\+Number\+Format}}
+\index{Hex\+Number\+Format@{Hex\+Number\+Format}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{Hex\+Number\+Format()}{HexNumberFormat()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+Hex\+Number\+Format (\begin{DoxyParamCaption}\item[{int}]{digits }\end{DoxyParamCaption})}
+
+Creates a new instance with the specified number of digits.
+
+
+\begin{DoxyParams}{Parameters}
+{\em digits} & the digits. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_ab535fc7fd936d62c53469f85c728c214}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_ab535fc7fd936d62c53469f85c728c214}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!format@{format}}
+\index{format@{format}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily String\+Buffer org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+format (\begin{DoxyParamCaption}\item[{double}]{number,  }\item[{String\+Buffer}]{to\+Append\+To,  }\item[{Field\+Position}]{pos }\end{DoxyParamCaption})}
+
+Formats the specified number as a hexadecimal string. The decimal fraction is ignored.
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & the number to format. \\
+\hline
+{\em to\+Append\+To} & the buffer to append to (ignored here). \\
+\hline
+{\em pos} & the field position (ignored here).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The string buffer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a89694d4c793548d1558070be8f7244d6}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a89694d4c793548d1558070be8f7244d6}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!format@{format}}
+\index{format@{format}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily String\+Buffer org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+format (\begin{DoxyParamCaption}\item[{long}]{number,  }\item[{String\+Buffer}]{to\+Append\+To,  }\item[{Field\+Position}]{pos }\end{DoxyParamCaption})}
+
+Formats the specified number as a hexadecimal string. The decimal fraction is ignored.
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & the number to format. \\
+\hline
+{\em to\+Append\+To} & the buffer to append to (ignored here). \\
+\hline
+{\em pos} & the field position (ignored here).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The string buffer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a812af5b3ad68bf3409c5fb1d81415d66}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a812af5b3ad68bf3409c5fb1d81415d66}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!get\+Number\+Of\+Digits@{get\+Number\+Of\+Digits}}
+\index{get\+Number\+Of\+Digits@{get\+Number\+Of\+Digits}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{get\+Number\+Of\+Digits()}{getNumberOfDigits()}}
+{\footnotesize\ttfamily final int org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+get\+Number\+Of\+Digits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of digits.
+
+\begin{DoxyReturn}{Returns}
+The number of digits. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_ab6c821389cd089b7b5beb129be0e2fbc}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_ab6c821389cd089b7b5beb129be0e2fbc}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!parse@{parse}}
+\index{parse@{parse}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+parse (\begin{DoxyParamCaption}\item[{String}]{source,  }\item[{Parse\+Position}]{parse\+Position }\end{DoxyParamCaption})}
+
+Parsing is not implemented, so this method always returns {\ttfamily null}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & ignored. \\
+\hline
+{\em parse\+Position} & ignored.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily null}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a134b4b389c64ecf6fbe95a5131ccc5eb}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a134b4b389c64ecf6fbe95a5131ccc5eb}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!set\+Number\+Of\+Digits@{set\+Number\+Of\+Digits}}
+\index{set\+Number\+Of\+Digits@{set\+Number\+Of\+Digits}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{set\+Number\+Of\+Digits()}{setNumberOfDigits()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+set\+Number\+Of\+Digits (\begin{DoxyParamCaption}\item[{int}]{digits }\end{DoxyParamCaption})}
+
+Sets the number of digits.
+
+
+\begin{DoxyParams}{Parameters}
+{\em digits} & the number of digits. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a040e486fc5bdfa36c78dd721cc8d946e}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a040e486fc5bdfa36c78dd721cc8d946e}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!B\+Y\+TE@{B\+Y\+TE}}
+\index{B\+Y\+TE@{B\+Y\+TE}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{B\+Y\+TE}{BYTE}}
+{\footnotesize\ttfamily final int org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+B\+Y\+TE = 2\hspace{0.3cm}{\ttfamily [static]}}
+
+Number of hexadecimal digits for a byte. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a0066bb539bff20dfc58a026e01b9d834}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a0066bb539bff20dfc58a026e01b9d834}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!D\+W\+O\+RD@{D\+W\+O\+RD}}
+\index{D\+W\+O\+RD@{D\+W\+O\+RD}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{D\+W\+O\+RD}{DWORD}}
+{\footnotesize\ttfamily final int org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+D\+W\+O\+RD = 8\hspace{0.3cm}{\ttfamily [static]}}
+
+Number of hexadecimal digits for a double word. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a449224a5d7a7786945e434459d555a44}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a449224a5d7a7786945e434459d555a44}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!Q\+W\+O\+RD@{Q\+W\+O\+RD}}
+\index{Q\+W\+O\+RD@{Q\+W\+O\+RD}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{Q\+W\+O\+RD}{QWORD}}
+{\footnotesize\ttfamily final int org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+Q\+W\+O\+RD = 16\hspace{0.3cm}{\ttfamily [static]}}
+
+Number of hexadecimal digits for a quad word. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a5fa5d3f24fe7f0a7aa1ef6e500d48551}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_hex_number_format_a5fa5d3f24fe7f0a7aa1ef6e500d48551}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}!W\+O\+RD@{W\+O\+RD}}
+\index{W\+O\+RD@{W\+O\+RD}!org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+Hex\+Number\+Format}}
+\subsubsection{\texorpdfstring{W\+O\+RD}{WORD}}
+{\footnotesize\ttfamily final int org.\+jfree.\+chart.\+util.\+Hex\+Number\+Format.\+W\+O\+RD = 4\hspace{0.3cm}{\ttfamily [static]}}
+
+Number of hexadecimal digits for a word. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_hex_number_format_8java}{Hex\+Number\+Format.\+java}}\end{DoxyCompactItemize}

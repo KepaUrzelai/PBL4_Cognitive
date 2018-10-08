@@ -1,0 +1,249 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset}{}\section{org.\+jfree.\+data.\+general.\+Abstract\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset}\index{org.\+jfree.\+data.\+general.\+Abstract\+Dataset@{org.\+jfree.\+data.\+general.\+Abstract\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+general.\+Abstract\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.973333cm]{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a8461feb0ca75008e174e5bf72a56f01d}{get\+Group}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0442a73adac8fbb69594378b5e354b0}{set\+Group}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}} group)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a8c3a906ab325e9e0c8a9041ce9f2d617}{get\+Notify}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ac5e2c21ab014ad147f71fd914e81fbb8}{set\+Notify}} (boolean notify)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a98ccd0af41c59cd8fe50543376d0faf9}{add\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}} listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0a2ba36de45585c70212701459b5979}{remove\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}} listener)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a5e03b35046757be9ed9658322ab1872d}{has\+Listener}} (Event\+Listener listener)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ac284644affaadfc85a8261665852e25b}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a7bd856ae173fdeedeb65c8f9cb461e52}{validate\+Object}} ()  throws Invalid\+Object\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a86a99c6256714f7c9a409d16c8842796}{Abstract\+Dataset}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a95eadb1f154c4b4310bd04792617e633}{fire\+Dataset\+Changed}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a96514c405bb2dd442ae9e363af6e8876}{notify\+Listeners}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{Dataset\+Change\+Event}} event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An abstract implementation of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset}{Dataset}} interface, containing a mechanism for registering change listeners. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a86a99c6256714f7c9a409d16c8842796}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a86a99c6256714f7c9a409d16c8842796}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!Abstract\+Dataset@{Abstract\+Dataset}}
+\index{Abstract\+Dataset@{Abstract\+Dataset}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{Abstract\+Dataset()}{AbstractDataset()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+Abstract\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Constructs a dataset. By default, the dataset is assigned to its own group. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a98ccd0af41c59cd8fe50543376d0faf9}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a98ccd0af41c59cd8fe50543376d0faf9}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!add\+Change\+Listener@{add\+Change\+Listener}}
+\index{add\+Change\+Listener@{add\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{add\+Change\+Listener()}{addChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+add\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Registers an object to receive notification of changes to the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the object to register.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0a2ba36de45585c70212701459b5979}{remove\+Change\+Listener(\+Dataset\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a34655e538642314586d5c92a4c055c4d}{org.\+jfree.\+data.\+general.\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ac284644affaadfc85a8261665852e25b}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ac284644affaadfc85a8261665852e25b}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the dataset. The cloned dataset will N\+OT include the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}} references that have been registered with this dataset.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if the dataset does not support cloning. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a95eadb1f154c4b4310bd04792617e633}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a95eadb1f154c4b4310bd04792617e633}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!fire\+Dataset\+Changed@{fire\+Dataset\+Changed}}
+\index{fire\+Dataset\+Changed@{fire\+Dataset\+Changed}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{fire\+Dataset\+Changed()}{fireDatasetChanged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+fire\+Dataset\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Notifies all registered listeners that the dataset has changed, provided that the {\ttfamily notify} flag has not been set to {\ttfamily false}.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a98ccd0af41c59cd8fe50543376d0faf9}{add\+Change\+Listener(\+Dataset\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a8461feb0ca75008e174e5bf72a56f01d}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a8461feb0ca75008e174e5bf72a56f01d}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!get\+Group@{get\+Group}}
+\index{get\+Group@{get\+Group}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Group()}{getGroup()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}} org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+get\+Group (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the dataset group for the dataset.
+
+\begin{DoxyReturn}{Returns}
+The group (never {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0442a73adac8fbb69594378b5e354b0}{set\+Group(\+Dataset\+Group)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a48357df0f5aacd555b094627eb02d473}{org.\+jfree.\+data.\+general.\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a8c3a906ab325e9e0c8a9041ce9f2d617}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a8c3a906ab325e9e0c8a9041ce9f2d617}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!get\+Notify@{get\+Notify}}
+\index{get\+Notify@{get\+Notify}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Notify()}{getNotify()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+get\+Notify (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value of the notify flag. The default value is {\ttfamily true}. If this is {\ttfamily false}, calls to the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a95eadb1f154c4b4310bd04792617e633}{fire\+Dataset\+Changed()}} method will N\+OT trigger a dataset change event.
+
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+17 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a5e03b35046757be9ed9658322ab1872d}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a5e03b35046757be9ed9658322ab1872d}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!has\+Listener@{has\+Listener}}
+\index{has\+Listener@{has\+Listener}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{has\+Listener()}{hasListener()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+has\+Listener (\begin{DoxyParamCaption}\item[{Event\+Listener}]{listener }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the specified object is registered with the dataset as a listener. Most applications won\textquotesingle{}t need to call this method, it exists mainly for use by unit testing code.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a98ccd0af41c59cd8fe50543376d0faf9}{add\+Change\+Listener(\+Dataset\+Change\+Listener)}} 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0a2ba36de45585c70212701459b5979}{remove\+Change\+Listener(\+Dataset\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a96514c405bb2dd442ae9e363af6e8876}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a96514c405bb2dd442ae9e363af6e8876}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!notify\+Listeners@{notify\+Listeners}}
+\index{notify\+Listeners@{notify\+Listeners}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{notify\+Listeners()}{notifyListeners()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+notify\+Listeners (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{Dataset\+Change\+Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Notifies all registered listeners that the dataset has changed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & contains information about the event that triggered the notification.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a98ccd0af41c59cd8fe50543376d0faf9}{add\+Change\+Listener(\+Dataset\+Change\+Listener)}} 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0a2ba36de45585c70212701459b5979}{remove\+Change\+Listener(\+Dataset\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0a2ba36de45585c70212701459b5979}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0a2ba36de45585c70212701459b5979}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!remove\+Change\+Listener@{remove\+Change\+Listener}}
+\index{remove\+Change\+Listener@{remove\+Change\+Listener}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{remove\+Change\+Listener()}{removeChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+remove\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_listener}{Dataset\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Deregisters an object so that it no longer receives notification of changes to the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the object to deregister.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a98ccd0af41c59cd8fe50543376d0faf9}{add\+Change\+Listener(\+Dataset\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a47cc3418a0f49e520f72f8411601afc4}{org.\+jfree.\+data.\+general.\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0442a73adac8fbb69594378b5e354b0}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ab0442a73adac8fbb69594378b5e354b0}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!set\+Group@{set\+Group}}
+\index{set\+Group@{set\+Group}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Group()}{setGroup()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+set\+Group (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_group}{Dataset\+Group}}}]{group }\end{DoxyParamCaption})}
+
+Sets the dataset group for the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & the group ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a8461feb0ca75008e174e5bf72a56f01d}{get\+Group()}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_dataset_a48843f06c21e29847a62db0107b40138}{org.\+jfree.\+data.\+general.\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ac5e2c21ab014ad147f71fd914e81fbb8}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_ac5e2c21ab014ad147f71fd914e81fbb8}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!set\+Notify@{set\+Notify}}
+\index{set\+Notify@{set\+Notify}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Notify()}{setNotify()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+set\+Notify (\begin{DoxyParamCaption}\item[{boolean}]{notify }\end{DoxyParamCaption})}
+
+Sets the notify flag, which controls whether or not the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a95eadb1f154c4b4310bd04792617e633}{fire\+Dataset\+Changed()}} method notifies listeners. Setting this flag to {\ttfamily true} will trigger a {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_dataset_change_event}{Dataset\+Change\+Event}}} because there may be queued up changes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em notify} & the new flag value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+17 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a7bd856ae173fdeedeb65c8f9cb461e52}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_dataset_a7bd856ae173fdeedeb65c8f9cb461e52}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}!validate\+Object@{validate\+Object}}
+\index{validate\+Object@{validate\+Object}!org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Dataset}}
+\subsubsection{\texorpdfstring{validate\+Object()}{validateObject()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Abstract\+Dataset.\+validate\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Invalid\+Object\+Exception}
+
+Validates the object. We use this opportunity to call listeners who have registered during the deserialization process, as listeners are not serialized. This method is called by the serialization system after the entire graph is read.
+
+This object has registered itself to the system with a priority of 10. Other callbacks may register with a higher priority number to be called before this object, or with a lower priority number to be called after the listeners were notified.
+
+All listeners are supposed to have register by now, either in their read\+Object or validate\+Object methods. Notify them that this dataset has changed.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Invalid\+Object\+Exception} & If the object cannot validate itself. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/general/\mbox{\hyperlink{_abstract_dataset_8java}{Abstract\+Dataset.\+java}}\end{DoxyCompactItemize}

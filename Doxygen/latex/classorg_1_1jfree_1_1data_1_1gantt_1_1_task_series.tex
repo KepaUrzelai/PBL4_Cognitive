@@ -1,0 +1,179 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series}{}\section{org.\+jfree.\+data.\+gantt.\+Task\+Series Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series}\index{org.\+jfree.\+data.\+gantt.\+Task\+Series@{org.\+jfree.\+data.\+gantt.\+Task\+Series}}
+Inheritance diagram for org.\+jfree.\+data.\+gantt.\+Task\+Series\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a65754ab6d0f03cf8b367a6b401678137}{Task\+Series}} (String name)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a10d6000137c485fb4927ee63ef413755}{add}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} task)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a47dc6e33b99cdf3ea0e29b6b81b776c1}{remove}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} task)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a5a5d9fc7998c638af9a4643cbd6712d8}{remove\+All}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a945c8e01970738e46ef5b146f9a643b7}{get\+Item\+Count}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a2c6624b3d87e494c065686258dc6af0c}{get}} (int index)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a67bcf4b0e29966afc508ecfa2a400266}{get}} (String description)
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a279591f041f643f647030eb7a016b157}{get\+Tasks}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a03ac091eaa08cd9eed725ba44994b098}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_ad43cc33a46ebc7d3cec87d408e2041f3}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A series that contains zero, one or many \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} objects. 
+
+This class is used as a building block for the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection}{Task\+Series\+Collection}} class that can be used to construct basic Gantt charts. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a65754ab6d0f03cf8b367a6b401678137}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a65754ab6d0f03cf8b367a6b401678137}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!Task\+Series@{Task\+Series}}
+\index{Task\+Series@{Task\+Series}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{Task\+Series()}{TaskSeries()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+gantt.\+Task\+Series.\+Task\+Series (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Constructs a new series with the specified name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the series name ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a10d6000137c485fb4927ee63ef413755}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a10d6000137c485fb4927ee63ef413755}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task\+Series.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}}}]{task }\end{DoxyParamCaption})}
+
+Adds a task to the series and sends a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{org.\+jfree.\+data.\+general.\+Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em task} & the task ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_ad43cc33a46ebc7d3cec87d408e2041f3}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_ad43cc33a46ebc7d3cec87d408e2041f3}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+gantt.\+Task\+Series.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of this series.
+
+\begin{DoxyReturn}{Returns}
+A clone of the series.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if there is some problem cloning the dataset. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a03ac091eaa08cd9eed725ba44994b098}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a03ac091eaa08cd9eed725ba44994b098}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+gantt.\+Task\+Series.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test against ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a2c6624b3d87e494c065686258dc6af0c}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a2c6624b3d87e494c065686258dc6af0c}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!get@{get}}
+\index{get@{get}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} org.\+jfree.\+data.\+gantt.\+Task\+Series.\+get (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns a task from the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the task index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The task. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a67bcf4b0e29966afc508ecfa2a400266}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a67bcf4b0e29966afc508ecfa2a400266}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!get@{get}}
+\index{get@{get}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}} org.\+jfree.\+data.\+gantt.\+Task\+Series.\+get (\begin{DoxyParamCaption}\item[{String}]{description }\end{DoxyParamCaption})}
+
+Returns the task in the series that has the specified description.
+
+
+\begin{DoxyParams}{Parameters}
+{\em description} & the name ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The task (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a945c8e01970738e46ef5b146f9a643b7}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a945c8e01970738e46ef5b146f9a643b7}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+gantt.\+Task\+Series.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of items in the series.
+
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a279591f041f643f647030eb7a016b157}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a279591f041f643f647030eb7a016b157}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!get\+Tasks@{get\+Tasks}}
+\index{get\+Tasks@{get\+Tasks}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{get\+Tasks()}{getTasks()}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+gantt.\+Task\+Series.\+get\+Tasks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns an unmodifialble list of the tasks in the series.
+
+\begin{DoxyReturn}{Returns}
+The tasks. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a47dc6e33b99cdf3ea0e29b6b81b776c1}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a47dc6e33b99cdf3ea0e29b6b81b776c1}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!remove@{remove}}
+\index{remove@{remove}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task\+Series.\+remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task}{Task}}}]{task }\end{DoxyParamCaption})}
+
+Removes a task from the series and sends a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{org.\+jfree.\+data.\+general.\+Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em task} & the task. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a5a5d9fc7998c638af9a4643cbd6712d8}\label{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_a5a5d9fc7998c638af9a4643cbd6712d8}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}!remove\+All@{remove\+All}}
+\index{remove\+All@{remove\+All}!org\+::jfree\+::data\+::gantt\+::\+Task\+Series@{org\+::jfree\+::data\+::gantt\+::\+Task\+Series}}
+\subsubsection{\texorpdfstring{remove\+All()}{removeAll()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+gantt.\+Task\+Series.\+remove\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Removes all tasks from the series and sends a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{org.\+jfree.\+data.\+general.\+Series\+Change\+Event}} to all registered listeners. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/gantt/\mbox{\hyperlink{_task_series_8java}{Task\+Series.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,268 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay}{}\section{org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay}\index{org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay@{org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay}}
+Inheritance diagram for org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.771350cm]{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a80fa1f2b410c542e53c435b70aefbb9c}{Crosshair\+Overlay}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_adebe4aa34a8545726d6dd708a6daf1d9}{add\+Domain\+Crosshair}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}} crosshair)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a490077421ff18c59b996fb68a6fcc8fd}{remove\+Domain\+Crosshair}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}} crosshair)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_adbb4a19e547b9df6cf97c67c2826f0d0}{clear\+Domain\+Crosshairs}} ()
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_ad55ad6801daa576a770fecb12d1683c7}{get\+Domain\+Crosshairs}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a646be9e4b9ab7774b97949a0c9f475a9}{add\+Range\+Crosshair}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}} crosshair)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a89a21846fbabe76c99108646640530f9}{remove\+Range\+Crosshair}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}} crosshair)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a2ab54dea5f40289c608c34333e278e3c}{clear\+Range\+Crosshairs}} ()
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a131a59a3bf5b5f8b8492d7935ab07077}{get\+Range\+Crosshairs}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_aeb9b546f0672833556019b4f9c31f765}{property\+Change}} (Property\+Change\+Event e)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a1601884f0d667eab61c224336dc87145}{paint\+Overlay}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}} chart\+Panel)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_ace709577bf4f9d6740f8fae6670da79e}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a271ed6335b4d7f2df118b3617150a609}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_af380a18bde073963bd8e04e8bafa9d1d}{draw\+Horizontal\+Crosshair}} (Graphics2D g2, Rectangle2D data\+Area, double y, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}} crosshair)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a76c62aba9bce8f33072f96fb6e74438c}{draw\+Vertical\+Crosshair}} (Graphics2D g2, Rectangle2D data\+Area, double x, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}} crosshair)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An overlay for a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}} that draws crosshairs on a plot.
+
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a80fa1f2b410c542e53c435b70aefbb9c}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a80fa1f2b410c542e53c435b70aefbb9c}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!Crosshair\+Overlay@{Crosshair\+Overlay}}
+\index{Crosshair\+Overlay@{Crosshair\+Overlay}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{Crosshair\+Overlay()}{CrosshairOverlay()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+Crosshair\+Overlay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_adebe4aa34a8545726d6dd708a6daf1d9}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_adebe4aa34a8545726d6dd708a6daf1d9}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!add\+Domain\+Crosshair@{add\+Domain\+Crosshair}}
+\index{add\+Domain\+Crosshair@{add\+Domain\+Crosshair}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{add\+Domain\+Crosshair()}{addDomainCrosshair()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+add\+Domain\+Crosshair (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}}}]{crosshair }\end{DoxyParamCaption})}
+
+Adds a crosshair against the domain axis and sends an \mbox{\hyperlink{}{Overlay\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em crosshair} & the crosshair ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a490077421ff18c59b996fb68a6fcc8fd}{remove\+Domain\+Crosshair}}(\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{org.\+jfree.\+chart.\+plot.\+Crosshair}}) 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a646be9e4b9ab7774b97949a0c9f475a9}{add\+Range\+Crosshair}}(\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{org.\+jfree.\+chart.\+plot.\+Crosshair}}) 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a646be9e4b9ab7774b97949a0c9f475a9}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a646be9e4b9ab7774b97949a0c9f475a9}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!add\+Range\+Crosshair@{add\+Range\+Crosshair}}
+\index{add\+Range\+Crosshair@{add\+Range\+Crosshair}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{add\+Range\+Crosshair()}{addRangeCrosshair()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+add\+Range\+Crosshair (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}}}]{crosshair }\end{DoxyParamCaption})}
+
+Adds a crosshair against the range axis and sends an \mbox{\hyperlink{}{Overlay\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em crosshair} & the crosshair ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_adbb4a19e547b9df6cf97c67c2826f0d0}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_adbb4a19e547b9df6cf97c67c2826f0d0}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!clear\+Domain\+Crosshairs@{clear\+Domain\+Crosshairs}}
+\index{clear\+Domain\+Crosshairs@{clear\+Domain\+Crosshairs}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{clear\+Domain\+Crosshairs()}{clearDomainCrosshairs()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+clear\+Domain\+Crosshairs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clears all the domain crosshairs from the overlay and sends an \mbox{\hyperlink{}{Overlay\+Change\+Event}} to all registered listeners. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a2ab54dea5f40289c608c34333e278e3c}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a2ab54dea5f40289c608c34333e278e3c}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!clear\+Range\+Crosshairs@{clear\+Range\+Crosshairs}}
+\index{clear\+Range\+Crosshairs@{clear\+Range\+Crosshairs}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{clear\+Range\+Crosshairs()}{clearRangeCrosshairs()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+clear\+Range\+Crosshairs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clears all the range crosshairs from the overlay and sends an \mbox{\hyperlink{}{Overlay\+Change\+Event}} to all registered listeners. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a271ed6335b4d7f2df118b3617150a609}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a271ed6335b4d7f2df118b3617150a609}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of this instance.
+
+\begin{DoxyReturn}{Returns}
+A clone of this instance.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\+lang.\+Clone\+Not\+Supported\+Exception} & if there is some problem with the cloning. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_af380a18bde073963bd8e04e8bafa9d1d}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_af380a18bde073963bd8e04e8bafa9d1d}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!draw\+Horizontal\+Crosshair@{draw\+Horizontal\+Crosshair}}
+\index{draw\+Horizontal\+Crosshair@{draw\+Horizontal\+Crosshair}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{draw\+Horizontal\+Crosshair()}{drawHorizontalCrosshair()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+draw\+Horizontal\+Crosshair (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{data\+Area,  }\item[{double}]{y,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}}}]{crosshair }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Draws a crosshair horizontally across the plot.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+{\em y} & the y-\/value in Java2D space. \\
+\hline
+{\em crosshair} & the crosshair. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a76c62aba9bce8f33072f96fb6e74438c}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a76c62aba9bce8f33072f96fb6e74438c}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!draw\+Vertical\+Crosshair@{draw\+Vertical\+Crosshair}}
+\index{draw\+Vertical\+Crosshair@{draw\+Vertical\+Crosshair}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{draw\+Vertical\+Crosshair()}{drawVerticalCrosshair()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+draw\+Vertical\+Crosshair (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{data\+Area,  }\item[{double}]{x,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}}}]{crosshair }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Draws a crosshair vertically on the plot.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+{\em x} & the x-\/value in Java2D space. \\
+\hline
+{\em crosshair} & the crosshair. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_ace709577bf4f9d6740f8fae6670da79e}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_ace709577bf4f9d6740f8fae6670da79e}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this overlay for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_ad55ad6801daa576a770fecb12d1683c7}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_ad55ad6801daa576a770fecb12d1683c7}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!get\+Domain\+Crosshairs@{get\+Domain\+Crosshairs}}
+\index{get\+Domain\+Crosshairs@{get\+Domain\+Crosshairs}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{get\+Domain\+Crosshairs()}{getDomainCrosshairs()}}
+{\footnotesize\ttfamily List org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+get\+Domain\+Crosshairs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a new list containing the domain crosshairs for this overlay.
+
+\begin{DoxyReturn}{Returns}
+A list of crosshairs. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a131a59a3bf5b5f8b8492d7935ab07077}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a131a59a3bf5b5f8b8492d7935ab07077}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!get\+Range\+Crosshairs@{get\+Range\+Crosshairs}}
+\index{get\+Range\+Crosshairs@{get\+Range\+Crosshairs}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{get\+Range\+Crosshairs()}{getRangeCrosshairs()}}
+{\footnotesize\ttfamily List org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+get\+Range\+Crosshairs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a new list containing the range crosshairs for this overlay.
+
+\begin{DoxyReturn}{Returns}
+A list of crosshairs. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a1601884f0d667eab61c224336dc87145}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a1601884f0d667eab61c224336dc87145}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!paint\+Overlay@{paint\+Overlay}}
+\index{paint\+Overlay@{paint\+Overlay}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{paint\+Overlay()}{paintOverlay()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+paint\+Overlay (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_panel}{Chart\+Panel}}}]{chart\+Panel }\end{DoxyParamCaption})}
+
+Paints the crosshairs in the layer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target. \\
+\hline
+{\em chart\+Panel} & the chart panel. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1panel_1_1_overlay_aef899ccf9040a90153f231db8796069f}{org.\+jfree.\+chart.\+panel.\+Overlay}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_aeb9b546f0672833556019b4f9c31f765}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_aeb9b546f0672833556019b4f9c31f765}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!property\+Change@{property\+Change}}
+\index{property\+Change@{property\+Change}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{property\+Change()}{propertyChange()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+property\+Change (\begin{DoxyParamCaption}\item[{Property\+Change\+Event}]{e }\end{DoxyParamCaption})}
+
+Receives a property change event (typically a change in one of the crosshairs).
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the event. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a490077421ff18c59b996fb68a6fcc8fd}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a490077421ff18c59b996fb68a6fcc8fd}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!remove\+Domain\+Crosshair@{remove\+Domain\+Crosshair}}
+\index{remove\+Domain\+Crosshair@{remove\+Domain\+Crosshair}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{remove\+Domain\+Crosshair()}{removeDomainCrosshair()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+remove\+Domain\+Crosshair (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}}}]{crosshair }\end{DoxyParamCaption})}
+
+Removes a domain axis crosshair and sends an \mbox{\hyperlink{}{Overlay\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em crosshair} & the crosshair ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_adebe4aa34a8545726d6dd708a6daf1d9}{add\+Domain\+Crosshair}}(\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{org.\+jfree.\+chart.\+plot.\+Crosshair}}) 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a89a21846fbabe76c99108646640530f9}\label{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a89a21846fbabe76c99108646640530f9}} 
+\index{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}!remove\+Range\+Crosshair@{remove\+Range\+Crosshair}}
+\index{remove\+Range\+Crosshair@{remove\+Range\+Crosshair}!org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay@{org\+::jfree\+::chart\+::panel\+::\+Crosshair\+Overlay}}
+\subsubsection{\texorpdfstring{remove\+Range\+Crosshair()}{removeRangeCrosshair()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+panel.\+Crosshair\+Overlay.\+remove\+Range\+Crosshair (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{Crosshair}}}]{crosshair }\end{DoxyParamCaption})}
+
+Removes a range axis crosshair and sends an \mbox{\hyperlink{}{Overlay\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em crosshair} & the crosshair ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1panel_1_1_crosshair_overlay_a646be9e4b9ab7774b97949a0c9f475a9}{add\+Range\+Crosshair}}(\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_crosshair}{org.\+jfree.\+chart.\+plot.\+Crosshair}}) 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/panel/\mbox{\hyperlink{_crosshair_overlay_8java}{Crosshair\+Overlay.\+java}}\end{DoxyCompactItemize}

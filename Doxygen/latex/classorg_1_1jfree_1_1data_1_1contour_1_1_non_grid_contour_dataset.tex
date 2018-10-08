@@ -1,0 +1,132 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset}{}\section{org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset}\index{org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset@{org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.482269cm]{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a6596e031161ef6411c8de5de343fd50e}{Non\+Grid\+Contour\+Dataset}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a827bf281fd6e6f0aea0ca0b7e6903873}{Non\+Grid\+Contour\+Dataset}} (String series\+Name, Object\mbox{[}$\,$\mbox{]} x\+Data, Object\mbox{[}$\,$\mbox{]} y\+Data, Object\mbox{[}$\,$\mbox{]} z\+Data)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_ae375bfbb12cf82d999846d3695e08d09}{Non\+Grid\+Contour\+Dataset}} (String series\+Name, Object\mbox{[}$\,$\mbox{]} x\+Data, Object\mbox{[}$\,$\mbox{]} y\+Data, Object\mbox{[}$\,$\mbox{]} z\+Data, int numX, int numY, int power)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_ac38661259ae32711847e564b5daed851}{build\+Grid}} (int numX, int numY, int power)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a795a2ad16e8ac948c43f2257fbea1fe4}{distance}} (double x\+Data\+Pt, double y\+Data\+Pt, double x\+Grd\+Pt, double y\+Grd\+Pt)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A convenience class that extends the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset}{Default\+Contour\+Dataset}} to accommodate non-\/grid data.
+
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000257}{Deprecated}}]This class is no longer supported (as of version 1.\+0.\+4). If you are creating contour plots, please try to use \mbox{\hyperlink{}{X\+Y\+Plot}} and \mbox{\hyperlink{}{X\+Y\+Block\+Renderer}}. \end{DoxyRefDesc}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a6596e031161ef6411c8de5de343fd50e}\label{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a6596e031161ef6411c8de5de343fd50e}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}!Non\+Grid\+Contour\+Dataset@{Non\+Grid\+Contour\+Dataset}}
+\index{Non\+Grid\+Contour\+Dataset@{Non\+Grid\+Contour\+Dataset}!org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{Non\+Grid\+Contour\+Dataset()}{NonGridContourDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset.\+Non\+Grid\+Contour\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a827bf281fd6e6f0aea0ca0b7e6903873}\label{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a827bf281fd6e6f0aea0ca0b7e6903873}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}!Non\+Grid\+Contour\+Dataset@{Non\+Grid\+Contour\+Dataset}}
+\index{Non\+Grid\+Contour\+Dataset@{Non\+Grid\+Contour\+Dataset}!org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{Non\+Grid\+Contour\+Dataset()}{NonGridContourDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset.\+Non\+Grid\+Contour\+Dataset (\begin{DoxyParamCaption}\item[{String}]{series\+Name,  }\item[{Object \mbox{[}$\,$\mbox{]}}]{x\+Data,  }\item[{Object \mbox{[}$\,$\mbox{]}}]{y\+Data,  }\item[{Object \mbox{[}$\,$\mbox{]}}]{z\+Data }\end{DoxyParamCaption})}
+
+Constructor for \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset}{Non\+Grid\+Contour\+Dataset}}. Uses default values for grid dimensions and weighting.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Name} & the series name. \\
+\hline
+{\em x\+Data} & the x values. \\
+\hline
+{\em y\+Data} & the y values. \\
+\hline
+{\em z\+Data} & the z values. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_ae375bfbb12cf82d999846d3695e08d09}\label{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_ae375bfbb12cf82d999846d3695e08d09}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}!Non\+Grid\+Contour\+Dataset@{Non\+Grid\+Contour\+Dataset}}
+\index{Non\+Grid\+Contour\+Dataset@{Non\+Grid\+Contour\+Dataset}!org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{Non\+Grid\+Contour\+Dataset()}{NonGridContourDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset.\+Non\+Grid\+Contour\+Dataset (\begin{DoxyParamCaption}\item[{String}]{series\+Name,  }\item[{Object \mbox{[}$\,$\mbox{]}}]{x\+Data,  }\item[{Object \mbox{[}$\,$\mbox{]}}]{y\+Data,  }\item[{Object \mbox{[}$\,$\mbox{]}}]{z\+Data,  }\item[{int}]{numX,  }\item[{int}]{numY,  }\item[{int}]{power }\end{DoxyParamCaption})}
+
+Constructor for \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset}{Non\+Grid\+Contour\+Dataset}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Name} & the series name. \\
+\hline
+{\em x\+Data} & the x values. \\
+\hline
+{\em y\+Data} & the y values. \\
+\hline
+{\em z\+Data} & the z values. \\
+\hline
+{\em numX} & number grid cells in along the x-\/axis \\
+\hline
+{\em numY} & number grid cells in along the y-\/axis \\
+\hline
+{\em power} & exponent for inverse distance weighting \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_ac38661259ae32711847e564b5daed851}\label{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_ac38661259ae32711847e564b5daed851}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}!build\+Grid@{build\+Grid}}
+\index{build\+Grid@{build\+Grid}!org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{build\+Grid()}{buildGrid()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset.\+build\+Grid (\begin{DoxyParamCaption}\item[{int}]{numX,  }\item[{int}]{numY,  }\item[{int}]{power }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Builds a regular grid. Maps the non-\/grid data into the regular grid using an inverse distance between grid and non-\/grid points. Weighting of distance can be controlled by setting through the power parameter that controls the exponent used on the distance weighting (e.\+g., distance$^\wedge$power).
+
+
+\begin{DoxyParams}{Parameters}
+{\em numX} & number grid points in along the x-\/axis \\
+\hline
+{\em numY} & number grid points in along the y-\/axis \\
+\hline
+{\em power} & exponent for inverse distance weighting \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a795a2ad16e8ac948c43f2257fbea1fe4}\label{classorg_1_1jfree_1_1data_1_1contour_1_1_non_grid_contour_dataset_a795a2ad16e8ac948c43f2257fbea1fe4}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}!distance@{distance}}
+\index{distance@{distance}!org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Non\+Grid\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{distance()}{distance()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+contour.\+Non\+Grid\+Contour\+Dataset.\+distance (\begin{DoxyParamCaption}\item[{double}]{x\+Data\+Pt,  }\item[{double}]{y\+Data\+Pt,  }\item[{double}]{x\+Grd\+Pt,  }\item[{double}]{y\+Grd\+Pt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Calculates the distance between two points.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Data\+Pt} & the x coordinate. \\
+\hline
+{\em y\+Data\+Pt} & the y coordinate. \\
+\hline
+{\em x\+Grd\+Pt} & the x grid coordinate. \\
+\hline
+{\em y\+Grd\+Pt} & the y grid coordinate.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The distance between two points. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/contour/\mbox{\hyperlink{_non_grid_contour_dataset_8java}{Non\+Grid\+Contour\+Dataset.\+java}}\end{DoxyCompactItemize}

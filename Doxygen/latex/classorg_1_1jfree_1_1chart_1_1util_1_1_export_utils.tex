@@ -1,0 +1,145 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils}{}\section{org.\+jfree.\+chart.\+util.\+Export\+Utils Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils}\index{org.\+jfree.\+chart.\+util.\+Export\+Utils@{org.\+jfree.\+chart.\+util.\+Export\+Utils}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_ac806389bfd7c8e54855366a0bd72bfcf}{is\+J\+Free\+S\+V\+G\+Available}} ()
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a0fe7576ac9714907ff5b61d77b6bdd58}{is\+Orson\+P\+D\+F\+Available}} ()
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a9c7aaec10ebbedc62d6272ac36531c4c}{write\+As\+S\+VG}} (Drawable drawable, int w, int h, File file)
+\item 
+static final void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a9aa8e8cc9149f3bf3fc3b8076f3f3c3a}{write\+As\+P\+DF}} (Drawable drawable, int w, int h, File file)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a92f7f6a291e22be64a0cec3d18db813f}{write\+As\+P\+NG}} (Drawable drawable, int w, int h, File file)  throws File\+Not\+Found\+Exception, I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_abdd6b3b76005c38f921f7ec02979509f}{write\+As\+J\+P\+EG}} (Drawable drawable, int w, int h, File file)  throws File\+Not\+Found\+Exception, I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Utility functions for exporting charts to S\+VG and P\+DF format.
+
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_ac806389bfd7c8e54855366a0bd72bfcf}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_ac806389bfd7c8e54855366a0bd72bfcf}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}!is\+J\+Free\+S\+V\+G\+Available@{is\+J\+Free\+S\+V\+G\+Available}}
+\index{is\+J\+Free\+S\+V\+G\+Available@{is\+J\+Free\+S\+V\+G\+Available}!org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}}
+\subsubsection{\texorpdfstring{is\+J\+Free\+S\+V\+G\+Available()}{isJFreeSVGAvailable()}}
+{\footnotesize\ttfamily static boolean org.\+jfree.\+chart.\+util.\+Export\+Utils.\+is\+J\+Free\+S\+V\+G\+Available (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns {\ttfamily true} if J\+Free\+S\+VG is on the classpath, and {\ttfamily false} otherwise. The J\+Free\+S\+VG library can be found at \href{http://www.jfree.org/jfreesvg/}{\tt http\+://www.\+jfree.\+org/jfreesvg/}
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a0fe7576ac9714907ff5b61d77b6bdd58}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a0fe7576ac9714907ff5b61d77b6bdd58}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}!is\+Orson\+P\+D\+F\+Available@{is\+Orson\+P\+D\+F\+Available}}
+\index{is\+Orson\+P\+D\+F\+Available@{is\+Orson\+P\+D\+F\+Available}!org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}}
+\subsubsection{\texorpdfstring{is\+Orson\+P\+D\+F\+Available()}{isOrsonPDFAvailable()}}
+{\footnotesize\ttfamily static boolean org.\+jfree.\+chart.\+util.\+Export\+Utils.\+is\+Orson\+P\+D\+F\+Available (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns {\ttfamily true} if Orson\+P\+DF is on the classpath, and {\ttfamily false} otherwise. The Orson\+P\+DF library can be found at \href{http://www.object-refinery.com/pdf/}{\tt http\+://www.\+object-\/refinery.\+com/pdf/}
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_abdd6b3b76005c38f921f7ec02979509f}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_abdd6b3b76005c38f921f7ec02979509f}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}!write\+As\+J\+P\+EG@{write\+As\+J\+P\+EG}}
+\index{write\+As\+J\+P\+EG@{write\+As\+J\+P\+EG}!org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}}
+\subsubsection{\texorpdfstring{write\+As\+J\+P\+E\+G()}{writeAsJPEG()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+util.\+Export\+Utils.\+write\+As\+J\+P\+EG (\begin{DoxyParamCaption}\item[{Drawable}]{drawable,  }\item[{int}]{w,  }\item[{int}]{h,  }\item[{File}]{file }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception, I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Writes the current content to the specified file in J\+P\+EG format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em drawable} & the drawable ({\ttfamily null} not permitted). \\
+\hline
+{\em w} & the chart width. \\
+\hline
+{\em h} & the chart height. \\
+\hline
+{\em file} & the output file ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\+Not\+Found\+Exception} & if the file is not found. \\
+\hline
+{\em I\+O\+Exception} & if there is an I/O problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a9aa8e8cc9149f3bf3fc3b8076f3f3c3a}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a9aa8e8cc9149f3bf3fc3b8076f3f3c3a}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}!write\+As\+P\+DF@{write\+As\+P\+DF}}
+\index{write\+As\+P\+DF@{write\+As\+P\+DF}!org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}}
+\subsubsection{\texorpdfstring{write\+As\+P\+D\+F()}{writeAsPDF()}}
+{\footnotesize\ttfamily static final void org.\+jfree.\+chart.\+util.\+Export\+Utils.\+write\+As\+P\+DF (\begin{DoxyParamCaption}\item[{Drawable}]{drawable,  }\item[{int}]{w,  }\item[{int}]{h,  }\item[{File}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Writes a \mbox{\hyperlink{}{Drawable}} to the specified file in P\+DF format. This will only work when the Orson\+P\+DF library is found on the classpath. Reflection is used to ensure there is no compile-\/time dependency on Orson\+P\+DF.
+
+
+\begin{DoxyParams}{Parameters}
+{\em drawable} & the drawable ({\ttfamily null} not permitted). \\
+\hline
+{\em w} & the chart width. \\
+\hline
+{\em h} & the chart height. \\
+\hline
+{\em file} & the output file ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a92f7f6a291e22be64a0cec3d18db813f}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a92f7f6a291e22be64a0cec3d18db813f}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}!write\+As\+P\+NG@{write\+As\+P\+NG}}
+\index{write\+As\+P\+NG@{write\+As\+P\+NG}!org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}}
+\subsubsection{\texorpdfstring{write\+As\+P\+N\+G()}{writeAsPNG()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+util.\+Export\+Utils.\+write\+As\+P\+NG (\begin{DoxyParamCaption}\item[{Drawable}]{drawable,  }\item[{int}]{w,  }\item[{int}]{h,  }\item[{File}]{file }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception, I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Writes the current content to the specified file in P\+NG format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em drawable} & the drawable ({\ttfamily null} not permitted). \\
+\hline
+{\em w} & the chart width. \\
+\hline
+{\em h} & the chart height. \\
+\hline
+{\em file} & the output file ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\+Not\+Found\+Exception} & if the file is not found. \\
+\hline
+{\em I\+O\+Exception} & if there is an I/O problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a9c7aaec10ebbedc62d6272ac36531c4c}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_export_utils_a9c7aaec10ebbedc62d6272ac36531c4c}} 
+\index{org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}!write\+As\+S\+VG@{write\+As\+S\+VG}}
+\index{write\+As\+S\+VG@{write\+As\+S\+VG}!org\+::jfree\+::chart\+::util\+::\+Export\+Utils@{org\+::jfree\+::chart\+::util\+::\+Export\+Utils}}
+\subsubsection{\texorpdfstring{write\+As\+S\+V\+G()}{writeAsSVG()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+util.\+Export\+Utils.\+write\+As\+S\+VG (\begin{DoxyParamCaption}\item[{Drawable}]{drawable,  }\item[{int}]{w,  }\item[{int}]{h,  }\item[{File}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Writes the current content to the specified file in S\+VG format. This will only work when the J\+Free\+S\+VG library is found on the classpath. Reflection is used to ensure there is no compile-\/time dependency on J\+Free\+S\+VG.
+
+
+\begin{DoxyParams}{Parameters}
+{\em drawable} & the drawable ({\ttfamily null} not permitted). \\
+\hline
+{\em w} & the chart width. \\
+\hline
+{\em h} & the chart height. \\
+\hline
+{\em file} & the output file ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_export_utils_8java}{Export\+Utils.\+java}}\end{DoxyCompactItemize}

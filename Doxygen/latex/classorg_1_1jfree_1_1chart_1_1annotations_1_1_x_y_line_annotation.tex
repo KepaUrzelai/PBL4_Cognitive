@@ -1,0 +1,152 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation}{}\section{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation}\index{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation@{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation}}
+Inheritance diagram for org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.248607cm]{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a68dc6a5e5a4f72e94a0ae52b72c9058c}{X\+Y\+Line\+Annotation}} (double x1, double y1, double x2, double y2)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a33c8bd8fed90d3e0655a104d4c8315a3}{X\+Y\+Line\+Annotation}} (double x1, double y1, double x2, double y2, Stroke stroke, Paint paint)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a4ff35300a56d36a0fa27cfd8e92c5c48}{draw}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}} plot, Rectangle2D data\+Area, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} domain\+Axis, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} range\+Axis, int renderer\+Index, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a9bb1d87e240fbd6f2edf678e64509ea7}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a0118ebaa2050bc41a505c86a2a4e2bfa}{hash\+Code}} ()
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a9fe191b9077fa7af62f83768f8ec2bd3}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A simple line annotation that can be placed on an \mbox{\hyperlink{}{X\+Y\+Plot}}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a68dc6a5e5a4f72e94a0ae52b72c9058c}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a68dc6a5e5a4f72e94a0ae52b72c9058c}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}!X\+Y\+Line\+Annotation@{X\+Y\+Line\+Annotation}}
+\index{X\+Y\+Line\+Annotation@{X\+Y\+Line\+Annotation}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}}
+\subsubsection{\texorpdfstring{X\+Y\+Line\+Annotation()}{XYLineAnnotation()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation.\+X\+Y\+Line\+Annotation (\begin{DoxyParamCaption}\item[{double}]{x1,  }\item[{double}]{y1,  }\item[{double}]{x2,  }\item[{double}]{y2 }\end{DoxyParamCaption})}
+
+Creates a new annotation that draws a line from (x1, y1) to (x2, y2) where the coordinates are measured in data space (that is, against the plot\textquotesingle{}s axes).
+
+
+\begin{DoxyParams}{Parameters}
+{\em x1} & the x-\/coordinate for the start of the line. \\
+\hline
+{\em y1} & the y-\/coordinate for the start of the line. \\
+\hline
+{\em x2} & the x-\/coordinate for the end of the line. \\
+\hline
+{\em y2} & the y-\/coordinate for the end of the line. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a33c8bd8fed90d3e0655a104d4c8315a3}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a33c8bd8fed90d3e0655a104d4c8315a3}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}!X\+Y\+Line\+Annotation@{X\+Y\+Line\+Annotation}}
+\index{X\+Y\+Line\+Annotation@{X\+Y\+Line\+Annotation}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}}
+\subsubsection{\texorpdfstring{X\+Y\+Line\+Annotation()}{XYLineAnnotation()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation.\+X\+Y\+Line\+Annotation (\begin{DoxyParamCaption}\item[{double}]{x1,  }\item[{double}]{y1,  }\item[{double}]{x2,  }\item[{double}]{y2,  }\item[{Stroke}]{stroke,  }\item[{Paint}]{paint }\end{DoxyParamCaption})}
+
+Creates a new annotation that draws a line from (x1, y1) to (x2, y2) where the coordinates are measured in data space (that is, against the plot\textquotesingle{}s axes).
+
+
+\begin{DoxyParams}{Parameters}
+{\em x1} & the x-\/coordinate for the start of the line. \\
+\hline
+{\em y1} & the y-\/coordinate for the start of the line. \\
+\hline
+{\em x2} & the x-\/coordinate for the end of the line. \\
+\hline
+{\em y2} & the y-\/coordinate for the end of the line. \\
+\hline
+{\em stroke} & the line stroke ({\ttfamily null} not permitted). \\
+\hline
+{\em paint} & the line color ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a9fe191b9077fa7af62f83768f8ec2bd3}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a9fe191b9077fa7af62f83768f8ec2bd3}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the annotation.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if the annotation can\textquotesingle{}t be cloned. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a4ff35300a56d36a0fa27cfd8e92c5c48}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a4ff35300a56d36a0fa27cfd8e92c5c48}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}}}]{plot,  }\item[{Rectangle2D}]{data\+Area,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{domain\+Axis,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{range\+Axis,  }\item[{int}]{renderer\+Index,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info }\end{DoxyParamCaption})}
+
+Draws the annotation. This method is called by the \mbox{\hyperlink{}{X\+Y\+Plot}} class, you won\textquotesingle{}t normally need to call it yourself.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em plot} & the plot. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+{\em domain\+Axis} & the domain axis. \\
+\hline
+{\em range\+Axis} & the range axis. \\
+\hline
+{\em renderer\+Index} & the renderer index. \\
+\hline
+{\em info} & if supplied, this info object will be populated with entity information. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_annotation_ada5edc52b7dfbaa9ded956afe447b543}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Annotation}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a9bb1d87e240fbd6f2edf678e64509ea7}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a9bb1d87e240fbd6f2edf678e64509ea7}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test against ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} or {\ttfamily false}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a0118ebaa2050bc41a505c86a2a4e2bfa}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a0118ebaa2050bc41a505c86a2a4e2bfa}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Line\+Annotation}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/annotations/\mbox{\hyperlink{_x_y_line_annotation_8java}{X\+Y\+Line\+Annotation.\+java}}\end{DoxyCompactItemize}

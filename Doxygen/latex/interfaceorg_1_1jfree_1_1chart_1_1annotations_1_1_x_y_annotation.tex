@@ -1,0 +1,53 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_annotation}{}\section{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Annotation Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_annotation}\index{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Annotation@{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Annotation}}
+Inheritance diagram for org.\+jfree.\+chart.\+annotations.\+X\+Y\+Annotation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=10.803859cm]{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_annotation}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_annotation_ada5edc52b7dfbaa9ded956afe447b543}{draw}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}} plot, Rectangle2D data\+Area, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} domain\+Axis, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}} range\+Axis, int renderer\+Index, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}} info)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The interface that must be supported by annotations that are to be added to an \mbox{\hyperlink{}{X\+Y\+Plot}}. Note that, in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} 1.\+0.\+14, a non-\/compatible change has been made to this interface (it now extends the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_annotation}{Annotation}} interface to support change notifications). 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_annotation_ada5edc52b7dfbaa9ded956afe447b543}\label{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_annotation_ada5edc52b7dfbaa9ded956afe447b543}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Annotation}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+X\+Y\+Annotation}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+annotations.\+X\+Y\+Annotation.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_x_y_plot}{X\+Y\+Plot}}}]{plot,  }\item[{Rectangle2D}]{data\+Area,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{domain\+Axis,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_value_axis}{Value\+Axis}}}]{range\+Axis,  }\item[{int}]{renderer\+Index,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_plot_rendering_info}{Plot\+Rendering\+Info}}}]{info }\end{DoxyParamCaption})}
+
+Draws the annotation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em plot} & the plot. \\
+\hline
+{\em data\+Area} & the data area. \\
+\hline
+{\em domain\+Axis} & the domain axis. \\
+\hline
+{\em range\+Axis} & the range axis. \\
+\hline
+{\em renderer\+Index} & the renderer index. \\
+\hline
+{\em info} & an optional info object that will be populated with entity information. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_text_annotation_a3f5bf9dbc6e083bda0c32dbf7c220646}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Text\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_pointer_annotation_a2ee7ce42e41d8d7d285232f675477531}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Pointer\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_title_annotation_a368201fcdb97475b258896f458c03451}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Title\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_data_image_annotation_a3eaef1a893f96ba1c61b8568fe7160c8}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Data\+Image\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_polygon_annotation_a5401820a121a775d9477757517bab975}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Polygon\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_image_annotation_ae60cac497a5354b0640499084046637d}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Image\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_box_annotation_acb8fab482131052fe874c8d3c5226ebc}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Box\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_line_annotation_a4ff35300a56d36a0fa27cfd8e92c5c48}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Line\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_shape_annotation_a64d3ef75c67e6911e2490329c550c5db}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Shape\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_x_y_drawable_annotation_a6ab88727b81e538f5b11e01df1a8e2f9}{org.\+jfree.\+chart.\+annotations.\+X\+Y\+Drawable\+Annotation}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_x_y_annotation_a1a3d345534006a22dfd3e23a16b23bf7}{org.\+jfree.\+chart.\+annotations.\+Abstract\+X\+Y\+Annotation}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/annotations/\mbox{\hyperlink{_x_y_annotation_8java}{X\+Y\+Annotation.\+java}}\end{DoxyCompactItemize}

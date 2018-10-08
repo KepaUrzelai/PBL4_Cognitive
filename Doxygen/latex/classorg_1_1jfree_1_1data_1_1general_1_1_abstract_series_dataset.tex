@@ -1,0 +1,118 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset}{}\section{org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset}\index{org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset@{org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.079179cm]{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_ae9bb05e02f26cb1243d7d1ccb8bae3c0}{get\+Series\+Count}} ()
+\item 
+abstract Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_afc45787d66065622852b5c4d6d4f422a}{get\+Series\+Key}} (int series)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_a7ba00e324a49b6a0126c51b0a2c99abb}{index\+Of}} (Comparable series\+Key)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_a675989ab4880ab0456aabb1eae97d832}{series\+Changed}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{Series\+Change\+Event}} event)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_adf6b9cd33221841bb43742512deca232}{Abstract\+Series\+Dataset}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An abstract implementation of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset}{Series\+Dataset}} interface, containing a mechanism for registering change listeners. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_adf6b9cd33221841bb43742512deca232}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_adf6b9cd33221841bb43742512deca232}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}!Abstract\+Series\+Dataset@{Abstract\+Series\+Dataset}}
+\index{Abstract\+Series\+Dataset@{Abstract\+Series\+Dataset}!org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}}
+\subsubsection{\texorpdfstring{Abstract\+Series\+Dataset()}{AbstractSeriesDataset()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset.\+Abstract\+Series\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates a new dataset. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_ae9bb05e02f26cb1243d7d1ccb8bae3c0}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_ae9bb05e02f26cb1243d7d1ccb8bae3c0}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}!get\+Series\+Count@{get\+Series\+Count}}
+\index{get\+Series\+Count@{get\+Series\+Count}!org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Count()}{getSeriesCount()}}
+{\footnotesize\ttfamily abstract int org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset.\+get\+Series\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Returns the number of series in the dataset.
+
+\begin{DoxyReturn}{Returns}
+The series count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_afc45787d66065622852b5c4d6d4f422a}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_afc45787d66065622852b5c4d6d4f422a}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}!get\+Series\+Key@{get\+Series\+Key}}
+\index{get\+Series\+Key@{get\+Series\+Key}!org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Key()}{getSeriesKey()}}
+{\footnotesize\ttfamily abstract Comparable org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset.\+get\+Series\+Key (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Returns the key for a series. 
+
+If {\ttfamily series} is not within the specified range, the implementing method should throw an \mbox{\hyperlink{}{Index\+Out\+Of\+Bounds\+Exception}} (preferred) or an \mbox{\hyperlink{}{Illegal\+Argument\+Exception}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_ae9bb05e02f26cb1243d7d1ccb8bae3c0}{get\+Series\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The series key. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a60488892b2314a05a012999e26a74178}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_a7ba00e324a49b6a0126c51b0a2c99abb}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_a7ba00e324a49b6a0126c51b0a2c99abb}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}!index\+Of@{index\+Of}}
+\index{index\+Of@{index\+Of}!org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}}
+\subsubsection{\texorpdfstring{index\+Of()}{indexOf()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset.\+index\+Of (\begin{DoxyParamCaption}\item[{Comparable}]{series\+Key }\end{DoxyParamCaption})}
+
+Returns the index of the named series, or -\/1.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Key} & the series key ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a8995ed4d70a6c4efe3a4f23318e47046}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_a675989ab4880ab0456aabb1eae97d832}\label{classorg_1_1jfree_1_1data_1_1general_1_1_abstract_series_dataset_a675989ab4880ab0456aabb1eae97d832}} 
+\index{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}!series\+Changed@{series\+Changed}}
+\index{series\+Changed@{series\+Changed}!org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset@{org\+::jfree\+::data\+::general\+::\+Abstract\+Series\+Dataset}}
+\subsubsection{\texorpdfstring{series\+Changed()}{seriesChanged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+general.\+Abstract\+Series\+Dataset.\+series\+Changed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{Series\+Change\+Event}}}]{event }\end{DoxyParamCaption})}
+
+Called when a series belonging to the dataset changes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & information about the change. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_change_listener_a441fd65d1290b91e0184124be928ebf7}{org.\+jfree.\+data.\+general.\+Series\+Change\+Listener}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/general/\mbox{\hyperlink{_abstract_series_dataset_8java}{Abstract\+Series\+Dataset.\+java}}\end{DoxyCompactItemize}

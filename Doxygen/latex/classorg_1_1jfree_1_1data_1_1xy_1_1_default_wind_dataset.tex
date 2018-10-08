@@ -1,0 +1,313 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset}{}\section{org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset}\index{org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset@{org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.051282cm]{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_aac34ccb95e5cf373f6cb2a22993db505}{Default\+Wind\+Dataset}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_abbb7ce3f458389d28ca99312bc824ec9}{Default\+Wind\+Dataset}} (Object\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} data)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a6f727603c8de64f0e6a3af3798abaa2f}{Default\+Wind\+Dataset}} (String\mbox{[}$\,$\mbox{]} series\+Names, Object\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} data)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_acb6a3aca0dc3e10e3d79abc98e9b6f39}{Default\+Wind\+Dataset}} (List series\+Keys, Object\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} data)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a8d559f3bb1908b9870cf6dcf5a5d653a}{get\+Series\+Count}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a40e8e83a09112bf32478cdd8bc906800}{get\+Item\+Count}} (int series)
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_ac48b53bd5cb10baaad8e0ab89aa4f6ef}{get\+Series\+Key}} (int series)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_af62edd939cd88c0bf2350231798c3892}{getX}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a51ae6185e5c71a07e8e2f496e101e868}{getY}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_aa548182054c24afc0a4e2ac429fe81e9}{get\+Wind\+Direction}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a39588ba40d03b43b02d85b20027eab4f}{get\+Wind\+Force}} (int series, int item)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a95e989ffe9607d222a85dbf30e8279e5}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a86786eeca04c54e0330366e05fd5f5b4}{series\+Name\+List\+From\+Data\+Array}} (Object\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} data)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A default implementation of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset}{Wind\+Dataset}} interface. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_aac34ccb95e5cf373f6cb2a22993db505}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_aac34ccb95e5cf373f6cb2a22993db505}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!Default\+Wind\+Dataset@{Default\+Wind\+Dataset}}
+\index{Default\+Wind\+Dataset@{Default\+Wind\+Dataset}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{Default\+Wind\+Dataset()}{DefaultWindDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+Default\+Wind\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructs a new, empty, dataset. Since there are currently no methods to add data to an existing dataset, you should probably use a different constructor. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_abbb7ce3f458389d28ca99312bc824ec9}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_abbb7ce3f458389d28ca99312bc824ec9}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!Default\+Wind\+Dataset@{Default\+Wind\+Dataset}}
+\index{Default\+Wind\+Dataset@{Default\+Wind\+Dataset}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{Default\+Wind\+Dataset()}{DefaultWindDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+Default\+Wind\+Dataset (\begin{DoxyParamCaption}\item[{Object}]{data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Constructs a dataset based on the specified data array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if {\ttfamily data} is {\ttfamily null}. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a6f727603c8de64f0e6a3af3798abaa2f}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a6f727603c8de64f0e6a3af3798abaa2f}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!Default\+Wind\+Dataset@{Default\+Wind\+Dataset}}
+\index{Default\+Wind\+Dataset@{Default\+Wind\+Dataset}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{Default\+Wind\+Dataset()}{DefaultWindDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+Default\+Wind\+Dataset (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{series\+Names,  }\item[{Object}]{data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Constructs a dataset based on the specified data array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Names} & the names of the series ({\ttfamily null} not permitted). \\
+\hline
+{\em data} & the wind data.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if {\ttfamily series\+Names} is {\ttfamily null}. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_acb6a3aca0dc3e10e3d79abc98e9b6f39}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_acb6a3aca0dc3e10e3d79abc98e9b6f39}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!Default\+Wind\+Dataset@{Default\+Wind\+Dataset}}
+\index{Default\+Wind\+Dataset@{Default\+Wind\+Dataset}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{Default\+Wind\+Dataset()}{DefaultWindDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+Default\+Wind\+Dataset (\begin{DoxyParamCaption}\item[{List}]{series\+Keys,  }\item[{Object}]{data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Constructs a dataset based on the specified data array. The array can contain multiple series, each series can contain multiple items, and each item is as follows\+: 
+\begin{DoxyItemize}
+\item {\ttfamily data\mbox{[}series\mbox{]}\mbox{[}item\mbox{]}\mbox{[}0\mbox{]}} -\/ the date (either a {\ttfamily Date} or a {\ttfamily Number} that is the milliseconds since 1-\/\+Jan-\/1970); 
+\item {\ttfamily data\mbox{[}series\mbox{]}\mbox{[}item\mbox{]}\mbox{[}1\mbox{]}} -\/ the wind direction (1 -\/ 12, like the numbers on a clock face); 
+\item {\ttfamily data\mbox{[}series\mbox{]}\mbox{[}item\mbox{]}\mbox{[}2\mbox{]}} -\/ the wind force (1 -\/ 12 on the Beaufort scale) 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Keys} & the names of the series ({\ttfamily null} not permitted). \\
+\hline
+{\em data} & the wind dataset ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if {\ttfamily series\+Keys} is {\ttfamily null}. \\
+\hline
+{\em Illegal\+Argument\+Exception} & if the number of series keys does not match the number of series in the array. \\
+\hline
+{\em Null\+Pointer\+Exception} & if {\ttfamily data} is {\ttfamily null}. \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a95e989ffe9607d222a85dbf30e8279e5}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a95e989ffe9607d222a85dbf30e8279e5}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Checks this {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset}{Wind\+Dataset}}} for equality with an arbitrary object. This method returns {\ttfamily true} if and only if\+: 
+\begin{DoxyItemize}
+\item {\ttfamily obj} is not {\ttfamily null}; 
+\item {\ttfamily obj} is an instance of {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset}{Default\+Wind\+Dataset}}}; 
+\item both datasets have the same number of series containing identical values. 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a40e8e83a09112bf32478cdd8bc906800}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a40e8e83a09112bf32478cdd8bc906800}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+get\+Item\+Count (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the number of items in a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_ae81f9de91dfcae45028fc8a486a119da}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a8d559f3bb1908b9870cf6dcf5a5d653a}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a8d559f3bb1908b9870cf6dcf5a5d653a}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!get\+Series\+Count@{get\+Series\+Count}}
+\index{get\+Series\+Count@{get\+Series\+Count}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Count()}{getSeriesCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+get\+Series\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of series in the dataset.
+
+\begin{DoxyReturn}{Returns}
+The series count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_ac48b53bd5cb10baaad8e0ab89aa4f6ef}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_ac48b53bd5cb10baaad8e0ab89aa4f6ef}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!get\+Series\+Key@{get\+Series\+Key}}
+\index{get\+Series\+Key@{get\+Series\+Key}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Key()}{getSeriesKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+get\+Series\+Key (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the key for a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The series key. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a60488892b2314a05a012999e26a74178}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_aa548182054c24afc0a4e2ac429fe81e9}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_aa548182054c24afc0a4e2ac429fe81e9}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!get\+Wind\+Direction@{get\+Wind\+Direction}}
+\index{get\+Wind\+Direction@{get\+Wind\+Direction}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Wind\+Direction()}{getWindDirection()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+get\+Wind\+Direction (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the wind direction for one item within a series. This is a number between 0 and 12, like the numbers on an upside-\/down clock face.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The wind direction for the item within the series. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset_a09dd402242d69a323703cedf2574a876}{org.\+jfree.\+data.\+xy.\+Wind\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a39588ba40d03b43b02d85b20027eab4f}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a39588ba40d03b43b02d85b20027eab4f}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!get\+Wind\+Force@{get\+Wind\+Force}}
+\index{get\+Wind\+Force@{get\+Wind\+Force}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Wind\+Force()}{getWindForce()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+get\+Wind\+Force (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the wind force for one item within a series. This is a number between 0 and 12, as defined by the Beaufort scale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The wind force for the item within the series. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset_aae53f6715a54e1f6b34e2b7d19564463}{org.\+jfree.\+data.\+xy.\+Wind\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_af62edd939cd88c0bf2350231798c3892}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_af62edd939cd88c0bf2350231798c3892}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+getX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the x-\/value for one item within a series. This should represent a point in time, encoded as milliseconds in the same way as java.\+util.\+Date.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value for the item within the series. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a85c75ba5b69b551e96afd29d1732ba22}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a51ae6185e5c71a07e8e2f496e101e868}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a51ae6185e5c71a07e8e2f496e101e868}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+getY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value for one item within a series. This maps to the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a39588ba40d03b43b02d85b20027eab4f}{get\+Wind\+Force(int, int)}} method and is implemented because {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset}{Wind\+Dataset}}} is an extension of \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value for the item within the series. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_aa915867221e0f94021bad3140db5254e}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a86786eeca04c54e0330366e05fd5f5b4}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a86786eeca04c54e0330366e05fd5f5b4}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}!series\+Name\+List\+From\+Data\+Array@{series\+Name\+List\+From\+Data\+Array}}
+\index{series\+Name\+List\+From\+Data\+Array@{series\+Name\+List\+From\+Data\+Array}!org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Default\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{series\+Name\+List\+From\+Data\+Array()}{seriesNameListFromDataArray()}}
+{\footnotesize\ttfamily static List org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset.\+series\+Name\+List\+From\+Data\+Array (\begin{DoxyParamCaption}\item[{Object}]{data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Utility method for automatically generating series names.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the wind data ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of {\itshape Series N} with N = \{ 1 .. data.\+length \}.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if {\ttfamily data} is {\ttfamily null}. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_default_wind_dataset_8java}{Default\+Wind\+Dataset.\+java}}\end{DoxyCompactItemize}

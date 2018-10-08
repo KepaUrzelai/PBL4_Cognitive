@@ -1,0 +1,72 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset}{}\section{org.\+jfree.\+data.\+xy.\+Wind\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset}\index{org.\+jfree.\+data.\+xy.\+Wind\+Dataset@{org.\+jfree.\+data.\+xy.\+Wind\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+Wind\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset_a09dd402242d69a323703cedf2574a876}{get\+Wind\+Direction}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset_aae53f6715a54e1f6b34e2b7d19564463}{get\+Wind\+Force}} (int series, int item)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface for a dataset that supplies wind intensity and direction values observed at various points in time. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset_a09dd402242d69a323703cedf2574a876}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset_a09dd402242d69a323703cedf2574a876}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Wind\+Dataset}!get\+Wind\+Direction@{get\+Wind\+Direction}}
+\index{get\+Wind\+Direction@{get\+Wind\+Direction}!org\+::jfree\+::data\+::xy\+::\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Wind\+Direction()}{getWindDirection()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Wind\+Dataset.\+get\+Wind\+Direction (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the wind direction (should be in the range 0 to 12, corresponding to the positions on an upside-\/down clock face).
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series) -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The wind direction. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_aa548182054c24afc0a4e2ac429fe81e9}{org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset_aae53f6715a54e1f6b34e2b7d19564463}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_wind_dataset_aae53f6715a54e1f6b34e2b7d19564463}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Wind\+Dataset}!get\+Wind\+Force@{get\+Wind\+Force}}
+\index{get\+Wind\+Force@{get\+Wind\+Force}!org\+::jfree\+::data\+::xy\+::\+Wind\+Dataset@{org\+::jfree\+::data\+::xy\+::\+Wind\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Wind\+Force()}{getWindForce()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Wind\+Dataset.\+get\+Wind\+Force (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the wind force on the Beaufort scale (0 to 12). See\+: 
+
+\href{http://en.wikipedia.org/wiki/Beaufort_scale}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Beaufort\+\_\+scale}
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item (in the range {\ttfamily 0} to {\ttfamily get\+Item\+Count(series) -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The wind force. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_wind_dataset_a39588ba40d03b43b02d85b20027eab4f}{org.\+jfree.\+data.\+xy.\+Default\+Wind\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_wind_dataset_8java}{Wind\+Dataset.\+java}}\end{DoxyCompactItemize}

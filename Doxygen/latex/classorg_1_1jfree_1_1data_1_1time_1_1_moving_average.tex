@@ -1,0 +1,162 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average}{}\section{org.\+jfree.\+data.\+time.\+Moving\+Average Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average}\index{org.\+jfree.\+data.\+time.\+Moving\+Average@{org.\+jfree.\+data.\+time.\+Moving\+Average}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection}{Time\+Series\+Collection}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_af22d5280cf3f80e287b9615029470bb3}{create\+Moving\+Average}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection}{Time\+Series\+Collection}} source, String suffix, int period\+Count, int skip)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a0f89bebd759c2c288a2b58c12a189070}{create\+Moving\+Average}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} source, String name, int period\+Count, int skip)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_ad1b56541558ce41cbaec344d0249e472}{create\+Point\+Moving\+Average}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} source, String name, int point\+Count)
+\item 
+static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a40bd4099f2d493b5e1128f601932f861}{create\+Moving\+Average}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} source, String suffix, long period, long skip)
+\item 
+static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_af6a16d6e3c7ba55b45cb2dcbf8b43d11}{create\+Moving\+Average}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} source, String suffix, double period, double skip)
+\item 
+static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series}{X\+Y\+Series}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a8ac3b98c7078190abba76d73f6fe9252}{create\+Moving\+Average}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} source, int series, String name, double period, double skip)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A utility class for calculating moving averages of time series data. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_af22d5280cf3f80e287b9615029470bb3}\label{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_af22d5280cf3f80e287b9615029470bb3}} 
+\index{org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}!create\+Moving\+Average@{create\+Moving\+Average}}
+\index{create\+Moving\+Average@{create\+Moving\+Average}!org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}}
+\subsubsection{\texorpdfstring{create\+Moving\+Average()}{createMovingAverage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection}{Time\+Series\+Collection}} org.\+jfree.\+data.\+time.\+Moving\+Average.\+create\+Moving\+Average (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection}{Time\+Series\+Collection}}}]{source,  }\item[{String}]{suffix,  }\item[{int}]{period\+Count,  }\item[{int}]{skip }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_collection}{Time\+Series\+Collection}} containing a moving average series for each series in the source collection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source collection. \\
+\hline
+{\em suffix} & the suffix added to each source series name to create the corresponding moving average series name. \\
+\hline
+{\em period\+Count} & the number of periods in the moving average calculation. \\
+\hline
+{\em skip} & the number of initial periods to skip.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A collection of moving average time series. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a0f89bebd759c2c288a2b58c12a189070}\label{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a0f89bebd759c2c288a2b58c12a189070}} 
+\index{org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}!create\+Moving\+Average@{create\+Moving\+Average}}
+\index{create\+Moving\+Average@{create\+Moving\+Average}!org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}}
+\subsubsection{\texorpdfstring{create\+Moving\+Average()}{createMovingAverage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} org.\+jfree.\+data.\+time.\+Moving\+Average.\+create\+Moving\+Average (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}}}]{source,  }\item[{String}]{name,  }\item[{int}]{period\+Count,  }\item[{int}]{skip }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} containing moving average values for the given series. If the series is empty (contains zero items), the result is an empty series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source series. \\
+\hline
+{\em name} & the name of the new series. \\
+\hline
+{\em period\+Count} & the number of periods used in the average calculation. \\
+\hline
+{\em skip} & the number of initial periods to skip.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The moving average series. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a40bd4099f2d493b5e1128f601932f861}\label{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a40bd4099f2d493b5e1128f601932f861}} 
+\index{org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}!create\+Moving\+Average@{create\+Moving\+Average}}
+\index{create\+Moving\+Average@{create\+Moving\+Average}!org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}}
+\subsubsection{\texorpdfstring{create\+Moving\+Average()}{createMovingAverage()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} org.\+jfree.\+data.\+time.\+Moving\+Average.\+create\+Moving\+Average (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{source,  }\item[{String}]{suffix,  }\item[{long}]{period,  }\item[{long}]{skip }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new \mbox{\hyperlink{}{X\+Y\+Dataset}} containing the moving averages of each series in the {\ttfamily source} dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source dataset. \\
+\hline
+{\em suffix} & the string to append to source series names to create target series names. \\
+\hline
+{\em period} & the averaging period. \\
+\hline
+{\em skip} & the length of the initial skip period.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The dataset. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_af6a16d6e3c7ba55b45cb2dcbf8b43d11}\label{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_af6a16d6e3c7ba55b45cb2dcbf8b43d11}} 
+\index{org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}!create\+Moving\+Average@{create\+Moving\+Average}}
+\index{create\+Moving\+Average@{create\+Moving\+Average}!org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}}
+\subsubsection{\texorpdfstring{create\+Moving\+Average()}{createMovingAverage()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} org.\+jfree.\+data.\+time.\+Moving\+Average.\+create\+Moving\+Average (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{source,  }\item[{String}]{suffix,  }\item[{double}]{period,  }\item[{double}]{skip }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new \mbox{\hyperlink{}{X\+Y\+Dataset}} containing the moving averages of each series in the {\ttfamily source} dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source dataset. \\
+\hline
+{\em suffix} & the string to append to source series names to create target series names. \\
+\hline
+{\em period} & the averaging period. \\
+\hline
+{\em skip} & the length of the initial skip period.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The dataset. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a8ac3b98c7078190abba76d73f6fe9252}\label{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_a8ac3b98c7078190abba76d73f6fe9252}} 
+\index{org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}!create\+Moving\+Average@{create\+Moving\+Average}}
+\index{create\+Moving\+Average@{create\+Moving\+Average}!org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}}
+\subsubsection{\texorpdfstring{create\+Moving\+Average()}{createMovingAverage()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_x_y_series}{X\+Y\+Series}} org.\+jfree.\+data.\+time.\+Moving\+Average.\+create\+Moving\+Average (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{source,  }\item[{int}]{series,  }\item[{String}]{name,  }\item[{double}]{period,  }\item[{double}]{skip }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new \mbox{\hyperlink{}{X\+Y\+Series}} containing the moving averages of one series in the {\ttfamily source} dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source dataset. \\
+\hline
+{\em series} & the series index (zero based). \\
+\hline
+{\em name} & the name for the new series. \\
+\hline
+{\em period} & the averaging period. \\
+\hline
+{\em skip} & the length of the initial skip period.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The dataset. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_ad1b56541558ce41cbaec344d0249e472}\label{classorg_1_1jfree_1_1data_1_1time_1_1_moving_average_ad1b56541558ce41cbaec344d0249e472}} 
+\index{org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}!create\+Point\+Moving\+Average@{create\+Point\+Moving\+Average}}
+\index{create\+Point\+Moving\+Average@{create\+Point\+Moving\+Average}!org\+::jfree\+::data\+::time\+::\+Moving\+Average@{org\+::jfree\+::data\+::time\+::\+Moving\+Average}}
+\subsubsection{\texorpdfstring{create\+Point\+Moving\+Average()}{createPointMovingAverage()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} org.\+jfree.\+data.\+time.\+Moving\+Average.\+create\+Point\+Moving\+Average (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}}}]{source,  }\item[{String}]{name,  }\item[{int}]{point\+Count }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series}{Time\+Series}} containing moving average values for the given series, calculated by number of points (irrespective of the \textquotesingle{}age\textquotesingle{} of those points). If the series is empty (contains zero items), the result is an empty series. 
+
+Developed by Benoit Xhenseval (www.\+Object\+Lab.\+co.\+uk).
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source series. \\
+\hline
+{\em name} & the name of the new series. \\
+\hline
+{\em point\+Count} & the number of P\+O\+I\+N\+TS used in the average calculation (not periods!)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The moving average series. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/time/\mbox{\hyperlink{_moving_average_8java}{Moving\+Average.\+java}}\end{DoxyCompactItemize}

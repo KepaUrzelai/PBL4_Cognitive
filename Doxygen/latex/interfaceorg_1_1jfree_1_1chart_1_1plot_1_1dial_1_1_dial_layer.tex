@@ -1,0 +1,148 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer}{}\section{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer}\index{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer@{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer}}
+Inheritance diagram for org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=10.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a54a8415c6f856c550d1b92cf3139731d}{is\+Visible}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a6a2e5bdf252099b17e57f3685db6e2e4}{add\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_change_listener}{Dial\+Layer\+Change\+Listener}} listener)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a8c8d3fc6fc08c79c96bd216e9af5a28a}{remove\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_change_listener}{Dial\+Layer\+Change\+Listener}} listener)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a53485b27b00963044045bc0f20820dea}{has\+Listener}} (Event\+Listener listener)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a822eeadbe31b48827497714abeda2190}{is\+Clipped\+To\+Window}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_aa4564e018317f0fdc7dbe85a46e7a4a4}{draw}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_plot}{Dial\+Plot}} plot, Rectangle2D frame, Rectangle2D view)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A dial layer draws itself within a reference frame. The view frame is a subset of the reference frame, and defines the area that is actually visible. ~\newline
+~\newline
+ Classes that implement this interface should be \mbox{\hyperlink{}{Serializable}}, otherwise chart serialization may fail.
+
+\begin{DoxySince}{Since}
+1.\+0.\+7 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a6a2e5bdf252099b17e57f3685db6e2e4}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a6a2e5bdf252099b17e57f3685db6e2e4}} 
+\index{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}!add\+Change\+Listener@{add\+Change\+Listener}}
+\index{add\+Change\+Listener@{add\+Change\+Listener}!org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}}
+\subsubsection{\texorpdfstring{add\+Change\+Listener()}{addChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer.\+add\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_change_listener}{Dial\+Layer\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Registers a listener with this layer, so that it receives notification of changes to this layer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_abstract_dial_layer_ac0d049259317ed60eff0d0c38ecd1f34}{org.\+jfree.\+chart.\+plot.\+dial.\+Abstract\+Dial\+Layer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_aa4564e018317f0fdc7dbe85a46e7a4a4}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_aa4564e018317f0fdc7dbe85a46e7a4a4}} 
+\index{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_plot}{Dial\+Plot}}}]{plot,  }\item[{Rectangle2D}]{frame,  }\item[{Rectangle2D}]{view }\end{DoxyParamCaption})}
+
+Draws the content of this layer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics target ({\ttfamily null} not permitted). \\
+\hline
+{\em plot} & the plot (typically this should not be {\ttfamily null}, but for a layer that doesn\textquotesingle{}t need to reference the plot, it may be permitted). \\
+\hline
+{\em frame} & the reference frame for the dial\textquotesingle{}s geometry ({\ttfamily null} not permitted). This is typically larger than the visible area of the dial (see the next parameter). \\
+\hline
+{\em view} & the visible area for the dial ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_standard_dial_scale_a15369f20c895a86ffd0101f3bef1e6b0}{org.\+jfree.\+chart.\+plot.\+dial.\+Standard\+Dial\+Scale}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_value_indicator_a5c89eebcca31f6a2d8bed62e0ef99ab5}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Value\+Indicator}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_arc_dial_frame_a9ae1978aa11aa5274c2503e58e325d3c}{org.\+jfree.\+chart.\+plot.\+dial.\+Arc\+Dial\+Frame}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_standard_dial_range_a2a505dac3b8a9cec54e872e9165348cc}{org.\+jfree.\+chart.\+plot.\+dial.\+Standard\+Dial\+Range}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_text_annotation_af3ff14430a6e7be514a21dbccc1ef7bc}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Text\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_standard_dial_frame_a16869a6511a52d288766710d40ce4e97}{org.\+jfree.\+chart.\+plot.\+dial.\+Standard\+Dial\+Frame}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_cap_a9faeb676370884ac4f983455d04a54da}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Cap}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_background_affe2269534d2e20f4cdc64cfa1fbd8ea}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Background}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a53485b27b00963044045bc0f20820dea}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a53485b27b00963044045bc0f20820dea}} 
+\index{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}!has\+Listener@{has\+Listener}}
+\index{has\+Listener@{has\+Listener}!org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}}
+\subsubsection{\texorpdfstring{has\+Listener()}{hasListener()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer.\+has\+Listener (\begin{DoxyParamCaption}\item[{Event\+Listener}]{listener }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the specified listener is currently registered with the this layer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_abstract_dial_layer_ae5ce22720d24ab3fb6cf93ddf2714a82}{org.\+jfree.\+chart.\+plot.\+dial.\+Abstract\+Dial\+Layer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a822eeadbe31b48827497714abeda2190}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a822eeadbe31b48827497714abeda2190}} 
+\index{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}!is\+Clipped\+To\+Window@{is\+Clipped\+To\+Window}}
+\index{is\+Clipped\+To\+Window@{is\+Clipped\+To\+Window}!org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}}
+\subsubsection{\texorpdfstring{is\+Clipped\+To\+Window()}{isClippedToWindow()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer.\+is\+Clipped\+To\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the drawing should be clipped to the dial window (which is defined by the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_frame}{Dial\+Frame}}), and {\ttfamily false} otherwise.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_standard_dial_scale_a3641b7ce81095160a7bd915ffee46b46}{org.\+jfree.\+chart.\+plot.\+dial.\+Standard\+Dial\+Scale}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_value_indicator_ab1f7edc5ebda4b9b2060e733d27cc674}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Value\+Indicator}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_arc_dial_frame_a6d67ce94c71e357d38bd4c99017418a0}{org.\+jfree.\+chart.\+plot.\+dial.\+Arc\+Dial\+Frame}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_standard_dial_range_a9bbb52c3f7a46027f8ce7a2736b14391}{org.\+jfree.\+chart.\+plot.\+dial.\+Standard\+Dial\+Range}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_text_annotation_a341292864b0a591544a890548e4d68d5}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Text\+Annotation}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_standard_dial_frame_a3d7725c15ddb58b403492a1f4f48a24a}{org.\+jfree.\+chart.\+plot.\+dial.\+Standard\+Dial\+Frame}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_cap_a46ceaed99922a02c843f115a3691d467}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Cap}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_background_a739b0c346187530a0a5a953cb92d03d8}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Background}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_pointer_a4b4c8a88080051d443db95941d01dce1}{org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Pointer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a54a8415c6f856c550d1b92cf3139731d}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a54a8415c6f856c550d1b92cf3139731d}} 
+\index{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}!is\+Visible@{is\+Visible}}
+\index{is\+Visible@{is\+Visible}!org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}}
+\subsubsection{\texorpdfstring{is\+Visible()}{isVisible()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer.\+is\+Visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a flag that indicates whether or not the layer is visible.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_abstract_dial_layer_a0e4e9aff1a280718d2018d9e94c28027}{org.\+jfree.\+chart.\+plot.\+dial.\+Abstract\+Dial\+Layer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a8c8d3fc6fc08c79c96bd216e9af5a28a}\label{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_a8c8d3fc6fc08c79c96bd216e9af5a28a}} 
+\index{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}!remove\+Change\+Listener@{remove\+Change\+Listener}}
+\index{remove\+Change\+Listener@{remove\+Change\+Listener}!org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer@{org\+::jfree\+::chart\+::plot\+::dial\+::\+Dial\+Layer}}
+\subsubsection{\texorpdfstring{remove\+Change\+Listener()}{removeChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+plot.\+dial.\+Dial\+Layer.\+remove\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_dial_layer_change_listener}{Dial\+Layer\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Deregisters a listener, so that it no longer receives notification of changes to this layer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1dial_1_1_abstract_dial_layer_a584dfebd9266b2be68b75916812a3b8f}{org.\+jfree.\+chart.\+plot.\+dial.\+Abstract\+Dial\+Layer}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/plot/dial/\mbox{\hyperlink{_dial_layer_8java}{Dial\+Layer.\+java}}\end{DoxyCompactItemize}

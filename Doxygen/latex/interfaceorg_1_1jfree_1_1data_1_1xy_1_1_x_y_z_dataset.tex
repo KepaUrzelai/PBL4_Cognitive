@@ -1,0 +1,70 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset}{}\section{org.\+jfree.\+data.\+xy.\+X\+Y\+Z\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset}\index{org.\+jfree.\+data.\+xy.\+X\+Y\+Z\+Dataset@{org.\+jfree.\+data.\+xy.\+X\+Y\+Z\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+X\+Y\+Z\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.316785cm]{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset_a6a6e1c88cc1ca7cfa31c2fa043521c8a}{getZ}} (int series, int item)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset_a2aed0d6b0bbf979643691fc932efa2bc}{get\+Z\+Value}} (int series, int item)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The interface through which J\+Free\+Chart obtains data in the form of (x, y, z) items -\/ used for XY and X\+YZ plots. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset_a6a6e1c88cc1ca7cfa31c2fa043521c8a}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset_a6a6e1c88cc1ca7cfa31c2fa043521c8a}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Z\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Z\+Dataset}!getZ@{getZ}}
+\index{getZ@{getZ}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Z\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Z\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Z()}{getZ()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+X\+Y\+Z\+Dataset.\+getZ (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the z-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The z-\/value (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a47bf3f8c5cf2bb06f7243b2e159c3978}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_z_dataset_a9d64059ab691a5d4e2de1ba1e70bb02e}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Z\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_collection_a8e762b03fe7fad0234cf73eed0947d18}{org.\+jfree.\+data.\+xy.\+Matrix\+Series\+Collection}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset_a2aed0d6b0bbf979643691fc932efa2bc}\label{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset_a2aed0d6b0bbf979643691fc932efa2bc}} 
+\index{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Z\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Z\+Dataset}!get\+Z\+Value@{get\+Z\+Value}}
+\index{get\+Z\+Value@{get\+Z\+Value}!org\+::jfree\+::data\+::xy\+::\+X\+Y\+Z\+Dataset@{org\+::jfree\+::data\+::xy\+::\+X\+Y\+Z\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Z\+Value()}{getZValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+X\+Y\+Z\+Dataset.\+get\+Z\+Value (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the z-\/value (as a double primitive) for an item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The z-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_default_x_y_z_dataset_a629e54a55e3affb5ff0e1151df651068}{org.\+jfree.\+data.\+xy.\+Default\+X\+Y\+Z\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_abstract_x_y_z_dataset_a797ce912ff2711ef1627c21db6ff50a7}{org.\+jfree.\+data.\+xy.\+Abstract\+X\+Y\+Z\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_x_y_z_dataset_8java}{X\+Y\+Z\+Dataset.\+java}}\end{DoxyCompactItemize}

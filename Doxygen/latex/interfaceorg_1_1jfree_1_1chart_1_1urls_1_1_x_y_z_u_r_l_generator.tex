@@ -1,0 +1,48 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_z_u_r_l_generator}{}\section{org.\+jfree.\+chart.\+urls.\+X\+Y\+Z\+U\+R\+L\+Generator Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_z_u_r_l_generator}\index{org.\+jfree.\+chart.\+urls.\+X\+Y\+Z\+U\+R\+L\+Generator@{org.\+jfree.\+chart.\+urls.\+X\+Y\+Z\+U\+R\+L\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+urls.\+X\+Y\+Z\+U\+R\+L\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_z_u_r_l_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_z_u_r_l_generator_af81e1e5eceeeece614b4c9c2b7f04f7f}{generate\+U\+RL}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset}{X\+Y\+Z\+Dataset}} dataset, int series, int item)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface for a U\+RL generator for plots that uses data from an \mbox{\hyperlink{}{X\+Y\+Z\+Dataset}}. Classes that implement this interface are responsible for correctly escaping any text that is derived from the dataset, as this may be user-\/specified and could pose a security risk. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_z_u_r_l_generator_af81e1e5eceeeece614b4c9c2b7f04f7f}\label{interfaceorg_1_1jfree_1_1chart_1_1urls_1_1_x_y_z_u_r_l_generator_af81e1e5eceeeece614b4c9c2b7f04f7f}} 
+\index{org\+::jfree\+::chart\+::urls\+::\+X\+Y\+Z\+U\+R\+L\+Generator@{org\+::jfree\+::chart\+::urls\+::\+X\+Y\+Z\+U\+R\+L\+Generator}!generate\+U\+RL@{generate\+U\+RL}}
+\index{generate\+U\+RL@{generate\+U\+RL}!org\+::jfree\+::chart\+::urls\+::\+X\+Y\+Z\+U\+R\+L\+Generator@{org\+::jfree\+::chart\+::urls\+::\+X\+Y\+Z\+U\+R\+L\+Generator}}
+\subsubsection{\texorpdfstring{generate\+U\+R\+L()}{generateURL()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+urls.\+X\+Y\+Z\+U\+R\+L\+Generator.\+generate\+U\+RL (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_z_dataset}{X\+Y\+Z\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Generates a U\+RL for a particular item within a series. As a guideline, the U\+RL should be valid within the context of an X\+H\+T\+ML 1.\+0 document.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series index (zero-\/based). \\
+\hline
+{\em item} & the item index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string containing the generated U\+RL. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1urls_1_1_standard_x_y_z_u_r_l_generator_ab3e12806a1270dc1c1d750776c7680e8}{org.\+jfree.\+chart.\+urls.\+Standard\+X\+Y\+Z\+U\+R\+L\+Generator}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/urls/\mbox{\hyperlink{_x_y_z_u_r_l_generator_8java}{X\+Y\+Z\+U\+R\+L\+Generator.\+java}}\end{DoxyCompactItemize}

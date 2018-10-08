@@ -1,0 +1,217 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis}{}\section{org.\+jfree.\+chart.\+axis.\+Modulo\+Axis Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis}\index{org.\+jfree.\+chart.\+axis.\+Modulo\+Axis@{org.\+jfree.\+chart.\+axis.\+Modulo\+Axis}}
+Inheritance diagram for org.\+jfree.\+chart.\+axis.\+Modulo\+Axis\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.800000cm]{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ab9f3b40d9c5db575a736f56a35e999e0}{Modulo\+Axis}} (String label, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} fixed\+Range)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ad000be9bdbfbd452202c1594b2b70364}{get\+Display\+Start}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_af16d9c2b4eecb8d0f64e2155e7d57d91}{get\+Display\+End}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_af962bfba0673ec9f40ca70afa99b2567}{set\+Display\+Range}} (double start, double end)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a0c097f38b1301f9f0f247a08f20532f0}{value\+To\+Java2D}} (double value, Rectangle2D area, Rectangle\+Edge edge)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a0881c74867dd37ac58f399bc7c0c1c8e}{java2\+D\+To\+Value}} (double java2\+D\+Value, Rectangle2D area, Rectangle\+Edge edge)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a002bcc528d4243e0fd698d0ab4c6f9bb}{resize\+Range}} (double percent)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_add261c68e8ad12b55939a523aef85580}{resize\+Range}} (double percent, double anchor\+Value)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ae8c8eb5be537371c66d32f4c08b7b7c9}{length\+To\+Java2D}} (double length, Rectangle2D area, Rectangle\+Edge edge)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a8cbf0b046bffac08a9ceea2ddf60ea50}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_aed1941a255220f1568bd06510d21e01b}{auto\+Adjust\+Range}} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+An axis that displays numerical values within a fixed range using a modulo calculation. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ab9f3b40d9c5db575a736f56a35e999e0}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ab9f3b40d9c5db575a736f56a35e999e0}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!Modulo\+Axis@{Modulo\+Axis}}
+\index{Modulo\+Axis@{Modulo\+Axis}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{Modulo\+Axis()}{ModuloAxis()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+Modulo\+Axis (\begin{DoxyParamCaption}\item[{String}]{label,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{fixed\+Range }\end{DoxyParamCaption})}
+
+Creates a new axis.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label} & the axis label ({\ttfamily null} permitted). \\
+\hline
+{\em fixed\+Range} & the fixed range ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_aed1941a255220f1568bd06510d21e01b}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_aed1941a255220f1568bd06510d21e01b}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!auto\+Adjust\+Range@{auto\+Adjust\+Range}}
+\index{auto\+Adjust\+Range@{auto\+Adjust\+Range}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{auto\+Adjust\+Range()}{autoAdjustRange()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+auto\+Adjust\+Range (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+This method should calculate a range that will show all the data values. For now, it just sets the axis range to the fixed\+Range. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a8cbf0b046bffac08a9ceea2ddf60ea50}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a8cbf0b046bffac08a9ceea2ddf60ea50}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this axis for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_af16d9c2b4eecb8d0f64e2155e7d57d91}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_af16d9c2b4eecb8d0f64e2155e7d57d91}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!get\+Display\+End@{get\+Display\+End}}
+\index{get\+Display\+End@{get\+Display\+End}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{get\+Display\+End()}{getDisplayEnd()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+get\+Display\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the display end value.
+
+\begin{DoxyReturn}{Returns}
+The display end value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ad000be9bdbfbd452202c1594b2b70364}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ad000be9bdbfbd452202c1594b2b70364}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!get\+Display\+Start@{get\+Display\+Start}}
+\index{get\+Display\+Start@{get\+Display\+Start}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{get\+Display\+Start()}{getDisplayStart()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+get\+Display\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the display start value.
+
+\begin{DoxyReturn}{Returns}
+The display start value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a0881c74867dd37ac58f399bc7c0c1c8e}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a0881c74867dd37ac58f399bc7c0c1c8e}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!java2\+D\+To\+Value@{java2\+D\+To\+Value}}
+\index{java2\+D\+To\+Value@{java2\+D\+To\+Value}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{java2\+D\+To\+Value()}{java2DToValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+java2\+D\+To\+Value (\begin{DoxyParamCaption}\item[{double}]{java2\+D\+Value,  }\item[{Rectangle2D}]{area,  }\item[{Rectangle\+Edge}]{edge }\end{DoxyParamCaption})}
+
+Translates a Java2D coordinate into a data value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em java2\+D\+Value} & the Java2D coordinate. \\
+\hline
+{\em area} & the area. \\
+\hline
+{\em edge} & the edge.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Java2D coordinate. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ae8c8eb5be537371c66d32f4c08b7b7c9}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_ae8c8eb5be537371c66d32f4c08b7b7c9}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!length\+To\+Java2D@{length\+To\+Java2D}}
+\index{length\+To\+Java2D@{length\+To\+Java2D}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{length\+To\+Java2\+D()}{lengthToJava2D()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+length\+To\+Java2D (\begin{DoxyParamCaption}\item[{double}]{length,  }\item[{Rectangle2D}]{area,  }\item[{Rectangle\+Edge}]{edge }\end{DoxyParamCaption})}
+
+Converts a length in data coordinates into the corresponding length in Java2D coordinates.
+
+
+\begin{DoxyParams}{Parameters}
+{\em length} & the length. \\
+\hline
+{\em area} & the plot area. \\
+\hline
+{\em edge} & the edge along which the axis lies.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The length in Java2D coordinates. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a002bcc528d4243e0fd698d0ab4c6f9bb}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a002bcc528d4243e0fd698d0ab4c6f9bb}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!resize\+Range@{resize\+Range}}
+\index{resize\+Range@{resize\+Range}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{resize\+Range()}{resizeRange()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+resize\+Range (\begin{DoxyParamCaption}\item[{double}]{percent }\end{DoxyParamCaption})}
+
+Increases or decreases the axis range by the specified percentage about the central value and sends an \mbox{\hyperlink{}{Axis\+Change\+Event}} to all registered listeners. 
+
+To double the length of the axis range, use 200\% (2.\+0). To halve the length of the axis range, use 50\% (0.\+5).
+
+
+\begin{DoxyParams}{Parameters}
+{\em percent} & the resize factor. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_add261c68e8ad12b55939a523aef85580}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_add261c68e8ad12b55939a523aef85580}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!resize\+Range@{resize\+Range}}
+\index{resize\+Range@{resize\+Range}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{resize\+Range()}{resizeRange()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+resize\+Range (\begin{DoxyParamCaption}\item[{double}]{percent,  }\item[{double}]{anchor\+Value }\end{DoxyParamCaption})}
+
+Increases or decreases the axis range by the specified percentage about the specified anchor value and sends an \mbox{\hyperlink{}{Axis\+Change\+Event}} to all registered listeners. 
+
+To double the length of the axis range, use 200\% (2.\+0). To halve the length of the axis range, use 50\% (0.\+5).
+
+
+\begin{DoxyParams}{Parameters}
+{\em percent} & the resize factor. \\
+\hline
+{\em anchor\+Value} & the new central value after the resize. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_af962bfba0673ec9f40ca70afa99b2567}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_af962bfba0673ec9f40ca70afa99b2567}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!set\+Display\+Range@{set\+Display\+Range}}
+\index{set\+Display\+Range@{set\+Display\+Range}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{set\+Display\+Range()}{setDisplayRange()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+set\+Display\+Range (\begin{DoxyParamCaption}\item[{double}]{start,  }\item[{double}]{end }\end{DoxyParamCaption})}
+
+Sets the display range. The values will be mapped to the fixed range if necessary.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & the start value. \\
+\hline
+{\em end} & the end value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a0c097f38b1301f9f0f247a08f20532f0}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_modulo_axis_a0c097f38b1301f9f0f247a08f20532f0}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}!value\+To\+Java2D@{value\+To\+Java2D}}
+\index{value\+To\+Java2D@{value\+To\+Java2D}!org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis@{org\+::jfree\+::chart\+::axis\+::\+Modulo\+Axis}}
+\subsubsection{\texorpdfstring{value\+To\+Java2\+D()}{valueToJava2D()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Modulo\+Axis.\+value\+To\+Java2D (\begin{DoxyParamCaption}\item[{double}]{value,  }\item[{Rectangle2D}]{area,  }\item[{Rectangle\+Edge}]{edge }\end{DoxyParamCaption})}
+
+Translates a data value to a Java2D coordinate.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the value. \\
+\hline
+{\em area} & the area. \\
+\hline
+{\em edge} & the edge.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Java2D coordinate. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/axis/\mbox{\hyperlink{_modulo_axis_8java}{Modulo\+Axis.\+java}}\end{DoxyCompactItemize}

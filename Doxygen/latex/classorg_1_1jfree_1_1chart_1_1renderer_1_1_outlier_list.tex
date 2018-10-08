@@ -1,0 +1,153 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list}{}\section{org.\+jfree.\+chart.\+renderer.\+Outlier\+List Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list}\index{org.\+jfree.\+chart.\+renderer.\+Outlier\+List@{org.\+jfree.\+chart.\+renderer.\+Outlier\+List}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a595dce5346dc46d5efa84fbba235e157}{Outlier\+List}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}} outlier)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a65bd496856ff8060a66cbe059294f07f}{add}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}} outlier)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_ae3017a62b7d0704a322cc14eed0c739c}{get\+Item\+Count}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a12276b247a7177a300937760e82a0d46}{get\+Averaged\+Outlier}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a1353a78e42c50e1306be7ac20f491ce8}{set\+Averaged\+Outlier}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}} averaged\+Outlier)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_aea765af5e62cfa1c14fd9bee0857c437}{is\+Multiple}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_acd5a5b3f307747eaea2de955a89c295a}{set\+Multiple}} (boolean multiple)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a156a0cd0c31f4ce86e25ea067c800903}{is\+Overlapped}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}} other)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_ac3a51c9fbe1368fa86bd142349960c1c}{update\+Averaged\+Outlier}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A collection of outliers for a single entity in a box and whisker plot.
+
+Outliers are grouped in lists for each entity. Lists contain one or more outliers, determined by whether overlaps have occured. Overlapping outliers are grouped in the same list.
+
+Each list contains an averaged outlier, which is the same as a single outlier if there is only one outlier in the list, but the average of all the outliers in the list if there is more than one.
+
+NB This is simply my scheme for displaying outliers, and might not be acceptable by the wider community. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a595dce5346dc46d5efa84fbba235e157}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a595dce5346dc46d5efa84fbba235e157}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!Outlier\+List@{Outlier\+List}}
+\index{Outlier\+List@{Outlier\+List}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{Outlier\+List()}{OutlierList()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+Outlier\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}}}]{outlier }\end{DoxyParamCaption})}
+
+Creates a new list containing a single outlier.
+
+
+\begin{DoxyParams}{Parameters}
+{\em outlier} & the outlier. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a65bd496856ff8060a66cbe059294f07f}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a65bd496856ff8060a66cbe059294f07f}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!add@{add}}
+\index{add@{add}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}}}]{outlier }\end{DoxyParamCaption})}
+
+Adds an outlier to the list.
+
+
+\begin{DoxyParams}{Parameters}
+{\em outlier} & the outlier.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a12276b247a7177a300937760e82a0d46}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a12276b247a7177a300937760e82a0d46}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!get\+Averaged\+Outlier@{get\+Averaged\+Outlier}}
+\index{get\+Averaged\+Outlier@{get\+Averaged\+Outlier}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{get\+Averaged\+Outlier()}{getAveragedOutlier()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}} org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+get\+Averaged\+Outlier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the averaged outlier.
+
+\begin{DoxyReturn}{Returns}
+The averaged outlier. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_ae3017a62b7d0704a322cc14eed0c739c}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_ae3017a62b7d0704a322cc14eed0c739c}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of outliers in the list.
+
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_aea765af5e62cfa1c14fd9bee0857c437}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_aea765af5e62cfa1c14fd9bee0857c437}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!is\+Multiple@{is\+Multiple}}
+\index{is\+Multiple@{is\+Multiple}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{is\+Multiple()}{isMultiple()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+is\+Multiple (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the list contains multiple outliers, and {\ttfamily false} otherwise.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a156a0cd0c31f4ce86e25ea067c800903}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a156a0cd0c31f4ce86e25ea067c800903}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!is\+Overlapped@{is\+Overlapped}}
+\index{is\+Overlapped@{is\+Overlapped}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{is\+Overlapped()}{isOverlapped()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+is\+Overlapped (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}}}]{other }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the outlier overlaps, and {\ttfamily false} otherwise.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the outlier.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a1353a78e42c50e1306be7ac20f491ce8}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_a1353a78e42c50e1306be7ac20f491ce8}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!set\+Averaged\+Outlier@{set\+Averaged\+Outlier}}
+\index{set\+Averaged\+Outlier@{set\+Averaged\+Outlier}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{set\+Averaged\+Outlier()}{setAveragedOutlier()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+set\+Averaged\+Outlier (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}}}]{averaged\+Outlier }\end{DoxyParamCaption})}
+
+Sets the averaged outlier.
+
+
+\begin{DoxyParams}{Parameters}
+{\em averaged\+Outlier} & the averaged outlier. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_acd5a5b3f307747eaea2de955a89c295a}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_acd5a5b3f307747eaea2de955a89c295a}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!set\+Multiple@{set\+Multiple}}
+\index{set\+Multiple@{set\+Multiple}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{set\+Multiple()}{setMultiple()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+set\+Multiple (\begin{DoxyParamCaption}\item[{boolean}]{multiple }\end{DoxyParamCaption})}
+
+Sets the flag that indicates whether or not this list represents multiple outliers.
+
+
+\begin{DoxyParams}{Parameters}
+{\em multiple} & the flag. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_ac3a51c9fbe1368fa86bd142349960c1c}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_ac3a51c9fbe1368fa86bd142349960c1c}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}!update\+Averaged\+Outlier@{update\+Averaged\+Outlier}}
+\index{update\+Averaged\+Outlier@{update\+Averaged\+Outlier}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List}}
+\subsubsection{\texorpdfstring{update\+Averaged\+Outlier()}{updateAveragedOutlier()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Outlier\+List.\+update\+Averaged\+Outlier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Updates the averaged outlier. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/\mbox{\hyperlink{_outlier_list_8java}{Outlier\+List.\+java}}\end{DoxyCompactItemize}

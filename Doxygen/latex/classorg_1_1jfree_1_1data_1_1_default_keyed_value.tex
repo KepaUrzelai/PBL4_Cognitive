@@ -1,0 +1,153 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value}{}\section{org.\+jfree.\+data.\+Default\+Keyed\+Value Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value}\index{org.\+jfree.\+data.\+Default\+Keyed\+Value@{org.\+jfree.\+data.\+Default\+Keyed\+Value}}
+Inheritance diagram for org.\+jfree.\+data.\+Default\+Keyed\+Value\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1data_1_1_default_keyed_value}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a4d1c15cdefc96a23989aafceb6be411e}{Default\+Keyed\+Value}} (Comparable key, Number value)
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a5f0bfcf7b9c134922523b70e19bb69ee}{get\+Key}} ()
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a2eaff5e8eea89cc853a97b60aa4d3966}{get\+Value}} ()
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_value_aff39dcaceec4386ef50fb16e5e6d8856}{set\+Value}} (Number value)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a880ac178b54b7bd6b083d303c063e7cb}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_value_ac4a182b187904ab16773e57134156001}{hash\+Code}} ()
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a8eeabccd61ddd6609615e31d50422b64}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_value_adcfb1d3adfffaf084ee5d6718ad4e609}{to\+String}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A (key, value) pair. This class provides a default implementation of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_value}{Keyed\+Value}} interface. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a4d1c15cdefc96a23989aafceb6be411e}\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a4d1c15cdefc96a23989aafceb6be411e}} 
+\index{org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}!Default\+Keyed\+Value@{Default\+Keyed\+Value}}
+\index{Default\+Keyed\+Value@{Default\+Keyed\+Value}!org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}}
+\subsubsection{\texorpdfstring{Default\+Keyed\+Value()}{DefaultKeyedValue()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+Default\+Keyed\+Value.\+Default\+Keyed\+Value (\begin{DoxyParamCaption}\item[{Comparable}]{key,  }\item[{Number}]{value }\end{DoxyParamCaption})}
+
+Creates a new (key, value) item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key (should be immutable, {\ttfamily null} not permitted). \\
+\hline
+{\em value} & the value ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a8eeabccd61ddd6609615e31d50422b64}\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a8eeabccd61ddd6609615e31d50422b64}} 
+\index{org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+Default\+Keyed\+Value.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone. It is assumed that both the key and value are immutable objects, so only the references are cloned, not the objects themselves.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & Not thrown by this class, but subclasses (if any) might. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a880ac178b54b7bd6b083d303c063e7cb}\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a880ac178b54b7bd6b083d303c063e7cb}} 
+\index{org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Default\+Keyed\+Value.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this key-\/value pair for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a5f0bfcf7b9c134922523b70e19bb69ee}\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a5f0bfcf7b9c134922523b70e19bb69ee}} 
+\index{org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}!get\+Key@{get\+Key}}
+\index{get\+Key@{get\+Key}!org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}}
+\subsubsection{\texorpdfstring{get\+Key()}{getKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+Default\+Keyed\+Value.\+get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the key.
+
+\begin{DoxyReturn}{Returns}
+The key (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_value_a82fdfea065ff97bd253b44bb89069970}{org.\+jfree.\+data.\+Keyed\+Value}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a2eaff5e8eea89cc853a97b60aa4d3966}\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value_a2eaff5e8eea89cc853a97b60aa4d3966}} 
+\index{org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+Default\+Keyed\+Value.\+get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value.
+
+\begin{DoxyReturn}{Returns}
+The value (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_value_a70e7f25d71cbb7eb0cdad970adcfe4b9}{org.\+jfree.\+data.\+Value}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value_ac4a182b187904ab16773e57134156001}\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value_ac4a182b187904ab16773e57134156001}} 
+\index{org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Default\+Keyed\+Value.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value_aff39dcaceec4386ef50fb16e5e6d8856}\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value_aff39dcaceec4386ef50fb16e5e6d8856}} 
+\index{org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}!set\+Value@{set\+Value}}
+\index{set\+Value@{set\+Value}!org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}}
+\subsubsection{\texorpdfstring{set\+Value()}{setValue()}}
+{\footnotesize\ttfamily synchronized void org.\+jfree.\+data.\+Default\+Keyed\+Value.\+set\+Value (\begin{DoxyParamCaption}\item[{Number}]{value }\end{DoxyParamCaption})}
+
+Sets the value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the value ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_default_keyed_value_adcfb1d3adfffaf084ee5d6718ad4e609}\label{classorg_1_1jfree_1_1data_1_1_default_keyed_value_adcfb1d3adfffaf084ee5d6718ad4e609}} 
+\index{org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!org\+::jfree\+::data\+::\+Default\+Keyed\+Value@{org\+::jfree\+::data\+::\+Default\+Keyed\+Value}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String org.\+jfree.\+data.\+Default\+Keyed\+Value.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a string representing this instance, primarily useful for debugging.
+
+\begin{DoxyReturn}{Returns}
+A string. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/\mbox{\hyperlink{_default_keyed_value_8java}{Default\+Keyed\+Value.\+java}}\end{DoxyCompactItemize}

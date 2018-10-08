@@ -1,0 +1,230 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series}{}\section{org.\+jfree.\+data.\+xy.\+Matrix\+Series Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series}\index{org.\+jfree.\+data.\+xy.\+Matrix\+Series@{org.\+jfree.\+data.\+xy.\+Matrix\+Series}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+Matrix\+Series\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.962963cm]{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a592431806b09188de33bbcd7490526f0}{Matrix\+Series}} (String name, int rows, int columns)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ad4416aec274e384b9043e899ea4c68b0}{get\+Columns\+Count}} ()
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ad77ed9610997bea1f37b95a3ecaf238a}{get\+Item}} (int item\+Index)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a3ed5405c62c33e1a4956902d2d9d7cd1}{get\+Item\+Column}} (int item\+Index)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_aeba52f89811d72702b3347b9e7e4bfb3}{get\+Item\+Count}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a86800fc58fce529793902f89f1beb816}{get\+Item\+Row}} (int item\+Index)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ac6e2e1491fbbc51fc0907f3769ee5da2}{get\+Row\+Count}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a673ce1dc727458893120d67ed4e7a35c}{get}} (int i, int j)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ab37bc40ca0ac68127fdb1b61b08937c6}{update}} (int i, int j, double mij)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a4a6f83a4d9d6f2cf143fc47ee83b3e5d}{zero\+All}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a49fea6c1fa7e3a07354b7d7aeb4ff915}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a08a6cb94c4bd17679afea5ee9e2c87a7}{data}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Represents a dense matrix M\mbox{[}i,j\mbox{]} where each Mij item of the matrix has a value (default is 0). 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a592431806b09188de33bbcd7490526f0}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a592431806b09188de33bbcd7490526f0}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!Matrix\+Series@{Matrix\+Series}}
+\index{Matrix\+Series@{Matrix\+Series}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{Matrix\+Series()}{MatrixSeries()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+Matrix\+Series (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{int}]{rows,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+Constructs a new matrix series. 
+
+By default, all matrix items are initialzed to 0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & series name ({\ttfamily null} not permitted). \\
+\hline
+{\em rows} & the number of rows. \\
+\hline
+{\em columns} & the number of columns. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a49fea6c1fa7e3a07354b7d7aeb4ff915}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a49fea6c1fa7e3a07354b7d7aeb4ff915}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object instance for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a673ce1dc727458893120d67ed4e7a35c}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a673ce1dc727458893120d67ed4e7a35c}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!get@{get}}
+\index{get@{get}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+get (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})}
+
+Returns the value of the specified item in this matrix series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & the row of the item. \\
+\hline
+{\em j} & the column of the item.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value of the specified item in this matrix series.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ad77ed9610997bea1f37b95a3ecaf238a}{get\+Item(int)}} 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ab37bc40ca0ac68127fdb1b61b08937c6}{update(int, int, double)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ad4416aec274e384b9043e899ea4c68b0}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ad4416aec274e384b9043e899ea4c68b0}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!get\+Columns\+Count@{get\+Columns\+Count}}
+\index{get\+Columns\+Count@{get\+Columns\+Count}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get\+Columns\+Count()}{getColumnsCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+get\+Columns\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of columns in this matrix series.
+
+\begin{DoxyReturn}{Returns}
+The number of columns in this matrix series. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ad77ed9610997bea1f37b95a3ecaf238a}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ad77ed9610997bea1f37b95a3ecaf238a}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!get\+Item@{get\+Item}}
+\index{get\+Item@{get\+Item}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get\+Item()}{getItem()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+get\+Item (\begin{DoxyParamCaption}\item[{int}]{item\+Index }\end{DoxyParamCaption})}
+
+Return the matrix item at the specified index. Note that this method creates a new {\ttfamily Double} instance every time it is called.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Index} & item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The matrix item at the specified index.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a673ce1dc727458893120d67ed4e7a35c}{get(int, int)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a3ed5405c62c33e1a4956902d2d9d7cd1}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a3ed5405c62c33e1a4956902d2d9d7cd1}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!get\+Item\+Column@{get\+Item\+Column}}
+\index{get\+Item\+Column@{get\+Item\+Column}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get\+Item\+Column()}{getItemColumn()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+get\+Item\+Column (\begin{DoxyParamCaption}\item[{int}]{item\+Index }\end{DoxyParamCaption})}
+
+Returns the column of the specified item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Index} & the index of the item.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The column of the specified item. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_aeba52f89811d72702b3347b9e7e4bfb3}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_aeba52f89811d72702b3347b9e7e4bfb3}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of items in the series.
+
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a86800fc58fce529793902f89f1beb816}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a86800fc58fce529793902f89f1beb816}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!get\+Item\+Row@{get\+Item\+Row}}
+\index{get\+Item\+Row@{get\+Item\+Row}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get\+Item\+Row()}{getItemRow()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+get\+Item\+Row (\begin{DoxyParamCaption}\item[{int}]{item\+Index }\end{DoxyParamCaption})}
+
+Returns the row of the specified item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Index} & the index of the item.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The row of the specified item. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ac6e2e1491fbbc51fc0907f3769ee5da2}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ac6e2e1491fbbc51fc0907f3769ee5da2}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!get\+Row\+Count@{get\+Row\+Count}}
+\index{get\+Row\+Count@{get\+Row\+Count}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get\+Row\+Count()}{getRowCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+get\+Row\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of rows in this matrix series.
+
+\begin{DoxyReturn}{Returns}
+The number of rows in this matrix series. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ab37bc40ca0ac68127fdb1b61b08937c6}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ab37bc40ca0ac68127fdb1b61b08937c6}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!update@{update}}
+\index{update@{update}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+update (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j,  }\item[{double}]{mij }\end{DoxyParamCaption})}
+
+Updates the value of the specified item in this matrix series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & the row of the item. \\
+\hline
+{\em j} & the column of the item. \\
+\hline
+{\em mij} & the new value for the item.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a673ce1dc727458893120d67ed4e7a35c}{get(int, int)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a4a6f83a4d9d6f2cf143fc47ee83b3e5d}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a4a6f83a4d9d6f2cf143fc47ee83b3e5d}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!zero\+All@{zero\+All}}
+\index{zero\+All@{zero\+All}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{zero\+All()}{zeroAll()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+zero\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sets all matrix values to zero and sends a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_series_change_event}{org.\+jfree.\+data.\+general.\+Series\+Change\+Event}} to all registered listeners. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a08a6cb94c4bd17679afea5ee9e2c87a7}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a08a6cb94c4bd17679afea5ee9e2c87a7}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}!data@{data}}
+\index{data@{data}!org\+::jfree\+::data\+::xy\+::\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{data}{data}}
+{\footnotesize\ttfamily double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+xy.\+Matrix\+Series.\+data\hspace{0.3cm}{\ttfamily [protected]}}
+
+Series matrix values 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_matrix_series_8java}{Matrix\+Series.\+java}}\end{DoxyCompactItemize}

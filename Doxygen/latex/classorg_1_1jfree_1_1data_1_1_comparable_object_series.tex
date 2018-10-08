@@ -1,0 +1,377 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series}{}\section{org.\+jfree.\+data.\+Comparable\+Object\+Series Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series}\index{org.\+jfree.\+data.\+Comparable\+Object\+Series@{org.\+jfree.\+data.\+Comparable\+Object\+Series}}
+Inheritance diagram for org.\+jfree.\+data.\+Comparable\+Object\+Series\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.851240cm]{classorg_1_1jfree_1_1data_1_1_comparable_object_series}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a290245fbc54c2ed7b2429b58464fd0cc}{Comparable\+Object\+Series}} (Comparable key)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ab17013f6a3052e15009de0f140be7830}{Comparable\+Object\+Series}} (Comparable key, boolean auto\+Sort, boolean allow\+Duplicate\+X\+Values)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7c35e4a07051869a7b2e5949b5c69882}{get\+Auto\+Sort}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a1f6534ba68282f20dd9fdfc324d71f70}{get\+Allow\+Duplicate\+X\+Values}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7d4456292704300127b488b286156587}{get\+Item\+Count}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7d89f1b44afcf80cea75b715e5e9cb36}{get\+Maximum\+Item\+Count}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a77eb1fe6cae39738587baf49592266ab}{set\+Maximum\+Item\+Count}} (int maximum)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7b9611f61db44619d70344397d15ab42}{index\+Of}} (Comparable x)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a181cb80e8a94e64a9ebc3636b37f3fde}{clear}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a114e1cab4397a3c31881a3dedc88f6dc}{remove}} (Comparable x)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a895422199608f70ac2a2ca39a835c4bb}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a60758c8d338dff3da555d2d20cc7a453}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ab1e01eda6532e976345fea55e00569cd}{add}} (Comparable x, Object y)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_af45e7280312d4dea5d8c21f045758ca5}{add}} (Comparable x, Object y, boolean notify)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_abe21ec873f0192445b71400a690c26b3}{add}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} item, boolean notify)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a63b31a6d9f4b27a310d5bc529c02c969}{update}} (Comparable x, Object y)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_acf27539e8d6e3d295a82e67544cc4bb1}{update\+By\+Index}} (int index, Object y)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a76ff978830bd64e64f89c6656b5a40f7}{get\+Data\+Item}} (int index)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ae5866252b9fedcee196a1572832f8d78}{delete}} (int start, int end)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a28c33382767491892419d3cc15891f68}{remove}} (int index)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_abacebadb1f34908e900081407daaaa9b}{data}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A (possibly ordered) list of (Comparable, Object) data items.
+
+\begin{DoxySince}{Since}
+1.\+0.\+3 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a290245fbc54c2ed7b2429b58464fd0cc}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a290245fbc54c2ed7b2429b58464fd0cc}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!Comparable\+Object\+Series@{Comparable\+Object\+Series}}
+\index{Comparable\+Object\+Series@{Comparable\+Object\+Series}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{Comparable\+Object\+Series()}{ComparableObjectSeries()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+Comparable\+Object\+Series.\+Comparable\+Object\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Creates a new empty series. By default, items added to the series will be sorted into ascending order by x-\/value, and duplicate x-\/values will be allowed (these defaults can be modified with another constructor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ab17013f6a3052e15009de0f140be7830}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ab17013f6a3052e15009de0f140be7830}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!Comparable\+Object\+Series@{Comparable\+Object\+Series}}
+\index{Comparable\+Object\+Series@{Comparable\+Object\+Series}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{Comparable\+Object\+Series()}{ComparableObjectSeries()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+Comparable\+Object\+Series.\+Comparable\+Object\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key,  }\item[{boolean}]{auto\+Sort,  }\item[{boolean}]{allow\+Duplicate\+X\+Values }\end{DoxyParamCaption})}
+
+Constructs a new series that contains no data. You can specify whether or not duplicate x-\/values are allowed for the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+{\em auto\+Sort} & a flag that controls whether or not the items in the series are sorted. \\
+\hline
+{\em allow\+Duplicate\+X\+Values} & a flag that controls whether duplicate x-\/values are allowed. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ab1e01eda6532e976345fea55e00569cd}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ab1e01eda6532e976345fea55e00569cd}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+Comparable\+Object\+Series.\+add (\begin{DoxyParamCaption}\item[{Comparable}]{x,  }\item[{Object}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Adds new data to the series and sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners. 
+
+Throws an exception if the x-\/value is a duplicate A\+ND the allow\+Duplicate\+X\+Values flag is false.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/value ({\ttfamily null} not permitted). \\
+\hline
+{\em y} & the y-\/value ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_af45e7280312d4dea5d8c21f045758ca5}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_af45e7280312d4dea5d8c21f045758ca5}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+Comparable\+Object\+Series.\+add (\begin{DoxyParamCaption}\item[{Comparable}]{x,  }\item[{Object}]{y,  }\item[{boolean}]{notify }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Adds new data to the series and, if requested, sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners. 
+
+Throws an exception if the x-\/value is a duplicate A\+ND the allow\+Duplicate\+X\+Values flag is false.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/value ({\ttfamily null} not permitted). \\
+\hline
+{\em y} & the y-\/value ({\ttfamily null} permitted). \\
+\hline
+{\em notify} & a flag the controls whether or not a \mbox{\hyperlink{}{Series\+Change\+Event}} is sent to all registered listeners. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_abe21ec873f0192445b71400a690c26b3}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_abe21ec873f0192445b71400a690c26b3}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+Comparable\+Object\+Series.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}}}]{item,  }\item[{boolean}]{notify }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Adds a data item to the series and, if requested, sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & the (x, y) item ({\ttfamily null} not permitted). \\
+\hline
+{\em notify} & a flag that controls whether or not a \mbox{\hyperlink{}{Series\+Change\+Event}} is sent to all registered listeners. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a181cb80e8a94e64a9ebc3636b37f3fde}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a181cb80e8a94e64a9ebc3636b37f3fde}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!clear@{clear}}
+\index{clear@{clear}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+Comparable\+Object\+Series.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Removes all data items from the series and, unless the series is already empty, sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ae5866252b9fedcee196a1572832f8d78}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_ae5866252b9fedcee196a1572832f8d78}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!delete@{delete}}
+\index{delete@{delete}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+Comparable\+Object\+Series.\+delete (\begin{DoxyParamCaption}\item[{int}]{start,  }\item[{int}]{end }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Deletes a range of items from the series and sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & the start index (zero-\/based). \\
+\hline
+{\em end} & the end index (zero-\/based). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a895422199608f70ac2a2ca39a835c4bb}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a895422199608f70ac2a2ca39a835c4bb}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Comparable\+Object\+Series.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this series for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test against for equality ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a1f6534ba68282f20dd9fdfc324d71f70}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a1f6534ba68282f20dd9fdfc324d71f70}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!get\+Allow\+Duplicate\+X\+Values@{get\+Allow\+Duplicate\+X\+Values}}
+\index{get\+Allow\+Duplicate\+X\+Values@{get\+Allow\+Duplicate\+X\+Values}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{get\+Allow\+Duplicate\+X\+Values()}{getAllowDuplicateXValues()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Comparable\+Object\+Series.\+get\+Allow\+Duplicate\+X\+Values (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a flag that controls whether duplicate x-\/values are allowed. This flag can only be set in the constructor.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7c35e4a07051869a7b2e5949b5c69882}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7c35e4a07051869a7b2e5949b5c69882}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!get\+Auto\+Sort@{get\+Auto\+Sort}}
+\index{get\+Auto\+Sort@{get\+Auto\+Sort}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{get\+Auto\+Sort()}{getAutoSort()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+Comparable\+Object\+Series.\+get\+Auto\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the flag that controls whether the items in the series are automatically sorted. There is no setter for this flag, it must be defined in the series constructor.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a76ff978830bd64e64f89c6656b5a40f7}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a76ff978830bd64e64f89c6656b5a40f7}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!get\+Data\+Item@{get\+Data\+Item}}
+\index{get\+Data\+Item@{get\+Data\+Item}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{get\+Data\+Item()}{getDataItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} org.\+jfree.\+data.\+Comparable\+Object\+Series.\+get\+Data\+Item (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Return the data item with the specified index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The data item with the specified index. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7d4456292704300127b488b286156587}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7d4456292704300127b488b286156587}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Comparable\+Object\+Series.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of items in the series.
+
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7d89f1b44afcf80cea75b715e5e9cb36}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7d89f1b44afcf80cea75b715e5e9cb36}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!get\+Maximum\+Item\+Count@{get\+Maximum\+Item\+Count}}
+\index{get\+Maximum\+Item\+Count@{get\+Maximum\+Item\+Count}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{get\+Maximum\+Item\+Count()}{getMaximumItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Comparable\+Object\+Series.\+get\+Maximum\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the maximum number of items that will be retained in the series. The default value is {\ttfamily Integer.\+M\+A\+X\+\_\+\+V\+A\+L\+UE}.
+
+\begin{DoxyReturn}{Returns}
+The maximum item count. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a77eb1fe6cae39738587baf49592266ab}{set\+Maximum\+Item\+Count(int)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a60758c8d338dff3da555d2d20cc7a453}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a60758c8d338dff3da555d2d20cc7a453}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Comparable\+Object\+Series.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7b9611f61db44619d70344397d15ab42}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a7b9611f61db44619d70344397d15ab42}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!index\+Of@{index\+Of}}
+\index{index\+Of@{index\+Of}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{index\+Of()}{indexOf()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Comparable\+Object\+Series.\+index\+Of (\begin{DoxyParamCaption}\item[{Comparable}]{x }\end{DoxyParamCaption})}
+
+Returns the index of the item with the specified x-\/value, or a negative index if the series does not contain an item with that x-\/value. Be aware that for an unsorted series, the index is found by iterating through all items in the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/value ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a28c33382767491892419d3cc15891f68}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a28c33382767491892419d3cc15891f68}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!remove@{remove}}
+\index{remove@{remove}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} org.\+jfree.\+data.\+Comparable\+Object\+Series.\+remove (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Removes the item at the specified index and sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item removed. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a114e1cab4397a3c31881a3dedc88f6dc}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a114e1cab4397a3c31881a3dedc88f6dc}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!remove@{remove}}
+\index{remove@{remove}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} org.\+jfree.\+data.\+Comparable\+Object\+Series.\+remove (\begin{DoxyParamCaption}\item[{Comparable}]{x }\end{DoxyParamCaption})}
+
+Removes the item with the specified x-\/value and sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item removed. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a77eb1fe6cae39738587baf49592266ab}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a77eb1fe6cae39738587baf49592266ab}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!set\+Maximum\+Item\+Count@{set\+Maximum\+Item\+Count}}
+\index{set\+Maximum\+Item\+Count@{set\+Maximum\+Item\+Count}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{set\+Maximum\+Item\+Count()}{setMaximumItemCount()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+Comparable\+Object\+Series.\+set\+Maximum\+Item\+Count (\begin{DoxyParamCaption}\item[{int}]{maximum }\end{DoxyParamCaption})}
+
+Sets the maximum number of items that will be retained in the series. If you add a new item to the series such that the number of items will exceed the maximum item count, then the first element in the series is automatically removed, ensuring that the maximum item count is not exceeded. 
+
+Typically this value is set before the series is populated with data, but if it is applied later, it may cause some items to be removed from the series (in which case a \mbox{\hyperlink{}{Series\+Change\+Event}} will be sent to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em maximum} & the maximum number of items for the series. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a63b31a6d9f4b27a310d5bc529c02c969}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_a63b31a6d9f4b27a310d5bc529c02c969}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!update@{update}}
+\index{update@{update}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+Comparable\+Object\+Series.\+update (\begin{DoxyParamCaption}\item[{Comparable}]{x,  }\item[{Object}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Updates an item in the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/value ({\ttfamily null} not permitted). \\
+\hline
+{\em y} & the y-\/value ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Series\+Exception} & if there is no existing item with the specified x-\/value. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_acf27539e8d6e3d295a82e67544cc4bb1}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_acf27539e8d6e3d295a82e67544cc4bb1}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!update\+By\+Index@{update\+By\+Index}}
+\index{update\+By\+Index@{update\+By\+Index}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{update\+By\+Index()}{updateByIndex()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+Comparable\+Object\+Series.\+update\+By\+Index (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{Object}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Updates the value of an item in the series and sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item (zero based index). \\
+\hline
+{\em y} & the new value ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_comparable_object_series_abacebadb1f34908e900081407daaaa9b}\label{classorg_1_1jfree_1_1data_1_1_comparable_object_series_abacebadb1f34908e900081407daaaa9b}} 
+\index{org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}!data@{data}}
+\index{data@{data}!org\+::jfree\+::data\+::\+Comparable\+Object\+Series@{org\+::jfree\+::data\+::\+Comparable\+Object\+Series}}
+\subsubsection{\texorpdfstring{data}{data}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+Comparable\+Object\+Series.\+data\hspace{0.3cm}{\ttfamily [protected]}}
+
+Storage for the data items in the series. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/\mbox{\hyperlink{_comparable_object_series_8java}{Comparable\+Object\+Series.\+java}}\end{DoxyCompactItemize}

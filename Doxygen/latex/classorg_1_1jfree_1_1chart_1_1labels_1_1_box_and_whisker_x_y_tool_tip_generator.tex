@@ -1,0 +1,122 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator}\index{org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.919540cm]{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a71cc48d241117acfa4c90036a6ff571c}{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_ac43da4c4d4184c5d7de4e12a2ba6eb2f}{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}} (String tool\+Tip\+Format, Date\+Format date\+Format, Number\+Format number\+Format)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a3f170941337e3ae1829bc415c1c68a4a}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_af0f0002055b6f2e207bfa6510786a0a8}{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+\_\+\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}} = \char`\"{}X\+: \{1\} Mean\+: \{2\} Median\+: \{3\} Min\+: \{4\} Max\+: \{5\} Q1\+: \{6\} Q3\+: \{7\} \char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Object \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a90a2ceb326a36f39f93c1f96addd727c}{create\+Item\+Array}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, int item)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+An item label generator for plots that use data from a \mbox{\hyperlink{}{Box\+And\+Whisker\+X\+Y\+Dataset}}. 
+
+The tooltip text and item label text are composed using a \mbox{\hyperlink{}{java.\+text.\+Message\+Format}} object, that can aggregate some or all of the following string values into a message. 
+\begin{DoxyItemize}
+\item 0 \+: Series Name 
+\item 1 \+: X (value or date) 
+\item 2 \+: Mean 
+\item 3 \+: Median 
+\item 4 \+: Minimum 
+\item 5 \+: Maximum 
+\item 6 \+: Quartile 1 
+\item 7 \+: Quartile 3 
+\end{DoxyItemize}
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a71cc48d241117acfa4c90036a6ff571c}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a71cc48d241117acfa4c90036a6ff571c}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}!Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}}
+\index{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator()}{BoxAndWhiskerXYToolTipGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a default item label generator. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_ac43da4c4d4184c5d7de4e12a2ba6eb2f}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_ac43da4c4d4184c5d7de4e12a2ba6eb2f}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}!Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}}
+\index{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator()}{BoxAndWhiskerXYToolTipGenerator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}\item[{String}]{tool\+Tip\+Format,  }\item[{Date\+Format}]{date\+Format,  }\item[{Number\+Format}]{number\+Format }\end{DoxyParamCaption})}
+
+Creates a new item label generator. If the date formatter is not {\ttfamily null}, the x-\/values will be formatted as dates.
+
+
+\begin{DoxyParams}{Parameters}
+{\em tool\+Tip\+Format} & the tool tip format string ({\ttfamily null} not permitted). \\
+\hline
+{\em number\+Format} & the number formatter ({\ttfamily null} not permitted). \\
+\hline
+{\em date\+Format} & the date formatter ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a90a2ceb326a36f39f93c1f96addd727c}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a90a2ceb326a36f39f93c1f96addd727c}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}!create\+Item\+Array@{create\+Item\+Array}}
+\index{create\+Item\+Array@{create\+Item\+Array}!org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{create\+Item\+Array()}{createItemArray()}}
+{\footnotesize\ttfamily Object \mbox{[}$\,$\mbox{]} org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator.\+create\+Item\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Creates the array of items that can be passed to the \mbox{\hyperlink{}{Message\+Format}} class for creating labels.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The items (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a3f170941337e3ae1829bc415c1c68a4a}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_a3f170941337e3ae1829bc415c1c68a4a}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests if this object is equal to another.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the other object.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_af0f0002055b6f2e207bfa6510786a0a8}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_box_and_whisker_x_y_tool_tip_generator_af0f0002055b6f2e207bfa6510786a0a8}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}!D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+\_\+\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+\_\+\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}}
+\index{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+\_\+\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT@{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+\_\+\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}!org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+\_\+\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT}{DEFAULT\_TOOL\_TIP\_FORMAT}}
+{\footnotesize\ttfamily final String org.\+jfree.\+chart.\+labels.\+Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+O\+O\+L\+\_\+\+T\+I\+P\+\_\+\+F\+O\+R\+M\+AT = \char`\"{}X\+: \{1\} Mean\+: \{2\} Median\+: \{3\} Min\+: \{4\} Max\+: \{5\} Q1\+: \{6\} Q3\+: \{7\} \char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+The default tooltip format string. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_box_and_whisker_x_y_tool_tip_generator_8java}{Box\+And\+Whisker\+X\+Y\+Tool\+Tip\+Generator.\+java}}\end{DoxyCompactItemize}

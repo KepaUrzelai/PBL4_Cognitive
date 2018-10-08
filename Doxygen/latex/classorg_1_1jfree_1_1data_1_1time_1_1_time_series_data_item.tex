@@ -1,0 +1,188 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item}{}\section{org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item}\index{org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item@{org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item}}
+Inheritance diagram for org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.575246cm]{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_affdb376e559956adcbb595cb3e761ae8}{Time\+Series\+Data\+Item}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} period, Number value)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a4519034ff3a96ba5057ef380492964a3}{Time\+Series\+Data\+Item}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} period, double value)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a9e21c70b1359379868bc6dabd2ab6984}{get\+Period}} ()
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_aae8a91f28931ae9e1207f64124294896}{get\+Value}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_af1b0f84dad2ed0cbced4746bd9c3a8d1}{set\+Value}} (Number value)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a06742809c049524aa74574bd7d9ace62}{equals}} (Object obj)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_ab4e1a5f876ea48a68511a7fc8fbcff1c}{hash\+Code}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a2ef795d0a8bf1a0b9d48b8040a5a0026}{compare\+To}} (Object o1)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a4a1e5b5a08f4f5937f8664c32d7131b2}{clone}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents one data item in a time series. 
+
+The time period can be any of the following\+: 
+\begin{DoxyItemize}
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_year}{Year}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_quarter}{Quarter}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_month}{Month}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_week}{Week}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_day}{Day}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_hour}{Hour}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_minute}{Minute}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_second}{Second}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_millisecond}{Millisecond}} 
+\item \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_fixed_millisecond}{Fixed\+Millisecond}} 
+\end{DoxyItemize}
+
+The time period is an immutable property of the data item. Data items will often be sorted within a list, and allowing the time period to be changed could destroy the sort order. 
+
+Implements the {\ttfamily Comparable} interface so that standard Java sorting can be used to keep the data items in order. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_affdb376e559956adcbb595cb3e761ae8}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_affdb376e559956adcbb595cb3e761ae8}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!Time\+Series\+Data\+Item@{Time\+Series\+Data\+Item}}
+\index{Time\+Series\+Data\+Item@{Time\+Series\+Data\+Item}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{Time\+Series\+Data\+Item()}{TimeSeriesDataItem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+Time\+Series\+Data\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}}}]{period,  }\item[{Number}]{value }\end{DoxyParamCaption})}
+
+Constructs a new data item that associates a value with a time period.
+
+
+\begin{DoxyParams}{Parameters}
+{\em period} & the time period ({\ttfamily null} not permitted). \\
+\hline
+{\em value} & the value ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a4519034ff3a96ba5057ef380492964a3}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a4519034ff3a96ba5057ef380492964a3}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!Time\+Series\+Data\+Item@{Time\+Series\+Data\+Item}}
+\index{Time\+Series\+Data\+Item@{Time\+Series\+Data\+Item}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{Time\+Series\+Data\+Item()}{TimeSeriesDataItem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+Time\+Series\+Data\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}}}]{period,  }\item[{double}]{value }\end{DoxyParamCaption})}
+
+Constructs a new data item that associates a value with a time period.
+
+
+\begin{DoxyParams}{Parameters}
+{\em period} & the time period ({\ttfamily null} not permitted). \\
+\hline
+{\em value} & the value associated with the time period. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a4a1e5b5a08f4f5937f8664c32d7131b2}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a4a1e5b5a08f4f5937f8664c32d7131b2}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clones the data item. Note\+: there is no need to clone the period or value since they are immutable classes.
+
+\begin{DoxyReturn}{Returns}
+A clone of the data item. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a2ef795d0a8bf1a0b9d48b8040a5a0026}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a2ef795d0a8bf1a0b9d48b8040a5a0026}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!compare\+To@{compare\+To}}
+\index{compare\+To@{compare\+To}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{compare\+To()}{compareTo()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+compare\+To (\begin{DoxyParamCaption}\item[{Object}]{o1 }\end{DoxyParamCaption})}
+
+Returns an integer indicating the order of this data pair object relative to another object. 
+
+For the order we consider only the timing\+: negative == before, zero == same, positive == after.
+
+
+\begin{DoxyParams}{Parameters}
+{\em o1} & The object being compared to.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An integer indicating the order of the data item object relative to another object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a06742809c049524aa74574bd7d9ace62}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a06742809c049524aa74574bd7d9ace62}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this object for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the other object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a9e21c70b1359379868bc6dabd2ab6984}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_a9e21c70b1359379868bc6dabd2ab6984}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!get\+Period@{get\+Period}}
+\index{get\+Period@{get\+Period}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{get\+Period()}{getPeriod()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_regular_time_period}{Regular\+Time\+Period}} org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+get\+Period (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the time period.
+
+\begin{DoxyReturn}{Returns}
+The time period (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_aae8a91f28931ae9e1207f64124294896}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_aae8a91f28931ae9e1207f64124294896}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value.
+
+\begin{DoxyReturn}{Returns}
+The value ({\ttfamily null} possible).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_af1b0f84dad2ed0cbced4746bd9c3a8d1}{set\+Value}}(java.\+lang.\+Number) 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_ab4e1a5f876ea48a68511a7fc8fbcff1c}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_ab4e1a5f876ea48a68511a7fc8fbcff1c}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a hash code.
+
+\begin{DoxyReturn}{Returns}
+A hash code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_af1b0f84dad2ed0cbced4746bd9c3a8d1}\label{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_af1b0f84dad2ed0cbced4746bd9c3a8d1}} 
+\index{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}!set\+Value@{set\+Value}}
+\index{set\+Value@{set\+Value}!org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item@{org\+::jfree\+::data\+::time\+::\+Time\+Series\+Data\+Item}}
+\subsubsection{\texorpdfstring{set\+Value()}{setValue()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+time.\+Time\+Series\+Data\+Item.\+set\+Value (\begin{DoxyParamCaption}\item[{Number}]{value }\end{DoxyParamCaption})}
+
+Sets the value for this data item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the value ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1time_1_1_time_series_data_item_aae8a91f28931ae9e1207f64124294896}{get\+Value()}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/time/\mbox{\hyperlink{_time_series_data_item_8java}{Time\+Series\+Data\+Item.\+java}}\end{DoxyCompactItemize}

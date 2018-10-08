@@ -1,0 +1,314 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities}{}\section{org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities}\index{org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities@{org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_afa4bff11c42f4afca7ebbfa5238cbdbb}{get\+Temp\+File\+Prefix}} ()
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_aa04ae76d0a148df4758391054142fabf}{set\+Temp\+File\+Prefix}} (String prefix)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a30db9cc27057e0b1118f9c22a61cb290}{get\+Temp\+One\+Time\+File\+Prefix}} ()
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a87f9344da6588038a44afac01d588aa8}{set\+Temp\+One\+Time\+File\+Prefix}} (String prefix)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8df3dbbed1ab2d1c130c23dcfdf5d3cc}{save\+Chart\+As\+P\+NG}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} chart, int width, int height, Http\+Session session)  throws I\+O\+Exception 
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_ade3bfa33a63f5b4564a0c21dced5eabb}{save\+Chart\+As\+P\+NG}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} chart, int width, int height, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} info, Http\+Session session)  throws I\+O\+Exception 
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a57e551f538c4e9227cba5c7e487a8e58}{save\+Chart\+As\+J\+P\+EG}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} chart, int width, int height, Http\+Session session)  throws I\+O\+Exception 
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8895ef14220ad16b691c688491e84138}{save\+Chart\+As\+J\+P\+EG}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} chart, int width, int height, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} info, Http\+Session session)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8597dbd6056d5f52241619c4526e8eaf}{send\+Temp\+File}} (String filename, Http\+Servlet\+Response response)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_aad824441b81a28733dad262670f62efe}{send\+Temp\+File}} (File file, Http\+Servlet\+Response response)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a72ccf8f86d7a8deb8e84714b2dfbf79b}{send\+Temp\+File}} (File file, Http\+Servlet\+Response response, String mime\+Type)  throws I\+O\+Exception 
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a64a57d3d1f38d001a22be472a3efba74}{search\+Replace}} (String input\+String, String search\+String, String replace\+String)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_af4bff5a1ae6bd3eb2ae4fe558a52eba6}{create\+Temp\+Dir}} ()
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a45621e22d7ed0504923a5145a776535e}{register\+Chart\+For\+Deletion}} (File temp\+File, Http\+Session session)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Utility class used for servlet related \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} operations. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_af4bff5a1ae6bd3eb2ae4fe558a52eba6}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_af4bff5a1ae6bd3eb2ae4fe558a52eba6}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!create\+Temp\+Dir@{create\+Temp\+Dir}}
+\index{create\+Temp\+Dir@{create\+Temp\+Dir}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{create\+Temp\+Dir()}{createTempDir()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+create\+Temp\+Dir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Creates the temporary directory if it does not exist. Throws a {\ttfamily Runtime\+Exception} if the temporary directory is {\ttfamily null}. Uses the system property {\ttfamily java.\+io.\+tmpdir} as the temporary directory. This sounds like a strange thing to do but my temporary directory was not created on my default Tomcat 4.\+0.\+3 installation. Could save some questions on the forum if it is created when not present. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_afa4bff11c42f4afca7ebbfa5238cbdbb}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_afa4bff11c42f4afca7ebbfa5238cbdbb}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!get\+Temp\+File\+Prefix@{get\+Temp\+File\+Prefix}}
+\index{get\+Temp\+File\+Prefix@{get\+Temp\+File\+Prefix}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{get\+Temp\+File\+Prefix()}{getTempFilePrefix()}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+get\+Temp\+File\+Prefix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the prefix for the temporary file names generated by this class.
+
+\begin{DoxyReturn}{Returns}
+The prefix (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a30db9cc27057e0b1118f9c22a61cb290}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a30db9cc27057e0b1118f9c22a61cb290}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!get\+Temp\+One\+Time\+File\+Prefix@{get\+Temp\+One\+Time\+File\+Prefix}}
+\index{get\+Temp\+One\+Time\+File\+Prefix@{get\+Temp\+One\+Time\+File\+Prefix}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{get\+Temp\+One\+Time\+File\+Prefix()}{getTempOneTimeFilePrefix()}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+get\+Temp\+One\+Time\+File\+Prefix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the prefix for \char`\"{}one time\char`\"{} temporary file names generated by this class.
+
+\begin{DoxyReturn}{Returns}
+The prefix. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a45621e22d7ed0504923a5145a776535e}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a45621e22d7ed0504923a5145a776535e}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!register\+Chart\+For\+Deletion@{register\+Chart\+For\+Deletion}}
+\index{register\+Chart\+For\+Deletion@{register\+Chart\+For\+Deletion}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{register\+Chart\+For\+Deletion()}{registerChartForDeletion()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+register\+Chart\+For\+Deletion (\begin{DoxyParamCaption}\item[{File}]{temp\+File,  }\item[{Http\+Session}]{session }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Adds a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_chart_deleter}{Chart\+Deleter}} object to the session object with the name {\ttfamily J\+Free\+Chart\+\_\+\+Deleter} if there is not already one bound to the session and adds the filename to the list of charts to be deleted.
+
+
+\begin{DoxyParams}{Parameters}
+{\em temp\+File} & the file to be deleted. \\
+\hline
+{\em session} & the H\+T\+TP session of the client. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a57e551f538c4e9227cba5c7e487a8e58}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a57e551f538c4e9227cba5c7e487a8e58}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!save\+Chart\+As\+J\+P\+EG@{save\+Chart\+As\+J\+P\+EG}}
+\index{save\+Chart\+As\+J\+P\+EG@{save\+Chart\+As\+J\+P\+EG}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{save\+Chart\+As\+J\+P\+E\+G()}{saveChartAsJPEG()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+save\+Chart\+As\+J\+P\+EG (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}}]{chart,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{Http\+Session}]{session }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Saves the chart as a J\+P\+EG format file in the temporary directory. 
+
+S\+P\+E\+C\+I\+AL N\+O\+TE\+: Please avoid using J\+P\+EG as an image format for charts, it is a \char`\"{}lossy\char`\"{} format that introduces visible distortions in the resulting image -\/ use P\+NG instead. In addition, note that J\+P\+EG output is supported by \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} only for J\+RE 1.\+4.\+2 or later.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chart} & the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} to be saved. \\
+\hline
+{\em width} & the width of the chart. \\
+\hline
+{\em height} & the height of the chart. \\
+\hline
+{\em session} & the Http\+Session of the client (if {\ttfamily null}, the temporary file is marked as \char`\"{}one-\/time\char`\"{} and deleted by the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}{Display\+Chart}} servlet right after it is streamed to the client).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The filename of the chart saved in the temporary directory.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is a problem saving the file. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8895ef14220ad16b691c688491e84138}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8895ef14220ad16b691c688491e84138}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!save\+Chart\+As\+J\+P\+EG@{save\+Chart\+As\+J\+P\+EG}}
+\index{save\+Chart\+As\+J\+P\+EG@{save\+Chart\+As\+J\+P\+EG}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{save\+Chart\+As\+J\+P\+E\+G()}{saveChartAsJPEG()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+save\+Chart\+As\+J\+P\+EG (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}}]{chart,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}}]{info,  }\item[{Http\+Session}]{session }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Saves the chart as a J\+P\+EG format file in the temporary directory and populates the {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}} object which can be used to generate an H\+T\+ML image map. 
+
+S\+P\+E\+C\+I\+AL N\+O\+TE\+: Please avoid using J\+P\+EG as an image format for charts, it is a \char`\"{}lossy\char`\"{} format that introduces visible distortions in the resulting image -\/ use P\+NG instead. In addition, note that J\+P\+EG output is supported by \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} only for J\+RE 1.\+4.\+2 or later.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chart} & the chart to be saved ({\ttfamily null} not permitted). \\
+\hline
+{\em width} & the width of the chart \\
+\hline
+{\em height} & the height of the chart \\
+\hline
+{\em info} & the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} object to be populated \\
+\hline
+{\em session} & the Http\+Session of the client (if {\ttfamily null}, the temporary file is marked as \char`\"{}one-\/time\char`\"{} and deleted by the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}{Display\+Chart}} servlet right after it is streamed to the client).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The filename of the chart saved in the temporary directory
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is a problem saving the file. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8df3dbbed1ab2d1c130c23dcfdf5d3cc}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8df3dbbed1ab2d1c130c23dcfdf5d3cc}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!save\+Chart\+As\+P\+NG@{save\+Chart\+As\+P\+NG}}
+\index{save\+Chart\+As\+P\+NG@{save\+Chart\+As\+P\+NG}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{save\+Chart\+As\+P\+N\+G()}{saveChartAsPNG()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+save\+Chart\+As\+P\+NG (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}}]{chart,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{Http\+Session}]{session }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Saves the chart as a P\+NG format file in the temporary directory.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chart} & the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}} to be saved. \\
+\hline
+{\em width} & the width of the chart. \\
+\hline
+{\em height} & the height of the chart. \\
+\hline
+{\em session} & the Http\+Session of the client (if {\ttfamily null}, the temporary file is marked as \char`\"{}one-\/time\char`\"{} and deleted by the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}{Display\+Chart}} servlet right after it is streamed to the client).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The filename of the chart saved in the temporary directory.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is a problem saving the file. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_ade3bfa33a63f5b4564a0c21dced5eabb}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_ade3bfa33a63f5b4564a0c21dced5eabb}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!save\+Chart\+As\+P\+NG@{save\+Chart\+As\+P\+NG}}
+\index{save\+Chart\+As\+P\+NG@{save\+Chart\+As\+P\+NG}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{save\+Chart\+As\+P\+N\+G()}{saveChartAsPNG()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+save\+Chart\+As\+P\+NG (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}}]{chart,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}}]{info,  }\item[{Http\+Session}]{session }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Saves the chart as a P\+NG format file in the temporary directory and populates the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} object which can be used to generate an H\+T\+ML image map.
+
+
+\begin{DoxyParams}{Parameters}
+{\em chart} & the chart to be saved ({\ttfamily null} not permitted). \\
+\hline
+{\em width} & the width of the chart. \\
+\hline
+{\em height} & the height of the chart. \\
+\hline
+{\em info} & the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} object to be populated ({\ttfamily null} permitted). \\
+\hline
+{\em session} & the Http\+Session of the client (if {\ttfamily null}, the temporary file is marked as \char`\"{}one-\/time\char`\"{} and deleted by the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1servlet_1_1_display_chart}{Display\+Chart}} servlet right after it is streamed to the client).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The filename of the chart saved in the temporary directory.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is a problem saving the file. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a64a57d3d1f38d001a22be472a3efba74}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a64a57d3d1f38d001a22be472a3efba74}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!search\+Replace@{search\+Replace}}
+\index{search\+Replace@{search\+Replace}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{search\+Replace()}{searchReplace()}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+search\+Replace (\begin{DoxyParamCaption}\item[{String}]{input\+String,  }\item[{String}]{search\+String,  }\item[{String}]{replace\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Perform a search/replace operation on a String There are String methods to do this since (J\+DK 1.\+4)
+
+
+\begin{DoxyParams}{Parameters}
+{\em input\+String} & the String to have the search/replace operation. \\
+\hline
+{\em search\+String} & the search String. \\
+\hline
+{\em replace\+String} & the replace String.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The String with the replacements made. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8597dbd6056d5f52241619c4526e8eaf}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a8597dbd6056d5f52241619c4526e8eaf}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!send\+Temp\+File@{send\+Temp\+File}}
+\index{send\+Temp\+File@{send\+Temp\+File}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{send\+Temp\+File()}{sendTempFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+send\+Temp\+File (\begin{DoxyParamCaption}\item[{String}]{filename,  }\item[{Http\+Servlet\+Response}]{response }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Binary streams the specified file in the temporary directory to the H\+T\+TP response in 1\+KB chunks.
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the name of the file in the temporary directory. \\
+\hline
+{\em response} & the H\+T\+TP response object.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an I/O problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_aad824441b81a28733dad262670f62efe}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_aad824441b81a28733dad262670f62efe}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!send\+Temp\+File@{send\+Temp\+File}}
+\index{send\+Temp\+File@{send\+Temp\+File}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{send\+Temp\+File()}{sendTempFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+send\+Temp\+File (\begin{DoxyParamCaption}\item[{File}]{file,  }\item[{Http\+Servlet\+Response}]{response }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Binary streams the specified file to the H\+T\+TP response in 1\+KB chunks.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & the file to be streamed. \\
+\hline
+{\em response} & the H\+T\+TP response object.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an I/O problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a72ccf8f86d7a8deb8e84714b2dfbf79b}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a72ccf8f86d7a8deb8e84714b2dfbf79b}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!send\+Temp\+File@{send\+Temp\+File}}
+\index{send\+Temp\+File@{send\+Temp\+File}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{send\+Temp\+File()}{sendTempFile()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+send\+Temp\+File (\begin{DoxyParamCaption}\item[{File}]{file,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{String}]{mime\+Type }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Binary streams the specified file to the H\+T\+TP response in 1\+KB chunks.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & the file to be streamed. \\
+\hline
+{\em response} & the H\+T\+TP response object. \\
+\hline
+{\em mime\+Type} & the mime type of the file, null allowed.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an I/O problem. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_aa04ae76d0a148df4758391054142fabf}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_aa04ae76d0a148df4758391054142fabf}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!set\+Temp\+File\+Prefix@{set\+Temp\+File\+Prefix}}
+\index{set\+Temp\+File\+Prefix@{set\+Temp\+File\+Prefix}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{set\+Temp\+File\+Prefix()}{setTempFilePrefix()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+set\+Temp\+File\+Prefix (\begin{DoxyParamCaption}\item[{String}]{prefix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the prefix for the temporary file names generated by this class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em prefix} & the prefix ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a87f9344da6588038a44afac01d588aa8}\label{classorg_1_1jfree_1_1chart_1_1servlet_1_1_servlet_utilities_a87f9344da6588038a44afac01d588aa8}} 
+\index{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}!set\+Temp\+One\+Time\+File\+Prefix@{set\+Temp\+One\+Time\+File\+Prefix}}
+\index{set\+Temp\+One\+Time\+File\+Prefix@{set\+Temp\+One\+Time\+File\+Prefix}!org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities@{org\+::jfree\+::chart\+::servlet\+::\+Servlet\+Utilities}}
+\subsubsection{\texorpdfstring{set\+Temp\+One\+Time\+File\+Prefix()}{setTempOneTimeFilePrefix()}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+servlet.\+Servlet\+Utilities.\+set\+Temp\+One\+Time\+File\+Prefix (\begin{DoxyParamCaption}\item[{String}]{prefix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the prefix for the \char`\"{}one time\char`\"{} temporary file names generated by this class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em prefix} & the prefix ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/servlet/\mbox{\hyperlink{_servlet_utilities_8java}{Servlet\+Utilities.\+java}}\end{DoxyCompactItemize}

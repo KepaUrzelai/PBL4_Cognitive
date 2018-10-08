@@ -1,0 +1,304 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset}{}\section{org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset}\index{org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset@{org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.733788cm]{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a92688e6bd8e5eb38b2c78888c21c8a2f}{get\+Percent\+Complete}} (int row, int column)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_aa5ddb721d32f80a587877db94589b9fd}{get\+Percent\+Complete}} (Comparable row\+Key, Comparable column\+Key)
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a290ee496bed2a6688f43e56c0824bb01}{get\+Sub\+Interval\+Count}} (int row, int column)
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_af4749dc6ab0b5b67535b4ea0fa88f190}{get\+Sub\+Interval\+Count}} (Comparable row\+Key, Comparable column\+Key)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a83a54435ac557e310c8011d860b6d8ff}{get\+Start\+Value}} (int row, int column, int subinterval)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a3b0bc8be0c1344751017e9761acefa54}{get\+Start\+Value}} (Comparable row\+Key, Comparable column\+Key, int subinterval)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_ad092e9e7050d018c0811261c745f0965}{get\+End\+Value}} (int row, int column, int subinterval)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a52fe0cb6c2e19b3154549807505899d5}{get\+End\+Value}} (Comparable row\+Key, Comparable column\+Key, int subinterval)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a6d168854abc408d941ea1db0c1ced287}{get\+Percent\+Complete}} (int row, int column, int subinterval)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a0a58c2187aec46dc95f312c38abbf812}{get\+Percent\+Complete}} (Comparable row\+Key, Comparable column\+Key, int subinterval)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An extension of the \mbox{\hyperlink{}{Interval\+Category\+Dataset}} interface that adds support for multiple sub-\/intervals. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_ad092e9e7050d018c0811261c745f0965}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_ad092e9e7050d018c0811261c745f0965}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+End\+Value@{get\+End\+Value}}
+\index{get\+End\+Value@{get\+End\+Value}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+End\+Value()}{getEndValue()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+End\+Value (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column,  }\item[{int}]{subinterval }\end{DoxyParamCaption})}
+
+Returns the end value of a sub-\/interval for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based). \\
+\hline
+{\em subinterval} & the sub-\/interval.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The end value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a83a54435ac557e310c8011d860b6d8ff}{get\+Start\+Value(int, int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a8a8c5440012051ae6ac64fc6f5fbc55f}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a1b2ad0eb9fe4b2f85f8c42c3838b74e9}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a52fe0cb6c2e19b3154549807505899d5}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a52fe0cb6c2e19b3154549807505899d5}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+End\+Value@{get\+End\+Value}}
+\index{get\+End\+Value@{get\+End\+Value}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+End\+Value()}{getEndValue()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+End\+Value (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key,  }\item[{int}]{subinterval }\end{DoxyParamCaption})}
+
+Returns the end value of a sub-\/interval for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key. \\
+\hline
+{\em column\+Key} & the column key. \\
+\hline
+{\em subinterval} & the sub-\/interval.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The end value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a3b0bc8be0c1344751017e9761acefa54}{get\+Start\+Value(\+Comparable, Comparable, int)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_aeedad40761eb5414845f7e9d56b7fcb6}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a9a422df19aea47476fa3fae81a836eb1}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a92688e6bd8e5eb38b2c78888c21c8a2f}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a92688e6bd8e5eb38b2c78888c21c8a2f}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+Percent\+Complete@{get\+Percent\+Complete}}
+\index{get\+Percent\+Complete@{get\+Percent\+Complete}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Percent\+Complete()}{getPercentComplete()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+Percent\+Complete (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the percent complete for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The percent complete.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_aa5ddb721d32f80a587877db94589b9fd}{get\+Percent\+Complete(\+Comparable, Comparable)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_aca8d6ce318feece476883aa73a5cd32e}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_abcf830d408f2f594737b6c5facbc620c}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_aa5ddb721d32f80a587877db94589b9fd}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_aa5ddb721d32f80a587877db94589b9fd}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+Percent\+Complete@{get\+Percent\+Complete}}
+\index{get\+Percent\+Complete@{get\+Percent\+Complete}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Percent\+Complete()}{getPercentComplete()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+Percent\+Complete (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key }\end{DoxyParamCaption})}
+
+Returns the percent complete for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key. \\
+\hline
+{\em column\+Key} & the column key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The percent complete.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a92688e6bd8e5eb38b2c78888c21c8a2f}{get\+Percent\+Complete(int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a9c2470a0f1165d3c1554101e65ecc825}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_abcb122e8ba111b0d87d1c78603a35779}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a6d168854abc408d941ea1db0c1ced287}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a6d168854abc408d941ea1db0c1ced287}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+Percent\+Complete@{get\+Percent\+Complete}}
+\index{get\+Percent\+Complete@{get\+Percent\+Complete}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Percent\+Complete()}{getPercentComplete()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+Percent\+Complete (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column,  }\item[{int}]{subinterval }\end{DoxyParamCaption})}
+
+Returns the percentage complete value of a sub-\/interval for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based). \\
+\hline
+{\em subinterval} & the sub-\/interval.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The percent complete value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a0a58c2187aec46dc95f312c38abbf812}{get\+Percent\+Complete(\+Comparable, Comparable, int)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a3d658e0e626d6527071c846fdfc7fc41}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a9095742c2e0e7807b65f00fa9c520a98}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a0a58c2187aec46dc95f312c38abbf812}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a0a58c2187aec46dc95f312c38abbf812}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+Percent\+Complete@{get\+Percent\+Complete}}
+\index{get\+Percent\+Complete@{get\+Percent\+Complete}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Percent\+Complete()}{getPercentComplete()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+Percent\+Complete (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key,  }\item[{int}]{subinterval }\end{DoxyParamCaption})}
+
+Returns the percentage complete value of a sub-\/interval for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key. \\
+\hline
+{\em column\+Key} & the column key. \\
+\hline
+{\em subinterval} & the sub-\/interval.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The percent complete value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a6d168854abc408d941ea1db0c1ced287}{get\+Percent\+Complete(int, int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a6344934faba17e1b60e8fb93dac73c07}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a9e7ab75b0f52944a95c545052cc07149}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a83a54435ac557e310c8011d860b6d8ff}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a83a54435ac557e310c8011d860b6d8ff}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+Start\+Value@{get\+Start\+Value}}
+\index{get\+Start\+Value@{get\+Start\+Value}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Start\+Value()}{getStartValue()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+Start\+Value (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column,  }\item[{int}]{subinterval }\end{DoxyParamCaption})}
+
+Returns the start value of a sub-\/interval for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based). \\
+\hline
+{\em subinterval} & the sub-\/interval index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The start value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_ad092e9e7050d018c0811261c745f0965}{get\+End\+Value(int, int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a570e8b8e8a7078f73ec35f7d14eec5d3}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a113166fc72732a7f5d199bb1918d8eac}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a3b0bc8be0c1344751017e9761acefa54}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a3b0bc8be0c1344751017e9761acefa54}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+Start\+Value@{get\+Start\+Value}}
+\index{get\+Start\+Value@{get\+Start\+Value}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Start\+Value()}{getStartValue()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+Start\+Value (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key,  }\item[{int}]{subinterval }\end{DoxyParamCaption})}
+
+Returns the start value of a sub-\/interval for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key. \\
+\hline
+{\em column\+Key} & the column key. \\
+\hline
+{\em subinterval} & the sub-\/interval.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The start value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a52fe0cb6c2e19b3154549807505899d5}{get\+End\+Value(\+Comparable, Comparable, int)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_afc8407c3f9a83fb1e637060f678abae6}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a39f319042a53c0c261816711bf48974b}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a290ee496bed2a6688f43e56c0824bb01}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a290ee496bed2a6688f43e56c0824bb01}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+Sub\+Interval\+Count@{get\+Sub\+Interval\+Count}}
+\index{get\+Sub\+Interval\+Count@{get\+Sub\+Interval\+Count}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Sub\+Interval\+Count()}{getSubIntervalCount()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+Sub\+Interval\+Count (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the number of sub-\/intervals for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sub-\/interval count.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_af4749dc6ab0b5b67535b4ea0fa88f190}{get\+Sub\+Interval\+Count(\+Comparable, Comparable)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a2d8acd9a0033c1e36ae217dc067931b7}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_a9172210b4a2939c4a0ffa073a11f0792}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_af4749dc6ab0b5b67535b4ea0fa88f190}\label{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_af4749dc6ab0b5b67535b4ea0fa88f190}} 
+\index{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}!get\+Sub\+Interval\+Count@{get\+Sub\+Interval\+Count}}
+\index{get\+Sub\+Interval\+Count@{get\+Sub\+Interval\+Count}!org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset@{org\+::jfree\+::data\+::gantt\+::\+Gantt\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Sub\+Interval\+Count()}{getSubIntervalCount()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+gantt.\+Gantt\+Category\+Dataset.\+get\+Sub\+Interval\+Count (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key }\end{DoxyParamCaption})}
+
+Returns the number of sub-\/intervals for a given item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key. \\
+\hline
+{\em column\+Key} & the column key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sub-\/interval count.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1gantt_1_1_gantt_category_dataset_a290ee496bed2a6688f43e56c0824bb01}{get\+Sub\+Interval\+Count(int, int)}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_task_series_collection_af4aa8478ec30350d17361e896ef45ee7}{org.\+jfree.\+data.\+gantt.\+Task\+Series\+Collection}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1gantt_1_1_sliding_gantt_category_dataset_a4b8246a1601e700946bace11c5b0dc33}{org.\+jfree.\+data.\+gantt.\+Sliding\+Gantt\+Category\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/gantt/\mbox{\hyperlink{_gantt_category_dataset_8java}{Gantt\+Category\+Dataset.\+java}}\end{DoxyCompactItemize}

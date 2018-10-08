@@ -1,0 +1,127 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}{}\section{org.\+jfree.\+data.\+Keyed\+Values Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}\index{org.\+jfree.\+data.\+Keyed\+Values@{org.\+jfree.\+data.\+Keyed\+Values}}
+Inheritance diagram for org.\+jfree.\+data.\+Keyed\+Values\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.295082cm]{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Comparable \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_a830386de8513342d99845bbd9cb57bc4}{get\+Key}} (int index)
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_ae360fa76e98655c84180651f8e1395d7}{get\+Index}} (Comparable key)
+\item 
+List \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_a5bc1316f3c71eeaa6e38effe4ea660d5}{get\+Keys}} ()
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_aa6bb7fe3ff33503d7f31b9be505c3a70}{get\+Value}} (Comparable key)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An ordered list of (key, value) items where the keys are unique and non-\/{\ttfamily null}.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values}{Values}} 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values}{Default\+Keyed\+Values}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_ae360fa76e98655c84180651f8e1395d7}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_ae360fa76e98655c84180651f8e1395d7}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values@{org\+::jfree\+::data\+::\+Keyed\+Values}!get\+Index@{get\+Index}}
+\index{get\+Index@{get\+Index}!org\+::jfree\+::data\+::\+Keyed\+Values@{org\+::jfree\+::data\+::\+Keyed\+Values}}
+\subsubsection{\texorpdfstring{get\+Index()}{getIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+Keyed\+Values.\+get\+Index (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Returns the index for a given key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index, or {\ttfamily -\/1} if the key is unrecognised.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if {\ttfamily key} is {\ttfamily null}. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a7a409f1cbb1cc8430652216156e3b7af}{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values_ac6e5a5ef8dc8c3c34e4aac48514d30d5}{org.\+jfree.\+data.\+Default\+Keyed\+Values}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_pie_dataset_a06709cd535587bc7fed697d3370b81b4}{org.\+jfree.\+data.\+general.\+Default\+Pie\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_a830386de8513342d99845bbd9cb57bc4}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_a830386de8513342d99845bbd9cb57bc4}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values@{org\+::jfree\+::data\+::\+Keyed\+Values}!get\+Key@{get\+Key}}
+\index{get\+Key@{get\+Key}!org\+::jfree\+::data\+::\+Keyed\+Values@{org\+::jfree\+::data\+::\+Keyed\+Values}}
+\subsubsection{\texorpdfstring{get\+Key()}{getKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+Keyed\+Values.\+get\+Key (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the key associated with the item at a given position. Note that some implementations allow re-\/ordering of the data items, so the result may be transient.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values_afd00781dbc2e351b7a77aca9a91ca0a9}{get\+Item\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The key (never {\ttfamily null}).
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily index} is not in the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a5e57f6d91a01781de16ac109e3933d1d}{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values_adde9e3ec6af9e5fbbf0406f056204b51}{org.\+jfree.\+data.\+Default\+Keyed\+Values}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_pie_dataset_afafc2cf6169c3cc0af9c9422023f1b19}{org.\+jfree.\+data.\+general.\+Default\+Pie\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_a5bc1316f3c71eeaa6e38effe4ea660d5}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_a5bc1316f3c71eeaa6e38effe4ea660d5}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values@{org\+::jfree\+::data\+::\+Keyed\+Values}!get\+Keys@{get\+Keys}}
+\index{get\+Keys@{get\+Keys}!org\+::jfree\+::data\+::\+Keyed\+Values@{org\+::jfree\+::data\+::\+Keyed\+Values}}
+\subsubsection{\texorpdfstring{get\+Keys()}{getKeys()}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+Keyed\+Values.\+get\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the keys for the values in the collection. Note that you can access the values in this collection by key or by index. For this reason, the key order is important -\/ this method should return the keys in order. The returned list may be unmodifiable.
+
+\begin{DoxyReturn}{Returns}
+The keys (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_aa8974b76f827b4dc093f0d6b66752c1c}{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values_ad6896bc409fc73cbdf59a50ac427d261}{org.\+jfree.\+data.\+Default\+Keyed\+Values}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_pie_dataset_a4e5eb908e2e2005625ff71f85ebad97a}{org.\+jfree.\+data.\+general.\+Default\+Pie\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_aa6bb7fe3ff33503d7f31b9be505c3a70}\label{interfaceorg_1_1jfree_1_1data_1_1_keyed_values_aa6bb7fe3ff33503d7f31b9be505c3a70}} 
+\index{org\+::jfree\+::data\+::\+Keyed\+Values@{org\+::jfree\+::data\+::\+Keyed\+Values}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::\+Keyed\+Values@{org\+::jfree\+::data\+::\+Keyed\+Values}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+Keyed\+Values.\+get\+Value (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Returns the value for a given key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_unknown_key_exception}{Unknown\+Key\+Exception}}} & if the key is not recognised. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_category_to_pie_dataset_a1252b049b706dac0ec3c3788bb25d1bf}{org.\+jfree.\+data.\+category.\+Category\+To\+Pie\+Dataset}}, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_default_keyed_values_a57b0246b343f4831fcb5f306374d198a}{org.\+jfree.\+data.\+Default\+Keyed\+Values}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_pie_dataset_a6ada21180991dc94b5510b0b6e11e814}{org.\+jfree.\+data.\+general.\+Default\+Pie\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/\mbox{\hyperlink{_keyed_values_8java}{Keyed\+Values.\+java}}\end{DoxyCompactItemize}

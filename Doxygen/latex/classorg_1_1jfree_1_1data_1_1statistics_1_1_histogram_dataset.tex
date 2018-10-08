@@ -1,0 +1,390 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset}{}\section{org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset}\index{org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset@{org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.678322cm]{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_ac851bee8cb3847f1fd821444d9c713b9}{Histogram\+Dataset}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_type}{Histogram\+Type}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aafe9272c17cc894ec306d665a49316b6}{get\+Type}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a676e133775b16985fbe2478c9733e27f}{set\+Type}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_type}{Histogram\+Type}} type)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aa366a1bb3131225602e6ac2ac6ec0710}{add\+Series}} (Comparable key, double\mbox{[}$\,$\mbox{]} values, int bins)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_ad40eb1d4b4511e8724593e4ae2e13933}{add\+Series}} (Comparable key, double\mbox{[}$\,$\mbox{]} values, int bins, double minimum, double maximum)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count}} ()
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a8d2fb8164ead00eaa7a1d09cc70eb803}{get\+Series\+Key}} (int series)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a09cac32858b5274bcfe7b8070a52d5e5}{get\+Item\+Count}} (int series)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a0d0b61165a8016d43005d1d4a41b0c79}{getX}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a306f5b5bbf13aeca319bc90cbb855010}{getY}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aeac47110575d30da4a60153d8842a6da}{get\+StartX}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a573dd7321bd64f58b99f786bd3a9ad34}{get\+EndX}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aa8bbdecb3157607d7522130d08cca440}{get\+StartY}} (int series, int item)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a3bf9d22d1d5a7d47ca3746c706198afe}{get\+EndY}} (int series, int item)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a53af2148d6daa45923fb8d2e4e918ce4}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_afc0e86937d0d1bfa610f96a6cdb5d518}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A dataset that can be used for creating histograms.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_simple_histogram_dataset}{Simple\+Histogram\+Dataset}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_ac851bee8cb3847f1fd821444d9c713b9}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_ac851bee8cb3847f1fd821444d9c713b9}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!Histogram\+Dataset@{Histogram\+Dataset}}
+\index{Histogram\+Dataset@{Histogram\+Dataset}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{Histogram\+Dataset()}{HistogramDataset()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+Histogram\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new (empty) dataset with a default type of \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_type}{Histogram\+Type}}.F\+R\+E\+Q\+U\+E\+N\+CY. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aa366a1bb3131225602e6ac2ac6ec0710}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aa366a1bb3131225602e6ac2ac6ec0710}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!add\+Series@{add\+Series}}
+\index{add\+Series@{add\+Series}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{add\+Series()}{addSeries()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+add\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key,  }\item[{double \mbox{[}$\,$\mbox{]}}]{values,  }\item[{int}]{bins }\end{DoxyParamCaption})}
+
+Adds a series to the dataset, using the specified number of bins, and sends a \mbox{\hyperlink{}{Dataset\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+{\em values} & the values ({\ttfamily null} not permitted). \\
+\hline
+{\em bins} & the number of bins (must be at least 1). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_ad40eb1d4b4511e8724593e4ae2e13933}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_ad40eb1d4b4511e8724593e4ae2e13933}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!add\+Series@{add\+Series}}
+\index{add\+Series@{add\+Series}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{add\+Series()}{addSeries()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+add\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key,  }\item[{double \mbox{[}$\,$\mbox{]}}]{values,  }\item[{int}]{bins,  }\item[{double}]{minimum,  }\item[{double}]{maximum }\end{DoxyParamCaption})}
+
+Adds a series to the dataset. Any data value less than minimum will be assigned to the first bin, and any data value greater than maximum will be assigned to the last bin. \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values}{Values}} falling on the boundary of adjacent bins will be assigned to the higher indexed bin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+{\em values} & the raw observations. \\
+\hline
+{\em bins} & the number of bins (must be at least 1). \\
+\hline
+{\em minimum} & the lower bound of the bin range. \\
+\hline
+{\em maximum} & the upper bound of the bin range. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_afc0e86937d0d1bfa610f96a6cdb5d518}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_afc0e86937d0d1bfa610f96a6cdb5d518}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the dataset.
+
+\begin{DoxyReturn}{Returns}
+A clone of the dataset.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if the object cannot be cloned. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a53af2148d6daa45923fb8d2e4e918ce4}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a53af2148d6daa45923fb8d2e4e918ce4}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this dataset for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object to test against ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a573dd7321bd64f58b99f786bd3a9ad34}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a573dd7321bd64f58b99f786bd3a9ad34}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!get\+EndX@{get\+EndX}}
+\index{get\+EndX@{get\+EndX}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+End\+X()}{getEndX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+get\+EndX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the end value for a bin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The end value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is outside the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_interval_x_y_dataset_a93161a6d6c1db37cfac030239c62ab0a}{org.\+jfree.\+data.\+xy.\+Interval\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a3bf9d22d1d5a7d47ca3746c706198afe}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a3bf9d22d1d5a7d47ca3746c706198afe}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!get\+EndY@{get\+EndY}}
+\index{get\+EndY@{get\+EndY}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+End\+Y()}{getEndY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+get\+EndY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the end y-\/value for a bin (which is the same as the y-\/value, this method exists only to support the general form of the \mbox{\hyperlink{}{Interval\+X\+Y\+Dataset}} interface).
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Y value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is outside the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_interval_x_y_dataset_ae938af574bad07e7f47a8b423223ef9b}{org.\+jfree.\+data.\+xy.\+Interval\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a09cac32858b5274bcfe7b8070a52d5e5}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a09cac32858b5274bcfe7b8070a52d5e5}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+get\+Item\+Count (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the number of data items for a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item count.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is outside the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_ae81f9de91dfcae45028fc8a486a119da}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!get\+Series\+Count@{get\+Series\+Count}}
+\index{get\+Series\+Count@{get\+Series\+Count}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Count()}{getSeriesCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+get\+Series\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of series in the dataset.
+
+\begin{DoxyReturn}{Returns}
+The series count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a8d2fb8164ead00eaa7a1d09cc70eb803}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a8d2fb8164ead00eaa7a1d09cc70eb803}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!get\+Series\+Key@{get\+Series\+Key}}
+\index{get\+Series\+Key@{get\+Series\+Key}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Key()}{getSeriesKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+get\+Series\+Key (\begin{DoxyParamCaption}\item[{int}]{series }\end{DoxyParamCaption})}
+
+Returns the key for a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count()}} -\/ 1}).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The series key.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is outside the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a60488892b2314a05a012999e26a74178}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aeac47110575d30da4a60153d8842a6da}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aeac47110575d30da4a60153d8842a6da}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!get\+StartX@{get\+StartX}}
+\index{get\+StartX@{get\+StartX}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Start\+X()}{getStartX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+get\+StartX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the start value for a bin.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The start value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is outside the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_interval_x_y_dataset_a7548ec7d60d72463313dc6f10aceee62}{org.\+jfree.\+data.\+xy.\+Interval\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aa8bbdecb3157607d7522130d08cca440}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aa8bbdecb3157607d7522130d08cca440}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!get\+StartY@{get\+StartY}}
+\index{get\+StartY@{get\+StartY}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Start\+Y()}{getStartY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+get\+StartY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the start y-\/value for a bin (which is the same as the y-\/value, this method exists only to support the general form of the \mbox{\hyperlink{}{Interval\+X\+Y\+Dataset}} interface).
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is outside the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_interval_x_y_dataset_afdd414735adb233734bc35b76a005ed9}{org.\+jfree.\+data.\+xy.\+Interval\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aafe9272c17cc894ec306d665a49316b6}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_aafe9272c17cc894ec306d665a49316b6}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Type()}{getType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_type}{Histogram\+Type}} org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the histogram type.
+
+\begin{DoxyReturn}{Returns}
+The type (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a0d0b61165a8016d43005d1d4a41b0c79}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a0d0b61165a8016d43005d1d4a41b0c79}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+getX (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the X value for a bin. This value won\textquotesingle{}t be used for plotting histograms, since the renderer will ignore it. But other renderers can use it (for example, you could use the dataset to create a line chart).
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The start value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is outside the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a85c75ba5b69b551e96afd29d1732ba22}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a306f5b5bbf13aeca319bc90cbb855010}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a306f5b5bbf13aeca319bc90cbb855010}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+getY (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the y-\/value for a bin (calculated to take into account the histogram type).
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index (in the range {\ttfamily 0} to {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a6dd14ceca0cb3f9b3d666a2aec480f8d}{get\+Series\+Count()}} -\/ 1}). \\
+\hline
+{\em item} & the item index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily series} is outside the specified range. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_aa915867221e0f94021bad3140db5254e}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a676e133775b16985fbe2478c9733e27f}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_dataset_a676e133775b16985fbe2478c9733e27f}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}!set\+Type@{set\+Type}}
+\index{set\+Type@{set\+Type}!org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset@{org\+::jfree\+::data\+::statistics\+::\+Histogram\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Type()}{setType()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+statistics.\+Histogram\+Dataset.\+set\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_histogram_type}{Histogram\+Type}}}]{type }\end{DoxyParamCaption})}
+
+Sets the histogram type and sends a \mbox{\hyperlink{}{Dataset\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the type ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/statistics/\mbox{\hyperlink{_histogram_dataset_8java}{Histogram\+Dataset.\+java}}\end{DoxyCompactItemize}

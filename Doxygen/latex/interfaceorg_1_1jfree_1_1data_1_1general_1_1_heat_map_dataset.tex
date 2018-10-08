@@ -1,0 +1,223 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}{}\section{org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}\index{org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset@{org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ada47a69a69c446d7f519d6bf05a47f6f}{get\+X\+Sample\+Count}} ()
+\item 
+int \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_adc230b763b1adc1b0af0210cc68760c6}{get\+Y\+Sample\+Count}} ()
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_aa2c36fac599d77d64ea85f069eba243c}{get\+Minimum\+X\+Value}} ()
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a252f69b25ce64302493167c5e8576cfe}{get\+Maximum\+X\+Value}} ()
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ad3b85b7cbe6b7bb308701f5a58613903}{get\+Minimum\+Y\+Value}} ()
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a263e6f91dd132e3c82bb71902f37e73c}{get\+Maximum\+Y\+Value}} ()
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a9643f543086498022123fc43301c4788}{get\+X\+Value}} (int x\+Index)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a688282ee25f73c73ac1b0686bfbbe88f}{get\+Y\+Value}} (int y\+Index)
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ad4c5c315a22d263edf0da447693fb0d7}{get\+Z\+Value}} (int x\+Index, int y\+Index)
+\item 
+Number \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a9f2a3fb4e25c9364781e0aeb32ef91c5}{getZ}} (int x\+Index, int y\+Index)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A dataset that represents a rectangular grid of (x, y, z) values. The x and y values appear at regular intervals in the dataset, while the z-\/values can take any value (including {\ttfamily null} for unknown values).
+
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a252f69b25ce64302493167c5e8576cfe}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a252f69b25ce64302493167c5e8576cfe}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+Maximum\+X\+Value@{get\+Maximum\+X\+Value}}
+\index{get\+Maximum\+X\+Value@{get\+Maximum\+X\+Value}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Maximum\+X\+Value()}{getMaximumXValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+Maximum\+X\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the highest x-\/value represented in this dataset. A requirement of this interface is that this method must never return infinite or Double.\+N\+AN values.
+
+\begin{DoxyReturn}{Returns}
+The highest x-\/value represented in this dataset. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_aa3c976aabd54b923d2f01cea7b3a0657}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a263e6f91dd132e3c82bb71902f37e73c}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a263e6f91dd132e3c82bb71902f37e73c}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+Maximum\+Y\+Value@{get\+Maximum\+Y\+Value}}
+\index{get\+Maximum\+Y\+Value@{get\+Maximum\+Y\+Value}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Maximum\+Y\+Value()}{getMaximumYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+Maximum\+Y\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the highest y-\/value represented in this dataset. A requirement of this interface is that this method must never return infinite or Double.\+N\+AN values.
+
+\begin{DoxyReturn}{Returns}
+The highest y-\/value represented in this dataset. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_a5d18e184f6950c93da573d964e692d5c}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_aa2c36fac599d77d64ea85f069eba243c}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_aa2c36fac599d77d64ea85f069eba243c}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+Minimum\+X\+Value@{get\+Minimum\+X\+Value}}
+\index{get\+Minimum\+X\+Value@{get\+Minimum\+X\+Value}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Minimum\+X\+Value()}{getMinimumXValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+Minimum\+X\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the lowest x-\/value represented in this dataset. A requirement of this interface is that this method must never return infinite or Double.\+N\+AN values.
+
+\begin{DoxyReturn}{Returns}
+The lowest x-\/value represented in this dataset. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_ab15741ca0fcbd1d8224d228aef4a80b2}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ad3b85b7cbe6b7bb308701f5a58613903}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ad3b85b7cbe6b7bb308701f5a58613903}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+Minimum\+Y\+Value@{get\+Minimum\+Y\+Value}}
+\index{get\+Minimum\+Y\+Value@{get\+Minimum\+Y\+Value}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Minimum\+Y\+Value()}{getMinimumYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+Minimum\+Y\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the lowest y-\/value represented in this dataset. A requirement of this interface is that this method must never return infinite or Double.\+N\+AN values.
+
+\begin{DoxyReturn}{Returns}
+The lowest y-\/value represented in this dataset. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_a668dc2df7c2f9e52f76d076fd1b89cd0}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ada47a69a69c446d7f519d6bf05a47f6f}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ada47a69a69c446d7f519d6bf05a47f6f}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+X\+Sample\+Count@{get\+X\+Sample\+Count}}
+\index{get\+X\+Sample\+Count@{get\+X\+Sample\+Count}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X\+Sample\+Count()}{getXSampleCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+X\+Sample\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of x values across the width of the dataset. The values are evenly spaced between \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_aa2c36fac599d77d64ea85f069eba243c}{get\+Minimum\+X\+Value()}} and \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a252f69b25ce64302493167c5e8576cfe}{get\+Maximum\+X\+Value()}}.
+
+\begin{DoxyReturn}{Returns}
+The number of x-\/values (always $>$ 0). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_a0dd847578301662deb9a9880a603e7f1}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a9643f543086498022123fc43301c4788}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a9643f543086498022123fc43301c4788}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+X\+Value@{get\+X\+Value}}
+\index{get\+X\+Value@{get\+X\+Value}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X\+Value()}{getXValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+X\+Value (\begin{DoxyParamCaption}\item[{int}]{x\+Index }\end{DoxyParamCaption})}
+
+A convenience method that returns the x-\/value for the given index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Index} & the x\+Index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_a812c8041769c20ca2db0dcf5f3622376}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_adc230b763b1adc1b0af0210cc68760c6}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_adc230b763b1adc1b0af0210cc68760c6}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+Y\+Sample\+Count@{get\+Y\+Sample\+Count}}
+\index{get\+Y\+Sample\+Count@{get\+Y\+Sample\+Count}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y\+Sample\+Count()}{getYSampleCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+Y\+Sample\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of y values (or samples) for the dataset. The values are evenly spaced between \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ad3b85b7cbe6b7bb308701f5a58613903}{get\+Minimum\+Y\+Value()}} and \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a263e6f91dd132e3c82bb71902f37e73c}{get\+Maximum\+Y\+Value()}}.
+
+\begin{DoxyReturn}{Returns}
+The number of y-\/values (always $>$ 0). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_af67f4dae36d4757ab83623dbd3811501}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a688282ee25f73c73ac1b0686bfbbe88f}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a688282ee25f73c73ac1b0686bfbbe88f}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+Y\+Value@{get\+Y\+Value}}
+\index{get\+Y\+Value@{get\+Y\+Value}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y\+Value()}{getYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+Y\+Value (\begin{DoxyParamCaption}\item[{int}]{y\+Index }\end{DoxyParamCaption})}
+
+A convenience method that returns the y-\/value for the given index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em y\+Index} & the y\+Index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_a8fcca5de20effdeea0e7decf94425d6d}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a9f2a3fb4e25c9364781e0aeb32ef91c5}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_a9f2a3fb4e25c9364781e0aeb32ef91c5}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!getZ@{getZ}}
+\index{getZ@{getZ}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Z()}{getZ()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+getZ (\begin{DoxyParamCaption}\item[{int}]{x\+Index,  }\item[{int}]{y\+Index }\end{DoxyParamCaption})}
+
+Returns the z-\/value at the specified sample position in the dataset. This method can return {\ttfamily null} to indicate a missing/unknown value. ~\newline
+~\newline
+ Bear in mind that the class implementing this interface may store its data using primitives rather than objects, so calling this method may require a new {\ttfamily Number} object to be allocated... for this reason, it is generally preferable to use the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ad4c5c315a22d263edf0da447693fb0d7}{get\+Z\+Value(int, int)}} method unless you {\itshape know} that the dataset implementation stores the z-\/values using objects.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Index} & the position of the x sample in the dataset. \\
+\hline
+{\em y\+Index} & the position of the y sample in the dataset.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The z-\/value (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_a8d76ab265c9da8926a9d956f9a3bdc28}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ad4c5c315a22d263edf0da447693fb0d7}\label{interfaceorg_1_1jfree_1_1data_1_1general_1_1_heat_map_dataset_ad4c5c315a22d263edf0da447693fb0d7}} 
+\index{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}!get\+Z\+Value@{get\+Z\+Value}}
+\index{get\+Z\+Value@{get\+Z\+Value}!org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset@{org\+::jfree\+::data\+::general\+::\+Heat\+Map\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Z\+Value()}{getZValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+general.\+Heat\+Map\+Dataset.\+get\+Z\+Value (\begin{DoxyParamCaption}\item[{int}]{x\+Index,  }\item[{int}]{y\+Index }\end{DoxyParamCaption})}
+
+Returns the z-\/value at the specified sample position in the dataset. For a missing or unknown value, this method should return Double.\+N\+AN.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Index} & the position of the x sample in the dataset. \\
+\hline
+{\em y\+Index} & the position of the y sample in the dataset.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The z-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1general_1_1_default_heat_map_dataset_a93219a73fd817685f8e9ea06ad9d570b}{org.\+jfree.\+data.\+general.\+Default\+Heat\+Map\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/general/\mbox{\hyperlink{_heat_map_dataset_8java}{Heat\+Map\+Dataset.\+java}}\end{DoxyCompactItemize}

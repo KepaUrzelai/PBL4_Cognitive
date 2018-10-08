@@ -1,0 +1,104 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format}{}\section{org.\+jfree.\+chart.\+util.\+H\+M\+S\+Number\+Format Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format}\index{org.\+jfree.\+chart.\+util.\+H\+M\+S\+Number\+Format@{org.\+jfree.\+chart.\+util.\+H\+M\+S\+Number\+Format}}
+Inheritance diagram for org.\+jfree.\+chart.\+util.\+H\+M\+S\+Number\+Format\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_aaf45038815e15733bf3c0b0e59c11863}{H\+M\+S\+Number\+Format}} ()
+\item 
+String\+Buffer \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_a258ffdf599b7783276062a339fba0bfd}{format}} (double number, String\+Buffer to\+Append\+To, Field\+Position pos)
+\item 
+String\+Buffer \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_a73094db9a59f65c433179ec0ab68aba0}{format}} (long number, String\+Buffer to\+Append\+To, Field\+Position pos)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_ad0acb9921117825d467323d226d8419c}{parse}} (String source, Parse\+Position parse\+Position)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A custom number formatter that formats numbers (in seconds) as H\+H\+:\+MM\+:SS. Created in response to\+:
+
+\href{http://stackoverflow.com/questions/19028908/jfreechart-need-to-customize-y-axis-just-for-printing}{\tt http\+://stackoverflow.\+com/questions/19028908/jfreechart-\/need-\/to-\/customize-\/y-\/axis-\/just-\/for-\/printing}
+
+\begin{DoxySince}{Since}
+1.\+0.\+17 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_aaf45038815e15733bf3c0b0e59c11863}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_aaf45038815e15733bf3c0b0e59c11863}} 
+\index{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format}!H\+M\+S\+Number\+Format@{H\+M\+S\+Number\+Format}}
+\index{H\+M\+S\+Number\+Format@{H\+M\+S\+Number\+Format}!org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format}}
+\subsubsection{\texorpdfstring{H\+M\+S\+Number\+Format()}{HMSNumberFormat()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+util.\+H\+M\+S\+Number\+Format.\+H\+M\+S\+Number\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_a258ffdf599b7783276062a339fba0bfd}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_a258ffdf599b7783276062a339fba0bfd}} 
+\index{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format}!format@{format}}
+\index{format@{format}!org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format}}
+\subsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily String\+Buffer org.\+jfree.\+chart.\+util.\+H\+M\+S\+Number\+Format.\+format (\begin{DoxyParamCaption}\item[{double}]{number,  }\item[{String\+Buffer}]{to\+Append\+To,  }\item[{Field\+Position}]{pos }\end{DoxyParamCaption})}
+
+Formats the specified number as a string of the form H\+H\+:\+MM\+:SS. The decimal fraction is ignored.
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & the number to format. \\
+\hline
+{\em to\+Append\+To} & the buffer to append to (ignored here). \\
+\hline
+{\em pos} & the field position (ignored here).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The string buffer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_a73094db9a59f65c433179ec0ab68aba0}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_a73094db9a59f65c433179ec0ab68aba0}} 
+\index{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format}!format@{format}}
+\index{format@{format}!org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format}}
+\subsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily String\+Buffer org.\+jfree.\+chart.\+util.\+H\+M\+S\+Number\+Format.\+format (\begin{DoxyParamCaption}\item[{long}]{number,  }\item[{String\+Buffer}]{to\+Append\+To,  }\item[{Field\+Position}]{pos }\end{DoxyParamCaption})}
+
+Formats the specified number as a string of the form H\+H\+:\+MM\+:SS.
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & the number to format. \\
+\hline
+{\em to\+Append\+To} & the buffer to append to (ignored here). \\
+\hline
+{\em pos} & the field position (ignored here).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The string buffer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_ad0acb9921117825d467323d226d8419c}\label{classorg_1_1jfree_1_1chart_1_1util_1_1_h_m_s_number_format_ad0acb9921117825d467323d226d8419c}} 
+\index{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format}!parse@{parse}}
+\index{parse@{parse}!org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format@{org\+::jfree\+::chart\+::util\+::\+H\+M\+S\+Number\+Format}}
+\subsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+chart.\+util.\+H\+M\+S\+Number\+Format.\+parse (\begin{DoxyParamCaption}\item[{String}]{source,  }\item[{Parse\+Position}]{parse\+Position }\end{DoxyParamCaption})}
+
+Parsing is not implemented, so this method always returns {\ttfamily null}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & ignored. \\
+\hline
+{\em parse\+Position} & ignored.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always {\ttfamily null}. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/util/\mbox{\hyperlink{_h_m_s_number_format_8java}{H\+M\+S\+Number\+Format.\+java}}\end{DoxyCompactItemize}

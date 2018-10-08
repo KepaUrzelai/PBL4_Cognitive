@@ -1,0 +1,91 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale}{}\section{org.\+jfree.\+chart.\+renderer.\+Paint\+Scale Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale}\index{org.\+jfree.\+chart.\+renderer.\+Paint\+Scale@{org.\+jfree.\+chart.\+renderer.\+Paint\+Scale}}
+Inheritance diagram for org.\+jfree.\+chart.\+renderer.\+Paint\+Scale\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a125f1d305abf1f3764b62f5a9c5fabbd}{get\+Lower\+Bound}} ()
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_abf6986bb5661248213645ea975828495}{get\+Upper\+Bound}} ()
+\item 
+Paint \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a32b81d8ac78e030422937dc97526661d}{get\+Paint}} (double value)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A source for {\ttfamily Paint} instances, used by the \mbox{\hyperlink{}{X\+Y\+Block\+Renderer}}. ~\newline
+~\newline
+ N\+O\+TE\+: Classes that implement this interface should also implement {\ttfamily Public\+Cloneable} and {\ttfamily Serializable}, so that any renderer (or other object instance) that references an instance of this interface can still be cloned or serialized.
+
+\begin{DoxySince}{Since}
+1.\+0.\+4 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a125f1d305abf1f3764b62f5a9c5fabbd}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a125f1d305abf1f3764b62f5a9c5fabbd}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale}!get\+Lower\+Bound@{get\+Lower\+Bound}}
+\index{get\+Lower\+Bound@{get\+Lower\+Bound}!org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{get\+Lower\+Bound()}{getLowerBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+renderer.\+Paint\+Scale.\+get\+Lower\+Bound (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the lower bound for the scale.
+
+\begin{DoxyReturn}{Returns}
+The lower bound.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_abf6986bb5661248213645ea975828495}{get\+Upper\+Bound()}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a7ef26ef52021e5a5c09b28c174913511}{org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_gray_paint_scale_aa66a8fc46c5cf10fd357d677e93ec48f}{org.\+jfree.\+chart.\+renderer.\+Gray\+Paint\+Scale}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a32b81d8ac78e030422937dc97526661d}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a32b81d8ac78e030422937dc97526661d}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale}!get\+Paint@{get\+Paint}}
+\index{get\+Paint@{get\+Paint}!org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{get\+Paint()}{getPaint()}}
+{\footnotesize\ttfamily Paint org.\+jfree.\+chart.\+renderer.\+Paint\+Scale.\+get\+Paint (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+Returns a {\ttfamily Paint} instance for the specified value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A {\ttfamily Paint} instance (never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_a8a1dcf9c72f6844f8a0aee28b98e4134}{org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_gray_paint_scale_af4b201fbb96918235cc5e92bd5815910}{org.\+jfree.\+chart.\+renderer.\+Gray\+Paint\+Scale}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_abf6986bb5661248213645ea975828495}\label{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_abf6986bb5661248213645ea975828495}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale}!get\+Upper\+Bound@{get\+Upper\+Bound}}
+\index{get\+Upper\+Bound@{get\+Upper\+Bound}!org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale@{org\+::jfree\+::chart\+::renderer\+::\+Paint\+Scale}}
+\subsubsection{\texorpdfstring{get\+Upper\+Bound()}{getUpperBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+renderer.\+Paint\+Scale.\+get\+Upper\+Bound (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the upper bound for the scale.
+
+\begin{DoxyReturn}{Returns}
+The upper bound.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1_paint_scale_a125f1d305abf1f3764b62f5a9c5fabbd}{get\+Lower\+Bound()}} 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_lookup_paint_scale_ad7956f5f6498550f77ce5c7ed8f22583}{org.\+jfree.\+chart.\+renderer.\+Lookup\+Paint\+Scale}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_gray_paint_scale_a5420a928eca3df6dc07e2400ff89cab9}{org.\+jfree.\+chart.\+renderer.\+Gray\+Paint\+Scale}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/\mbox{\hyperlink{_paint_scale_8java}{Paint\+Scale.\+java}}\end{DoxyCompactItemize}

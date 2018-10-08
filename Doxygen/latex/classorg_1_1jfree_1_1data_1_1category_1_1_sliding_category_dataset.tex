@@ -1,0 +1,393 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset}{}\section{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset}\index{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset@{org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.300813cm]{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a0d6b1442f88e86da36a8462be2cda644}{Sliding\+Category\+Dataset}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} underlying, int first\+Column, int max\+Columns)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_af4ec01422ac8a4ad9201097f359b5a78}{get\+Underlying\+Dataset}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a49c20f92d2e200495654034cd794f2d9}{get\+First\+Category\+Index}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a757306381117f304d57cda56a23c9560}{set\+First\+Category\+Index}} (int first)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aba9d4fd7a8a49f295a2704c0dc1030b3}{get\+Maximum\+Category\+Count}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a10e63844beab0737535bfde779f1cbff}{set\+Maximum\+Category\+Count}} (int max)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a0860f901b12c1330b9b442e8b378e237}{get\+Column\+Index}} (Comparable key)
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aefb8cdefb6baf9ef40d25de9b5c33c63}{get\+Column\+Key}} (int column)
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_adfd4f4d9f2ead4df88b5793517429ddf}{get\+Column\+Keys}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_ad364c75ca5d7a8bae6f3eaa2e0807310}{get\+Row\+Index}} (Comparable key)
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a6fcf1e054f8df00a8d37ea3b6eb0960a}{get\+Row\+Key}} (int row)
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_afac3ef11a6f20fcbae0b573ce8d9562e}{get\+Row\+Keys}} ()
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a18db7dd73ce5bd7e83174d8bc2db6e80}{get\+Value}} (Comparable row\+Key, Comparable column\+Key)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aaa350568675875cc8c70dddd3c5d6d79}{get\+Column\+Count}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a481c79a7d0e11052061f04089b36c18c}{get\+Row\+Count}} ()
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a58d00a9725b902d17505e968469d9843}{get\+Value}} (int row, int column)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a6dc6aeef2454ad771c4ff5c11d46a302}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_ac560c9ec4801908da7654268d03313a2}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} implementation that presents a subset of the categories in an underlying dataset. The index of the first \char`\"{}visible\char`\"{} category can be modified, which provides a means of \char`\"{}sliding\char`\"{} through the categories in the underlying dataset.
+
+\begin{DoxySince}{Since}
+1.\+0.\+10 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a0d6b1442f88e86da36a8462be2cda644}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a0d6b1442f88e86da36a8462be2cda644}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!Sliding\+Category\+Dataset@{Sliding\+Category\+Dataset}}
+\index{Sliding\+Category\+Dataset@{Sliding\+Category\+Dataset}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{Sliding\+Category\+Dataset()}{SlidingCategoryDataset()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+Sliding\+Category\+Dataset (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{underlying,  }\item[{int}]{first\+Column,  }\item[{int}]{max\+Columns }\end{DoxyParamCaption})}
+
+Creates a new instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em underlying} & the underlying dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em first\+Column} & the index of the first visible column from the underlying dataset. \\
+\hline
+{\em max\+Columns} & the maximum\+Column\+Count. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_ac560c9ec4801908da7654268d03313a2}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_ac560c9ec4801908da7654268d03313a2}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of the dataset. Note that\+: 
+\begin{DoxyItemize}
+\item the underlying dataset is only cloned if it implements the \mbox{\hyperlink{}{Public\+Cloneable}} interface; 
+\item the listeners registered with this dataset are not carried over to the cloned dataset. 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+An independent copy of the dataset.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if the dataset cannot be cloned for any reason. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a6dc6aeef2454ad771c4ff5c11d46a302}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a6dc6aeef2454ad771c4ff5c11d46a302}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset}{Sliding\+Category\+Dataset}}} for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aaa350568675875cc8c70dddd3c5d6d79}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aaa350568675875cc8c70dddd3c5d6d79}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Column\+Count@{get\+Column\+Count}}
+\index{get\+Column\+Count@{get\+Column\+Count}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Column\+Count()}{getColumnCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Column\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of columns in the table.
+
+\begin{DoxyReturn}{Returns}
+The column count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d_a212e32802dc2f32e0fb641740137c685}{org.\+jfree.\+data.\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a0860f901b12c1330b9b442e8b378e237}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a0860f901b12c1330b9b442e8b378e237}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Column\+Index@{get\+Column\+Index}}
+\index{get\+Column\+Index@{get\+Column\+Index}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Column\+Index()}{getColumnIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Column\+Index (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Returns the index for the specified column key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The column index, or -\/1 if the key is not recognised. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a3360f2f612f16e8c90409d65e3992d38}{org.\+jfree.\+data.\+Keyed\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aefb8cdefb6baf9ef40d25de9b5c33c63}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aefb8cdefb6baf9ef40d25de9b5c33c63}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Column\+Key@{get\+Column\+Key}}
+\index{get\+Column\+Key@{get\+Column\+Key}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Column\+Key()}{getColumnKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Column\+Key (\begin{DoxyParamCaption}\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns the column key for a given index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The column key.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily row} is out of bounds. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a9ced6cbaf04f048db059e1ebf5184d2a}{org.\+jfree.\+data.\+Keyed\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_adfd4f4d9f2ead4df88b5793517429ddf}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_adfd4f4d9f2ead4df88b5793517429ddf}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Column\+Keys@{get\+Column\+Keys}}
+\index{get\+Column\+Keys@{get\+Column\+Keys}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Column\+Keys()}{getColumnKeys()}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Column\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the column keys.
+
+\begin{DoxyReturn}{Returns}
+The keys.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aefb8cdefb6baf9ef40d25de9b5c33c63}{get\+Column\+Key(int)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_af6b8780fee7cccdb967fc0f199398615}{org.\+jfree.\+data.\+Keyed\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a49c20f92d2e200495654034cd794f2d9}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a49c20f92d2e200495654034cd794f2d9}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+First\+Category\+Index@{get\+First\+Category\+Index}}
+\index{get\+First\+Category\+Index@{get\+First\+Category\+Index}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+First\+Category\+Index()}{getFirstCategoryIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+First\+Category\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the index of the first visible category.
+
+\begin{DoxyReturn}{Returns}
+The index.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a757306381117f304d57cda56a23c9560}{set\+First\+Category\+Index(int)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aba9d4fd7a8a49f295a2704c0dc1030b3}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aba9d4fd7a8a49f295a2704c0dc1030b3}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Maximum\+Category\+Count@{get\+Maximum\+Category\+Count}}
+\index{get\+Maximum\+Category\+Count@{get\+Maximum\+Category\+Count}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Maximum\+Category\+Count()}{getMaximumCategoryCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Maximum\+Category\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the maximum category count.
+
+\begin{DoxyReturn}{Returns}
+The maximum category count.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a10e63844beab0737535bfde779f1cbff}{set\+Maximum\+Category\+Count(int)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a481c79a7d0e11052061f04089b36c18c}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a481c79a7d0e11052061f04089b36c18c}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Row\+Count@{get\+Row\+Count}}
+\index{get\+Row\+Count@{get\+Row\+Count}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Row\+Count()}{getRowCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Row\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of rows in the table.
+
+\begin{DoxyReturn}{Returns}
+The row count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d_a9ce939b45128515a9841a7d018a6ad0e}{org.\+jfree.\+data.\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_ad364c75ca5d7a8bae6f3eaa2e0807310}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_ad364c75ca5d7a8bae6f3eaa2e0807310}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Row\+Index@{get\+Row\+Index}}
+\index{get\+Row\+Index@{get\+Row\+Index}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Row\+Index()}{getRowIndex()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Row\+Index (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Returns the row index for a given key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the row key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The row index, or {\ttfamily -\/1} if the key is unrecognised. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_ae92ded12999f2872687a5754ddf29254}{org.\+jfree.\+data.\+Keyed\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a6fcf1e054f8df00a8d37ea3b6eb0960a}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a6fcf1e054f8df00a8d37ea3b6eb0960a}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Row\+Key@{get\+Row\+Key}}
+\index{get\+Row\+Key@{get\+Row\+Key}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Row\+Key()}{getRowKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Row\+Key (\begin{DoxyParamCaption}\item[{int}]{row }\end{DoxyParamCaption})}
+
+Returns the row key for a given index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The row key.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Bounds\+Exception} & if {\ttfamily row} is out of bounds. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a7c145e2383036a479460e4bca7b40a95}{org.\+jfree.\+data.\+Keyed\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_afac3ef11a6f20fcbae0b573ce8d9562e}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_afac3ef11a6f20fcbae0b573ce8d9562e}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Row\+Keys@{get\+Row\+Keys}}
+\index{get\+Row\+Keys@{get\+Row\+Keys}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Row\+Keys()}{getRowKeys()}}
+{\footnotesize\ttfamily List org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Row\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the row keys.
+
+\begin{DoxyReturn}{Returns}
+The keys. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_aeda9aab284e61f69ca6e81370e76f70a}{org.\+jfree.\+data.\+Keyed\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_af4ec01422ac8a4ad9201097f359b5a78}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_af4ec01422ac8a4ad9201097f359b5a78}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Underlying\+Dataset@{get\+Underlying\+Dataset}}
+\index{get\+Underlying\+Dataset@{get\+Underlying\+Dataset}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Underlying\+Dataset()}{getUnderlyingDataset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Underlying\+Dataset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the underlying dataset that was supplied to the constructor.
+
+\begin{DoxyReturn}{Returns}
+The underlying dataset (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a18db7dd73ce5bd7e83174d8bc2db6e80}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a18db7dd73ce5bd7e83174d8bc2db6e80}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Value (\begin{DoxyParamCaption}\item[{Comparable}]{row\+Key,  }\item[{Comparable}]{column\+Key }\end{DoxyParamCaption})}
+
+Returns the value for a pair of keys.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Key} & the row key ({\ttfamily null} not permitted). \\
+\hline
+{\em column\+Key} & the column key ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value (possibly {\ttfamily null}).
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_unknown_key_exception}{Unknown\+Key\+Exception}}} & if either key is not defined in the dataset. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values2_d_a61c450ca108cd99e53174fc91393a99a}{org.\+jfree.\+data.\+Keyed\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a58d00a9725b902d17505e968469d9843}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a58d00a9725b902d17505e968469d9843}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+get\+Value (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Returns a value from the table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d_a0797937d3ac62e18b300eef1fe906ec6}{org.\+jfree.\+data.\+Values2D}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a757306381117f304d57cda56a23c9560}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a757306381117f304d57cda56a23c9560}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!set\+First\+Category\+Index@{set\+First\+Category\+Index}}
+\index{set\+First\+Category\+Index@{set\+First\+Category\+Index}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{set\+First\+Category\+Index()}{setFirstCategoryIndex()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+set\+First\+Category\+Index (\begin{DoxyParamCaption}\item[{int}]{first }\end{DoxyParamCaption})}
+
+Sets the index of the first category that should be used from the underlying dataset, and sends a \mbox{\hyperlink{}{Dataset\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a49c20f92d2e200495654034cd794f2d9}{get\+First\+Category\+Index()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a10e63844beab0737535bfde779f1cbff}\label{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_a10e63844beab0737535bfde779f1cbff}} 
+\index{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}!set\+Maximum\+Category\+Count@{set\+Maximum\+Category\+Count}}
+\index{set\+Maximum\+Category\+Count@{set\+Maximum\+Category\+Count}!org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset@{org\+::jfree\+::data\+::category\+::\+Sliding\+Category\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Maximum\+Category\+Count()}{setMaximumCategoryCount()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+category.\+Sliding\+Category\+Dataset.\+set\+Maximum\+Category\+Count (\begin{DoxyParamCaption}\item[{int}]{max }\end{DoxyParamCaption})}
+
+Sets the maximum category count and sends a \mbox{\hyperlink{}{Dataset\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & the maximum.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1category_1_1_sliding_category_dataset_aba9d4fd7a8a49f295a2704c0dc1030b3}{get\+Maximum\+Category\+Count()}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/category/\mbox{\hyperlink{_sliding_category_dataset_8java}{Sliding\+Category\+Dataset.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,206 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities}{}\section{org.\+jfree.\+data.\+Data\+Utilities Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1_data_utilities}\index{org.\+jfree.\+data.\+Data\+Utilities@{org.\+jfree.\+data.\+Data\+Utilities}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_a56e4378a433e7f746a59e97007305d8b}{equal}} (double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} a, double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} b)
+\item 
+static double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_a46835f69caef7c0b31bec6729aac009b}{clone}} (double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} source)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_a97fe30b8218c26a0ca6e2139c881bcf1}{calculate\+Column\+Total}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}} data, int column)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_aaae596932aff7c2a85ab7069e3945534}{calculate\+Column\+Total}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}} data, int column, int\mbox{[}$\,$\mbox{]} valid\+Rows)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_a2b0c56f312e7a1518d9e46e57e094177}{calculate\+Row\+Total}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}} data, int row)
+\item 
+static double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_a7f22ac8cce4aa2fc7c799073d169a77a}{calculate\+Row\+Total}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}} data, int row, int\mbox{[}$\,$\mbox{]} valid\+Cols)
+\item 
+static Number \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_abb1c117ab91d584100036285907f0381}{create\+Number\+Array}} (double\mbox{[}$\,$\mbox{]} data)
+\item 
+static Number \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_a6c763c2ac731dd2dc9461b7bf31d311b}{create\+Number\+Array2D}} (double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} data)
+\item 
+static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}{Keyed\+Values}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_data_utilities_a3bf86eb46d89fd20980836bf9e5f4704}{get\+Cumulative\+Percentages}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}{Keyed\+Values}} data)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Utility methods for use with some of the data classes (but not the datasets, see \mbox{\hyperlink{}{Dataset\+Utilities}}). 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_a97fe30b8218c26a0ca6e2139c881bcf1}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_a97fe30b8218c26a0ca6e2139c881bcf1}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!calculate\+Column\+Total@{calculate\+Column\+Total}}
+\index{calculate\+Column\+Total@{calculate\+Column\+Total}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{calculate\+Column\+Total()}{calculateColumnTotal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+Data\+Utilities.\+calculate\+Column\+Total (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}}}]{data,  }\item[{int}]{column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the total of the values in one column of the supplied data table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the table of values ({\ttfamily null} not permitted). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total of the values in the specified column. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_aaae596932aff7c2a85ab7069e3945534}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_aaae596932aff7c2a85ab7069e3945534}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!calculate\+Column\+Total@{calculate\+Column\+Total}}
+\index{calculate\+Column\+Total@{calculate\+Column\+Total}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{calculate\+Column\+Total()}{calculateColumnTotal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+Data\+Utilities.\+calculate\+Column\+Total (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}}}]{data,  }\item[{int}]{column,  }\item[{int \mbox{[}$\,$\mbox{]}}]{valid\+Rows }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the total of the values in one column of the supplied data table by taking only the row numbers in the array into account.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the table of values ({\ttfamily null} not permitted). \\
+\hline
+{\em column} & the column index (zero-\/based). \\
+\hline
+{\em valid\+Rows} & the array with valid rows (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total of the valid values in the specified column.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_a2b0c56f312e7a1518d9e46e57e094177}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_a2b0c56f312e7a1518d9e46e57e094177}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!calculate\+Row\+Total@{calculate\+Row\+Total}}
+\index{calculate\+Row\+Total@{calculate\+Row\+Total}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{calculate\+Row\+Total()}{calculateRowTotal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+Data\+Utilities.\+calculate\+Row\+Total (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}}}]{data,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the total of the values in one row of the supplied data table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the table of values ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total of the values in the specified row. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_a7f22ac8cce4aa2fc7c799073d169a77a}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_a7f22ac8cce4aa2fc7c799073d169a77a}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!calculate\+Row\+Total@{calculate\+Row\+Total}}
+\index{calculate\+Row\+Total@{calculate\+Row\+Total}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{calculate\+Row\+Total()}{calculateRowTotal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static double org.\+jfree.\+data.\+Data\+Utilities.\+calculate\+Row\+Total (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_values2_d}{Values2D}}}]{data,  }\item[{int}]{row,  }\item[{int \mbox{[}$\,$\mbox{]}}]{valid\+Cols }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the total of the values in one row of the supplied data table by taking only the column numbers in the array into account.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the table of values ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em valid\+Cols} & the array with valid cols (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total of the valid values in the specified row.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_a46835f69caef7c0b31bec6729aac009b}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_a46835f69caef7c0b31bec6729aac009b}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily static double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+Data\+Utilities.\+clone (\begin{DoxyParamCaption}\item[{double}]{source\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a clone of the specified array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & the source array ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A clone of the array.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_abb1c117ab91d584100036285907f0381}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_abb1c117ab91d584100036285907f0381}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!create\+Number\+Array@{create\+Number\+Array}}
+\index{create\+Number\+Array@{create\+Number\+Array}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{create\+Number\+Array()}{createNumberArray()}}
+{\footnotesize\ttfamily static Number \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+Data\+Utilities.\+create\+Number\+Array (\begin{DoxyParamCaption}\item[{double \mbox{[}$\,$\mbox{]}}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constructs an array of {\ttfamily Number} objects from an array of {\ttfamily double} primitives.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of {\ttfamily Double}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_a6c763c2ac731dd2dc9461b7bf31d311b}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_a6c763c2ac731dd2dc9461b7bf31d311b}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!create\+Number\+Array2D@{create\+Number\+Array2D}}
+\index{create\+Number\+Array2D@{create\+Number\+Array2D}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{create\+Number\+Array2\+D()}{createNumberArray2D()}}
+{\footnotesize\ttfamily static Number \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+Data\+Utilities.\+create\+Number\+Array2D (\begin{DoxyParamCaption}\item[{double}]{data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constructs an array of arrays of {\ttfamily Number} objects from a corresponding structure containing {\ttfamily double} primitives.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of {\ttfamily Double}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_a56e4378a433e7f746a59e97007305d8b}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_a56e4378a433e7f746a59e97007305d8b}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!equal@{equal}}
+\index{equal@{equal}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{equal()}{equal()}}
+{\footnotesize\ttfamily static boolean org.\+jfree.\+data.\+Data\+Utilities.\+equal (\begin{DoxyParamCaption}\item[{double}]{a\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{double}]{b\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Tests two arrays for equality. To be considered equal, the arrays must have exactly the same dimensions, and the values in each array must also match (two values that qre both NaN or both I\+NF are considered equal in this test).
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & the first array ({\ttfamily null} permitted). \\
+\hline
+{\em b} & the second array ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1_data_utilities_a3bf86eb46d89fd20980836bf9e5f4704}\label{classorg_1_1jfree_1_1data_1_1_data_utilities_a3bf86eb46d89fd20980836bf9e5f4704}} 
+\index{org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}!get\+Cumulative\+Percentages@{get\+Cumulative\+Percentages}}
+\index{get\+Cumulative\+Percentages@{get\+Cumulative\+Percentages}!org\+::jfree\+::data\+::\+Data\+Utilities@{org\+::jfree\+::data\+::\+Data\+Utilities}}
+\subsubsection{\texorpdfstring{get\+Cumulative\+Percentages()}{getCumulativePercentages()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}{Keyed\+Values}} org.\+jfree.\+data.\+Data\+Utilities.\+get\+Cumulative\+Percentages (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}{Keyed\+Values}}}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}{Keyed\+Values}} instance that contains the cumulative percentage values for the data in another \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_keyed_values}{Keyed\+Values}} instance. 
+
+The percentages are values between 0.\+0 and 1.\+0 (where 1.\+0 = 100\%).
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The cumulative percentages. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/\mbox{\hyperlink{_data_utilities_8java}{Data\+Utilities.\+java}}\end{DoxyCompactItemize}

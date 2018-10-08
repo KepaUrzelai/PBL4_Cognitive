@@ -1,0 +1,326 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title}{}\section{org.\+jfree.\+chart.\+title.\+Image\+Title Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title}\index{org.\+jfree.\+chart.\+title.\+Image\+Title@{org.\+jfree.\+chart.\+title.\+Image\+Title}}
+Inheritance diagram for org.\+jfree.\+chart.\+title.\+Image\+Title\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.055046cm]{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a24e3d2cf74bb93acae77375d4b741351}{Image\+Title}} (Image image)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a26fb70ce9e60257f6ee46e358e392aff}{Image\+Title}} (Image image, Rectangle\+Edge position, Horizontal\+Alignment horizontal\+Alignment, Vertical\+Alignment vertical\+Alignment)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a94d45e8836155b69c6a0a921dce14060}{Image\+Title}} (Image image, int height, int width, Rectangle\+Edge position, Horizontal\+Alignment horizontal\+Alignment, Vertical\+Alignment vertical\+Alignment, Rectangle\+Insets padding)
+\item 
+Image \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_ac14ca8152629076360eb04f0f93eb2ba}{get\+Image}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a1293428d9954c155e853daf43127995d}{set\+Image}} (Image image)
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a6fcab813990b8e21fd307a2e6a7d0475}{arrange}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}} constraint)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a799b299251111824381f1b201d95c79d}{draw}} (Graphics2D g2, Rectangle2D area)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_af625a9d48781190c5c12f5e6293820ea}{draw}} (Graphics2D g2, Rectangle2D area, Object params)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a37f9386a7a5f0cb24e36f39aa1211c2a}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a3ca1645a111e8135402cc2cdb933d929}{draw\+Horizontal}} (Graphics2D g2, Rectangle2D chart\+Area)
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_affcbdeb7d1cf30323727a8d555f91b5f}{draw\+Vertical}} (Graphics2D g2, Rectangle2D chart\+Area)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A chart title that displays an image. This is useful, for example, if you have an image of your corporate logo and want to use as a footnote or part of a title in a chart you create. 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title}{Image\+Title}} needs an image passed to it in the constructor. For \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title}{Image\+Title}} to work, you must have already loaded this image from its source (disk or U\+RL). It is recommended you use something like Toolkit.\+get\+Default\+Toolkit().\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_ac14ca8152629076360eb04f0f93eb2ba}{get\+Image()}} to get the image. Then, use Media\+Tracker or some other message to make sure the image is fully loaded from disk. 
+
+S\+P\+E\+C\+I\+AL N\+O\+TE\+: this class fails to serialize, so if you are relying on your charts to be serializable, please avoid using this class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a24e3d2cf74bb93acae77375d4b741351}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a24e3d2cf74bb93acae77375d4b741351}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!Image\+Title@{Image\+Title}}
+\index{Image\+Title@{Image\+Title}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{Image\+Title()}{ImageTitle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+title.\+Image\+Title.\+Image\+Title (\begin{DoxyParamCaption}\item[{Image}]{image }\end{DoxyParamCaption})}
+
+Creates a new image title.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & the image (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a26fb70ce9e60257f6ee46e358e392aff}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a26fb70ce9e60257f6ee46e358e392aff}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!Image\+Title@{Image\+Title}}
+\index{Image\+Title@{Image\+Title}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{Image\+Title()}{ImageTitle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+title.\+Image\+Title.\+Image\+Title (\begin{DoxyParamCaption}\item[{Image}]{image,  }\item[{Rectangle\+Edge}]{position,  }\item[{Horizontal\+Alignment}]{horizontal\+Alignment,  }\item[{Vertical\+Alignment}]{vertical\+Alignment }\end{DoxyParamCaption})}
+
+Creates a new image title.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & the image (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em position} & the title position. \\
+\hline
+{\em horizontal\+Alignment} & the horizontal alignment. \\
+\hline
+{\em vertical\+Alignment} & the vertical alignment. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a94d45e8836155b69c6a0a921dce14060}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a94d45e8836155b69c6a0a921dce14060}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!Image\+Title@{Image\+Title}}
+\index{Image\+Title@{Image\+Title}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{Image\+Title()}{ImageTitle()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+title.\+Image\+Title.\+Image\+Title (\begin{DoxyParamCaption}\item[{Image}]{image,  }\item[{int}]{height,  }\item[{int}]{width,  }\item[{Rectangle\+Edge}]{position,  }\item[{Horizontal\+Alignment}]{horizontal\+Alignment,  }\item[{Vertical\+Alignment}]{vertical\+Alignment,  }\item[{Rectangle\+Insets}]{padding }\end{DoxyParamCaption})}
+
+Creates a new image title with the given image scaled to the given width and height in the given location.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & the image (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em height} & the height used to draw the image. \\
+\hline
+{\em width} & the width used to draw the image. \\
+\hline
+{\em position} & the title position. \\
+\hline
+{\em horizontal\+Alignment} & the horizontal alignment. \\
+\hline
+{\em vertical\+Alignment} & the vertical alignment. \\
+\hline
+{\em padding} & the amount of space to leave around the outside of the title. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a6fcab813990b8e21fd307a2e6a7d0475}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a6fcab813990b8e21fd307a2e6a7d0475}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!arrange@{arrange}}
+\index{arrange@{arrange}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{arrange()}{arrange()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+title.\+Image\+Title.\+arrange (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}}}]{constraint }\end{DoxyParamCaption})}
+
+Arranges the contents of the block, within the given constraints, and returns the block size.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em constraint} & the constraint (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The block size (in Java2D units, never
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ ). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_ab4cabbc237c5277a4a0018bab930e5fe}{org.\+jfree.\+chart.\+block.\+Block}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a799b299251111824381f1b201d95c79d}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a799b299251111824381f1b201d95c79d}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{draw()}{draw()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+title.\+Image\+Title.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{area }\end{DoxyParamCaption})}
+
+Draws the title on a Java 2D graphics device (such as the screen or a printer).
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em area} & the area allocated for the title. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_af625a9d48781190c5c12f5e6293820ea}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_af625a9d48781190c5c12f5e6293820ea}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{draw()}{draw()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+title.\+Image\+Title.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{area,  }\item[{Object}]{params }\end{DoxyParamCaption})}
+
+Draws the block within the specified area.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em area} & the area. \\
+\hline
+{\em params} & ignored (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Always
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ . 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a1bac635d72de5ca6a71eff63dabf77a4}{org.\+jfree.\+chart.\+block.\+Block}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a3ca1645a111e8135402cc2cdb933d929}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a3ca1645a111e8135402cc2cdb933d929}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!draw\+Horizontal@{draw\+Horizontal}}
+\index{draw\+Horizontal@{draw\+Horizontal}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{draw\+Horizontal()}{drawHorizontal()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+title.\+Image\+Title.\+draw\+Horizontal (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{chart\+Area }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Draws the title on a Java 2D graphics device (such as the screen or a printer).
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em chart\+Area} & the area within which the title (and plot) should be drawn.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The size of the area used by the title. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_affcbdeb7d1cf30323727a8d555f91b5f}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_affcbdeb7d1cf30323727a8d555f91b5f}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!draw\+Vertical@{draw\+Vertical}}
+\index{draw\+Vertical@{draw\+Vertical}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{draw\+Vertical()}{drawVertical()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+title.\+Image\+Title.\+draw\+Vertical (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{chart\+Area }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Draws the title on a Java 2D graphics device (such as the screen or a printer).
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em chart\+Area} & the area within which the title (and plot) should be drawn.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The size of the area used by the title. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a37f9386a7a5f0cb24e36f39aa1211c2a}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a37f9386a7a5f0cb24e36f39aa1211c2a}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+title.\+Image\+Title.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this
+\begin{DoxyCode}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a24e3d2cf74bb93acae77375d4b741351}{ImageTitle}} 
+\end{DoxyCode}
+ for equality with an arbitrary object. Returns
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if\+: 
+\begin{DoxyItemize}
+\item 
+\begin{DoxyCode}
+obj 
+\end{DoxyCode}
+ is an instance of
+\begin{DoxyCode}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a24e3d2cf74bb93acae77375d4b741351}{ImageTitle}} 
+\end{DoxyCode}
+ ; 
+\item 
+\begin{DoxyCode}
+obj 
+\end{DoxyCode}
+ references the same image as this 
+\begin{DoxyCode}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a24e3d2cf74bb93acae77375d4b741351}{ImageTitle}} 
+\end{DoxyCode}
+ ; 
+\item 
+\begin{DoxyCode}
+super.equals(obj) 
+\end{DoxyCode}
+ returns
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ; 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_ac14ca8152629076360eb04f0f93eb2ba}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_ac14ca8152629076360eb04f0f93eb2ba}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!get\+Image@{get\+Image}}
+\index{get\+Image@{get\+Image}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{get\+Image()}{getImage()}}
+{\footnotesize\ttfamily Image org.\+jfree.\+chart.\+title.\+Image\+Title.\+get\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the image for the title.
+
+\begin{DoxyReturn}{Returns}
+The image for the title (never
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ ). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a1293428d9954c155e853daf43127995d}\label{classorg_1_1jfree_1_1chart_1_1title_1_1_image_title_a1293428d9954c155e853daf43127995d}} 
+\index{org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}!set\+Image@{set\+Image}}
+\index{set\+Image@{set\+Image}!org\+::jfree\+::chart\+::title\+::\+Image\+Title@{org\+::jfree\+::chart\+::title\+::\+Image\+Title}}
+\subsubsection{\texorpdfstring{set\+Image()}{setImage()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+title.\+Image\+Title.\+set\+Image (\begin{DoxyParamCaption}\item[{Image}]{image }\end{DoxyParamCaption})}
+
+Sets the image for the title and notifies registered listeners that the title has been modified.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & the new image (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/title/\mbox{\hyperlink{_image_title_8java}{Image\+Title.\+java}}\end{DoxyCompactItemize}

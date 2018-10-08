@@ -1,0 +1,123 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection}{}\section{org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection}\index{org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection@{org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a18716ab656431bdac81f60d0e0984e8e}{Outlier\+List\+Collection}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_afbde934fba8104920eb66abae9ac7328}{is\+High\+Far\+Out}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a541fb70b3f4419a17ebb65f66d15d125}{set\+High\+Far\+Out}} (boolean far\+Out)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a863ada14c9504cb00eb99b6db61e78a1}{is\+Low\+Far\+Out}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a2d624a1d2e6d83adc502ac486e00cd0a}{set\+Low\+Far\+Out}} (boolean far\+Out)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_ad82451fdecfa6649bd512804f6c41cfc}{add}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}} outlier)
+\item 
+Iterator \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_afacb1b9a6f8bb4177fca137a4296d1c8}{iterator}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A collection of outlier lists for a box and whisker plot. Each collection is associated with a single box and whisker entity.
+
+Outliers are grouped in lists for each entity. Lists contain one or more outliers, determined by whether overlaps have occurred. Overlapping outliers are grouped in the same list.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list}{org.\+jfree.\+chart.\+renderer.\+Outlier\+List}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a18716ab656431bdac81f60d0e0984e8e}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a18716ab656431bdac81f60d0e0984e8e}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}!Outlier\+List\+Collection@{Outlier\+List\+Collection}}
+\index{Outlier\+List\+Collection@{Outlier\+List\+Collection}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}}
+\subsubsection{\texorpdfstring{Outlier\+List\+Collection()}{OutlierListCollection()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection.\+Outlier\+List\+Collection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new empty collection. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_ad82451fdecfa6649bd512804f6c41cfc}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_ad82451fdecfa6649bd512804f6c41cfc}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}!add@{add}}
+\index{add@{add}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier}{Outlier}}}]{outlier }\end{DoxyParamCaption})}
+
+Appends the specified element as a new {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list}{Outlier\+List}}} to the end of this list if it does not overlap an outlier in an existing list.
+
+If it does overlap, it is appended to the outlier list which it overlaps and that list is updated.
+
+
+\begin{DoxyParams}{Parameters}
+{\em outlier} & element to be appended to this list.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} (as per the general contract of Collection.\+add). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_afbde934fba8104920eb66abae9ac7328}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_afbde934fba8104920eb66abae9ac7328}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}!is\+High\+Far\+Out@{is\+High\+Far\+Out}}
+\index{is\+High\+Far\+Out@{is\+High\+Far\+Out}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}}
+\subsubsection{\texorpdfstring{is\+High\+Far\+Out()}{isHighFarOut()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection.\+is\+High\+Far\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A flag to indicate the presence of one or more far out values at the top end of the range.
+
+\begin{DoxyReturn}{Returns}
+A {\ttfamily boolean}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a863ada14c9504cb00eb99b6db61e78a1}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a863ada14c9504cb00eb99b6db61e78a1}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}!is\+Low\+Far\+Out@{is\+Low\+Far\+Out}}
+\index{is\+Low\+Far\+Out@{is\+Low\+Far\+Out}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}}
+\subsubsection{\texorpdfstring{is\+Low\+Far\+Out()}{isLowFarOut()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection.\+is\+Low\+Far\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A flag to indicate the presence of one or more far out values at the bottom end of the range.
+
+\begin{DoxyReturn}{Returns}
+A {\ttfamily boolean}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_afacb1b9a6f8bb4177fca137a4296d1c8}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_afacb1b9a6f8bb4177fca137a4296d1c8}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}!iterator@{iterator}}
+\index{iterator@{iterator}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}}
+\subsubsection{\texorpdfstring{iterator()}{iterator()}}
+{\footnotesize\ttfamily Iterator org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection.\+iterator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns an iterator for the outlier lists.
+
+\begin{DoxyReturn}{Returns}
+An iterator. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a541fb70b3f4419a17ebb65f66d15d125}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a541fb70b3f4419a17ebb65f66d15d125}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}!set\+High\+Far\+Out@{set\+High\+Far\+Out}}
+\index{set\+High\+Far\+Out@{set\+High\+Far\+Out}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}}
+\subsubsection{\texorpdfstring{set\+High\+Far\+Out()}{setHighFarOut()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection.\+set\+High\+Far\+Out (\begin{DoxyParamCaption}\item[{boolean}]{far\+Out }\end{DoxyParamCaption})}
+
+Sets the flag that indicates the presence of one or more far out values at the top end of the range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em far\+Out} & the flag. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a2d624a1d2e6d83adc502ac486e00cd0a}\label{classorg_1_1jfree_1_1chart_1_1renderer_1_1_outlier_list_collection_a2d624a1d2e6d83adc502ac486e00cd0a}} 
+\index{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}!set\+Low\+Far\+Out@{set\+Low\+Far\+Out}}
+\index{set\+Low\+Far\+Out@{set\+Low\+Far\+Out}!org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection@{org\+::jfree\+::chart\+::renderer\+::\+Outlier\+List\+Collection}}
+\subsubsection{\texorpdfstring{set\+Low\+Far\+Out()}{setLowFarOut()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+renderer.\+Outlier\+List\+Collection.\+set\+Low\+Far\+Out (\begin{DoxyParamCaption}\item[{boolean}]{far\+Out }\end{DoxyParamCaption})}
+
+Sets the flag that indicates the presence of one or more far out values at the bottom end of the range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em far\+Out} & the flag. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/renderer/\mbox{\hyperlink{_outlier_list_collection_8java}{Outlier\+List\+Collection.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,117 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression}{}\section{org.\+jfree.\+data.\+statistics.\+Regression Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression}\index{org.\+jfree.\+data.\+statistics.\+Regression@{org.\+jfree.\+data.\+statistics.\+Regression}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_ab445a4f942aeaf348a74f4da1356b8fc}{get\+O\+L\+S\+Regression}} (double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} data)
+\item 
+static double \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a2d19e98caab60f2c7cd2fa43287a3caf}{get\+O\+L\+S\+Regression}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} data, int series)
+\item 
+static double \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a14bca94af4ab4756b6f142bbf048603c}{get\+Power\+Regression}} (double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} data)
+\item 
+static double \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a1ce6a23a7227c4dfab01a37fa21dfff0}{get\+Power\+Regression}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} data, int series)
+\item 
+static double \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a8dace72fbe5029ee28a88ab43640f655}{get\+Polynomial\+Regression}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} dataset, int series, int order)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A utility class for fitting regression curves to data. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_ab445a4f942aeaf348a74f4da1356b8fc}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_ab445a4f942aeaf348a74f4da1356b8fc}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}!get\+O\+L\+S\+Regression@{get\+O\+L\+S\+Regression}}
+\index{get\+O\+L\+S\+Regression@{get\+O\+L\+S\+Regression}!org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}}
+\subsubsection{\texorpdfstring{get\+O\+L\+S\+Regression()}{getOLSRegression()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static double \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+statistics.\+Regression.\+get\+O\+L\+S\+Regression (\begin{DoxyParamCaption}\item[{double}]{data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the parameters \textquotesingle{}a\textquotesingle{} and \textquotesingle{}b\textquotesingle{} for an equation y = a + bx, fitted to the data using ordinary least squares regression. The result is returned as a double\mbox{[}\mbox{]}, where result\mbox{[}0\mbox{]} --$>$ a, and result\mbox{[}1\mbox{]} --$>$ b.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The parameters. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a2d19e98caab60f2c7cd2fa43287a3caf}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a2d19e98caab60f2c7cd2fa43287a3caf}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}!get\+O\+L\+S\+Regression@{get\+O\+L\+S\+Regression}}
+\index{get\+O\+L\+S\+Regression@{get\+O\+L\+S\+Regression}!org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}}
+\subsubsection{\texorpdfstring{get\+O\+L\+S\+Regression()}{getOLSRegression()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static double \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+statistics.\+Regression.\+get\+O\+L\+S\+Regression (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{data,  }\item[{int}]{series }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the parameters \textquotesingle{}a\textquotesingle{} and \textquotesingle{}b\textquotesingle{} for an equation y = a + bx, fitted to the data using ordinary least squares regression. The result is returned as a double\mbox{[}\mbox{]}, where result\mbox{[}0\mbox{]} --$>$ a, and result\mbox{[}1\mbox{]} --$>$ b.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data. \\
+\hline
+{\em series} & the series (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The parameters. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a8dace72fbe5029ee28a88ab43640f655}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a8dace72fbe5029ee28a88ab43640f655}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}!get\+Polynomial\+Regression@{get\+Polynomial\+Regression}}
+\index{get\+Polynomial\+Regression@{get\+Polynomial\+Regression}!org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}}
+\subsubsection{\texorpdfstring{get\+Polynomial\+Regression()}{getPolynomialRegression()}}
+{\footnotesize\ttfamily static double \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+statistics.\+Regression.\+get\+Polynomial\+Regression (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{dataset,  }\item[{int}]{series,  }\item[{int}]{order }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the parameters \textquotesingle{}a0\textquotesingle{}, \textquotesingle{}a1\textquotesingle{}, \textquotesingle{}a2\textquotesingle{}, ..., \textquotesingle{}an\textquotesingle{} for a polynomial function of order n, y = a0 + a1 $\ast$ x + a2 $\ast$ x$^\wedge$2 + ... + an $\ast$ x$^\wedge$n, fitted to the data using a polynomial regression equation. The result is returned as an array with a length of n + 2, where double\mbox{[}0\mbox{]} --$>$ a0, double\mbox{[}1\mbox{]} --$>$ a1, .., double\mbox{[}n\mbox{]} --$>$ an. and double\mbox{[}n + 1\mbox{]} is the correlation coefficient R2 Reference\+: J. D. Faires, R. L. Burden, Numerische Methoden (german edition), pp. 243ff and 327ff.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em series} & the series to fit the regression line against (the series must have at least order + 1 non-\/\+NaN items). \\
+\hline
+{\em order} & the order of the function ($>$ 0).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The parameters.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a14bca94af4ab4756b6f142bbf048603c}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a14bca94af4ab4756b6f142bbf048603c}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}!get\+Power\+Regression@{get\+Power\+Regression}}
+\index{get\+Power\+Regression@{get\+Power\+Regression}!org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}}
+\subsubsection{\texorpdfstring{get\+Power\+Regression()}{getPowerRegression()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static double \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+statistics.\+Regression.\+get\+Power\+Regression (\begin{DoxyParamCaption}\item[{double}]{data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the parameters \textquotesingle{}a\textquotesingle{} and \textquotesingle{}b\textquotesingle{} for an equation y = ax$^\wedge$b, fitted to the data using a power regression equation. The result is returned as an array, where double\mbox{[}0\mbox{]} --$>$ a, and double\mbox{[}1\mbox{]} --$>$ b.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The parameters. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a1ce6a23a7227c4dfab01a37fa21dfff0}\label{classorg_1_1jfree_1_1data_1_1statistics_1_1_regression_a1ce6a23a7227c4dfab01a37fa21dfff0}} 
+\index{org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}!get\+Power\+Regression@{get\+Power\+Regression}}
+\index{get\+Power\+Regression@{get\+Power\+Regression}!org\+::jfree\+::data\+::statistics\+::\+Regression@{org\+::jfree\+::data\+::statistics\+::\+Regression}}
+\subsubsection{\texorpdfstring{get\+Power\+Regression()}{getPowerRegression()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static double \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+statistics.\+Regression.\+get\+Power\+Regression (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{data,  }\item[{int}]{series }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the parameters \textquotesingle{}a\textquotesingle{} and \textquotesingle{}b\textquotesingle{} for an equation y = ax$^\wedge$b, fitted to the data using a power regression equation. The result is returned as an array, where double\mbox{[}0\mbox{]} --$>$ a, and double\mbox{[}1\mbox{]} --$>$ b.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data. \\
+\hline
+{\em series} & the series to fit the regression line against.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The parameters. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/statistics/\mbox{\hyperlink{_regression_8java}{Regression.\+java}}\end{DoxyCompactItemize}

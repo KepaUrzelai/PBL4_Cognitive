@@ -1,0 +1,180 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities}{}\section{org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities}\index{org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities@{org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a490345f58ad0c3f9284eeff1437c0d91}{write\+Image\+Map}} (Print\+Writer writer, String name, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} info)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a63fd3b3723be096b13bcd7c4252bb678}{write\+Image\+Map}} (Print\+Writer writer, String name, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} info, boolean use\+Over\+Lib\+For\+Tool\+Tips)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_abefcbc5977f784e88a59299646b83bd2}{write\+Image\+Map}} (Print\+Writer writer, String name, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} info, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1imagemap_1_1_tool_tip_tag_fragment_generator}{Tool\+Tip\+Tag\+Fragment\+Generator}} tool\+Tip\+Tag\+Fragment\+Generator, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1imagemap_1_1_u_r_l_tag_fragment_generator}{U\+R\+L\+Tag\+Fragment\+Generator}} url\+Tag\+Fragment\+Generator)  throws I\+O\+Exception 
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a7e478173f67d5bd55aee18f2e14d03c4}{get\+Image\+Map}} (String name, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} info)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a2adddae3d31eafb319b6e3ab6d2d43a4}{get\+Image\+Map}} (String name, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}} info, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1imagemap_1_1_tool_tip_tag_fragment_generator}{Tool\+Tip\+Tag\+Fragment\+Generator}} tool\+Tip\+Tag\+Fragment\+Generator, \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1imagemap_1_1_u_r_l_tag_fragment_generator}{U\+R\+L\+Tag\+Fragment\+Generator}} url\+Tag\+Fragment\+Generator)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a964aecccbd94c9a11f97d0b4b5c1c2f6}{html\+Escape}} (String input)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a809a6e13de23654665fa36f1a7a62e06}{javascript\+Escape}} (String input)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Collection of utility methods related to producing image maps. Functionality was originally in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_utilities}{org.\+jfree.\+chart.\+Chart\+Utilities}}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a7e478173f67d5bd55aee18f2e14d03c4}\label{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a7e478173f67d5bd55aee18f2e14d03c4}} 
+\index{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}!get\+Image\+Map@{get\+Image\+Map}}
+\index{get\+Image\+Map@{get\+Image\+Map}!org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{get\+Image\+Map()}{getImageMap()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities.\+get\+Image\+Map (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}}]{info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates an image map element that complies with the X\+H\+T\+ML 1.\+0 specification.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the map name ({\ttfamily null} not permitted). \\
+\hline
+{\em info} & the chart rendering info ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The map element. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a2adddae3d31eafb319b6e3ab6d2d43a4}\label{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a2adddae3d31eafb319b6e3ab6d2d43a4}} 
+\index{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}!get\+Image\+Map@{get\+Image\+Map}}
+\index{get\+Image\+Map@{get\+Image\+Map}!org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{get\+Image\+Map()}{getImageMap()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities.\+get\+Image\+Map (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}}]{info,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1imagemap_1_1_tool_tip_tag_fragment_generator}{Tool\+Tip\+Tag\+Fragment\+Generator}}}]{tool\+Tip\+Tag\+Fragment\+Generator,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1imagemap_1_1_u_r_l_tag_fragment_generator}{U\+R\+L\+Tag\+Fragment\+Generator}}}]{url\+Tag\+Fragment\+Generator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates an image map element that complies with the X\+H\+T\+ML 1.\+0 specification.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the map name ({\ttfamily null} not permitted). \\
+\hline
+{\em info} & the chart rendering info ({\ttfamily null} not permitted). \\
+\hline
+{\em tool\+Tip\+Tag\+Fragment\+Generator} & a generator for the H\+T\+ML fragment that will contain the tooltip text ({\ttfamily null} not permitted if {\ttfamily info} contains tooltip information). \\
+\hline
+{\em url\+Tag\+Fragment\+Generator} & a generator for the H\+T\+ML fragment that will contain the U\+RL reference ({\ttfamily null} not permitted if {\ttfamily info} contains U\+R\+Ls).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The map tag. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a964aecccbd94c9a11f97d0b4b5c1c2f6}\label{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a964aecccbd94c9a11f97d0b4b5c1c2f6}} 
+\index{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}!html\+Escape@{html\+Escape}}
+\index{html\+Escape@{html\+Escape}!org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{html\+Escape()}{htmlEscape()}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities.\+html\+Escape (\begin{DoxyParamCaption}\item[{String}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a string that is equivalent to the input string, but with special characters converted to H\+T\+ML escape sequences.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the string to escape ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string with characters escaped.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+9 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a809a6e13de23654665fa36f1a7a62e06}\label{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a809a6e13de23654665fa36f1a7a62e06}} 
+\index{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}!javascript\+Escape@{javascript\+Escape}}
+\index{javascript\+Escape@{javascript\+Escape}!org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{javascript\+Escape()}{javascriptEscape()}}
+{\footnotesize\ttfamily static String org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities.\+javascript\+Escape (\begin{DoxyParamCaption}\item[{String}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns a string that is equivalent to the input string, but with special characters converted to Java\+Script escape sequences.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the string to escape ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string with characters escaped.
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+1.\+0.\+13 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a490345f58ad0c3f9284eeff1437c0d91}\label{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a490345f58ad0c3f9284eeff1437c0d91}} 
+\index{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}!write\+Image\+Map@{write\+Image\+Map}}
+\index{write\+Image\+Map@{write\+Image\+Map}!org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{write\+Image\+Map()}{writeImageMap()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities.\+write\+Image\+Map (\begin{DoxyParamCaption}\item[{Print\+Writer}]{writer,  }\item[{String}]{name,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}}]{info }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Writes an image map to an output stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em writer} & the writer ({\ttfamily null} not permitted). \\
+\hline
+{\em name} & the map name ({\ttfamily null} not permitted). \\
+\hline
+{\em info} & the chart rendering info ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\+io.\+I\+O\+Exception} & if there are any I/O errors. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a63fd3b3723be096b13bcd7c4252bb678}\label{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_a63fd3b3723be096b13bcd7c4252bb678}} 
+\index{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}!write\+Image\+Map@{write\+Image\+Map}}
+\index{write\+Image\+Map@{write\+Image\+Map}!org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{write\+Image\+Map()}{writeImageMap()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities.\+write\+Image\+Map (\begin{DoxyParamCaption}\item[{Print\+Writer}]{writer,  }\item[{String}]{name,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}}]{info,  }\item[{boolean}]{use\+Over\+Lib\+For\+Tool\+Tips }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Writes an image map to an output stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em writer} & the writer ({\ttfamily null} not permitted). \\
+\hline
+{\em name} & the map name ({\ttfamily null} not permitted). \\
+\hline
+{\em info} & the chart rendering info ({\ttfamily null} not permitted). \\
+\hline
+{\em use\+Over\+Lib\+For\+Tool\+Tips} & whether to use Over\+L\+IB for tooltips (\href{http://www.bosrup.com/web/overlib/}{\tt http\+://www.\+bosrup.\+com/web/overlib/}).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\+io.\+I\+O\+Exception} & if there are any I/O errors. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_abefcbc5977f784e88a59299646b83bd2}\label{classorg_1_1jfree_1_1chart_1_1imagemap_1_1_image_map_utilities_abefcbc5977f784e88a59299646b83bd2}} 
+\index{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}!write\+Image\+Map@{write\+Image\+Map}}
+\index{write\+Image\+Map@{write\+Image\+Map}!org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities@{org\+::jfree\+::chart\+::imagemap\+::\+Image\+Map\+Utilities}}
+\subsubsection{\texorpdfstring{write\+Image\+Map()}{writeImageMap()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily static void org.\+jfree.\+chart.\+imagemap.\+Image\+Map\+Utilities.\+write\+Image\+Map (\begin{DoxyParamCaption}\item[{Print\+Writer}]{writer,  }\item[{String}]{name,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_chart_rendering_info}{Chart\+Rendering\+Info}}}]{info,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1imagemap_1_1_tool_tip_tag_fragment_generator}{Tool\+Tip\+Tag\+Fragment\+Generator}}}]{tool\+Tip\+Tag\+Fragment\+Generator,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1imagemap_1_1_u_r_l_tag_fragment_generator}{U\+R\+L\+Tag\+Fragment\+Generator}}}]{url\+Tag\+Fragment\+Generator }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Writes an image map to an output stream.
+
+
+\begin{DoxyParams}{Parameters}
+{\em writer} & the writer ({\ttfamily null} not permitted). \\
+\hline
+{\em name} & the map name ({\ttfamily null} not permitted). \\
+\hline
+{\em info} & the chart rendering info ({\ttfamily null} not permitted). \\
+\hline
+{\em tool\+Tip\+Tag\+Fragment\+Generator} & a generator for the H\+T\+ML fragment that will contain the tooltip text ({\ttfamily null} not permitted if {\ttfamily info} contains tooltip information). \\
+\hline
+{\em url\+Tag\+Fragment\+Generator} & a generator for the H\+T\+ML fragment that will contain the U\+RL reference ({\ttfamily null} not permitted if {\ttfamily info} contains U\+R\+Ls).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em java.\+io.\+I\+O\+Exception} & if there are any I/O errors. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/imagemap/\mbox{\hyperlink{_image_map_utilities_8java}{Image\+Map\+Utilities.\+java}}\end{DoxyCompactItemize}

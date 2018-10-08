@@ -1,0 +1,246 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}{}\section{org.\+jfree.\+chart.\+block.\+Block\+Container Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}\index{org.\+jfree.\+chart.\+block.\+Block\+Container@{org.\+jfree.\+chart.\+block.\+Block\+Container}}
+Inheritance diagram for org.\+jfree.\+chart.\+block.\+Block\+Container\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.338112cm]{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a34bd371757c53973701b501011276993}{Block\+Container}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_aad8ceaa9889a5fd2815bb9f50d9614ce}{Block\+Container}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement}{Arrangement}} arrangement)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement}{Arrangement}} \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a662ee4268e89f40f5f3f6000d7c7c14d}{get\+Arrangement}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a66f84d14a89e3ac4f81898d71b7662c5}{set\+Arrangement}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement}{Arrangement}} arrangement)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3fe33aa07a2a666d08c20085c8c2b579}{is\+Empty}} ()
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3e0c3b6c32ebec8932603a24776e4faa}{get\+Blocks}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3ff8440bbee1745bbcec898f3a628158}{add}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{Block}} block)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_af5c240d12e9b406df4257062e9ba749e}{add}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{Block}} block, Object key)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_ae061e9cab96f1cd114b35e7e6b619a8a}{clear}} ()
+\item 
+Size2D \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_af4746269c5628f6ae1ce2be343e5b1e6}{arrange}} (Graphics2D g2, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}} constraint)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a50c5f0ce11d78284655354450fcc9ca0}{draw}} (Graphics2D g2, Rectangle2D area)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_ac2c5279f4ac5b5e89e48d11b195938a2}{draw}} (Graphics2D g2, Rectangle2D area, Object params)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a8945b16bf015b60fdf5b933de15d45a4}{equals}} (Object obj)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3e852a0973be203fe120e358c1a03938}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A container for a collection of \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{Block}} objects. The container uses an \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement}{Arrangement}} object to handle the position of each block. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a34bd371757c53973701b501011276993}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a34bd371757c53973701b501011276993}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!Block\+Container@{Block\+Container}}
+\index{Block\+Container@{Block\+Container}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{Block\+Container()}{BlockContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+block.\+Block\+Container.\+Block\+Container (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new instance with default settings. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_aad8ceaa9889a5fd2815bb9f50d9614ce}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_aad8ceaa9889a5fd2815bb9f50d9614ce}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!Block\+Container@{Block\+Container}}
+\index{Block\+Container@{Block\+Container}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{Block\+Container()}{BlockContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+block.\+Block\+Container.\+Block\+Container (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement}{Arrangement}}}]{arrangement }\end{DoxyParamCaption})}
+
+Creates a new instance with the specified arrangement.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arrangement} & the arrangement manager ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3ff8440bbee1745bbcec898f3a628158}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3ff8440bbee1745bbcec898f3a628158}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!add@{add}}
+\index{add@{add}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Block\+Container.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{Block}}}]{block }\end{DoxyParamCaption})}
+
+Adds a block to the container.
+
+
+\begin{DoxyParams}{Parameters}
+{\em block} & the block ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_af5c240d12e9b406df4257062e9ba749e}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_af5c240d12e9b406df4257062e9ba749e}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!add@{add}}
+\index{add@{add}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Block\+Container.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{Block}}}]{block,  }\item[{Object}]{key }\end{DoxyParamCaption})}
+
+Adds a block to the container.
+
+
+\begin{DoxyParams}{Parameters}
+{\em block} & the block ({\ttfamily null} permitted). \\
+\hline
+{\em key} & the key ({\ttfamily null} permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_af4746269c5628f6ae1ce2be343e5b1e6}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_af4746269c5628f6ae1ce2be343e5b1e6}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!arrange@{arrange}}
+\index{arrange@{arrange}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{arrange()}{arrange()}}
+{\footnotesize\ttfamily Size2D org.\+jfree.\+chart.\+block.\+Block\+Container.\+arrange (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1block_1_1_rectangle_constraint}{Rectangle\+Constraint}}}]{constraint }\end{DoxyParamCaption})}
+
+Arranges the contents of the block, within the given constraints, and returns the block size.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em constraint} & the constraint ({\ttfamily null} not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The block size (in Java2D units, never {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_ab4cabbc237c5277a4a0018bab930e5fe}{org.\+jfree.\+chart.\+block.\+Block}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_ae061e9cab96f1cd114b35e7e6b619a8a}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_ae061e9cab96f1cd114b35e7e6b619a8a}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!clear@{clear}}
+\index{clear@{clear}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Block\+Container.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clears all the blocks from the container. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3e852a0973be203fe120e358c1a03938}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3e852a0973be203fe120e358c1a03938}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+block.\+Block\+Container.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the container.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if there is a problem cloning. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a50c5f0ce11d78284655354450fcc9ca0}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a50c5f0ce11d78284655354450fcc9ca0}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{draw()}{draw()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Block\+Container.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{area }\end{DoxyParamCaption})}
+
+Draws the container and all the blocks within it.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em area} & the area. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_ac2c5279f4ac5b5e89e48d11b195938a2}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_ac2c5279f4ac5b5e89e48d11b195938a2}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!draw@{draw}}
+\index{draw@{draw}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{draw()}{draw()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+block.\+Block\+Container.\+draw (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2,  }\item[{Rectangle2D}]{area,  }\item[{Object}]{params }\end{DoxyParamCaption})}
+
+Draws the block within the specified area.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2} & the graphics device. \\
+\hline
+{\em area} & the area. \\
+\hline
+{\em params} & passed on to blocks within the container ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An instance of \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_entity_block_result}{Entity\+Block\+Result}}, or {\ttfamily null}. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block_a1bac635d72de5ca6a71eff63dabf77a4}{org.\+jfree.\+chart.\+block.\+Block}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a8945b16bf015b60fdf5b933de15d45a4}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a8945b16bf015b60fdf5b933de15d45a4}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+block.\+Block\+Container.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this container for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a662ee4268e89f40f5f3f6000d7c7c14d}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a662ee4268e89f40f5f3f6000d7c7c14d}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!get\+Arrangement@{get\+Arrangement}}
+\index{get\+Arrangement@{get\+Arrangement}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{get\+Arrangement()}{getArrangement()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement}{Arrangement}} org.\+jfree.\+chart.\+block.\+Block\+Container.\+get\+Arrangement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the arrangement (layout) manager for the container.
+
+\begin{DoxyReturn}{Returns}
+The arrangement manager (never {\ttfamily null}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3e0c3b6c32ebec8932603a24776e4faa}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3e0c3b6c32ebec8932603a24776e4faa}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!get\+Blocks@{get\+Blocks}}
+\index{get\+Blocks@{get\+Blocks}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{get\+Blocks()}{getBlocks()}}
+{\footnotesize\ttfamily List org.\+jfree.\+chart.\+block.\+Block\+Container.\+get\+Blocks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns an unmodifiable list of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_block}{Block}} objects managed by this arrangement.
+
+\begin{DoxyReturn}{Returns}
+A list of blocks. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3fe33aa07a2a666d08c20085c8c2b579}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a3fe33aa07a2a666d08c20085c8c2b579}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{is\+Empty()}{isEmpty()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+block.\+Block\+Container.\+is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if there are no blocks in the container, and {\ttfamily false} otherwise.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a66f84d14a89e3ac4f81898d71b7662c5}\label{classorg_1_1jfree_1_1chart_1_1block_1_1_block_container_a66f84d14a89e3ac4f81898d71b7662c5}} 
+\index{org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}!set\+Arrangement@{set\+Arrangement}}
+\index{set\+Arrangement@{set\+Arrangement}!org\+::jfree\+::chart\+::block\+::\+Block\+Container@{org\+::jfree\+::chart\+::block\+::\+Block\+Container}}
+\subsubsection{\texorpdfstring{set\+Arrangement()}{setArrangement()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+block.\+Block\+Container.\+set\+Arrangement (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1block_1_1_arrangement}{Arrangement}}}]{arrangement }\end{DoxyParamCaption})}
+
+Sets the arrangement (layout) manager.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arrangement} & the arrangement ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/block/\mbox{\hyperlink{_block_container_8java}{Block\+Container.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,279 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x}{}\section{org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+FX Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x}\index{org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+FX@{org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+FX}}
+Inheritance diagram for org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+FX\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.848485cm]{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a7da90cbead6cf1df2d6dacc8e729e69a}{get\+ID}} ()
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a2485249ae77b26b0c7d2099257f0eb80}{is\+Enabled}} ()
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_ab34237a86c64205991897825b9761014}{has\+Matching\+Modifiers}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a71fb6066ff587b62484100705777fc19}{handle\+Mouse\+Moved}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_aa1761ee25681cfee7de718c887d4ae5e}{handle\+Mouse\+Clicked}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a0cf92e5a448b58c199fc12dbdbd39aab}{handle\+Mouse\+Pressed}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a06bbfd28b778bca8ef8caf90174e18f4}{handle\+Mouse\+Dragged}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_adbb7fa38b9913c536fb2a3ae09c70058}{handle\+Mouse\+Released}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a271047b9229d2fbebbfefe173f153b2e}{handle\+Scroll}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} canvas, Scroll\+Event e)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The interface for a mouse handler, which is an object that listens for mouse events on a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} and performs a function in response to those events (typical functions include tooltip display, drag zooming, mouse wheel zooming and panning). A handler can be registered with the \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}} as a regular handler or as an auxiliary handler. Upon a mouse pressed event, the canvas will select {\itshape one} regular handler to be the current \char`\"{}live\char`\"{} handler -\/ this selection normally takes into account the modifier keys that are specified for the handler. The live handler is responsible for unregistering itself once it has finished handling mouse events (it can be reselected again on subsequent mouse pressed events). The auxiliary handlers are always called to respond to mouse events, but after the live handler has dealt with the event first. Auxiliary handlers should not perform tasks that could interfere with the live handler.
+
+T\+HE A\+PI F\+OR T\+H\+IS C\+L\+A\+SS IS S\+U\+B\+J\+E\+CT TO C\+H\+A\+N\+GE IN F\+U\+T\+U\+RE R\+E\+L\+E\+A\+S\+ES. This is so that we can incorporate feedback on the (new) Java\+FX support in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1_j_free_chart}{J\+Free\+Chart}}.
+
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a7da90cbead6cf1df2d6dacc8e729e69a}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a7da90cbead6cf1df2d6dacc8e729e69a}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!get\+ID@{get\+ID}}
+\index{get\+ID@{get\+ID}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{get\+I\+D()}{getID()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the ID for the handler.
+
+\begin{DoxyReturn}{Returns}
+The ID (never
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ ). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_afb58abefdfef15a11ecdbb0fa72e4757}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_aa1761ee25681cfee7de718c887d4ae5e}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_aa1761ee25681cfee7de718c887d4ae5e}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!handle\+Mouse\+Clicked@{handle\+Mouse\+Clicked}}
+\index{handle\+Mouse\+Clicked@{handle\+Mouse\+Clicked}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Mouse\+Clicked()}{handleMouseClicked()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+handle\+Mouse\+Clicked (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a mouse clicked event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the canvas (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em e} & the event (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_a844c908ba8528b4f0a1afb139fd9cd36}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_dispatch_handler_f_x_a9a58cb60ccd2dba2c76b19f91fe7d55a}{org.\+jfree.\+chart.\+fx.\+interaction.\+Dispatch\+Handler\+FX}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_anchor_handler_f_x_a1eb3a7adc3693b4a6160032ceb539bb7}{org.\+jfree.\+chart.\+fx.\+interaction.\+Anchor\+Handler\+FX}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a06bbfd28b778bca8ef8caf90174e18f4}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a06bbfd28b778bca8ef8caf90174e18f4}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!handle\+Mouse\+Dragged@{handle\+Mouse\+Dragged}}
+\index{handle\+Mouse\+Dragged@{handle\+Mouse\+Dragged}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Mouse\+Dragged()}{handleMouseDragged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+handle\+Mouse\+Dragged (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a mouse dragged event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the canvas (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em e} & the event (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_a467c9af78e00bda4799b151328d84c9e}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_pan_handler_f_x_a2b6a12e23c42bf9e000720a3637fa417}{org.\+jfree.\+chart.\+fx.\+interaction.\+Pan\+Handler\+FX}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a42e60db6b183e94f2997e79647bb5403}{org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+FX}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a71fb6066ff587b62484100705777fc19}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a71fb6066ff587b62484100705777fc19}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!handle\+Mouse\+Moved@{handle\+Mouse\+Moved}}
+\index{handle\+Mouse\+Moved@{handle\+Mouse\+Moved}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Mouse\+Moved()}{handleMouseMoved()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+handle\+Mouse\+Moved (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a mouse moved event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the canvas (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em e} & the event (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_a230992718e2106e928c8ea454d0d6a06}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_dispatch_handler_f_x_a7509ebbee5de20b7cc4ad500cab4b488}{org.\+jfree.\+chart.\+fx.\+interaction.\+Dispatch\+Handler\+FX}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_tooltip_handler_f_x_ae43d146d4ca535f1f1362ce4325ae41b}{org.\+jfree.\+chart.\+fx.\+interaction.\+Tooltip\+Handler\+FX}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a0cf92e5a448b58c199fc12dbdbd39aab}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a0cf92e5a448b58c199fc12dbdbd39aab}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!handle\+Mouse\+Pressed@{handle\+Mouse\+Pressed}}
+\index{handle\+Mouse\+Pressed@{handle\+Mouse\+Pressed}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Mouse\+Pressed()}{handleMousePressed()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+handle\+Mouse\+Pressed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a mouse pressed event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the canvas (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em e} & the event (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_a3e8a17fbf7481ed55e99759ab96746ef}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_a39eb9924bd9125f685df78a26fe8317d}{org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+FX}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_pan_handler_f_x_a216c7c8b3d280c17f29bf8d55188644b}{org.\+jfree.\+chart.\+fx.\+interaction.\+Pan\+Handler\+FX}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_dispatch_handler_f_x_aec52d7abb43d55b8cde1e459d20c7ffa}{org.\+jfree.\+chart.\+fx.\+interaction.\+Dispatch\+Handler\+FX}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_anchor_handler_f_x_aae8e995d9a03393fb8eee9d45d81c23b}{org.\+jfree.\+chart.\+fx.\+interaction.\+Anchor\+Handler\+FX}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_adbb7fa38b9913c536fb2a3ae09c70058}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_adbb7fa38b9913c536fb2a3ae09c70058}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!handle\+Mouse\+Released@{handle\+Mouse\+Released}}
+\index{handle\+Mouse\+Released@{handle\+Mouse\+Released}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Mouse\+Released()}{handleMouseReleased()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+handle\+Mouse\+Released (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a mouse released event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the canvas (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em e} & the event (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_af21b170ff087139926d7cca2ac1c7479}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}, \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_zoom_handler_f_x_af47ee1c3f51772d2bbd503c5d6c3ba71}{org.\+jfree.\+chart.\+fx.\+interaction.\+Zoom\+Handler\+FX}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_pan_handler_f_x_ade3d5c9bd4ada9f2357231eefc89ff4e}{org.\+jfree.\+chart.\+fx.\+interaction.\+Pan\+Handler\+FX}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a271047b9229d2fbebbfefe173f153b2e}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a271047b9229d2fbebbfefe173f153b2e}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!handle\+Scroll@{handle\+Scroll}}
+\index{handle\+Scroll@{handle\+Scroll}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{handle\+Scroll()}{handleScroll()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+handle\+Scroll (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1_chart_canvas}{Chart\+Canvas}}}]{canvas,  }\item[{Scroll\+Event}]{e }\end{DoxyParamCaption})}
+
+Handles a scroll event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em canvas} & the canvas (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+{\em e} & the event (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted). \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_a1295d12f1bd621599427b782237b9e0c}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}, and \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_scroll_handler_f_x_a59413aa0326296008a59e8c477a203ff}{org.\+jfree.\+chart.\+fx.\+interaction.\+Scroll\+Handler\+FX}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_ab34237a86c64205991897825b9761014}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_ab34237a86c64205991897825b9761014}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!has\+Matching\+Modifiers@{has\+Matching\+Modifiers}}
+\index{has\+Matching\+Modifiers@{has\+Matching\+Modifiers}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{has\+Matching\+Modifiers()}{hasMatchingModifiers()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+has\+Matching\+Modifiers (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+Returns
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if the specified mouse event has modifier keys that match this handler.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the mouse event (
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ not permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_a9fe0aad14036619a388d6894d19c3f0a}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a2485249ae77b26b0c7d2099257f0eb80}\label{interfaceorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_mouse_handler_f_x_a2485249ae77b26b0c7d2099257f0eb80}} 
+\index{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}!is\+Enabled@{is\+Enabled}}
+\index{is\+Enabled@{is\+Enabled}!org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX@{org\+::jfree\+::chart\+::fx\+::interaction\+::\+Mouse\+Handler\+FX}}
+\subsubsection{\texorpdfstring{is\+Enabled()}{isEnabled()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+fx.\+interaction.\+Mouse\+Handler\+F\+X.\+is\+Enabled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if the mouse handler is enabled, and 
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ if it is disabled.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1fx_1_1interaction_1_1_abstract_mouse_handler_f_x_a231b7ea733036ba44a5c610184f5b1b0}{org.\+jfree.\+chart.\+fx.\+interaction.\+Abstract\+Mouse\+Handler\+FX}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/fx/interaction/\mbox{\hyperlink{_mouse_handler_f_x_8java}{Mouse\+Handler\+F\+X.\+java}}\end{DoxyCompactItemize}

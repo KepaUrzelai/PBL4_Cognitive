@@ -1,0 +1,193 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation}{}\section{org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation}\index{org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation@{org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation}}
+Inheritance diagram for org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=7.202572cm]{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a142d8df764f22560ce23ae44bdc9f4a6}{add\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_annotation_change_listener}{Annotation\+Change\+Listener}} listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a35d547ca28248732aa2a7935ab41f33e}{remove\+Change\+Listener}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_annotation_change_listener}{Annotation\+Change\+Listener}} listener)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a3b5581a6fdb861b037ceaabd7cb1bc8a}{has\+Listener}} (Event\+Listener listener)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a2c22d59758526f591477be87806b537e}{get\+Notify}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_ab7788a521170bcce474868752965b910}{set\+Notify}} (boolean flag)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a8ce423f6423f21f6f812d7b49f21358f}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a6dfa05b83393f195a243121e027568fb}{Abstract\+Annotation}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a41abf9fcfb7a461f9095912b1e532b90}{fire\+Annotation\+Changed}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_aa37a4f29e432fc32fcfb72b407505f30}{notify\+Listeners}} (\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1event_1_1_annotation_change_event}{Annotation\+Change\+Event}} event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An abstract implementation of the \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_annotation}{Annotation}} interface, containing a mechanism for registering change listeners.
+
+\begin{DoxySince}{Since}
+1.\+0.\+14 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a6dfa05b83393f195a243121e027568fb}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a6dfa05b83393f195a243121e027568fb}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!Abstract\+Annotation@{Abstract\+Annotation}}
+\index{Abstract\+Annotation@{Abstract\+Annotation}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{Abstract\+Annotation()}{AbstractAnnotation()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+Abstract\+Annotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Constructs an annotation. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a142d8df764f22560ce23ae44bdc9f4a6}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a142d8df764f22560ce23ae44bdc9f4a6}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!add\+Change\+Listener@{add\+Change\+Listener}}
+\index{add\+Change\+Listener@{add\+Change\+Listener}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{add\+Change\+Listener()}{addChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+add\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_annotation_change_listener}{Annotation\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Registers an object to receive notification of changes to the annotation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the object to register.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a35d547ca28248732aa2a7935ab41f33e}{remove\+Change\+Listener(\+Annotation\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_annotation_aea28c7e0fd5dfce175da8303f85d449a}{org.\+jfree.\+chart.\+annotations.\+Annotation}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a8ce423f6423f21f6f812d7b49f21358f}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a8ce423f6423f21f6f812d7b49f21358f}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns a clone of the annotation. The cloned annotation will N\+OT include the \mbox{\hyperlink{}{Annotation\+Change\+Listener}} references that have been registered with this annotation.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if the annotation does not support cloning. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a41abf9fcfb7a461f9095912b1e532b90}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a41abf9fcfb7a461f9095912b1e532b90}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!fire\+Annotation\+Changed@{fire\+Annotation\+Changed}}
+\index{fire\+Annotation\+Changed@{fire\+Annotation\+Changed}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{fire\+Annotation\+Changed()}{fireAnnotationChanged()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+fire\+Annotation\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Notifies all registered listeners that the annotation has changed.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a142d8df764f22560ce23ae44bdc9f4a6}{add\+Change\+Listener(\+Annotation\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a2c22d59758526f591477be87806b537e}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a2c22d59758526f591477be87806b537e}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!get\+Notify@{get\+Notify}}
+\index{get\+Notify@{get\+Notify}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{get\+Notify()}{getNotify()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+get\+Notify (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a flag that indicates whether listeners should be notified about changes to the annotation.
+
+\begin{DoxyReturn}{Returns}
+the flag.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_ab7788a521170bcce474868752965b910}{set\+Notify(boolean)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a3b5581a6fdb861b037ceaabd7cb1bc8a}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a3b5581a6fdb861b037ceaabd7cb1bc8a}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!has\+Listener@{has\+Listener}}
+\index{has\+Listener@{has\+Listener}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{has\+Listener()}{hasListener()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+has\+Listener (\begin{DoxyParamCaption}\item[{Event\+Listener}]{listener }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the specified object is registered with the annotation as a listener. Most applications won\textquotesingle{}t need to call this method, it exists mainly for use by unit testing code.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the listener.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a142d8df764f22560ce23ae44bdc9f4a6}{add\+Change\+Listener(\+Annotation\+Change\+Listener)}} 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a35d547ca28248732aa2a7935ab41f33e}{remove\+Change\+Listener(\+Annotation\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_aa37a4f29e432fc32fcfb72b407505f30}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_aa37a4f29e432fc32fcfb72b407505f30}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!notify\+Listeners@{notify\+Listeners}}
+\index{notify\+Listeners@{notify\+Listeners}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{notify\+Listeners()}{notifyListeners()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+notify\+Listeners (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1event_1_1_annotation_change_event}{Annotation\+Change\+Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Notifies all registered listeners that the annotation has changed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & contains information about the event that triggered the notification.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a142d8df764f22560ce23ae44bdc9f4a6}{add\+Change\+Listener(\+Annotation\+Change\+Listener)}} 
+
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a35d547ca28248732aa2a7935ab41f33e}{remove\+Change\+Listener(\+Annotation\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a35d547ca28248732aa2a7935ab41f33e}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a35d547ca28248732aa2a7935ab41f33e}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!remove\+Change\+Listener@{remove\+Change\+Listener}}
+\index{remove\+Change\+Listener@{remove\+Change\+Listener}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{remove\+Change\+Listener()}{removeChangeListener()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+remove\+Change\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1event_1_1_annotation_change_listener}{Annotation\+Change\+Listener}}}]{listener }\end{DoxyParamCaption})}
+
+Deregisters an object so that it no longer receives notification of changes to the annotation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & the object to deregister.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a142d8df764f22560ce23ae44bdc9f4a6}{add\+Change\+Listener(\+Annotation\+Change\+Listener)}} 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1annotations_1_1_annotation_a3ecdf612567af2d1d4cb2344c47db120}{org.\+jfree.\+chart.\+annotations.\+Annotation}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_ab7788a521170bcce474868752965b910}\label{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_ab7788a521170bcce474868752965b910}} 
+\index{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}!set\+Notify@{set\+Notify}}
+\index{set\+Notify@{set\+Notify}!org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation@{org\+::jfree\+::chart\+::annotations\+::\+Abstract\+Annotation}}
+\subsubsection{\texorpdfstring{set\+Notify()}{setNotify()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+annotations.\+Abstract\+Annotation.\+set\+Notify (\begin{DoxyParamCaption}\item[{boolean}]{flag }\end{DoxyParamCaption})}
+
+Sets a flag that indicates whether listeners should be notified about changes of an annotation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em flag} & the flag\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1annotations_1_1_abstract_annotation_a2c22d59758526f591477be87806b537e}{get\+Notify()}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/annotations/\mbox{\hyperlink{_abstract_annotation_8java}{Abstract\+Annotation.\+java}}\end{DoxyCompactItemize}

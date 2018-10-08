@@ -1,0 +1,50 @@
+\hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_tool_tip_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Category\+Tool\+Tip\+Generator Interface Reference}
+\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_tool_tip_generator}\index{org.\+jfree.\+chart.\+labels.\+Category\+Tool\+Tip\+Generator@{org.\+jfree.\+chart.\+labels.\+Category\+Tool\+Tip\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Category\+Tool\+Tip\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.627907cm]{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_tool_tip_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_tool_tip_generator_a2e8b22f2efaaf190fa281212485e1018}{generate\+Tool\+Tip}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} dataset, int row, int column)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A {\itshape category tool tip generator} is an object that can be assigned to a \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1renderer_1_1category_1_1_category_item_renderer}{org.\+jfree.\+chart.\+renderer.\+category.\+Category\+Item\+Renderer}} and that assumes responsibility for creating text items to be used as tooltips for the items in a \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1plot_1_1_category_plot}{org.\+jfree.\+chart.\+plot.\+Category\+Plot}}. 
+
+To assist with cloning charts, classes that implement this interface should also implement the {\ttfamily org.\+jfree.\+util.\+Public\+Cloneable} interface (in J\+Common). 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_tool_tip_generator_a2e8b22f2efaaf190fa281212485e1018}\label{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_category_tool_tip_generator_a2e8b22f2efaaf190fa281212485e1018}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Category\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Tool\+Tip\+Generator}!generate\+Tool\+Tip@{generate\+Tool\+Tip}}
+\index{generate\+Tool\+Tip@{generate\+Tool\+Tip}!org\+::jfree\+::chart\+::labels\+::\+Category\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Category\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Tool\+Tip()}{generateToolTip()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Category\+Tool\+Tip\+Generator.\+generate\+Tool\+Tip (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}}}]{dataset,  }\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+Generates the tool tip text for an item in a dataset. Note\+: in the current dataset implementation, each row is a series, and each column contains values for a particular category.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & the dataset ({\ttfamily null} not permitted). \\
+\hline
+{\em row} & the row index (zero-\/based). \\
+\hline
+{\em column} & the column index (zero-\/based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The tooltip text (possibly {\ttfamily null}). 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_standard_category_tool_tip_generator_afd101d9a9d6376c6bfb8eacdd51e99ad}{org.\+jfree.\+chart.\+labels.\+Standard\+Category\+Tool\+Tip\+Generator}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_category_tool_tip_generator_8java}{Category\+Tool\+Tip\+Generator.\+java}}\end{DoxyCompactItemize}

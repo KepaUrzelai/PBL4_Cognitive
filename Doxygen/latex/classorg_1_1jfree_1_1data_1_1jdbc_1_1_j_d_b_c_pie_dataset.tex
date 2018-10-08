@@ -1,0 +1,147 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset}{}\section{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset}\index{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset@{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.254480cm]{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a0723d757f5d580e1267f5fc0af370d84}{J\+D\+B\+C\+Pie\+Dataset}} (String url, String driver\+Name, String user, String password)  throws S\+Q\+L\+Exception, Class\+Not\+Found\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_af5ecc1304370879c77b24799612a95a2}{J\+D\+B\+C\+Pie\+Dataset}} (Connection con)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_ac815266823496b40caff38735767ae7b}{J\+D\+B\+C\+Pie\+Dataset}} (Connection con, String query)  throws S\+Q\+L\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a683c9d8a431081ae4a8b2941b1d17633}{execute\+Query}} (String query)  throws S\+Q\+L\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_adce5416eb519021f1fdd956025abf8b6}{execute\+Query}} (Connection con, String query)  throws S\+Q\+L\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a40ab494ddaf4524fbcafafc0539fdcb5}{close}} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A \mbox{\hyperlink{}{Pie\+Dataset}} that reads data from a database via J\+D\+BC. 
+
+A query should be supplied that returns data in two columns, the first containing V\+A\+R\+C\+H\+AR data, and the second containing numerical data. The data is cached in-\/memory and can be refreshed at any time. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a0723d757f5d580e1267f5fc0af370d84}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a0723d757f5d580e1267f5fc0af370d84}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}!J\+D\+B\+C\+Pie\+Dataset@{J\+D\+B\+C\+Pie\+Dataset}}
+\index{J\+D\+B\+C\+Pie\+Dataset@{J\+D\+B\+C\+Pie\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+Pie\+Dataset()}{JDBCPieDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset.\+J\+D\+B\+C\+Pie\+Dataset (\begin{DoxyParamCaption}\item[{String}]{url,  }\item[{String}]{driver\+Name,  }\item[{String}]{user,  }\item[{String}]{password }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception, Class\+Not\+Found\+Exception}
+
+Creates a new \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset}{J\+D\+B\+C\+Pie\+Dataset}} and establishes a new database connection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & the U\+RL of the database connection. \\
+\hline
+{\em driver\+Name} & the database driver class name. \\
+\hline
+{\em user} & the database user. \\
+\hline
+{\em password} & the database users password.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Class\+Not\+Found\+Exception} & if the driver cannot be found. \\
+\hline
+{\em S\+Q\+L\+Exception} & if there is a problem obtaining a database connection. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_af5ecc1304370879c77b24799612a95a2}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_af5ecc1304370879c77b24799612a95a2}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}!J\+D\+B\+C\+Pie\+Dataset@{J\+D\+B\+C\+Pie\+Dataset}}
+\index{J\+D\+B\+C\+Pie\+Dataset@{J\+D\+B\+C\+Pie\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+Pie\+Dataset()}{JDBCPieDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset.\+J\+D\+B\+C\+Pie\+Dataset (\begin{DoxyParamCaption}\item[{Connection}]{con }\end{DoxyParamCaption})}
+
+Creates a new \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset}{J\+D\+B\+C\+Pie\+Dataset}} using a pre-\/existing database connection. 
+
+The dataset is initially empty, since no query has been supplied yet.
+
+
+\begin{DoxyParams}{Parameters}
+{\em con} & the database connection. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_ac815266823496b40caff38735767ae7b}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_ac815266823496b40caff38735767ae7b}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}!J\+D\+B\+C\+Pie\+Dataset@{J\+D\+B\+C\+Pie\+Dataset}}
+\index{J\+D\+B\+C\+Pie\+Dataset@{J\+D\+B\+C\+Pie\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+Pie\+Dataset()}{JDBCPieDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset.\+J\+D\+B\+C\+Pie\+Dataset (\begin{DoxyParamCaption}\item[{Connection}]{con,  }\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Creates a new \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset}{J\+D\+B\+C\+Pie\+Dataset}} using a pre-\/existing database connection. 
+
+The dataset is initialised with the supplied query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em con} & the database connection. \\
+\hline
+{\em query} & the database connection.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a40ab494ddaf4524fbcafafc0539fdcb5}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a40ab494ddaf4524fbcafafc0539fdcb5}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}!close@{close}}
+\index{close@{close}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Close the database connection \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a683c9d8a431081ae4a8b2941b1d17633}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_a683c9d8a431081ae4a8b2941b1d17633}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}!execute\+Query@{execute\+Query}}
+\index{execute\+Query@{execute\+Query}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{execute\+Query()}{executeQuery()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset.\+execute\+Query (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Execute\+Query will attempt execute the query passed to it against the existing database connection. If no connection exists then no action is taken. The results from the query are extracted and cached locally, thus applying an upper limit on how many rows can be retrieved successfully.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & the query to be executed.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_adce5416eb519021f1fdd956025abf8b6}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_pie_dataset_adce5416eb519021f1fdd956025abf8b6}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}!execute\+Query@{execute\+Query}}
+\index{execute\+Query@{execute\+Query}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+Pie\+Dataset}}
+\subsubsection{\texorpdfstring{execute\+Query()}{executeQuery()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+Pie\+Dataset.\+execute\+Query (\begin{DoxyParamCaption}\item[{Connection}]{con,  }\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Execute\+Query will attempt execute the query passed to it against the existing database connection. If no connection exists then no action is taken. The results from the query are extracted and cached locally, thus applying an upper limit on how many rows can be retrieved successfully.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & the query to be executed \\
+\hline
+{\em con} & the connection the query is to be executed against\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/jdbc/\mbox{\hyperlink{_j_d_b_c_pie_dataset_8java}{J\+D\+B\+C\+Pie\+Dataset.\+java}}\end{DoxyCompactItemize}

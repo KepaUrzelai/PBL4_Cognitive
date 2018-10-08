@@ -1,0 +1,67 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v}{}\section{org.\+jfree.\+data.\+io.\+C\+SV Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v}\index{org.\+jfree.\+data.\+io.\+C\+SV@{org.\+jfree.\+data.\+io.\+C\+SV}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_afb3dc5957d02a4e49d3d85dc014be8db}{C\+SV}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_aa08388aa9f6a362da9d67493c570eee3}{C\+SV}} (char field\+Delimiter, char text\+Delimiter)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_a752948180e1d597aa35f3473a2a1698f}{read\+Category\+Dataset}} (Reader in)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A utility class for reading \mbox{\hyperlink{}{Category\+Dataset}} data from a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v}{C\+SV}} file. This initial version is very basic, and won\textquotesingle{}t handle errors in the data file very gracefully. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_afb3dc5957d02a4e49d3d85dc014be8db}\label{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_afb3dc5957d02a4e49d3d85dc014be8db}} 
+\index{org\+::jfree\+::data\+::io\+::\+C\+SV@{org\+::jfree\+::data\+::io\+::\+C\+SV}!C\+SV@{C\+SV}}
+\index{C\+SV@{C\+SV}!org\+::jfree\+::data\+::io\+::\+C\+SV@{org\+::jfree\+::data\+::io\+::\+C\+SV}}
+\subsubsection{\texorpdfstring{C\+S\+V()}{CSV()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+io.\+C\+S\+V.\+C\+SV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v}{C\+SV}} reader where the field delimiter is a comma, and the text delimiter is a double-\/quote. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_aa08388aa9f6a362da9d67493c570eee3}\label{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_aa08388aa9f6a362da9d67493c570eee3}} 
+\index{org\+::jfree\+::data\+::io\+::\+C\+SV@{org\+::jfree\+::data\+::io\+::\+C\+SV}!C\+SV@{C\+SV}}
+\index{C\+SV@{C\+SV}!org\+::jfree\+::data\+::io\+::\+C\+SV@{org\+::jfree\+::data\+::io\+::\+C\+SV}}
+\subsubsection{\texorpdfstring{C\+S\+V()}{CSV()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+io.\+C\+S\+V.\+C\+SV (\begin{DoxyParamCaption}\item[{char}]{field\+Delimiter,  }\item[{char}]{text\+Delimiter }\end{DoxyParamCaption})}
+
+Creates a new reader with the specified field and text delimiters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+Delimiter} & the field delimiter (usually a comma, semi-\/colon, colon, tab or space). \\
+\hline
+{\em text\+Delimiter} & the text delimiter (usually a single or double quote). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_a752948180e1d597aa35f3473a2a1698f}\label{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v_a752948180e1d597aa35f3473a2a1698f}} 
+\index{org\+::jfree\+::data\+::io\+::\+C\+SV@{org\+::jfree\+::data\+::io\+::\+C\+SV}!read\+Category\+Dataset@{read\+Category\+Dataset}}
+\index{read\+Category\+Dataset@{read\+Category\+Dataset}!org\+::jfree\+::data\+::io\+::\+C\+SV@{org\+::jfree\+::data\+::io\+::\+C\+SV}}
+\subsubsection{\texorpdfstring{read\+Category\+Dataset()}{readCategoryDataset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1category_1_1_category_dataset}{Category\+Dataset}} org.\+jfree.\+data.\+io.\+C\+S\+V.\+read\+Category\+Dataset (\begin{DoxyParamCaption}\item[{Reader}]{in }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+Reads a \mbox{\hyperlink{}{Category\+Dataset}} from a \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1io_1_1_c_s_v}{C\+SV}} file or input source.
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & the input source.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A category dataset.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if there is an I/O problem. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/io/\mbox{\hyperlink{_c_s_v_8java}{C\+S\+V.\+java}}\end{DoxyCompactItemize}

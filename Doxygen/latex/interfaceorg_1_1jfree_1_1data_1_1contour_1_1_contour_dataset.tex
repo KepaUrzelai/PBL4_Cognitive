@@ -1,0 +1,191 @@
+\hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset}{}\section{org.\+jfree.\+data.\+contour.\+Contour\+Dataset Interface Reference}
+\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset}\index{org.\+jfree.\+data.\+contour.\+Contour\+Dataset@{org.\+jfree.\+data.\+contour.\+Contour\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+contour.\+Contour\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=7.000000cm]{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a27f848473fb6c0a89c91ea9101fe2698}{get\+Min\+Z\+Value}} ()
+\item 
+double \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a660230892a67782a7a63c9357121344b}{get\+Max\+Z\+Value}} ()
+\item 
+Number \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_ad7a2140d12c0543a8178c8aafc4b3475}{get\+X\+Values}} ()
+\item 
+Number \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a0faf9e126a0ff7c38e59c2f56cec0ee9}{get\+Y\+Values}} ()
+\item 
+Number \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a57f811c962e8b83f203485a177f4361f}{get\+Z\+Values}} ()
+\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_ae70cc41ec60ec5aea6aae21d9d868b1f}{indexX}} ()
+\item 
+int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a7f341ba05202db3970ec479b1ef1a999}{get\+X\+Indices}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a3a85edeb7c32dc8188b1d4fe945bb542}{get\+Z\+Value\+Range}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} x, \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} y)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a0a10481379170b70de9a32d422cc6cd3}{is\+Date\+Axis}} (int axis\+Number)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The interface through which J\+Free\+Chart obtains data in the form of (x, y, z) items -\/ used for XY and X\+YZ plots.
+
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000255}{Deprecated}}]This interface is no longer supported (as of version 1.\+0.\+4). If you are creating contour plots, please try to use \mbox{\hyperlink{}{X\+Y\+Plot}} and \mbox{\hyperlink{}{X\+Y\+Block\+Renderer}}. \end{DoxyRefDesc}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a660230892a67782a7a63c9357121344b}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a660230892a67782a7a63c9357121344b}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!get\+Max\+Z\+Value@{get\+Max\+Z\+Value}}
+\index{get\+Max\+Z\+Value@{get\+Max\+Z\+Value}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Max\+Z\+Value()}{getMaxZValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+get\+Max\+Z\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the largest Z data value.
+
+\begin{DoxyReturn}{Returns}
+The maximum Z value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a168e0cef5e2f7695f22b2af5f4808b57}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a27f848473fb6c0a89c91ea9101fe2698}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a27f848473fb6c0a89c91ea9101fe2698}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!get\+Min\+Z\+Value@{get\+Min\+Z\+Value}}
+\index{get\+Min\+Z\+Value@{get\+Min\+Z\+Value}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Min\+Z\+Value()}{getMinZValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+get\+Min\+Z\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the smallest Z data value.
+
+\begin{DoxyReturn}{Returns}
+The minimum Z value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_aab57c6d1cdd13d5574e3fd0170fce307}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a7f341ba05202db3970ec479b1ef1a999}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a7f341ba05202db3970ec479b1ef1a999}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!get\+X\+Indices@{get\+X\+Indices}}
+\index{get\+X\+Indices@{get\+X\+Indices}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X\+Indices()}{getXIndices()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+get\+X\+Indices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the index of the xvalues.
+
+\begin{DoxyReturn}{Returns}
+The x values. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a69fe875df187cabb1860f0ed79934d85}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_ad7a2140d12c0543a8178c8aafc4b3475}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_ad7a2140d12c0543a8178c8aafc4b3475}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!get\+X\+Values@{get\+X\+Values}}
+\index{get\+X\+Values@{get\+X\+Values}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X\+Values()}{getXValues()}}
+{\footnotesize\ttfamily Number \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+get\+X\+Values (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the array of Numbers representing the x data values.
+
+\begin{DoxyReturn}{Returns}
+The array of x values. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a8a4966b63f2a288bf72c93d8c00341b7}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a0faf9e126a0ff7c38e59c2f56cec0ee9}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a0faf9e126a0ff7c38e59c2f56cec0ee9}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!get\+Y\+Values@{get\+Y\+Values}}
+\index{get\+Y\+Values@{get\+Y\+Values}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y\+Values()}{getYValues()}}
+{\footnotesize\ttfamily Number \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+get\+Y\+Values (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the array of Numbers representing the y data values.
+
+\begin{DoxyReturn}{Returns}
+The array of y values. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a0f3d5f992c8fdb948d8d07d5d4058ef9}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a3a85edeb7c32dc8188b1d4fe945bb542}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a3a85edeb7c32dc8188b1d4fe945bb542}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!get\+Z\+Value\+Range@{get\+Z\+Value\+Range}}
+\index{get\+Z\+Value\+Range@{get\+Z\+Value\+Range}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Z\+Value\+Range()}{getZValueRange()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+get\+Z\+Value\+Range (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{x,  }\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}}}]{y }\end{DoxyParamCaption})}
+
+Returns the maximum z-\/value within visible region of plot.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/value. \\
+\hline
+{\em y} & the y-\/value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The maximum z-\/value. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_a516b578d400a06e81eb12e13c2146e59}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a57f811c962e8b83f203485a177f4361f}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a57f811c962e8b83f203485a177f4361f}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!get\+Z\+Values@{get\+Z\+Values}}
+\index{get\+Z\+Values@{get\+Z\+Values}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Z\+Values()}{getZValues()}}
+{\footnotesize\ttfamily Number \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+get\+Z\+Values (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the array of Numbers representing the z data values.
+
+\begin{DoxyReturn}{Returns}
+The array of z values. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_aeab7352c99dfe7e6ebff00064e8d7ce0}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_ae70cc41ec60ec5aea6aae21d9d868b1f}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_ae70cc41ec60ec5aea6aae21d9d868b1f}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!indexX@{indexX}}
+\index{indexX@{indexX}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{index\+X()}{indexX()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+indexX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns an int array contain the index into the x values.
+
+\begin{DoxyReturn}{Returns}
+The X values. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_ad34ac76cd3de6d536cd7581702c4a2d6}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a0a10481379170b70de9a32d422cc6cd3}\label{interfaceorg_1_1jfree_1_1data_1_1contour_1_1_contour_dataset_a0a10481379170b70de9a32d422cc6cd3}} 
+\index{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}!is\+Date\+Axis@{is\+Date\+Axis}}
+\index{is\+Date\+Axis@{is\+Date\+Axis}!org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset@{org\+::jfree\+::data\+::contour\+::\+Contour\+Dataset}}
+\subsubsection{\texorpdfstring{is\+Date\+Axis()}{isDateAxis()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+contour.\+Contour\+Dataset.\+is\+Date\+Axis (\begin{DoxyParamCaption}\item[{int}]{axis\+Number }\end{DoxyParamCaption})}
+
+Returns true if axis are dates.
+
+
+\begin{DoxyParams}{Parameters}
+{\em axis\+Number} & the axis where 0-\/x, 1-\/y, and 2-\/z.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} or {\ttfamily false}. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1contour_1_1_default_contour_dataset_ad9fe2cd6959003ca651206b20e19c70d}{org.\+jfree.\+data.\+contour.\+Default\+Contour\+Dataset}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/contour/\mbox{\hyperlink{_contour_dataset_8java}{Contour\+Dataset.\+java}}\end{DoxyCompactItemize}

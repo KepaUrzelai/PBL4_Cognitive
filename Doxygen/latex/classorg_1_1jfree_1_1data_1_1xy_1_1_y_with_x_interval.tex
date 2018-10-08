@@ -1,0 +1,106 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval}{}\section{org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval}\index{org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval@{org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_af1971d0f1919e8c19dcd6735960e72ab}{Y\+With\+X\+Interval}} (double y, double x\+Low, double x\+High)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a02cb7fa3c59c125eb937d2d76ca1ad49}{getY}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_af30ba169f4a9543716540d1cde171fc1}{get\+X\+Low}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a3e0afb19bd6871d133b25483bcf60ae9}{get\+X\+High}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a31f3a0e15fe555d24ad7d27ac8425f28}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A y-\/value plus the bounds for the related x-\/interval. This curious combination exists as an implementation detail, to fit into the structure of the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_series}{Comparable\+Object\+Series}} class. It would have been possible to simply reuse the \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_interval}{Y\+Interval}} class by assuming that the y-\/interval in fact represents the x-\/interval, however I decided it was better to duplicate some code in order to document the real intent.
+
+\begin{DoxySince}{Since}
+1.\+0.\+3 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_af1971d0f1919e8c19dcd6735960e72ab}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_af1971d0f1919e8c19dcd6735960e72ab}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}!Y\+With\+X\+Interval@{Y\+With\+X\+Interval}}
+\index{Y\+With\+X\+Interval@{Y\+With\+X\+Interval}!org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}}
+\subsubsection{\texorpdfstring{Y\+With\+X\+Interval()}{YWithXInterval()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval.\+Y\+With\+X\+Interval (\begin{DoxyParamCaption}\item[{double}]{y,  }\item[{double}]{x\+Low,  }\item[{double}]{x\+High }\end{DoxyParamCaption})}
+
+Creates a new instance of {\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval}{Y\+With\+X\+Interval}}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & the y-\/value. \\
+\hline
+{\em x\+Low} & the lower bound of the x-\/interval. \\
+\hline
+{\em x\+High} & the upper bound of the x-\/interval. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a31f3a0e15fe555d24ad7d27ac8425f28}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a31f3a0e15fe555d24ad7d27ac8425f28}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests this instance for equality with an arbitrary object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the object ({\ttfamily null} permitted).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a3e0afb19bd6871d133b25483bcf60ae9}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a3e0afb19bd6871d133b25483bcf60ae9}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}!get\+X\+High@{get\+X\+High}}
+\index{get\+X\+High@{get\+X\+High}!org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}}
+\subsubsection{\texorpdfstring{get\+X\+High()}{getXHigh()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval.\+get\+X\+High (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the upper bound of the x-\/interval.
+
+\begin{DoxyReturn}{Returns}
+The upper bound of the x-\/interval. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_af30ba169f4a9543716540d1cde171fc1}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_af30ba169f4a9543716540d1cde171fc1}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}!get\+X\+Low@{get\+X\+Low}}
+\index{get\+X\+Low@{get\+X\+Low}!org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}}
+\subsubsection{\texorpdfstring{get\+X\+Low()}{getXLow()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval.\+get\+X\+Low (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the lower bound of the x-\/interval.
+
+\begin{DoxyReturn}{Returns}
+The lower bound of the x-\/interval. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a02cb7fa3c59c125eb937d2d76ca1ad49}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_y_with_x_interval_a02cb7fa3c59c125eb937d2d76ca1ad49}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval@{org\+::jfree\+::data\+::xy\+::\+Y\+With\+X\+Interval}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Y\+With\+X\+Interval.\+getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the y-\/value.
+
+\begin{DoxyReturn}{Returns}
+The y-\/value. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_y_with_x_interval_8java}{Y\+With\+X\+Interval.\+java}}\end{DoxyCompactItemize}

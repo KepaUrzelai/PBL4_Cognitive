@@ -1,0 +1,161 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator}{}\section{org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator}\index{org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+Inheritance diagram for org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.933333cm]{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a20c8932136837ebe68e2eb75556e61f1}{Custom\+X\+Y\+Tool\+Tip\+Generator}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a377063f4d62b754322b4e324b1efe815}{get\+List\+Count}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a35bb0a71d0a90af255ef5378246673cf}{get\+Tool\+Tip\+Count}} (int list)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_aa12add02fc717cd599401eb5d9413eb8}{get\+Tool\+Tip\+Text}} (int series, int item)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a1497c4c7c989f057526f8b0dc9a5b211}{add\+Tool\+Tip\+Series}} (List tool\+Tips)
+\item 
+String \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a40d4ed5ea25d06dcb879e6bd37b44bf9}{generate\+Tool\+Tip}} (\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}} data, int series, int item)
+\item 
+Object \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a986598b3ee670575238da07b5cd1f9da}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a864822e9155e7c9aba85e9f4ec305570}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A tool tip generator that stores custom tooltips. The dataset passed into the generate\+Tool\+Tip method is ignored. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a20c8932136837ebe68e2eb75556e61f1}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a20c8932136837ebe68e2eb75556e61f1}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}!Custom\+X\+Y\+Tool\+Tip\+Generator@{Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\index{Custom\+X\+Y\+Tool\+Tip\+Generator@{Custom\+X\+Y\+Tool\+Tip\+Generator}!org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{Custom\+X\+Y\+Tool\+Tip\+Generator()}{CustomXYToolTipGenerator()}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator.\+Custom\+X\+Y\+Tool\+Tip\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a1497c4c7c989f057526f8b0dc9a5b211}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a1497c4c7c989f057526f8b0dc9a5b211}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}!add\+Tool\+Tip\+Series@{add\+Tool\+Tip\+Series}}
+\index{add\+Tool\+Tip\+Series@{add\+Tool\+Tip\+Series}!org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{add\+Tool\+Tip\+Series()}{addToolTipSeries()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator.\+add\+Tool\+Tip\+Series (\begin{DoxyParamCaption}\item[{List}]{tool\+Tips }\end{DoxyParamCaption})}
+
+Adds a list of tooltips for a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em tool\+Tips} & the list of tool tips. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a986598b3ee670575238da07b5cd1f9da}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a986598b3ee670575238da07b5cd1f9da}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}!clone@{clone}}
+\index{clone@{clone}!org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+Returns an independent copy of the generator.
+
+\begin{DoxyReturn}{Returns}
+A clone.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Clone\+Not\+Supported\+Exception} & if cloning is not supported. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a864822e9155e7c9aba85e9f4ec305570}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a864822e9155e7c9aba85e9f4ec305570}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}!equals@{equals}}
+\index{equals@{equals}!org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})}
+
+Tests if this object is equal to another.
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & the other object.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a40d4ed5ea25d06dcb879e6bd37b44bf9}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a40d4ed5ea25d06dcb879e6bd37b44bf9}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}!generate\+Tool\+Tip@{generate\+Tool\+Tip}}
+\index{generate\+Tool\+Tip@{generate\+Tool\+Tip}!org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{generate\+Tool\+Tip()}{generateToolTip()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator.\+generate\+Tool\+Tip (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset}{X\+Y\+Dataset}}}]{data,  }\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Generates a tool tip text item for a particular item within a series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the dataset (ignored in this implementation). \\
+\hline
+{\em series} & the series (zero-\/based index). \\
+\hline
+{\em item} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The tooltip text. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1chart_1_1labels_1_1_x_y_tool_tip_generator_a310de5269e50370adaa416bf897c24c5}{org.\+jfree.\+chart.\+labels.\+X\+Y\+Tool\+Tip\+Generator}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a377063f4d62b754322b4e324b1efe815}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a377063f4d62b754322b4e324b1efe815}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}!get\+List\+Count@{get\+List\+Count}}
+\index{get\+List\+Count@{get\+List\+Count}!org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{get\+List\+Count()}{getListCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator.\+get\+List\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of tool tip lists stored by the renderer.
+
+\begin{DoxyReturn}{Returns}
+The list count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a35bb0a71d0a90af255ef5378246673cf}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_a35bb0a71d0a90af255ef5378246673cf}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}!get\+Tool\+Tip\+Count@{get\+Tool\+Tip\+Count}}
+\index{get\+Tool\+Tip\+Count@{get\+Tool\+Tip\+Count}!org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{get\+Tool\+Tip\+Count()}{getToolTipCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator.\+get\+Tool\+Tip\+Count (\begin{DoxyParamCaption}\item[{int}]{list }\end{DoxyParamCaption})}
+
+Returns the number of tool tips in a given list.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & the list index (zero based).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The tooltip count. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_aa12add02fc717cd599401eb5d9413eb8}\label{classorg_1_1jfree_1_1chart_1_1labels_1_1_custom_x_y_tool_tip_generator_aa12add02fc717cd599401eb5d9413eb8}} 
+\index{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}!get\+Tool\+Tip\+Text@{get\+Tool\+Tip\+Text}}
+\index{get\+Tool\+Tip\+Text@{get\+Tool\+Tip\+Text}!org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator@{org\+::jfree\+::chart\+::labels\+::\+Custom\+X\+Y\+Tool\+Tip\+Generator}}
+\subsubsection{\texorpdfstring{get\+Tool\+Tip\+Text()}{getToolTipText()}}
+{\footnotesize\ttfamily String org.\+jfree.\+chart.\+labels.\+Custom\+X\+Y\+Tool\+Tip\+Generator.\+get\+Tool\+Tip\+Text (\begin{DoxyParamCaption}\item[{int}]{series,  }\item[{int}]{item }\end{DoxyParamCaption})}
+
+Returns the tool tip text for an item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series} & the series index. \\
+\hline
+{\em item} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The tool tip text. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/labels/\mbox{\hyperlink{_custom_x_y_tool_tip_generator_8java}{Custom\+X\+Y\+Tool\+Tip\+Generator.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,427 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset}{}\section{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset}\index{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset@{org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset}}
+Inheritance diagram for org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.823362cm]{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aab04c16cba109af1bbb2160a51f88297}{J\+D\+B\+C\+X\+Y\+Dataset}} (String url, String driver\+Name, String user, String password)  throws S\+Q\+L\+Exception, Class\+Not\+Found\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a1cc8d49ea39aa015b03e24b97816a506}{J\+D\+B\+C\+X\+Y\+Dataset}} (Connection con)  throws S\+Q\+L\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_afdd30de451cb1515ccb314be5516eb96}{J\+D\+B\+C\+X\+Y\+Dataset}} (Connection con, String query)  throws S\+Q\+L\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_adf1a30b0b84fc082de0a9b922cbbc47b}{is\+Time\+Series}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ab1499d012261ebffb4b5cae1923d881a}{set\+Time\+Series}} (boolean time\+Series)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ab027debfa7099261834007c4371c9cc3}{execute\+Query}} (String query)  throws S\+Q\+L\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a20e6b9e145babdee661ece7acd451ec1}{execute\+Query}} (Connection con, String query)  throws S\+Q\+L\+Exception 
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ae8e467b524a18e629f7777a5cd54e349}{getX}} (int series\+Index, int item\+Index)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a82d15ff790d019c18338037925dc8685}{getY}} (int series\+Index, int item\+Index)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aab2e36e1765d6e8e80f41faa233fcdfb}{get\+Item\+Count}} (int series\+Index)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aa347adfad669f076de8dbb6793441f15}{get\+Item\+Count}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a4950f410e03cd36228f997986cc90423}{get\+Series\+Count}} ()
+\item 
+Comparable \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a9e0357ec22ce7eeff36ff12c6cfd4d00}{get\+Series\+Key}} (int series\+Index)
+\item 
+int \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ac31e8c503020d258f3d393bcfa739216}{get\+Legend\+Item\+Count}} ()
+\item 
+String \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a19141198ff30e4c4e77e1c66c597d936}{get\+Legend\+Item\+Labels}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_af14d34fcc16829d00dc1cae5eb03dfd9}{close}} ()
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a8e50c93deb6df3331819894de3128a64}{get\+Range\+Lower\+Bound}} (boolean include\+Interval)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a65026164f00394b483b43d73c8313ade}{get\+Range\+Upper\+Bound}} (boolean include\+Interval)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ae0f62e6428726eda9b6d9736c11ac5c6}{get\+Range\+Bounds}} (boolean include\+Interval)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class provides an \mbox{\hyperlink{}{X\+Y\+Dataset}} implementation over a database J\+D\+BC result set. The dataset is populated via a call to execute\+Query with the string sql query. The sql query must return at least two columns. The first column will be the x-\/axis and remaining columns y-\/axis values. execute\+Query can be called a number of times.
+
+The database connection is read-\/only and no write back facility exists. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aab04c16cba109af1bbb2160a51f88297}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aab04c16cba109af1bbb2160a51f88297}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!J\+D\+B\+C\+X\+Y\+Dataset@{J\+D\+B\+C\+X\+Y\+Dataset}}
+\index{J\+D\+B\+C\+X\+Y\+Dataset@{J\+D\+B\+C\+X\+Y\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+X\+Y\+Dataset()}{JDBCXYDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+J\+D\+B\+C\+X\+Y\+Dataset (\begin{DoxyParamCaption}\item[{String}]{url,  }\item[{String}]{driver\+Name,  }\item[{String}]{user,  }\item[{String}]{password }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception, Class\+Not\+Found\+Exception}
+
+Creates a new dataset (initially empty) and establishes a new database connection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & U\+RL of the database connection. \\
+\hline
+{\em driver\+Name} & the database driver class name. \\
+\hline
+{\em user} & the database user. \\
+\hline
+{\em password} & the database user\textquotesingle{}s password.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Class\+Not\+Found\+Exception} & if the driver cannot be found. \\
+\hline
+{\em S\+Q\+L\+Exception} & if there is a problem connecting to the database. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a1cc8d49ea39aa015b03e24b97816a506}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a1cc8d49ea39aa015b03e24b97816a506}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!J\+D\+B\+C\+X\+Y\+Dataset@{J\+D\+B\+C\+X\+Y\+Dataset}}
+\index{J\+D\+B\+C\+X\+Y\+Dataset@{J\+D\+B\+C\+X\+Y\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+X\+Y\+Dataset()}{JDBCXYDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+J\+D\+B\+C\+X\+Y\+Dataset (\begin{DoxyParamCaption}\item[{Connection}]{con }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Creates a new dataset (initially empty) using the specified database connection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em con} & the database connection.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem connecting to the database. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_afdd30de451cb1515ccb314be5516eb96}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_afdd30de451cb1515ccb314be5516eb96}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!J\+D\+B\+C\+X\+Y\+Dataset@{J\+D\+B\+C\+X\+Y\+Dataset}}
+\index{J\+D\+B\+C\+X\+Y\+Dataset@{J\+D\+B\+C\+X\+Y\+Dataset}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{J\+D\+B\+C\+X\+Y\+Dataset()}{JDBCXYDataset()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+J\+D\+B\+C\+X\+Y\+Dataset (\begin{DoxyParamCaption}\item[{Connection}]{con,  }\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Creates a new dataset using the specified database connection, and populates it using data obtained with the supplied query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em con} & the connection. \\
+\hline
+{\em query} & the S\+QL query.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_af14d34fcc16829d00dc1cae5eb03dfd9}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_af14d34fcc16829d00dc1cae5eb03dfd9}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!close@{close}}
+\index{close@{close}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Close the database connection \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ab027debfa7099261834007c4371c9cc3}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ab027debfa7099261834007c4371c9cc3}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!execute\+Query@{execute\+Query}}
+\index{execute\+Query@{execute\+Query}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{execute\+Query()}{executeQuery()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+execute\+Query (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Execute\+Query will attempt execute the query passed to it against the existing database connection. If no connection exists then no action is taken.
+
+The results from the query are extracted and cached locally, thus applying an upper limit on how many rows can be retrieved successfully.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & the query to be executed.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a20e6b9e145babdee661ece7acd451ec1}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a20e6b9e145babdee661ece7acd451ec1}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!execute\+Query@{execute\+Query}}
+\index{execute\+Query@{execute\+Query}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{execute\+Query()}{executeQuery()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+execute\+Query (\begin{DoxyParamCaption}\item[{Connection}]{con,  }\item[{String}]{query }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception}
+
+Execute\+Query will attempt execute the query passed to it against the provided database connection. If connection is null then no action is taken.
+
+The results from the query are extracted and cached locally, thus applying an upper limit on how many rows can be retrieved successfully.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & the query to be executed. \\
+\hline
+{\em con} & the connection the query is to be executed against.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em S\+Q\+L\+Exception} & if there is a problem executing the query. \\
+\hline
+\end{DoxyExceptions}
+First column is X data
+
+Get the column names and cache them.
+
+a kludge to make everything work when no rows returned
+
+Determine max and min values. \mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aab2e36e1765d6e8e80f41faa233fcdfb}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aab2e36e1765d6e8e80f41faa233fcdfb}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Item\+Count (\begin{DoxyParamCaption}\item[{int}]{series\+Index }\end{DoxyParamCaption})}
+
+Returns the number of items in the specified series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Index} & the series (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item\+Count value
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+X\+Y\+Dataset 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_ae81f9de91dfcae45028fc8a486a119da}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aa347adfad669f076de8dbb6793441f15}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_aa347adfad669f076de8dbb6793441f15}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Item\+Count@{get\+Item\+Count}}
+\index{get\+Item\+Count@{get\+Item\+Count}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Item\+Count()}{getItemCount()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of items in all series. This method is defined by the \mbox{\hyperlink{}{Table\+X\+Y\+Dataset}} interface.
+
+\begin{DoxyReturn}{Returns}
+The item count. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_table_x_y_dataset_ad9cd378be982c1d61cfb93a16370b6f0}{org.\+jfree.\+data.\+xy.\+Table\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ac31e8c503020d258f3d393bcfa739216}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ac31e8c503020d258f3d393bcfa739216}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Legend\+Item\+Count@{get\+Legend\+Item\+Count}}
+\index{get\+Legend\+Item\+Count@{get\+Legend\+Item\+Count}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Legend\+Item\+Count()}{getLegendItemCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Legend\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of items that should be displayed in the legend.
+
+\begin{DoxyReturn}{Returns}
+The legend\+Item\+Count value
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000263}{Deprecated}}]This method is not used in J\+Free\+Chart 1.\+0.\+x (it was left in the A\+PI by mistake and is officially deprecated from version 1.\+0.\+3 onwards). \end{DoxyRefDesc}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a19141198ff30e4c4e77e1c66c597d936}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a19141198ff30e4c4e77e1c66c597d936}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Legend\+Item\+Labels@{get\+Legend\+Item\+Labels}}
+\index{get\+Legend\+Item\+Labels@{get\+Legend\+Item\+Labels}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Legend\+Item\+Labels()}{getLegendItemLabels()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Legend\+Item\+Labels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the legend item labels.
+
+\begin{DoxyReturn}{Returns}
+The legend item labels.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000264}{Deprecated}}]This method is not used in J\+Free\+Chart 1.\+0.\+x (it was left in the A\+PI by mistake and is officially deprecated from version 1.\+0.\+3 onwards). \end{DoxyRefDesc}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ae0f62e6428726eda9b6d9736c11ac5c6}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ae0f62e6428726eda9b6d9736c11ac5c6}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Range\+Bounds@{get\+Range\+Bounds}}
+\index{get\+Range\+Bounds@{get\+Range\+Bounds}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Range\+Bounds()}{getRangeBounds()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_range}{Range}} org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Range\+Bounds (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the range of the values in this dataset\textquotesingle{}s range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The range. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_a2752094d868839b5565131a5bdd8e75e}{org.\+jfree.\+data.\+Range\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a8e50c93deb6df3331819894de3128a64}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a8e50c93deb6df3331819894de3128a64}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Range\+Lower\+Bound@{get\+Range\+Lower\+Bound}}
+\index{get\+Range\+Lower\+Bound@{get\+Range\+Lower\+Bound}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Range\+Lower\+Bound()}{getRangeLowerBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Range\+Lower\+Bound (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the minimum y-\/value in the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The minimum value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_ab0187015bbe75ca00a62a71de72c1a1d}{org.\+jfree.\+data.\+Range\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a65026164f00394b483b43d73c8313ade}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a65026164f00394b483b43d73c8313ade}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Range\+Upper\+Bound@{get\+Range\+Upper\+Bound}}
+\index{get\+Range\+Upper\+Bound@{get\+Range\+Upper\+Bound}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Range\+Upper\+Bound()}{getRangeUpperBound()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Range\+Upper\+Bound (\begin{DoxyParamCaption}\item[{boolean}]{include\+Interval }\end{DoxyParamCaption})}
+
+Returns the maximum y-\/value in the dataset.
+
+
+\begin{DoxyParams}{Parameters}
+{\em include\+Interval} & a flag that determines whether or not the y-\/interval is taken into account.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The maximum value. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1_range_info_a85987bb398c50351d190b2b888ff3348}{org.\+jfree.\+data.\+Range\+Info}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a4950f410e03cd36228f997986cc90423}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a4950f410e03cd36228f997986cc90423}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Series\+Count@{get\+Series\+Count}}
+\index{get\+Series\+Count@{get\+Series\+Count}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Count()}{getSeriesCount()}}
+{\footnotesize\ttfamily int org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Series\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the number of series in the dataset.
+
+\begin{DoxyReturn}{Returns}
+The series\+Count value
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+X\+Y\+Dataset 
+
+Dataset 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a84fe822f5918f941d9de1ed1b73c9f58}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a9e0357ec22ce7eeff36ff12c6cfd4d00}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a9e0357ec22ce7eeff36ff12c6cfd4d00}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!get\+Series\+Key@{get\+Series\+Key}}
+\index{get\+Series\+Key@{get\+Series\+Key}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Series\+Key()}{getSeriesKey()}}
+{\footnotesize\ttfamily Comparable org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+get\+Series\+Key (\begin{DoxyParamCaption}\item[{int}]{series\+Index }\end{DoxyParamCaption})}
+
+Returns the key for the specified series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Index} & the series (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The series\+Name value
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+X\+Y\+Dataset 
+
+Dataset 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1general_1_1_series_dataset_a60488892b2314a05a012999e26a74178}{org.\+jfree.\+data.\+general.\+Series\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ae8e467b524a18e629f7777a5cd54e349}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ae8e467b524a18e629f7777a5cd54e349}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!getX@{getX}}
+\index{getX@{getX}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+getX (\begin{DoxyParamCaption}\item[{int}]{series\+Index,  }\item[{int}]{item\+Index }\end{DoxyParamCaption})}
+
+Returns the x-\/value for the specified series and item. The implementation is responsible for ensuring that the x-\/values are presented in ascending order.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Index} & the series (zero-\/based index). \\
+\hline
+{\em item\+Index} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+X\+Y\+Dataset 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_a85c75ba5b69b551e96afd29d1732ba22}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a82d15ff790d019c18338037925dc8685}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_a82d15ff790d019c18338037925dc8685}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!getY@{getY}}
+\index{getY@{getY}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+getY (\begin{DoxyParamCaption}\item[{int}]{series\+Index,  }\item[{int}]{item\+Index }\end{DoxyParamCaption})}
+
+Returns the y-\/value for the specified series and item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em series\+Index} & the series (zero-\/based index). \\
+\hline
+{\em item\+Index} & the item (zero-\/based index).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y\+Value value
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+X\+Y\+Dataset 
+\end{DoxySeeAlso}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jfree_1_1data_1_1xy_1_1_x_y_dataset_aa915867221e0f94021bad3140db5254e}{org.\+jfree.\+data.\+xy.\+X\+Y\+Dataset}}.
+
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_adf1a30b0b84fc082de0a9b922cbbc47b}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_adf1a30b0b84fc082de0a9b922cbbc47b}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!is\+Time\+Series@{is\+Time\+Series}}
+\index{is\+Time\+Series@{is\+Time\+Series}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{is\+Time\+Series()}{isTimeSeries()}}
+{\footnotesize\ttfamily boolean org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+is\+Time\+Series (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns {\ttfamily true} if the dataset represents time series data, and {\ttfamily false} otherwise.
+
+\begin{DoxyReturn}{Returns}
+A boolean. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ab1499d012261ebffb4b5cae1923d881a}\label{classorg_1_1jfree_1_1data_1_1jdbc_1_1_j_d_b_c_x_y_dataset_ab1499d012261ebffb4b5cae1923d881a}} 
+\index{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}!set\+Time\+Series@{set\+Time\+Series}}
+\index{set\+Time\+Series@{set\+Time\+Series}!org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset@{org\+::jfree\+::data\+::jdbc\+::\+J\+D\+B\+C\+X\+Y\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Time\+Series()}{setTimeSeries()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+jdbc.\+J\+D\+B\+C\+X\+Y\+Dataset.\+set\+Time\+Series (\begin{DoxyParamCaption}\item[{boolean}]{time\+Series }\end{DoxyParamCaption})}
+
+Sets a flag that indicates whether or not the data represents a time series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em time\+Series} & the new value of the flag. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/jdbc/\mbox{\hyperlink{_j_d_b_c_x_y_dataset_8java}{J\+D\+B\+C\+X\+Y\+Dataset.\+java}}\end{DoxyCompactItemize}

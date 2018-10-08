@@ -1,0 +1,144 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series}{}\section{org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series}\index{org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series@{org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.962963cm]{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a810e10876f0478ec31b689c161039ea7}{Normalized\+Matrix\+Series}} (String name, int rows, int columns)
+\item 
+Number \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a852cbf8ee5661aeff789ad881f1dfc0b}{get\+Item}} (int item\+Index)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_acf250534ea1cda57df4cafd7fed86529}{set\+Scale\+Factor}} (double factor)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_aa2b37e1c9b471985728aeb8c0ba48b1a}{get\+Scale\+Factor}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_aaac2eb4602491630c87f728fb6480cfe}{update}} (int i, int j, double mij)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a5c6c19241454aaf2d536a2f581b48edf}{zero\+All}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_ad4891de503293749cbd2410a7e3c7bec}{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+C\+A\+L\+E\+\_\+\+F\+A\+C\+T\+OR}} = 1.\+0
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Represents a dense normalized matrix M\mbox{[}i,j\mbox{]} where each Mij item of the matrix has a value (default is 0). When a matrix item is observed using {\ttfamily get\+Item} method, it is normalized, that is, divided by the total sum of all items. It can be also be scaled by setting a scale factor. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a810e10876f0478ec31b689c161039ea7}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a810e10876f0478ec31b689c161039ea7}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}!Normalized\+Matrix\+Series@{Normalized\+Matrix\+Series}}
+\index{Normalized\+Matrix\+Series@{Normalized\+Matrix\+Series}!org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{Normalized\+Matrix\+Series()}{NormalizedMatrixSeries()}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series.\+Normalized\+Matrix\+Series (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{int}]{rows,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+Constructor for \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series}{Normalized\+Matrix\+Series}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the series name. \\
+\hline
+{\em rows} & the number of rows. \\
+\hline
+{\em columns} & the number of columns. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a852cbf8ee5661aeff789ad881f1dfc0b}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a852cbf8ee5661aeff789ad881f1dfc0b}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}!get\+Item@{get\+Item}}
+\index{get\+Item@{get\+Item}!org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get\+Item()}{getItem()}}
+{\footnotesize\ttfamily Number org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series.\+get\+Item (\begin{DoxyParamCaption}\item[{int}]{item\+Index }\end{DoxyParamCaption})}
+
+Returns an item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Index} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_ad77ed9610997bea1f37b95a3ecaf238a}{org.\+jfree.\+data.\+xy.\+Matrix\+Series\+::get\+Item(int)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_aa2b37e1c9b471985728aeb8c0ba48b1a}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_aa2b37e1c9b471985728aeb8c0ba48b1a}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}!get\+Scale\+Factor@{get\+Scale\+Factor}}
+\index{get\+Scale\+Factor@{get\+Scale\+Factor}!org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{get\+Scale\+Factor()}{getScaleFactor()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series.\+get\+Scale\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the factor that multiplies each item in this series when observed using get\+Item mehtod.
+
+\begin{DoxyReturn}{Returns}
+The factor 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_acf250534ea1cda57df4cafd7fed86529}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_acf250534ea1cda57df4cafd7fed86529}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}!set\+Scale\+Factor@{set\+Scale\+Factor}}
+\index{set\+Scale\+Factor@{set\+Scale\+Factor}!org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{set\+Scale\+Factor()}{setScaleFactor()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series.\+set\+Scale\+Factor (\begin{DoxyParamCaption}\item[{double}]{factor }\end{DoxyParamCaption})}
+
+Sets the factor that multiplies each item in this series when observed using get\+Item mehtod.
+
+
+\begin{DoxyParams}{Parameters}
+{\em factor} & new factor to set.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_ad4891de503293749cbd2410a7e3c7bec}{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+C\+A\+L\+E\+\_\+\+F\+A\+C\+T\+OR}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_aaac2eb4602491630c87f728fb6480cfe}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_aaac2eb4602491630c87f728fb6480cfe}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}!update@{update}}
+\index{update@{update}!org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series.\+update (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j,  }\item[{double}]{mij }\end{DoxyParamCaption})}
+
+Updates the value of the specified item in this matrix series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & the row of the item. \\
+\hline
+{\em j} & the column of the item. \\
+\hline
+{\em mij} & the new value for the item.\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a673ce1dc727458893120d67ed4e7a35c}{get(int, int)}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a5c6c19241454aaf2d536a2f581b48edf}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_a5c6c19241454aaf2d536a2f581b48edf}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}!zero\+All@{zero\+All}}
+\index{zero\+All@{zero\+All}!org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{zero\+All()}{zeroAll()}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series.\+zero\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_matrix_series_a4a6f83a4d9d6f2cf143fc47ee83b3e5d}{org.\+jfree.\+data.\+xy.\+Matrix\+Series\+::zero\+All()}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_ad4891de503293749cbd2410a7e3c7bec}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_normalized_matrix_series_ad4891de503293749cbd2410a7e3c7bec}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}!D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+C\+A\+L\+E\+\_\+\+F\+A\+C\+T\+OR@{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+C\+A\+L\+E\+\_\+\+F\+A\+C\+T\+OR}}
+\index{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+C\+A\+L\+E\+\_\+\+F\+A\+C\+T\+OR@{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+C\+A\+L\+E\+\_\+\+F\+A\+C\+T\+OR}!org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series@{org\+::jfree\+::data\+::xy\+::\+Normalized\+Matrix\+Series}}
+\subsubsection{\texorpdfstring{D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+C\+A\+L\+E\+\_\+\+F\+A\+C\+T\+OR}{DEFAULT\_SCALE\_FACTOR}}
+{\footnotesize\ttfamily final double org.\+jfree.\+data.\+xy.\+Normalized\+Matrix\+Series.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+S\+C\+A\+L\+E\+\_\+\+F\+A\+C\+T\+OR = 1.\+0\hspace{0.3cm}{\ttfamily [static]}}
+
+The default scale factor. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_normalized_matrix_series_8java}{Normalized\+Matrix\+Series.\+java}}\end{DoxyCompactItemize}

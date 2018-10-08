@@ -1,0 +1,203 @@
+\hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state}{}\section{org.\+jfree.\+chart.\+axis.\+Axis\+State Class Reference}
+\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state}\index{org.\+jfree.\+chart.\+axis.\+Axis\+State@{org.\+jfree.\+chart.\+axis.\+Axis\+State}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a6209c8f3a5eb8e3d5f03f82c5fec590d}{Axis\+State}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a58e9c4ba6dd03ebcb78610200d698c7b}{Axis\+State}} (double cursor)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9b1c08f289777a1c1a5cd9d19a9f3fe0}{get\+Cursor}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_af1d224e02daffe44cdcff3fd523eae1a}{set\+Cursor}} (double cursor)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_ad387081c8a498a4c9d902583b7b5a78e}{move\+Cursor}} (double units, Rectangle\+Edge edge)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a5b629c585329fc3aeabffae4c1f37ee7}{cursor\+Up}} (double units)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a14de2e0448bc1203b659d151ba70d5bc}{cursor\+Down}} (double units)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a0a9bc509537e54f098fc68837e0321d2}{cursor\+Left}} (double units)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a3f4fd674f0ad48f77c2e3536c63c0b18}{cursor\+Right}} (double units)
+\item 
+List \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9aed4586cd53387cf5cee9f74eff1f9d}{get\+Ticks}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a54715140c40902a1e95a29f186752d60}{set\+Ticks}} (List ticks)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9c28d84a2d9e968a37f570a04b0c4af6}{get\+Max}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a700c56fd13000708b5d80eb595634235}{set\+Max}} (double max)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Instances of this class are used to carry state information for an axis during the drawing process. By retaining this information in a separate object, it is possible for multiple threads to draw the same axis to different output targets (each drawing will maintain separate state information). 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a6209c8f3a5eb8e3d5f03f82c5fec590d}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a6209c8f3a5eb8e3d5f03f82c5fec590d}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!Axis\+State@{Axis\+State}}
+\index{Axis\+State@{Axis\+State}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{Axis\+State()}{AxisState()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Axis\+State.\+Axis\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creates a new axis state. \mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a58e9c4ba6dd03ebcb78610200d698c7b}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a58e9c4ba6dd03ebcb78610200d698c7b}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!Axis\+State@{Axis\+State}}
+\index{Axis\+State@{Axis\+State}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{Axis\+State()}{AxisState()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+chart.\+axis.\+Axis\+State.\+Axis\+State (\begin{DoxyParamCaption}\item[{double}]{cursor }\end{DoxyParamCaption})}
+
+Creates a new axis state.
+
+
+\begin{DoxyParams}{Parameters}
+{\em cursor} & the cursor. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a14de2e0448bc1203b659d151ba70d5bc}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a14de2e0448bc1203b659d151ba70d5bc}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!cursor\+Down@{cursor\+Down}}
+\index{cursor\+Down@{cursor\+Down}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{cursor\+Down()}{cursorDown()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Axis\+State.\+cursor\+Down (\begin{DoxyParamCaption}\item[{double}]{units }\end{DoxyParamCaption})}
+
+Moves the cursor down by the specified number of Java 2D units.
+
+
+\begin{DoxyParams}{Parameters}
+{\em units} & the units. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a0a9bc509537e54f098fc68837e0321d2}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a0a9bc509537e54f098fc68837e0321d2}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!cursor\+Left@{cursor\+Left}}
+\index{cursor\+Left@{cursor\+Left}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{cursor\+Left()}{cursorLeft()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Axis\+State.\+cursor\+Left (\begin{DoxyParamCaption}\item[{double}]{units }\end{DoxyParamCaption})}
+
+Moves the cursor left by the specified number of Java 2D units.
+
+
+\begin{DoxyParams}{Parameters}
+{\em units} & the units. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a3f4fd674f0ad48f77c2e3536c63c0b18}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a3f4fd674f0ad48f77c2e3536c63c0b18}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!cursor\+Right@{cursor\+Right}}
+\index{cursor\+Right@{cursor\+Right}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{cursor\+Right()}{cursorRight()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Axis\+State.\+cursor\+Right (\begin{DoxyParamCaption}\item[{double}]{units }\end{DoxyParamCaption})}
+
+Moves the cursor right by the specified number of Java 2D units.
+
+
+\begin{DoxyParams}{Parameters}
+{\em units} & the units. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a5b629c585329fc3aeabffae4c1f37ee7}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a5b629c585329fc3aeabffae4c1f37ee7}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!cursor\+Up@{cursor\+Up}}
+\index{cursor\+Up@{cursor\+Up}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{cursor\+Up()}{cursorUp()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Axis\+State.\+cursor\+Up (\begin{DoxyParamCaption}\item[{double}]{units }\end{DoxyParamCaption})}
+
+Moves the cursor up by the specified number of Java 2D units.
+
+
+\begin{DoxyParams}{Parameters}
+{\em units} & the units. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9b1c08f289777a1c1a5cd9d19a9f3fe0}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9b1c08f289777a1c1a5cd9d19a9f3fe0}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!get\+Cursor@{get\+Cursor}}
+\index{get\+Cursor@{get\+Cursor}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{get\+Cursor()}{getCursor()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Axis\+State.\+get\+Cursor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the cursor position.
+
+\begin{DoxyReturn}{Returns}
+The cursor position. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9c28d84a2d9e968a37f570a04b0c4af6}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9c28d84a2d9e968a37f570a04b0c4af6}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!get\+Max@{get\+Max}}
+\index{get\+Max@{get\+Max}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{get\+Max()}{getMax()}}
+{\footnotesize\ttfamily double org.\+jfree.\+chart.\+axis.\+Axis\+State.\+get\+Max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the maximum width/height.
+
+\begin{DoxyReturn}{Returns}
+The maximum width/height. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9aed4586cd53387cf5cee9f74eff1f9d}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a9aed4586cd53387cf5cee9f74eff1f9d}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!get\+Ticks@{get\+Ticks}}
+\index{get\+Ticks@{get\+Ticks}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{get\+Ticks()}{getTicks()}}
+{\footnotesize\ttfamily List org.\+jfree.\+chart.\+axis.\+Axis\+State.\+get\+Ticks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the list of ticks.
+
+\begin{DoxyReturn}{Returns}
+The list of ticks. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_ad387081c8a498a4c9d902583b7b5a78e}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_ad387081c8a498a4c9d902583b7b5a78e}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!move\+Cursor@{move\+Cursor}}
+\index{move\+Cursor@{move\+Cursor}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{move\+Cursor()}{moveCursor()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Axis\+State.\+move\+Cursor (\begin{DoxyParamCaption}\item[{double}]{units,  }\item[{Rectangle\+Edge}]{edge }\end{DoxyParamCaption})}
+
+Moves the cursor outwards by the specified number of units.
+
+
+\begin{DoxyParams}{Parameters}
+{\em units} & the units. \\
+\hline
+{\em edge} & the edge. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_af1d224e02daffe44cdcff3fd523eae1a}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_af1d224e02daffe44cdcff3fd523eae1a}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!set\+Cursor@{set\+Cursor}}
+\index{set\+Cursor@{set\+Cursor}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{set\+Cursor()}{setCursor()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Axis\+State.\+set\+Cursor (\begin{DoxyParamCaption}\item[{double}]{cursor }\end{DoxyParamCaption})}
+
+Sets the cursor position.
+
+
+\begin{DoxyParams}{Parameters}
+{\em cursor} & the cursor position. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a700c56fd13000708b5d80eb595634235}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a700c56fd13000708b5d80eb595634235}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!set\+Max@{set\+Max}}
+\index{set\+Max@{set\+Max}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{set\+Max()}{setMax()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Axis\+State.\+set\+Max (\begin{DoxyParamCaption}\item[{double}]{max }\end{DoxyParamCaption})}
+
+Sets the maximum width/height.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & the maximum width/height. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a54715140c40902a1e95a29f186752d60}\label{classorg_1_1jfree_1_1chart_1_1axis_1_1_axis_state_a54715140c40902a1e95a29f186752d60}} 
+\index{org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}!set\+Ticks@{set\+Ticks}}
+\index{set\+Ticks@{set\+Ticks}!org\+::jfree\+::chart\+::axis\+::\+Axis\+State@{org\+::jfree\+::chart\+::axis\+::\+Axis\+State}}
+\subsubsection{\texorpdfstring{set\+Ticks()}{setTicks()}}
+{\footnotesize\ttfamily void org.\+jfree.\+chart.\+axis.\+Axis\+State.\+set\+Ticks (\begin{DoxyParamCaption}\item[{List}]{ticks }\end{DoxyParamCaption})}
+
+Sets the list of ticks.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ticks} & the ticks. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/chart/axis/\mbox{\hyperlink{_axis_state_8java}{Axis\+State.\+java}}\end{DoxyCompactItemize}

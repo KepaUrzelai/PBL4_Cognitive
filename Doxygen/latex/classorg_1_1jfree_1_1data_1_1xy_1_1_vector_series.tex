@@ -1,0 +1,217 @@
+\hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series}{}\section{org.\+jfree.\+data.\+xy.\+Vector\+Series Class Reference}
+\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series}\index{org.\+jfree.\+data.\+xy.\+Vector\+Series@{org.\+jfree.\+data.\+xy.\+Vector\+Series}}
+Inheritance diagram for org.\+jfree.\+data.\+xy.\+Vector\+Series\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.314049cm]{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a08fc85c340c33a6c8e6c4daa232bc494}{Vector\+Series}} (Comparable key)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ad589521330fb16d21384fd5f61d90756}{Vector\+Series}} (Comparable key, boolean auto\+Sort, boolean allow\+Duplicate\+X\+Values)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_aec338f197384b6d807f8686cc24cb5f7}{add}} (double x, double y, double deltaX, double deltaY)
+\item 
+void \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a44bf481df41430ea34792e58a2ad0643}{add}} (\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_data_item}{Vector\+Data\+Item}} item, boolean notify)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ab5cfdd6aeb9d395ba04156654e1c30a0}{remove}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a332b301b787037795ade0d6f619e1dda}{get\+X\+Value}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a4d67a2291d74f07835369d579fc6909e}{get\+Y\+Value}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ab3fe72017d4383a94620bb705cfb57eb}{get\+Vector\+X\+Value}} (int index)
+\item 
+double \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a955aedde3f6bf7bfb7bc71331ab3f438}{get\+Vector\+Y\+Value}} (int index)
+\item 
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_afd8e83d6d9386825e82295beac5465a6}{get\+Data\+Item}} (int index)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A list of (x,y, deltaX, deltaY) data items.
+
+\begin{DoxySince}{Since}
+1.\+0.\+6
+\end{DoxySince}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_collection}{Vector\+Series\+Collection}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a08fc85c340c33a6c8e6c4daa232bc494}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a08fc85c340c33a6c8e6c4daa232bc494}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!Vector\+Series@{Vector\+Series}}
+\index{Vector\+Series@{Vector\+Series}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{Vector\+Series()}{VectorSeries()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Vector\+Series.\+Vector\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key }\end{DoxyParamCaption})}
+
+Creates a new empty series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ad589521330fb16d21384fd5f61d90756}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ad589521330fb16d21384fd5f61d90756}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!Vector\+Series@{Vector\+Series}}
+\index{Vector\+Series@{Vector\+Series}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{Vector\+Series()}{VectorSeries()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jfree.\+data.\+xy.\+Vector\+Series.\+Vector\+Series (\begin{DoxyParamCaption}\item[{Comparable}]{key,  }\item[{boolean}]{auto\+Sort,  }\item[{boolean}]{allow\+Duplicate\+X\+Values }\end{DoxyParamCaption})}
+
+Constructs a new series that contains no data. You can specify whether or not duplicate x-\/values are allowed for the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the series key ({\ttfamily null} not permitted). \\
+\hline
+{\em auto\+Sort} & a flag that controls whether or not the items in the series are sorted. \\
+\hline
+{\em allow\+Duplicate\+X\+Values} & a flag that controls whether duplicate x-\/values are allowed. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_aec338f197384b6d807f8686cc24cb5f7}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_aec338f197384b6d807f8686cc24cb5f7}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Vector\+Series.\+add (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{deltaX,  }\item[{double}]{deltaY }\end{DoxyParamCaption})}
+
+Adds a data item to the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/value. \\
+\hline
+{\em y} & the y-\/value. \\
+\hline
+{\em deltaX} & the vector x. \\
+\hline
+{\em deltaY} & the vector y. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a44bf481df41430ea34792e58a2ad0643}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a44bf481df41430ea34792e58a2ad0643}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!add@{add}}
+\index{add@{add}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jfree.\+data.\+xy.\+Vector\+Series.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_data_item}{Vector\+Data\+Item}}}]{item,  }\item[{boolean}]{notify }\end{DoxyParamCaption})}
+
+Adds a data item to the series and, if requested, sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & the data item ({\ttfamily null} not permitted). \\
+\hline
+{\em notify} & notify listeners?\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+1.\+0.\+18 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_afd8e83d6d9386825e82295beac5465a6}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_afd8e83d6d9386825e82295beac5465a6}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!get\+Data\+Item@{get\+Data\+Item}}
+\index{get\+Data\+Item@{get\+Data\+Item}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{get\+Data\+Item()}{getDataItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} org.\+jfree.\+data.\+xy.\+Vector\+Series.\+get\+Data\+Item (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the data item at the specified index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The data item. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ab3fe72017d4383a94620bb705cfb57eb}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ab3fe72017d4383a94620bb705cfb57eb}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!get\+Vector\+X\+Value@{get\+Vector\+X\+Value}}
+\index{get\+Vector\+X\+Value@{get\+Vector\+X\+Value}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{get\+Vector\+X\+Value()}{getVectorXValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Vector\+Series.\+get\+Vector\+X\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the x-\/component of the vector for an item in the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/component of the vector. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a955aedde3f6bf7bfb7bc71331ab3f438}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a955aedde3f6bf7bfb7bc71331ab3f438}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!get\+Vector\+Y\+Value@{get\+Vector\+Y\+Value}}
+\index{get\+Vector\+Y\+Value@{get\+Vector\+Y\+Value}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{get\+Vector\+Y\+Value()}{getVectorYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Vector\+Series.\+get\+Vector\+Y\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the y-\/component of the vector for an item in the series.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/component of the vector. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a332b301b787037795ade0d6f619e1dda}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a332b301b787037795ade0d6f619e1dda}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!get\+X\+Value@{get\+X\+Value}}
+\index{get\+X\+Value@{get\+X\+Value}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{get\+X\+Value()}{getXValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Vector\+Series.\+get\+X\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the x-\/value for the specified item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The x-\/value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a4d67a2291d74f07835369d579fc6909e}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_a4d67a2291d74f07835369d579fc6909e}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!get\+Y\+Value@{get\+Y\+Value}}
+\index{get\+Y\+Value@{get\+Y\+Value}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{get\+Y\+Value()}{getYValue()}}
+{\footnotesize\ttfamily double org.\+jfree.\+data.\+xy.\+Vector\+Series.\+get\+Y\+Value (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Returns the y-\/value for the specified item.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the item index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ab5cfdd6aeb9d395ba04156654e1c30a0}\label{classorg_1_1jfree_1_1data_1_1xy_1_1_vector_series_ab5cfdd6aeb9d395ba04156654e1c30a0}} 
+\index{org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}!remove@{remove}}
+\index{remove@{remove}!org\+::jfree\+::data\+::xy\+::\+Vector\+Series@{org\+::jfree\+::data\+::xy\+::\+Vector\+Series}}
+\subsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jfree_1_1data_1_1_comparable_object_item}{Comparable\+Object\+Item}} org.\+jfree.\+data.\+xy.\+Vector\+Series.\+remove (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+Removes the item at the specified index and sends a \mbox{\hyperlink{}{Series\+Change\+Event}} to all registered listeners.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & the index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The item removed. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/ikasgaiak/programacion\+Avanzada/\+Mis Ejercicios/\+P\+B\+Ldefinitibo2/libs/jfreechart-\/1.\+0.\+19/source/org/jfree/data/xy/\mbox{\hyperlink{_vector_series_8java}{Vector\+Series.\+java}}\end{DoxyCompactItemize}
